@@ -27,6 +27,7 @@ New-Item -ItemType Directory -Path $Stage -Force | Out-Null
 $excludeDirs = @('.git','.agents','.claude','.opencode','.specify','specs','docs','node_modules','plugins','.novira-build')
 # Files that must never ship (wildcards allowed).
 $excludeFiles = @(
+  '.gitignore',
   '*.png','*.html','stitch-contact*','extract-images.js','fix-animated-js.js',
   'make-placeholders.js','rewrite-*.js','tailwind.config.js','tailwind-source.css',
   'package.json','package-lock.json','docker-compose.yml','skills-lock.json',
@@ -46,12 +47,21 @@ $rc = Start-Process robocopy -ArgumentList (@("`"$Src`"","`"$Stage`"",'/E','/NFL
 if ($rc.ExitCode -ge 8) { throw "robocopy failed with code $($rc.ExitCode)" }
 
 # Restore required WP metadata + the raster assets the *.png sweep removed but
-# the site actually references (education hero + logo variants).
+# the site actually references (education hero + logo variants + runtime favicons).
 Copy-Item (Join-Path $Src 'readme.txt') (Join-Path $Stage 'readme.txt') -Force -ErrorAction SilentlyContinue
 # hero.png was replaced by hero.jpg / hero@2x.jpg (which ship automatically —
 # they aren't .png). logo_horizontal.png is kept only as a legacy fallback;
 # the site now references logo_horizontal.webp.
-foreach ($keep in @('assets\images\logo.jpg','assets\images\logo_horizontal.webp')) {
+foreach ($keep in @(
+  'assets\images\logo.jpg',
+  'assets\images\logo_horizontal.webp',
+  'assets\images\favicon\apple-touch-icon.png',
+  'assets\images\favicon\favicon-16x16.png',
+  'assets\images\favicon\favicon-32x32.png',
+  'assets\images\favicon\favicon-48x48.png',
+  'assets\images\favicon\icon-192.png',
+  'assets\images\favicon\icon-512.png'
+)) {
   $from = Join-Path $Src $keep
   if (Test-Path $from) {
     $to = Join-Path $Stage $keep

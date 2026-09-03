@@ -50,6 +50,8 @@ rsync -a \
   --exclude 't.md' \
   --exclude '*.txt' \
   --exclude 'build-production.sh' \
+  --exclude 'build-production.ps1' \
+  --exclude '.gitignore' \
   --exclude 'languages/*.pot' \
   --exclude 'languages/*.php' \
   --exclude '*.bak' --exclude '*.old' --exclude '*.orig' \
@@ -61,14 +63,17 @@ rsync -a \
 [ -f "$SRC_DIR/readme.txt" ] && cp "$SRC_DIR/readme.txt" "$STAGE/readme.txt"
 
 # Re-include the referenced raster assets that the *.png sweep removed but the
-# site actually uses (education hero + logo). Keeping the sweep broad and
-# whitelisting is safer than trying to name every design mockup.
+# site actually uses (logo variants + runtime favicons).
 mkdir -p "$STAGE/assets/images"
 for keep in \
-  "assets/images/hero.png" \
   "assets/images/logo.jpg" \
-  "assets/images/logo_horizontal.png" \
-  "assets/images/logo_horizontal.webp" ; do
+  "assets/images/logo_horizontal.webp" \
+  "assets/images/favicon/apple-touch-icon.png" \
+  "assets/images/favicon/favicon-16x16.png" \
+  "assets/images/favicon/favicon-32x32.png" \
+  "assets/images/favicon/favicon-48x48.png" \
+  "assets/images/favicon/icon-192.png" \
+  "assets/images/favicon/icon-512.png" ; do
   if [ -f "$SRC_DIR/$keep" ]; then
     mkdir -p "$STAGE/$(dirname "$keep")"
     cp "$SRC_DIR/$keep" "$STAGE/$keep"
