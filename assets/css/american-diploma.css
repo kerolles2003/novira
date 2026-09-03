@@ -1,0 +1,1223 @@
+/**
+ * American Diploma Hub — Redesigned
+ *
+ * Signature: Gold horizontal rules flanking section labels (eyebrows),
+ * evoking the ruled borders of printed diploma documents.
+ * Risk: Academic gold (#C4952A) as second accent — earned from the
+ * subject matter (Cognia seals, diploma borders), not chosen arbitrarily.
+ *
+ * All selectors scoped under .adp. Class names match page-american-diploma.php.
+ *
+ * @package Novira_Academy
+ */
+
+/* =========================================================
+   TOKENS
+   ========================================================= */
+.adp {
+	--ink:       #100B30;
+	--brand:     #5B14E6;
+	--brand-mid: #7B2CFF;
+	--gold:      #C4952A;
+	--gold-pale: rgba(196, 149, 42, .11);
+	--midnight:  #0A0428;
+	--warm:      #F9F8FC;
+	--mist:      #EDE9FB;
+	--muted:     #6B5FA0;
+	--line:      #E2DCF7;
+	--grad:      linear-gradient(135deg, #5B14E6, #2196FF);
+
+	font-family: var(--ff-body);
+	color: var(--ink);
+	background: #fff;
+	overflow-x: hidden;
+}
+
+.adp .adp-container {
+	max-width: 1160px;
+	margin-inline: auto;
+	padding-inline: 28px;
+}
+
+/* Override theme-wide section padding */
+.adp section { padding: 96px 0; }
+
+/* =========================================================
+   SIGNATURE — GOLD-RULE EYEBROW
+   ========================================================= */
+.adp .adp-eyebrow {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+	font-family: var(--ff-body);
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: var(--gold);
+	margin-bottom: 16px;
+	white-space: nowrap;
+}
+.adp .adp-eyebrow::before,
+.adp .adp-eyebrow::after {
+	content: '';
+	flex: 1;
+	max-width: 68px;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, var(--gold) 55%, transparent);
+}
+
+/* Centered section head */
+.adp .adp-head {
+	text-align: center;
+	margin: 0 auto 56px;
+	max-width: 680px;
+}
+.adp .adp-head .adp-eyebrow { justify-content: center; }
+
+/* Left-aligned copy eyebrows — remove rule lines */
+.adp .adp-whatis__copy .adp-eyebrow,
+.adp .adp-cognia__copy .adp-eyebrow,
+.adp .adp-overview__copy .adp-eyebrow { justify-content: flex-start; }
+
+.adp .adp-whatis__copy .adp-eyebrow::before,
+.adp .adp-whatis__copy .adp-eyebrow::after,
+.adp .adp-cognia__copy .adp-eyebrow::before,
+.adp .adp-cognia__copy .adp-eyebrow::after,
+.adp .adp-overview__copy .adp-eyebrow::before,
+.adp .adp-overview__copy .adp-eyebrow::after { display: none; }
+
+/* The overview section uses adp-head with inline style; counteract centering */
+.adp .adp-overview__copy .adp-head {
+	text-align: start;
+	margin: 0 0 28px;
+	max-width: none;
+}
+
+/* =========================================================
+   TYPE
+   ========================================================= */
+.adp .adp-title {
+	font-family: var(--ff-display);
+	font-size: clamp(26px, 3.4vw, 40px);
+	font-weight: 900;
+	line-height: 1.25;
+	letter-spacing: -.015em;
+	margin: 0 0 14px;
+	color: var(--ink);
+	text-wrap: balance;
+}
+.adp .adp-title .hl {
+	color: var(--gold);
+	font-style: italic;
+}
+.adp .adp-sub {
+	font-size: 16px;
+	line-height: 1.95;
+	color: var(--muted);
+	margin: 0;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+.adp .adp-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 9px;
+	padding: 14px 30px;
+	border-radius: var(--radius-pill);
+	font-family: var(--ff-body);
+	font-size: 15px;
+	font-weight: 700;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+	transition: transform .2s ease, box-shadow .2s ease;
+}
+.adp .adp-btn svg { width: 18px; height: 18px; flex: 0 0 auto; }
+
+.adp .adp-btn--primary {
+	background: var(--grad);
+	color: #fff;
+	box-shadow: 0 8px 28px rgba(91, 20, 230, .35);
+}
+.adp .adp-btn--primary:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 14px 36px rgba(91, 20, 230, .5);
+}
+.adp .adp-btn--ghost {
+	background: transparent;
+	color: #fff;
+	border: 1.5px solid rgba(255, 255, 255, .32);
+}
+.adp .adp-btn--ghost:hover {
+	background: rgba(255, 255, 255, .08);
+	border-color: rgba(255, 255, 255, .6);
+}
+.adp .adp-btn--white {
+	background: #fff;
+	color: var(--brand);
+	box-shadow: 0 8px 28px rgba(0, 0, 0, .18);
+}
+.adp .adp-btn--white:hover { transform: translateY(-2px); }
+
+/* Active press — completes the interaction-state set on all buttons */
+.adp .adp-btn:active { transform: translateY(0) scale(.98); }
+
+/* =========================================================
+   KEYBOARD FOCUS — visible indicator
+   Matches the EST sibling convention (est-page.css). Brand
+   purple on light surfaces; white on the dark sections.
+   ========================================================= */
+.adp a:focus-visible,
+.adp button:focus-visible,
+.adp summary:focus-visible {
+	outline: 3px solid var(--brand);
+	outline-offset: 3px;
+}
+.adp .adp-hero a:focus-visible,
+.adp .adp-journey a:focus-visible,
+.adp .adp-founder a:focus-visible,
+.adp .adp-cta a:focus-visible {
+	outline-color: #fff;
+}
+
+/* =========================================================
+   1. HERO — dark, cinematic
+   ========================================================= */
+.adp .adp-hero {
+	background: linear-gradient(158deg, var(--midnight) 0%, #1A0B4B 100%);
+	padding: 150px 0 0;
+	position: relative;
+	overflow: hidden;
+}
+.adp .adp-hero::before {
+	content: '';
+	position: absolute;
+	width: 480px; height: 480px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(196, 149, 42, .07), transparent 65%);
+	top: -160px;
+	inset-inline-start: -100px;
+	pointer-events: none;
+}
+.adp .adp-hero__grid {
+	display: grid;
+	grid-template-columns: 1.1fr .9fr;
+	align-items: center;
+	gap: 48px;
+	padding-bottom: 56px;
+}
+.adp .adp-hero__title {
+	font-family: var(--ff-display);
+	font-size: clamp(36px, 5.5vw, 64px);
+	font-weight: 900;
+	line-height: 1.15;
+	letter-spacing: -.025em;
+	color: #fff;
+	margin: 0;
+	text-wrap: balance;
+}
+.adp .adp-hero__title .hl {
+	display: block;
+	font-size: clamp(20px, 3vw, 34px);
+	font-weight: 800;
+	color: var(--gold);
+	-webkit-text-fill-color: var(--gold);
+	background: none;
+	margin-top: 6px;
+}
+.adp .adp-hero__desc {
+	color: rgba(255, 255, 255, .7);
+	font-size: 16px;
+	line-height: 2;
+	max-width: 480px;
+	margin: 18px 0 28px;
+}
+.adp .adp-hero__chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 32px;
+}
+.adp .adp-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: rgba(255, 255, 255, .07);
+	border: 1px solid rgba(255, 255, 255, .14);
+	backdrop-filter: blur(6px);
+	padding: 8px 16px;
+	border-radius: var(--radius-pill);
+	font-size: 13.5px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, .88);
+}
+.adp .adp-chip svg { width: 16px; height: 16px; color: var(--gold); }
+.adp .adp-hero__actions { display: flex; flex-wrap: wrap; gap: 14px; }
+
+/* Hero visual */
+.adp .adp-hero__visual { position: relative; }
+.adp .adp-hero__blob { display: none; }
+
+.adp .adp-hero__card {
+	position: relative;
+	border-radius: 28px;
+	overflow: hidden;
+	aspect-ratio: 1 / .92;
+	background: #1A0B4B;
+	box-shadow:
+		0 40px 80px rgba(0, 0, 0, .45),
+		0 0 0 1px rgba(196, 149, 42, .18);
+}
+.adp .adp-hero__card img.bg {
+	position: absolute; inset: 0;
+	width: 100%; height: 100%;
+	object-fit: cover;
+	filter: saturate(.45) brightness(.65);
+}
+.adp .adp-hero__card::after {
+	content: '';
+	position: absolute; inset: 0;
+	background: linear-gradient(180deg, rgba(26, 11, 75, .28) 0%, rgba(10, 4, 40, .68) 100%);
+}
+.adp .adp-hero__cap {
+	position: absolute; z-index: 2;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -58%);
+	width: clamp(100px, 17vw, 170px);
+	color: rgba(255, 255, 255, .9);
+	filter: drop-shadow(0 12px 20px rgba(0, 0, 0, .5));
+}
+.adp .adp-hero__cap svg { width: 100%; height: auto; }
+.adp .adp-hero__flag {
+	position: absolute; z-index: 3;
+	top: 16px; inset-inline-end: 16px;
+	width: 76px; height: 50px;
+	border-radius: 7px; overflow: hidden;
+	border: 2px solid rgba(255, 255, 255, .75);
+	box-shadow: 0 6px 18px rgba(0, 0, 0, .35);
+}
+.adp .adp-hero__badge {
+	position: absolute; z-index: 3;
+	bottom: 16px; inset-inline-start: 16px;
+	display: flex; align-items: center; gap: 10px;
+	background: rgba(255, 255, 255, .96);
+	border-radius: 14px;
+	padding: 10px 16px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, .25);
+}
+.adp .adp-hero__badge img {
+	position: static;
+	width: 60px; height: auto;
+	opacity: 1; mix-blend-mode: normal;
+}
+.adp .adp-hero__badge span { font-size: 12px; font-weight: 700; color: var(--ink); line-height: 1.4; }
+
+/* Achievement strip — gold numbers on the dark hero background */
+.adp .adp-hero__strip {
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid rgba(255, 255, 255, .07);
+	padding: 36px 0;
+}
+.adp .adp-hero__stat {
+	flex: 0 0 auto;
+	min-width: 140px;
+	text-align: center;
+	padding: 0 36px;
+	border-inline-end: 1px solid rgba(255, 255, 255, .07);
+}
+.adp .adp-hero__stat:last-child { border-inline-end: none; }
+.adp .adp-hero__stat-num {
+	display: block;
+	font-family: var(--ff-display);
+	font-size: clamp(26px, 3.8vw, 40px);
+	font-weight: 900;
+	color: var(--gold);
+	line-height: 1;
+}
+.adp .adp-hero__stat-label {
+	display: block;
+	font-size: 12.5px;
+	color: rgba(255, 255, 255, .5);
+	margin-top: 6px;
+	font-weight: 600;
+	letter-spacing: .5px;
+}
+
+/* =========================================================
+   2. WHAT IS
+   ========================================================= */
+.adp .adp-whatis { background: #fff; }
+.adp .adp-whatis__grid {
+	display: grid;
+	grid-template-columns: 1fr 1.05fr;
+	gap: 52px;
+	align-items: center;
+}
+.adp .adp-whatis__media {
+	position: relative;
+	border-radius: 24px;
+	overflow: hidden;
+	aspect-ratio: 4 / 3.2;
+	box-shadow: 0 28px 64px rgba(16, 11, 48, .18);
+}
+.adp .adp-whatis__media img.bg { width: 100%; height: 100%; object-fit: cover; display: block; }
+.adp .adp-whatis__media::after {
+	content: '';
+	position: absolute; inset: 0;
+	background: linear-gradient(180deg, transparent 45%, rgba(10, 4, 40, .45) 100%);
+}
+.adp .adp-whatis__flag {
+	position: absolute; z-index: 2;
+	top: 16px; inset-inline-end: 16px;
+	width: 70px; border-radius: 7px; overflow: hidden;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, .3);
+	border: 2px solid rgba(255, 255, 255, .78);
+}
+.adp .adp-whatis__cognia {
+	position: absolute; z-index: 2;
+	bottom: 16px; inset-inline-start: 16px;
+	background: rgba(255, 255, 255, .97);
+	border-radius: 14px; padding: 12px 18px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, .18);
+}
+.adp .adp-whatis__cognia img { width: 86px; height: auto; }
+.adp .adp-whatis__cognia span { display: block; font-size: 11px; font-weight: 700; color: var(--muted); margin-top: 3px; }
+
+.adp .adp-whatis__copy .adp-title { font-size: clamp(22px, 2.8vw, 34px); }
+.adp .adp-whatis__copy p { margin-top: 14px; color: var(--muted); line-height: 1.95; font-size: 16px; }
+
+.adp .adp-checklist { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 12px; }
+.adp .adp-checklist li {
+	display: flex; align-items: center; gap: 14px;
+	font-weight: 700; font-size: 15px;
+}
+.adp .adp-checklist .tick {
+	flex: 0 0 auto;
+	width: 28px; height: 28px;
+	border-radius: 50%;
+	border: 2px solid var(--gold);
+	background: var(--gold-pale);
+	display: grid; place-items: center;
+}
+.adp .adp-checklist .tick svg { width: 14px; height: 14px; color: var(--gold); }
+
+/* =========================================================
+   3. WHY PATH
+   ========================================================= */
+.adp .adp-why { background: var(--warm); }
+.adp .adp-cardrow {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 20px;
+}
+.adp .adp-vcard {
+	background: #fff;
+	border: 1px solid var(--line);
+	border-radius: 14px;
+	padding: 30px 18px 26px;
+	text-align: center;
+	transition: transform .25s ease, border-color .25s ease;
+}
+.adp .adp-vcard:hover {
+	transform: translateY(-5px);
+	border-color: rgba(196, 149, 42, .5);
+}
+.adp .adp-vcard__icon {
+	width: 60px; height: 60px;
+	margin: 0 auto 18px;
+	border-radius: 18px;
+	background: var(--gold-pale);
+	border: 1.5px solid rgba(196, 149, 42, .2);
+	display: grid; place-items: center;
+}
+.adp .adp-vcard__icon svg { width: 28px; height: 28px; color: var(--gold); }
+.adp .adp-vcard h3 { font-family: var(--ff-display); font-size: 15.5px; font-weight: 800; margin: 0 0 8px; }
+.adp .adp-vcard p { font-size: 13.5px; color: var(--muted); line-height: 1.75; margin: 0; }
+
+/* =========================================================
+   EXAM GATEWAY — Hub-and-Spoke navigation
+   Image-led editorial cards: photo zone + body zone
+   ========================================================= */
+.adp .adp-exams { background: var(--warm); }
+
+.adp .adp-exams__row {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+
+/* Typographic wayfinding card — the exam name IS the visual.
+   No fake imagery; identity carried by wordmark, icon, and the
+   real "measures" chip row. */
+.adp .adp-exam-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	border: 1px solid var(--line);
+	border-radius: 18px;
+	padding: 32px 30px 30px;
+	text-align: start;
+	transition: transform .35s cubic-bezier(.4, 0, .2, 1), border-color .25s ease, box-shadow .35s ease;
+}
+.adp .adp-exam-card:hover {
+	transform: translateY(-6px);
+	border-color: rgba(196, 149, 42, .45);
+	box-shadow: 0 22px 48px rgba(16, 11, 48, .10);
+}
+
+/* Per-exam icon tile (uses the icon data the old markup never rendered) */
+.adp .adp-exam-card__icon {
+	width: 50px; height: 50px;
+	border-radius: 14px;
+	background: var(--gold-pale);
+	border: 1px solid rgba(196, 149, 42, .22);
+	display: grid; place-items: center;
+	color: var(--gold);
+	margin-bottom: 22px;
+	transition: background .25s ease, border-color .25s ease;
+}
+.adp .adp-exam-card__icon svg { width: 24px; height: 24px; }
+.adp .adp-exam-card:hover .adp-exam-card__icon {
+	background: rgba(196, 149, 42, .16);
+	border-color: rgba(196, 149, 42, .4);
+}
+
+/* Exam wordmark — display-scale anchor */
+.adp .adp-exam-card__name {
+	font-family: var(--ff-display);
+	font-size: clamp(26px, 2.6vw, 32px);
+	font-weight: 900;
+	letter-spacing: -.02em;
+	line-height: 1.05;
+	color: var(--ink);
+	margin: 0;
+	text-wrap: balance;
+}
+
+/* Signature — gold rule that draws from the leading edge on hover,
+   echoing the page's gold-rule eyebrow motif. Width transition is
+   direction-safe: a block grows from its inline-start edge in RTL and LTR. */
+.adp .adp-exam-card__rule {
+	display: block;
+	height: 2px;
+	width: 34px;
+	border-radius: 2px;
+	background: var(--gold);
+	margin: 15px 0 18px;
+	transition: width .45s cubic-bezier(.4, 0, .2, 1);
+}
+.adp .adp-exam-card:hover .adp-exam-card__rule { width: 100%; }
+
+.adp .adp-exam-card__desc {
+	font-size: 14px;
+	line-height: 1.85;
+	color: var(--muted);
+	margin: 0;
+	flex: 1;
+}
+
+/* Measures — the real content that differentiates each exam */
+.adp .adp-exam-card__measures {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 22px 0 0;
+	padding: 0;
+}
+.adp .adp-exam-card__measures li {
+	font-size: 12px;
+	font-weight: 700;
+	color: var(--ink);
+	background: var(--mist);
+	border-radius: var(--radius-pill);
+	padding: 6px 13px;
+	white-space: nowrap;
+}
+
+/* Text CTA + directional arrow — sits above the full-card overlay */
+.adp .adp-exam-card__cta {
+	display: inline-flex;
+	align-items: center;
+	gap: 9px;
+	align-self: flex-start;
+	margin-top: 24px;
+	position: relative;
+	z-index: 1;
+	font-family: var(--ff-body);
+	font-size: 14.5px;
+	font-weight: 800;
+	color: var(--brand);
+	text-decoration: none;
+}
+.adp .adp-exam-card__cta svg {
+	width: 18px; height: 18px;
+	transition: transform .3s cubic-bezier(.4, 0, .2, 1);
+}
+.adp .adp-exam-card:hover .adp-exam-card__cta svg { transform: translateX(-5px); }
+/* LTR: arrow points the other way and nudges forward the other way */
+[dir="ltr"] .adp .adp-exam-card__cta svg { transform: scaleX(-1); }
+[dir="ltr"] .adp .adp-exam-card:hover .adp-exam-card__cta svg { transform: translateX(5px) scaleX(-1); }
+
+/* Full-card clickable overlay */
+.adp .adp-exam-card__overlay {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+}
+
+/* ---- Scroll-entrance animation ---- */
+@keyframes adp-exam-in {
+	from { opacity: 0; transform: translateY(28px) scale(.97); }
+	to   { opacity: 1; transform: translateY(0)   scale(1); }
+}
+
+.adp .adp-exam-card { opacity: 0; }
+.adp .adp-exam-card.adp-in { animation: adp-exam-in .55s cubic-bezier(.4, 0, .2, 1) both; }
+
+/* =========================================================
+   4. FOUNDER
+   ========================================================= */
+.adp .adp-founder { padding-block: 56px; }
+.adp .adp-founder__inner {
+	background: linear-gradient(120deg, #5B14E6 0%, #7B2CFF 55%, #2A0A66 100%);
+	border-radius: 20px;
+	display: grid;
+	grid-template-columns: 1.4fr .9fr;
+	gap: 32px;
+	align-items: center;
+	padding: 48px 52px;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	box-shadow: 0 32px 64px rgba(91, 20, 230, .35);
+}
+.adp .adp-founder__inner::before {
+	content: '';
+	position: absolute;
+	width: 360px; height: 360px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(255, 255, 255, .1), transparent 70%);
+	top: -160px; inset-inline-start: -100px;
+}
+.adp .adp-founder__inner::after {
+	content: '';
+	position: absolute;
+	width: 2px; height: 65%;
+	background: linear-gradient(180deg, transparent, rgba(196, 149, 42, .55), transparent);
+	top: 17.5%; inset-inline-end: 37%;
+}
+.adp .adp-founder__label {
+	display: inline-flex; align-items: center; gap: 10px;
+	font-size: 11px; letter-spacing: 2.5px; font-weight: 700;
+	color: var(--gold); text-transform: uppercase; margin-bottom: 12px;
+}
+.adp .adp-founder__label::after { content: ''; width: 28px; height: 1px; background: var(--gold); }
+.adp .adp-founder__name { font-family: var(--ff-display); font-size: clamp(26px, 3.5vw, 40px); font-weight: 900; margin: 0; }
+.adp .adp-founder__role { font-size: 15px; opacity: .85; margin: 6px 0 22px; }
+.adp .adp-founder__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 13px; }
+.adp .adp-founder__list li { display: flex; align-items: center; gap: 12px; font-size: 15px; font-weight: 600; }
+.adp .adp-founder__list svg { width: 20px; height: 20px; flex: 0 0 auto; color: var(--gold); }
+.adp .adp-founder__photo { justify-self: center; position: relative; z-index: 1; }
+.adp .adp-founder__photo img {
+	width: 220px; height: 220px;
+	object-fit: cover; border-radius: 20px;
+	border: 3px solid rgba(196, 149, 42, .45);
+	box-shadow: 0 20px 48px rgba(0, 0, 0, .4);
+}
+
+/* =========================================================
+   5. COGNIA
+   ========================================================= */
+.adp .adp-cognia { background: #fff; }
+.adp .adp-cognia__grid {
+	display: grid;
+	grid-template-columns: 220px 1fr;
+	gap: 48px;
+	align-items: center;
+	margin-bottom: 48px;
+}
+.adp .adp-seal {
+	width: 210px; height: 210px;
+	border-radius: 50%;
+	background: radial-gradient(circle at 50% 40%, #1c0a4d, #0a0428);
+	border: 6px solid var(--gold);
+	box-shadow: 0 0 0 2px rgba(196, 149, 42, .2), 0 20px 48px rgba(10, 4, 40, .3);
+	display: grid; place-items: center;
+	text-align: center; color: #fff; margin-inline: auto;
+}
+.adp .adp-seal__top { font-size: 10px; letter-spacing: 3px; color: var(--gold); font-weight: 700; }
+.adp .adp-seal__name { font-family: var(--ff-display); font-size: 32px; font-weight: 900; margin: 6px 0; }
+.adp .adp-seal__line { width: 60px; height: 1.5px; background: var(--gold); margin: 5px auto; }
+.adp .adp-seal__sub { font-size: 9px; letter-spacing: 2px; color: rgba(255, 255, 255, .6); }
+
+.adp .adp-cognia__copy .adp-title { font-size: clamp(22px, 2.8vw, 34px); }
+.adp .adp-cognia__copy p { margin-top: 14px; color: var(--muted); line-height: 1.95; font-size: 16px; }
+
+.adp .adp-cognia__feats {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 16px;
+	border-top: 1px solid var(--line);
+	padding-top: 42px;
+}
+/* Same card + alignment language as .adp-stat: grid areas keep the icon
+   and label aligned across all six, align-content centres uneven labels. */
+.adp .adp-feat {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: "icon" "label";
+	justify-items: center;
+	align-content: center;
+	gap: 12px;
+	text-align: center;
+	padding: 24px 12px;
+	background: var(--warm);
+	border: 1px solid var(--line);
+	border-radius: 16px;
+	transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+.adp .adp-feat:hover {
+	transform: translateY(-5px);
+	border-color: rgba(196, 149, 42, .45);
+	box-shadow: 0 12px 28px rgba(16, 11, 48, .08);
+}
+.adp .adp-feat__icon {
+	grid-area: icon;
+	width: 48px; height: 48px;
+	margin: 0;
+	border-radius: 14px;
+	background: var(--gold-pale);
+	border: 1px solid rgba(196, 149, 42, .22);
+	display: grid; place-items: center;
+}
+.adp .adp-feat__icon svg { width: 23px; height: 23px; color: var(--gold); }
+.adp .adp-feat__label {
+	grid-area: label;
+	font-size: 12.5px; font-weight: 700; color: var(--ink); line-height: 1.55;
+	overflow-wrap: break-word; text-wrap: balance;
+}
+
+/* =========================================================
+   6. JOURNEY — dark glass card timeline (enhanced)
+   ========================================================= */
+.adp .adp-journey {
+	background: linear-gradient(158deg, #0a0428 0%, #1c0d52 100%);
+}
+/* Heading on dark */
+.adp .adp-journey .adp-eyebrow { color: var(--gold); }
+.adp .adp-journey .adp-title { color: #fff; }
+.adp .adp-journey .adp-sub { color: rgba(255, 255, 255, .6); }
+
+.adp .adp-journey__row {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 14px;
+	position: relative;
+	align-items: stretch;
+}
+
+/* Gold connecting line — draws in from step-1 side (RTL: right) */
+.adp .adp-journey__row::before {
+	content: '';
+	position: absolute;
+	/* card padding-top(28) + half circle height(30) = 58px from card top */
+	top: 58px;
+	inset-inline-start: calc(100% / 12);
+	inset-inline-end:   calc(100% / 12);
+	height: 2px;
+	background: linear-gradient(90deg, transparent 0%, var(--gold) 8%, var(--gold) 92%, transparent 100%);
+	z-index: 0;
+	/* RTL: step 1 is on the right — draw line from right to left */
+	transform-origin: 100% 50%;
+	transform: scaleX(0);
+	transition: transform 1.3s cubic-bezier(.4, 0, .2, 1) .45s;
+}
+.adp .adp-journey__row.adp-in::before { transform: scaleX(1); }
+
+/* Glass card per step */
+.adp .adp-step {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 28px 14px 24px;
+	position: relative; z-index: 1;
+	background: rgba(255, 255, 255, .06);
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-radius: 16px;
+	transition: background .25s ease, border-color .25s ease, transform .25s ease;
+	cursor: default;
+}
+.adp .adp-step:hover {
+	background: rgba(255, 255, 255, .11);
+	border-color: rgba(196, 149, 42, .45);
+	transform: translateY(-6px);
+}
+
+/* Number bubble — gold on dark */
+.adp .adp-step__num {
+	position: static;
+	left: auto; top: auto; transform: none;
+	width: 60px; height: 60px;
+	border-radius: 50%;
+	background: rgba(196, 149, 42, .14);
+	border: 2px solid var(--gold);
+	color: var(--gold);
+	font-family: var(--ff-display);
+	font-weight: 900;
+	font-size: 20px;
+	display: grid; place-items: center;
+	margin: 0 auto 20px;
+	box-shadow: 0 0 0 6px rgba(196, 149, 42, .07), 0 8px 24px rgba(196, 149, 42, .22);
+}
+
+/* Icon — soft white on dark */
+.adp .adp-step__icon { width: 36px; height: 36px; margin: 0 auto 14px; color: rgba(255, 255, 255, .8); }
+.adp .adp-step__icon svg { width: 100%; height: 100%; }
+
+/* Title — white */
+.adp .adp-step h3 {
+	font-size: 13px; font-weight: 800;
+	font-family: var(--ff-display);
+	margin: 0 0 8px; line-height: 1.5;
+	color: #fff;
+}
+
+/* Description — muted white */
+.adp .adp-step p {
+	font-size: 11.5px;
+	color: rgba(255, 255, 255, .52);
+	line-height: 1.7; margin: 0;
+}
+
+/* ---- Journey entrance animations ---- */
+@keyframes adp-journey-card {
+	from { opacity: 0; transform: translateY(30px) scale(.96); }
+	to   { opacity: 1; transform: translateY(0)  scale(1); }
+}
+
+/* Initial hidden — JS adds .adp-in when section scrolls into view */
+.adp .adp-journey .adp-head { opacity: 0; }
+.adp .adp-journey .adp-head.adp-in { animation: adp-fade-up .6s ease both; }
+.adp .adp-step { opacity: 0; }
+.adp .adp-step.adp-in { animation: adp-journey-card .55s cubic-bezier(.4, 0, .2, 1) var(--j-delay, 0s) both; }
+
+/* =========================================================
+   7. OVERVIEW (Enhanced)
+   ========================================================= */
+.adp .adp-overview { background: #fff; }
+.adp .adp-overview__grid {
+	display: grid;
+	grid-template-columns: .9fr 1.1fr;
+	gap: 52px;
+	align-items: center;
+}
+
+/* Outer media div gets padding so corner accents aren't clipped */
+.adp .adp-overview__media { padding: 8px; }
+
+/* Image wrapper — gold corner accents via pseudo-elements */
+.adp .adp-overview__media-inner { position: relative; }
+.adp .adp-overview__media-inner::before,
+.adp .adp-overview__media-inner::after {
+	content: '';
+	position: absolute; z-index: 3;
+	width: 36px; height: 36px;
+	border-color: var(--gold); border-style: solid;
+}
+.adp .adp-overview__media-inner::before {
+	top: -8px; inset-inline-start: -8px;
+	border-width: 2px 0 0 2px;
+}
+.adp .adp-overview__media-inner::after {
+	bottom: -8px; inset-inline-end: -8px;
+	border-width: 0 2px 2px 0;
+}
+.adp .adp-overview__media-inner img {
+	width: 100%; border-radius: 20px;
+	box-shadow: 0 28px 64px rgba(16, 11, 48, .18);
+	aspect-ratio: 4 / 3.2; object-fit: cover; display: block;
+}
+
+/* Floating Cognia badge overlaid on image */
+.adp .adp-overview__media-badge {
+	position: absolute;
+	bottom: 16px; inset-inline-start: 16px; z-index: 4;
+	display: flex; align-items: center; gap: 12px;
+	background: rgba(255, 255, 255, .97);
+	border-radius: 14px; padding: 10px 16px;
+	box-shadow: 0 12px 32px rgba(0, 0, 0, .15);
+	backdrop-filter: blur(8px);
+}
+.adp .adp-overview__media-badge img {
+	width: 56px; height: auto;
+	border-radius: 0; box-shadow: none; aspect-ratio: unset; object-fit: contain;
+}
+.adp .adp-overview__media-badge b { font-size: 12px; font-weight: 700; color: var(--ink); display: block; white-space: nowrap; }
+.adp .adp-overview__media-badge small { font-size: 10.5px; color: var(--muted); white-space: nowrap; }
+
+/* Copy side */
+.adp .adp-overview__copy .adp-title { font-size: clamp(22px, 2.8vw, 34px); margin-bottom: 24px; }
+
+/* Featured +1200 stat with animated SVG ring */
+.adp .adp-overview__featured {
+	display: flex; align-items: center; gap: 24px;
+	padding: 22px 26px;
+	background: linear-gradient(135deg, var(--mist) 0%, rgba(196, 149, 42, .06) 100%);
+	border-radius: 16px; border: 1px solid rgba(196, 149, 42, .25);
+	margin-bottom: 18px;
+}
+.adp .adp-overview__ring {
+	position: relative; flex: 0 0 96px; width: 96px; height: 96px;
+}
+.adp .adp-overview__ring-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.adp .adp-overview__ring-track { fill: none; stroke: var(--line); stroke-width: 5; }
+.adp .adp-overview__ring-fill {
+	fill: none; stroke: var(--gold); stroke-width: 5; stroke-linecap: round;
+	stroke-dasharray: 276; stroke-dashoffset: 276;
+	transition: stroke-dashoffset 1.4s cubic-bezier(.4, 0, .2, 1) .35s;
+}
+.adp .adp-overview__ring.adp-ring-go .adp-overview__ring-fill { stroke-dashoffset: 62; }
+.adp .adp-overview__ring-inner {
+	position: absolute; inset: 0;
+	display: flex; flex-direction: column; align-items: center; justify-content: center;
+	text-align: center;
+}
+.adp .adp-overview__big-num {
+	font-family: var(--ff-display); font-size: 20px; font-weight: 900;
+	color: var(--gold); line-height: 1;
+}
+.adp .adp-overview__ring-sub { font-size: 10px; font-weight: 700; color: var(--muted); margin-top: 3px; letter-spacing: .5px; }
+.adp .adp-overview__feat-text { flex: 1; }
+.adp .adp-overview__feat-title {
+	font-family: var(--ff-display); font-size: 17px; font-weight: 800;
+	color: var(--ink); margin: 0 0 6px; line-height: 1.3;
+}
+.adp .adp-overview__feat-sub { font-size: 13.5px; color: var(--muted); line-height: 1.65; margin: 0; }
+
+/* 3-column secondary stats */
+.adp .adp-stats {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+}
+/* Grid areas keep icon / value / label aligned across all three cards
+   regardless of how long each label runs. align-content centres the
+   group so equal-height cards never leave dead space at the bottom. */
+.adp .adp-stat {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: "icon" "num" "label";
+	justify-items: center;
+	align-content: center;
+	gap: 12px;
+	text-align: center;
+	padding: 26px 16px 22px;
+	background: var(--warm);
+	border: 1px solid var(--line);
+	border-radius: 16px;
+	min-width: 0;
+}
+.adp .adp-overview .adp-stat {
+	transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+.adp .adp-overview .adp-stat:hover {
+	transform: translateY(-5px);
+	border-color: rgba(196, 149, 42, .45);
+	box-shadow: 0 12px 28px rgba(16, 11, 48, .08);
+}
+/* Icon tile — matches the page's icon language (.adp-feat__icon) */
+.adp .adp-stat__icon {
+	grid-area: icon;
+	width: 48px; height: 48px;
+	border-radius: 14px;
+	background: var(--gold-pale);
+	border: 1px solid rgba(196, 149, 42, .22);
+	display: grid; place-items: center;
+	color: var(--gold);
+}
+.adp .adp-stat__icon svg { width: 23px; height: 23px; }
+.adp .adp-stat__num {
+	grid-area: num;
+	font-family: var(--ff-display);
+	font-size: clamp(19px, 2vw, 22px);
+	font-weight: 900;
+	color: var(--gold);
+	line-height: 1.15;
+}
+.adp .adp-stat__label {
+	grid-area: label;
+	font-size: 12.5px;
+	line-height: 1.6;
+	color: var(--muted);
+	font-weight: 700;
+	overflow-wrap: break-word;
+	text-wrap: balance;
+}
+
+/* ---- Scroll-entrance animation keyframes ---- */
+@keyframes adp-scale-in {
+	from { opacity: 0; transform: scale(.95) translateY(18px); }
+	to   { opacity: 1; transform: scale(1)   translateY(0); }
+}
+@keyframes adp-fade-up {
+	from { opacity: 0; transform: translateY(28px); }
+	to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes adp-pop-in {
+	0%   { opacity: 0; transform: scale(.91) translateY(22px); }
+	65%  { opacity: 1; transform: scale(1.02) translateY(-3px); }
+	100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* Initial hidden states — JS adds .adp-in when scrolled into view */
+.adp .adp-overview__media-inner { opacity: 0; }
+.adp .adp-overview__copy .adp-head { opacity: 0; }
+.adp .adp-overview__featured { opacity: 0; }
+.adp .adp-overview .adp-stat { opacity: 0; }
+
+.adp .adp-overview__media-inner.adp-in { animation: adp-scale-in .75s cubic-bezier(.4, 0, .2, 1) both; }
+.adp .adp-overview__copy .adp-head.adp-in { animation: adp-fade-up .6s ease .15s both; }
+.adp .adp-overview__featured.adp-in { animation: adp-pop-in .65s cubic-bezier(.4, 0, .2, 1) .3s both; }
+.adp .adp-overview .adp-stat.adp-in { animation: adp-fade-up .5s ease var(--delay, .45s) both; }
+
+/* =========================================================
+   9. STEPS
+   ========================================================= */
+.adp .adp-steps { background: #fff; }
+.adp .adp-steps__row {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 28px;
+	position: relative;
+}
+.adp .adp-steps__row::before {
+	content: '';
+	position: absolute;
+	top: 43px;
+	inset-inline-start: calc(100% / 8);
+	inset-inline-end:   calc(100% / 8);
+	border-top: 2px dashed rgba(196, 149, 42, .38);
+	z-index: 0;
+}
+.adp .adp-stepc { text-align: center; position: relative; z-index: 1; }
+.adp .adp-stepc__ring {
+	position: relative;
+	width: 86px; height: 86px;
+	margin: 0 auto 18px;
+	border-radius: 50%;
+	background: var(--mist);
+	display: grid; place-items: center;
+}
+.adp .adp-stepc__ring svg { width: 36px; height: 36px; color: var(--brand); }
+.adp .adp-stepc__num {
+	position: absolute;
+	top: -8px; inset-inline-end: -6px;
+	width: 30px; height: 30px;
+	border-radius: 50%;
+	background: var(--gold); color: #fff;
+	font-weight: 800; font-size: 13px;
+	display: grid; place-items: center;
+	box-shadow: 0 4px 12px rgba(196, 149, 42, .4);
+}
+.adp .adp-stepc h3 { font-family: var(--ff-display); font-size: 16px; font-weight: 800; margin: 0 0 7px; }
+.adp .adp-stepc p { font-size: 13.5px; color: var(--muted); line-height: 1.75; margin: 0; max-width: 200px; margin-inline: auto; }
+
+/* =========================================================
+   10. FAQ
+   ========================================================= */
+.adp .adp-faq { background: var(--warm); }
+.adp .adp-faq__list { max-width: 800px; margin: 0 auto; display: grid; gap: 12px; }
+.adp .adp-faq__item {
+	background: #fff; border: 1px solid var(--line);
+	border-radius: 14px; overflow: hidden;
+	transition: border-color .2s ease, box-shadow .2s ease;
+}
+.adp .adp-faq__item[open] {
+	border-color: rgba(196, 149, 42, .38);
+	box-shadow: 0 8px 28px rgba(16, 11, 48, .07);
+}
+.adp .adp-faq__q {
+	display: flex; align-items: center; gap: 12px;
+	padding: 18px 22px;
+	font-family: var(--ff-display);
+	font-weight: 700; font-size: 16px;
+	cursor: pointer; list-style: none;
+}
+.adp .adp-faq__q::-webkit-details-marker { display: none; }
+.adp .adp-faq__q .chev {
+	margin-inline-start: auto;
+	width: 28px; height: 28px; border-radius: 8px;
+	background: var(--gold-pale); color: var(--gold);
+	display: grid; place-items: center;
+	font-size: 18px; font-weight: 700;
+	transition: transform .25s ease; flex: 0 0 auto;
+	border: 1px solid rgba(196, 149, 42, .2);
+}
+.adp .adp-faq__item[open] .adp-faq__q .chev { transform: rotate(45deg); }
+.adp .adp-faq__q .qmark { width: 18px; height: 18px; color: var(--gold); flex: 0 0 auto; }
+/* Logical padding so the answer indents under the question text in both RTL and LTR */
+.adp .adp-faq__a { padding-block: 0 20px; padding-inline: 52px 22px; color: var(--muted); line-height: 1.95; font-size: 15px; }
+
+/* =========================================================
+   11. CTA
+   ========================================================= */
+.adp .adp-cta { padding-bottom: 96px; }
+.adp .adp-cta__inner {
+	position: relative;
+	background: linear-gradient(120deg, var(--brand) 0%, #3d0fbf 50%, var(--midnight) 100%);
+	border-radius: 20px;
+	padding: 56px 60px;
+	overflow: hidden;
+	color: #fff;
+	box-shadow: 0 32px 72px rgba(91, 20, 230, .42);
+	display: grid;
+	grid-template-columns: 1.3fr .7fr;
+	align-items: center;
+	gap: 32px;
+}
+.adp .adp-cta__inner::before {
+	content: '';
+	position: absolute;
+	width: 320px; height: 320px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(196, 149, 42, .1), transparent 65%);
+	bottom: -110px; inset-inline-start: -70px;
+}
+.adp .adp-cta__badge {
+	position: absolute; top: 24px; inset-inline-end: 28px;
+	width: 42px; height: 42px; border-radius: 12px;
+	background: rgba(255, 255, 255, .1);
+	border: 1px solid rgba(255, 255, 255, .18);
+	display: grid; place-items: center;
+	font-family: var(--ff-display); font-weight: 900; font-size: 18px;
+}
+.adp .adp-cta__eyebrow {
+	display: inline-flex; align-items: center; gap: 10px;
+	font-size: 11px; letter-spacing: 2.5px;
+	font-weight: 700; color: var(--gold); text-transform: uppercase;
+	margin-bottom: 14px;
+}
+.adp .adp-cta__eyebrow::after { content: ''; width: 28px; height: 1px; background: var(--gold); }
+.adp .adp-cta__title { font-family: var(--ff-display); font-size: clamp(26px, 3.5vw, 38px); font-weight: 900; margin: 0 0 12px; }
+.adp .adp-cta__desc { font-size: 16px; line-height: 1.95; opacity: .88; max-width: 420px; margin: 0 0 28px; }
+.adp .adp-cta__visual { justify-self: center; position: relative; z-index: 1; }
+.adp .adp-cta__phones { width: clamp(130px, 20vw, 190px); color: rgba(255, 255, 255, .9); filter: drop-shadow(0 20px 30px rgba(0,0,0,.4)); }
+.adp .adp-cta__phones svg { width: 100%; height: auto; }
+.adp .adp-cta__bubble {
+	position: absolute; top: -8px; inset-inline-start: -12px;
+	width: 46px; height: 46px;
+	border-radius: 14px 14px 14px 4px;
+	background: #fff; display: grid; place-items: center;
+	box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+.adp .adp-cta__bubble svg { width: 22px; height: 22px; color: var(--brand); }
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 1024px) {
+	.adp .adp-cardrow { grid-template-columns: repeat(3, 1fr); }
+	.adp .adp-journey__row { grid-template-columns: repeat(3, 1fr); row-gap: 34px; }
+	.adp .adp-journey__row::before { display: none; }
+	.adp .adp-cognia__feats { grid-template-columns: repeat(3, 1fr); row-gap: 26px; }
+	/* Overview stats: stay 3-col at tablet — overview grid collapses to 1-col at 860px */
+}
+
+@media (max-width: 860px) {
+	.adp .adp-hero__grid,
+	.adp .adp-whatis__grid,
+	.adp .adp-overview__grid,
+	.adp .adp-cognia__grid,
+	.adp .adp-founder__inner,
+	.adp .adp-cta__inner { grid-template-columns: 1fr; }
+
+	.adp .adp-hero { padding-top: 120px; text-align: center; }
+	.adp .adp-hero__desc { margin-inline: auto; }
+	.adp .adp-hero__chips,
+	.adp .adp-hero__actions { justify-content: center; }
+	.adp .adp-hero__visual { order: -1; max-width: 440px; margin-inline: auto; }
+
+	.adp .adp-whatis__copy,
+	.adp .adp-cognia__copy { text-align: center; }
+	.adp .adp-whatis__copy .adp-eyebrow,
+	.adp .adp-cognia__copy .adp-eyebrow { justify-content: center; }
+	.adp .adp-whatis__copy .adp-eyebrow::before,
+	.adp .adp-whatis__copy .adp-eyebrow::after,
+	.adp .adp-cognia__copy .adp-eyebrow::before,
+	.adp .adp-cognia__copy .adp-eyebrow::after { display: block; }
+
+	.adp .adp-overview__copy .adp-head { text-align: center !important; }
+	.adp .adp-overview__copy .adp-eyebrow { justify-content: center !important; }
+	.adp .adp-overview__copy .adp-eyebrow::before,
+	.adp .adp-overview__copy .adp-eyebrow::after { display: block !important; }
+	.adp .adp-overview__featured { flex-direction: column; text-align: center; }
+	.adp .adp-overview__ring { flex: none; }
+	.adp .adp-overview__feat-sub { margin-inline: auto; max-width: 340px; }
+
+	.adp .adp-founder__photo { order: -1; }
+	.adp .adp-cta__visual { display: none; }
+	.adp .adp-steps__row { grid-template-columns: repeat(2, 1fr); row-gap: 36px; }
+	.adp .adp-steps__row::before { display: none; }
+	.adp .adp-journey__row { grid-template-columns: repeat(2, 1fr); row-gap: 36px; }
+	/* Exam gateway: 2-col tablet with last card (ACT) centered below */
+	.adp .adp-exams__row { grid-template-columns: 1fr 1fr; }
+	.adp .adp-exam-card:last-child { grid-column: 1 / -1; max-width: calc(50% - 12px); width: 100%; margin-inline: auto; }
+}
+
+@media (max-width: 560px) {
+	.adp .adp-cardrow,
+	.adp .adp-cognia__feats,
+	.adp .adp-steps__row,
+	.adp .adp-journey__row { grid-template-columns: 1fr 1fr; }
+	/* Overview stats: single-column horizontal rows (icon tile | value) —
+	   avoids the orphan a 3-in-2 grid would leave, reads cleanly at phone width */
+	.adp .adp-stats { grid-template-columns: 1fr; gap: 12px; }
+	.adp .adp-stat {
+		grid-template-columns: auto 1fr;
+		grid-template-areas: "icon num" "icon label";
+		justify-items: start;
+		align-items: center;
+		gap: 3px 16px;
+		text-align: start;
+		padding: 16px 18px;
+	}
+	.adp .adp-stat__icon { width: 46px; height: 46px; }
+	/* Exam gateway: single column on mobile */
+	.adp .adp-exams__row { grid-template-columns: 1fr; }
+	.adp .adp-exam-card:last-child { grid-column: auto; max-width: none; margin-inline: 0; }
+	.adp .adp-founder__inner,
+	.adp .adp-cta__inner { padding: 36px 24px; }
+	.adp section { padding: 64px 0; }
+	.adp .adp-hero__strip { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.adp .adp-vcard,
+	.adp .adp-stat,
+	.adp .adp-feat,
+	.adp .adp-btn,
+	.adp .adp-faq__q .chev { transition: none; }
+	/* Journey: show all elements immediately, skip motion */
+	.adp .adp-journey .adp-head,
+	.adp .adp-step { opacity: 1 !important; animation: none !important; }
+	.adp .adp-journey__row::before { transform: scaleX(1) !important; transition: none; }
+	/* Overview: show all elements immediately, skip motion */
+	.adp .adp-overview__media-inner,
+	.adp .adp-overview__copy .adp-head,
+	.adp .adp-overview__featured,
+	.adp .adp-overview .adp-stat { opacity: 1 !important; animation: none !important; }
+	.adp .adp-overview__ring-fill { transition: none; }
+	/* Exam gateway: show cards immediately, skip entrance + hover motion */
+	.adp .adp-exam-card { opacity: 1 !important; animation: none !important; }
+	.adp .adp-exam-card,
+	.adp .adp-exam-card__icon,
+	.adp .adp-exam-card__rule,
+	.adp .adp-exam-card__cta svg { transition: none !important; }
+}

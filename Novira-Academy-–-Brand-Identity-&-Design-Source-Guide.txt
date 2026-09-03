@@ -1,0 +1,259 @@
+# Novira Academy – Brand Identity & Design Source Guide
+
+## Brand Name
+
+Novira Academy
+
+---
+
+# Core Brand Identity
+
+## Design Style
+
+* Premium
+* Modern
+* Clean
+* Youth-focused
+* Educational luxury
+* Facebook marketing optimized
+* Eye-catching for Egyptian audience
+* High contrast and cinematic lighting
+* Minimal but powerful layouts
+
+---
+
+# Official Color Schema
+
+## Primary Colors
+
+* Deep Royal Purple → `#5B14E6`
+* Electric Violet → `#7B2CFF`
+* Bright Blue Accent → `#2196FF`
+
+## Secondary Colors
+
+* Soft White → `#F8F8FA`
+* Light Gray Background → `#ECECEC`
+* Dark Purple Shadow → `#2A0A66`
+
+## Gradient Style
+
+Always use:
+
+* Purple → Blue gradients
+* Soft glow gradients
+* Neon premium lighting effects
+
+Example:
+
+* `linear-gradient(135deg, #5B14E6 → #2196FF)`
+
+---
+
+# Typography Style
+
+## Arabic Headlines
+
+* Bold
+* Large
+* 3D or semi-3D effect
+* Strong shadows
+* White glow or purple glow
+
+## English Text
+
+* Clean sans-serif
+* Modern spacing
+* Premium minimal appearance
+
+---
+
+# Logo Rules
+
+## Logo Usage
+
+* Always use original Novira Academy logo
+* Keep logo clean with enough spacing
+* Use white/purple backgrounds only
+* Never distort logo proportions
+
+## Logo Position
+
+Preferred:
+
+* Top left
+* Clean spacing around logo
+
+---
+
+# Overall Visual Direction
+
+## Mood
+
+* Ambitious
+* Motivational
+* Premium education
+* Future-oriented
+* International standards
+
+## Audience
+
+Egyptian students + parents
+
+The design must instantly communicate:
+
+* Trust
+* Accreditation
+* Success
+* Modern education
+* International opportunities
+
+---
+
+# Background Style
+
+## Preferred Backgrounds
+
+* Soft white modern backgrounds
+* Purple abstract gradients
+* Blurred educational buildings
+* Premium light effects
+* Subtle geometric shapes
+* Clean futuristic textures
+
+Avoid:
+
+* Overcrowded elements
+* Cheap clipart
+* Random colors
+* Dark messy backgrounds
+
+---
+
+# Lighting & Effects
+
+## Use
+
+* Glow effects
+* Soft shadows
+* Premium highlights
+* Glassmorphism when suitable
+* Smooth depth
+
+## Avoid
+
+* Harsh saturation
+* Overexposed glow
+* Cheap filters
+* Excessive effects
+
+---
+
+# Character Style
+
+## Students
+
+* Young
+* Confident
+* Smiling
+* Stylish but realistic
+* Egyptian / Middle Eastern friendly look
+
+## Expressions
+
+* Motivation
+* Confidence
+* Success
+* Excitement
+
+---
+
+# Layout Rules
+
+## Composition
+
+* Clean hierarchy
+* Large headline
+* Strong CTA section
+* Balanced spacing
+* Mobile-friendly Facebook layout
+
+## CTA Buttons
+
+Style:
+
+* Rounded
+* Purple gradient
+* White text
+* Premium glow
+
+Examples:
+
+* سجل الآن
+* احجز مكانك
+* ابدأ مستقبلك
+* كلمنا واتساب
+
+---
+
+# Icons Style
+
+* Minimal
+* Modern line icons
+* Purple/blue gradients
+* Premium UI style
+
+---
+
+# Social Media Optimization
+
+## Platform
+
+Facebook & Instagram
+
+## Style Priority
+
+* Catch attention in first second
+* Readable from mobile
+* Strong emotional appeal
+* Shareable
+* Clean branding
+
+---
+
+# Accreditation Style
+
+Always present accreditation in a premium trust-building way:
+
+* Cognia logo
+* International education feel
+* Minimal official presentation
+
+---
+
+# Design Keywords For AI
+
+Always include these vibes:
+
+* premium
+* luxury education
+* modern academy
+* purple neon
+* clean composition
+* cinematic lighting
+* high-end Facebook ad
+* futuristic education branding
+* international school aesthetic
+* elegant UI design
+
+---
+
+# Important Rules
+
+1. Always preserve Novira Academy purple-blue identity.
+2. Never use random unrelated colors.
+3. Maintain premium clean aesthetic.
+4. Keep designs emotionally engaging.
+5. Make visuals optimized for Egyptian Facebook audience.
+6. Prioritize readability on mobile.
+7. Always make the design look like a high-budget ad.

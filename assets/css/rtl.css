@@ -1,0 +1,340 @@
+/**
+ * RTL Stylesheet for Novira Academy
+ *
+ * @package Novira_Academy
+ * @version 1.0.0
+ */
+
+/* === RTL Base Styles === */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* === Navigation === */
+[dir="rtl"] .nav-links {
+  flex-direction: row-reverse;
+}
+
+/* === Mobile Navigation === */
+[dir="rtl"] .mobile-nav {
+  right: auto;
+  left: 0;
+  transform: translateX(-100%);
+}
+
+[dir="rtl"] .mobile-nav[aria-hidden="false"] {
+  transform: translateX(0);
+}
+
+[dir="rtl"] .mobile-nav__backdrop.is-visible {
+  direction: ltr;
+}
+
+/* === Footer === */
+[dir="rtl"] .footer-bottom {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-links,
+[dir="rtl"] .footer-contact-list {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+[dir="rtl"] .footer-social {
+  flex-direction: row-reverse;
+}
+
+/* === Buttons === */
+[dir="rtl"] .btn-primary,
+[dir="rtl"] .btn-outline,
+[dir="rtl"] .btn-white,
+[dir="rtl"] .btn-ghost {
+  flex-direction: row-reverse;
+}
+
+/* === Section Headers === */
+[dir="rtl"] .section-header {
+  text-align: right;
+}
+
+[dir="rtl"] .section-desc {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* === Hero Section === */
+[dir="rtl"] .hero {
+  text-align: center;
+}
+
+[dir="rtl"] .hero-buttons {
+  flex-direction: row-reverse;
+}
+
+/* === Department Cards === */
+[dir="rtl"] .dept-block {
+  text-align: right;
+}
+
+[dir="rtl"] .dept-cta {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .dept-cta-arrow {
+  transform: scaleX(-1);
+}
+
+/* === Service Cards === */
+[dir="rtl"] .service-card {
+  text-align: right;
+}
+
+[dir="rtl"] .service-link {
+  flex-direction: row-reverse;
+}
+
+/* === Testimonials === */
+[dir="rtl"] .testimonial-card {
+  text-align: right;
+}
+
+[dir="rtl"] .testimonial-new-author {
+  flex-direction: row-reverse;
+}
+
+/* === Contact Cards === */
+[dir="rtl"] .contact-card {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+/* === Form Elements === */
+[dir="rtl"] .form-group label {
+  text-align: right;
+}
+
+[dir="rtl"] .form-group input,
+[dir="rtl"] .form-group select,
+[dir="rtl"] .form-group textarea {
+  text-align: right;
+}
+
+/* === Breadcrumbs === */
+[dir="rtl"] .breadcrumb {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .breadcrumb-sep {
+  transform: scaleX(-1);
+}
+
+/* === Working Hours === */
+[dir="rtl"] .working-hours li {
+  flex-direction: row-reverse;
+}
+
+/* === Proof Strip === */
+[dir="rtl"] .proof-strip-inner {
+  flex-direction: row-reverse;
+}
+
+/* === Blog Activity === */
+[dir="rtl"] .activity-card {
+  text-align: right;
+}
+
+/* === Diploma Section === */
+[dir="rtl"] .diploma-badge-row {
+  justify-content: flex-start;
+}
+
+[dir="rtl"] .diploma-program {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .diploma-success {
+  flex-direction: row-reverse;
+}
+
+/* === Translation Section === */
+[dir="rtl"] .translation-card {
+  text-align: right;
+}
+
+[dir="rtl"] .t-feature {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .t-feature-text {
+  text-align: right;
+}
+
+/* === About Page === */
+[dir="rtl"] .about-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .value-card {
+  text-align: right;
+}
+
+/* === Contact Page === */
+[dir="rtl"] .contact-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .contact-cards {
+  direction: rtl;
+}
+
+/* === CTA Section === */
+[dir="rtl"] .cta-buttons {
+  flex-direction: row-reverse;
+}
+
+/* === Footer Social === */
+[dir="rtl"] .footer-social {
+  flex-direction: row-reverse;
+}
+
+/* === Skip Link === */
+[dir="rtl"] .skip-link {
+  right: auto;
+  left: -9999px;
+}
+
+[dir="rtl"] .skip-link:focus {
+  left: var(--space-sm);
+  right: auto;
+}
+
+/* === Responsive RTL === */
+@media (max-width: 768px) {
+  [dir="rtl"] .footer-grid {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] .departments-grid {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] .diploma-highlight-grid,
+  [dir="rtl"] .translation-highlight-grid {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] .testimonials-new-grid {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] .blog-activity-grid {
+    direction: rtl;
+  }
+  
+  [dir="rtl"] .hero-doc-badge {
+    flex-direction: column;
+  }
+  
+  [dir="rtl"] .diploma-success {
+    flex-direction: column;
+  }
+}
+
+/* === WordPress Specific RTL === */
+[dir="rtl"] .wp-caption {
+  text-align: right;
+}
+
+[dir="rtl"] .wp-caption-text {
+  text-align: right;
+}
+
+[dir="rtl"] .gallery-caption {
+  text-align: right;
+}
+
+[dir="rtl"] .sticky .sticky-post {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+[dir="rtl"] .screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/* === RTL Utilities === */
+[dir="rtl"] .me-auto {
+  margin-inline-start: auto;
+  margin-inline-end: 0;
+}
+
+[dir="rtl"] .ms-auto {
+  margin-inline-start: 0;
+  margin-inline-end: auto;
+}
+
+[dir="rtl"] .ps-auto {
+  padding-inline-start: auto;
+  padding-inline-end: 0;
+}
+
+[dir="rtl"] .pe-auto {
+  padding-inline-start: 0;
+  padding-inline-end: auto;
+}
+
+/* === Logical Properties for Future Compatibility === */
+[dir="rtl"] .border-start {
+  border-inline-start: var(--border-width, 1px) solid var(--border-color, #dee2e6);
+  border-inline-end: 0;
+}
+
+[dir="rtl"] .border-end {
+  border-inline-start: 0;
+  border-inline-end: var(--border-width, 1px) solid var(--border-color, #dee2e6);
+}
+
+[dir="rtl"] .rounded-start {
+  border-start-start-radius: var(--radius-sm);
+  border-start-end-radius: 0;
+  border-end-start-radius: var(--radius-sm);
+  border-end-end-radius: 0;
+}
+
+[dir="rtl"] .rounded-end {
+  border-start-start-radius: 0;
+  border-start-end-radius: var(--radius-sm);
+  border-end-start-radius: 0;
+  border-end-end-radius: var(--radius-sm);
+}

@@ -1,0 +1,285 @@
+/**
+ * Media Components CSS
+ *
+ * Styles for gallery, responsive images, and video gallery components.
+ *
+ * @package Novira_Academy
+ */
+
+/* Gallery Component */
+.novira-gallery {
+	margin-bottom: var(--spacing-lg);
+}
+
+.novira-gallery.gallery-grid .gallery {
+	display: grid;
+	gap: var(--spacing-md);
+}
+
+.novira-gallery.gallery-grid[data-columns="2"] .gallery {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.novira-gallery.gallery-grid[data-columns="3"] .gallery {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.novira-gallery.gallery-grid[data-columns="4"] .gallery {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.novira-gallery .gallery-item {
+	overflow: hidden;
+	border-radius: var(--border-radius-lg);
+	position: relative;
+}
+
+.novira-gallery .gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.novira-gallery .gallery-item:hover img {
+	transform: scale(1.05);
+}
+
+/* Responsive Image Component */
+.novira-responsive-image-wrapper {
+	margin-bottom: var(--spacing-md);
+}
+
+.novira-responsive-image-wrapper .responsive-image {
+	width: 100%;
+	height: auto;
+	border-radius: var(--border-radius-lg);
+}
+
+.novira-responsive-image-wrapper .responsive-image-link {
+	display: block;
+	overflow: hidden;
+	border-radius: var(--border-radius-lg);
+}
+
+.novira-responsive-image-wrapper .responsive-image-link:hover .responsive-image {
+	transform: scale(1.02);
+	transition: transform 0.3s ease;
+}
+
+.novira-responsive-image-wrapper .responsive-image-caption {
+	margin-top: var(--spacing-sm);
+	font-size: 0.875rem;
+	color: var(--color-gray-600);
+	text-align: center;
+}
+
+/* Video Gallery Component */
+.novira-video-gallery {
+	display: grid;
+	gap: var(--spacing-lg);
+	margin-bottom: var(--spacing-lg);
+}
+
+.novira-video-gallery.columns-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.novira-video-gallery.columns-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.novira-video-gallery.columns-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.video-gallery-item {
+	cursor: pointer;
+}
+
+.video-thumbnail {
+	position: relative;
+	overflow: hidden;
+	border-radius: var(--border-radius-lg);
+	aspect-ratio: 16 / 9;
+}
+
+.video-thumbnail img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.video-gallery-item:hover .video-thumbnail img {
+	transform: scale(1.05);
+}
+
+.video-placeholder {
+	width: 100%;
+	height: 100%;
+	background: var(--color-gray-200);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.video-placeholder .play-icon {
+	font-size: 3rem;
+	color: var(--color-gray-500);
+}
+
+.video-duration {
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 4px 8px;
+	border-radius: var(--border-radius-sm);
+	font-size: 0.75rem;
+}
+
+.play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 64px;
+	height: 64px;
+	background: var(--color-primary);
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.2s ease;
+}
+
+.play-button:hover {
+	background: var(--color-primary-dark);
+}
+
+.play-button .play-icon {
+	font-size: 1.5rem;
+	color: white;
+}
+
+.video-info {
+	padding: var(--spacing-sm) 0;
+}
+
+.video-title {
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--color-gray-900);
+	margin: 0;
+}
+
+/* Video Modal */
+.video-modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	inset-inline-end: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	z-index: 9999;
+	align-items: center;
+	justify-content: center;
+}
+
+.video-modal.active {
+	display: flex;
+}
+
+.video-modal-content {
+	position: relative;
+	width: 90%;
+	max-width: 900px;
+	background: var(--color-white);
+	border-radius: var(--border-radius-lg);
+	overflow: hidden;
+}
+
+.video-modal-close {
+	position: absolute;
+	top: 16px;
+	inset-inline-start: 16px;
+	width: 32px;
+	height: 32px;
+	background: var(--color-gray-200);
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1.25rem;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.video-modal-close:hover {
+	background: var(--color-gray-300);
+}
+
+.video-modal-iframe {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.video-modal-iframe iframe {
+	position: absolute;
+	top: 0;
+	inset-inline-end: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+	.novira-gallery.gallery-grid[data-columns="4"] .gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.novira-video-gallery.columns-4 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.novira-gallery.gallery-grid[data-columns="3"] .gallery,
+	.novira-gallery.gallery-grid[data-columns="4"] .gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.novira-video-gallery.columns-3,
+	.novira-video-gallery.columns-4 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	.novira-gallery.gallery-grid .gallery,
+	.novira-video-gallery {
+		grid-template-columns: 1fr;
+	}
+
+	.play-button {
+		width: 48px;
+		height: 48px;
+	}
+
+	.play-button .play-icon {
+		font-size: 1.25rem;
+	}
+}
+
+/* RTL Support */
+[dir="rtl"] .video-duration {
+	left: auto;
+	right: 8px;
+}

@@ -1,0 +1,418 @@
+/**
+ * Generic Exam Spoke — shared stylesheet
+ *
+ * Styles the GENERIC American-Diploma exam spoke pages (EST / Digital SAT / ACT
+ * / future AP) rendered by page-diploma-exam.php + template-parts/sections/exam/
+ * s1..s9 and the shared FAQ partial. Every selector targets the generic `.exam-*`
+ * markup, so any newly-offered exam inherits the look with zero extra CSS. No
+ * slug-specific selectors, no EST-specific rules — this is not est-page.css.
+ *
+ * Reuses the design tokens defined in main.css :root (--purple/--blue/--grad,
+ * --space-*, --radius-*, --ff-*, --text-*, --shadow-*). Visual language mirrors
+ * american-diploma.css (purple→blue brand, calm cards, generous rhythm). RTL-first.
+ *
+ * Loaded (via functions.php) only on offered exam spokes, alongside main.css.
+ *
+ * @package Novira_Academy
+ */
+
+/* =========================================================
+   LAYOUT — .container (undefined elsewhere; only exam sections use it)
+   ========================================================= */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: clamp(20px, 5vw, 40px);
+}
+
+/* Exam sections own their rhythm — container handles horizontal insets, so drop
+   the theme-wide `section { padding: 120px 5% }` side padding here. */
+.exam-hero,
+.exam-what-is,
+.exam-structure,
+.exam-prep,
+.exam-registration,
+.exam-progress,
+.exam-consult,
+.exam-related {
+	padding-block: clamp(56px, 8vw, 96px);
+	padding-inline: 0;
+}
+
+/* Alternating surfaces for readable section rhythm. */
+.exam-what-is,
+.exam-prep,
+.exam-progress { background: #ffffff; }
+.exam-structure,
+.exam-registration { background: var(--white); }
+
+/* =========================================================
+   SHARED — section header, eyebrow tag, titles
+   ========================================================= */
+.section-tag {
+	display: inline-block;
+	font-family: var(--ff-display);
+	font-size: var(--fs-caption);
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	color: var(--purple);
+	background: var(--grad-soft);
+	border: 1px solid rgba(91, 20, 230, 0.2);
+	padding: 6px 16px;
+	border-radius: var(--radius-pill);
+	margin-bottom: var(--space-sm);
+}
+
+.exam-what-is .section-title,
+.exam-structure .section-title,
+.exam-prep .section-title,
+.exam-registration .section-title,
+.exam-progress .section-title { text-wrap: balance; }
+
+/* Card sections read as left-aligned (RTL start) editorial blocks. */
+.exam-what-is .section-header,
+.exam-structure .section-header,
+.exam-prep .section-header,
+.exam-registration .section-header,
+.exam-progress .section-header { text-align: start; }
+
+/* Centered heads for the "announcement" sections. */
+.exam-consult .section-header,
+.exam-related .section-header {
+	text-align: center;
+	max-width: 640px;
+	margin-inline: auto;
+}
+.exam-consult .section-desc,
+.exam-related .section-desc { margin-inline: auto; }
+
+/* =========================================================
+   S1 — HERO (brand gradient, orientation + breadcrumb)
+   ========================================================= */
+.exam-hero {
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(158deg, #0a0428 0%, var(--dark-purple) 60%, #3a1280 100%);
+	/* Clear the fixed 72px white header. */
+	padding-block-start: clamp(104px, 13vw, 140px);
+	color: #ffffff;
+}
+.exam-hero::before {
+	content: '';
+	position: absolute;
+	inset-block-start: -160px;
+	inset-inline-start: -120px;
+	width: 460px;
+	height: 460px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(91, 20, 230, 0.35), transparent 65%);
+	pointer-events: none;
+}
+.exam-hero .container { position: relative; z-index: 1; }
+
+.exam-hero .section-header {
+	text-align: start;
+	max-width: 720px;
+	margin-bottom: var(--space-md);
+}
+.exam-hero .section-tag {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.12);
+	border-color: rgba(255, 255, 255, 0.22);
+	backdrop-filter: blur(6px);
+}
+.exam-hero .section-title {
+	color: #ffffff;
+	font-size: var(--fs-h1);
+	margin-bottom: var(--space-md);
+}
+.exam-hero .section-desc {
+	color: rgba(255, 255, 255, 0.72);
+	max-width: 620px;
+	line-height: 2;
+}
+
+/* Breadcrumb — inherits .breadcrumbs markup; styled light for the dark hero. */
+.exam-hero .breadcrumbs { margin-bottom: var(--space-lg); }
+.exam-hero .breadcrumbs-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	list-style: none;
+	font-size: var(--fs-caption);
+	font-weight: 600;
+}
+.exam-hero .breadcrumbs-list li {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: rgba(255, 255, 255, 0.6);
+}
+.exam-hero .breadcrumbs-list li:not(:last-child)::after {
+	content: '/';
+	color: rgba(255, 255, 255, 0.3);
+}
+.exam-hero .breadcrumbs-list a {
+	color: rgba(255, 255, 255, 0.82);
+	text-decoration: none;
+	transition: color var(--transition-fast);
+}
+.exam-hero .breadcrumbs-list a:hover { color: #ffffff; }
+.exam-hero .breadcrumbs-list [aria-current="page"] { color: #ffffff; font-weight: 700; }
+
+.exam-hero__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-sm);
+	margin-top: var(--space-lg);
+}
+
+/* =========================================================
+   CARD GRID — value-card groups flow into responsive auto-fit columns.
+   Non-card siblings (header, notes, video, disclaimer) span the full row.
+   ========================================================= */
+.exam-what-is .container,
+.exam-structure .container,
+.exam-prep .container,
+.exam-registration .container,
+.exam-progress .container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+	gap: var(--space-md);
+	align-items: start;
+}
+.exam-what-is .container > :not(.value-card),
+.exam-structure .container > :not(.value-card),
+.exam-prep .container > :not(.value-card),
+.exam-registration .container > :not(.value-card),
+.exam-progress .container > :not(.value-card) { grid-column: 1 / -1; }
+
+/* The registration disclaimer carries .value-card but must span full width. */
+.exam-registration__disclaimer { grid-column: 1 / -1; }
+
+/* =========================================================
+   VALUE CARD — unified card styling across every exam section
+   ========================================================= */
+.value-card {
+	background: #ffffff;
+	border: 1px solid rgba(91, 20, 230, 0.1);
+	border-radius: var(--radius-md);
+	padding: var(--space-lg);
+	box-shadow: var(--shadow-card);
+	transition: transform var(--transition-base), border-color var(--transition-base), box-shadow var(--transition-base);
+}
+.value-card:hover {
+	transform: translateY(-4px);
+	border-color: rgba(91, 20, 230, 0.28);
+	box-shadow: 0 14px 40px rgba(91, 20, 230, 0.12);
+}
+.value-card h4 {
+	font-family: var(--ff-display);
+	font-size: var(--fs-h4);
+	font-weight: 800;
+	color: var(--text-dark);
+	line-height: 1.4;
+	margin-bottom: var(--space-xs);
+}
+.value-card p {
+	font-size: var(--fs-small);
+	color: var(--text-muted);
+	line-height: 1.9;
+	margin: 0;
+}
+.value-card ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: var(--space-xs);
+}
+.value-card li {
+	position: relative;
+	padding-inline-start: 20px;
+	font-size: var(--fs-small);
+	color: var(--text-muted);
+	line-height: 1.8;
+}
+.value-card li::before {
+	content: '';
+	position: absolute;
+	inset-inline-start: 4px;
+	inset-block-start: 0.7em;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var(--grad);
+}
+
+/* Contextual notes / up-links / disclaimer paragraphs. */
+.exam-what-is__note,
+.exam-structure__note {
+	font-size: var(--fs-small);
+	color: var(--text-muted);
+	line-height: 1.8;
+	margin-top: var(--space-sm);
+}
+.exam-what-is__up,
+.exam-progress__up {
+	margin-top: var(--space-sm);
+	font-size: var(--fs-small);
+	color: var(--text-muted);
+}
+.exam-what-is__up a,
+.exam-progress__up a {
+	color: var(--purple);
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(91, 20, 230, 0.3);
+	padding-bottom: 1px;
+	transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+.exam-what-is__up a:hover,
+.exam-progress__up a:hover { color: var(--violet); border-color: var(--violet); }
+
+.exam-registration__disclaimer {
+	font-size: var(--fs-small);
+	color: var(--text-muted);
+	line-height: 1.85;
+	background: var(--grad-soft);
+	border-color: rgba(91, 20, 230, 0.15);
+	box-shadow: none;
+}
+.exam-registration__disclaimer:hover { transform: none; }
+
+/* =========================================================
+   S4 — PREPARATION video figure (responsive 16:9 media)
+   ========================================================= */
+.exam-prep__video {
+	margin: var(--space-sm) 0 0;
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	box-shadow: var(--shadow-lg);
+	aspect-ratio: 16 / 9;
+	background: var(--grad-dark);
+}
+.exam-prep__video img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+/* =========================================================
+   S8 — CONSULTATION (calm CTA band)
+   ========================================================= */
+.exam-consult {
+	background: linear-gradient(120deg, var(--purple) 0%, #3d0fbf 55%, var(--dark-purple) 100%);
+	color: #ffffff;
+}
+.exam-consult .section-tag {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.12);
+	border-color: rgba(255, 255, 255, 0.22);
+}
+.exam-consult .section-title { color: #ffffff; }
+.exam-consult .section-desc { color: rgba(255, 255, 255, 0.8); }
+.exam-consult__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-sm);
+	justify-content: center;
+	margin-top: var(--space-lg);
+}
+/* Recolor the reused .btn-* for contrast against the gradient band. */
+.exam-consult__actions .btn-primary {
+	background: #ffffff;
+	color: var(--purple);
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+.exam-consult__actions .btn-outline {
+	border-color: rgba(255, 255, 255, 0.5);
+	color: #ffffff;
+}
+.exam-consult__actions .btn-outline:hover {
+	background: rgba(255, 255, 255, 0.12);
+	border-color: #ffffff;
+}
+
+/* =========================================================
+   S9 — RELATED EXAMS (navigation card grid)
+   ========================================================= */
+.exam-related__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+	gap: var(--space-md);
+	margin-top: var(--space-lg);
+}
+.exam-related__card {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xs);
+	text-decoration: none;
+	text-align: start;
+}
+.exam-related__card:hover { transform: translateY(-4px); }
+.exam-related__name {
+	font-family: var(--ff-display);
+	font-size: var(--fs-h4);
+	font-weight: 800;
+	color: var(--text-dark);
+}
+.exam-related__cta {
+	font-size: var(--fs-small);
+	font-weight: 700;
+	color: var(--purple);
+}
+.exam-related__hub-link {
+	text-align: center;
+	margin-top: var(--space-lg);
+}
+.exam-related__hub-link a {
+	color: var(--purple);
+	font-weight: 700;
+	text-decoration: none;
+	transition: color var(--transition-fast);
+}
+.exam-related__hub-link a:hover { color: var(--violet); }
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 1024px) {
+	/* auto-fit already reflows cards; tighten the section rhythm on tablet. */
+	.exam-hero,
+	.exam-what-is,
+	.exam-structure,
+	.exam-prep,
+	.exam-registration,
+	.exam-progress,
+	.exam-consult,
+	.exam-related { padding-block: clamp(48px, 7vw, 72px); }
+	.exam-hero { padding-block-start: clamp(96px, 12vw, 120px); }
+}
+
+@media (max-width: 640px) {
+	.exam-hero__actions .btn-primary,
+	.exam-hero__actions .btn-outline,
+	.exam-consult__actions .btn-primary,
+	.exam-consult__actions .btn-outline {
+		flex: 1 1 100%;
+		justify-content: center;
+	}
+	.value-card { padding: var(--space-md); }
+	.exam-hero .section-title { font-size: clamp(28px, 8vw, 40px); }
+}
+
+/* =========================================================
+   MOTION SAFETY
+   ========================================================= */
+@media (prefers-reduced-motion: reduce) {
+	.value-card,
+	.exam-related__card {
+		transition: none;
+	}
+	.value-card:hover,
+	.exam-related__card:hover { transform: none; }
+}

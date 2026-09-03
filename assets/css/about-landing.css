@@ -1,0 +1,406 @@
+/**
+ * About ("من نحن") Landing — pixel-matched styles (from about-us.png).
+ *
+ * Everything is scoped under `.abt` so it never leaks into other pages.
+ * Palette derives from the theme tokens (main.css):
+ *   --purple #5B14E6, --violet #7B2CFF, --blue #2196FF, --dark-purple #2A0A66.
+ * Uses the site's global fixed white header (72px); the hero clears it.
+ *
+ * @package Novira_Academy
+ */
+
+.abt {
+	--a-purple: #5b14e6;
+	--a-violet: #7b2cff;
+	--a-blue: #2196ff;
+	--a-ink: #1a0a3d;
+	--a-muted: #6f63a3;
+	--a-line: #ece7fb;
+	--a-lilac: #f5f2fd;
+	--a-gold: #ffb020;
+	--a-grad-btn: linear-gradient(135deg, #7b2cff, #5b14e6);
+	--a-radius: 20px;
+	--a-shadow: 0 18px 44px rgba(91, 20, 230, .12);
+	font-family: var(--ff-body, 'Almarai', sans-serif);
+	color: var(--a-ink);
+	background: #fff;
+	overflow-x: clip;
+}
+.abt *, .abt *::before, .abt *::after { box-sizing: border-box; }
+
+.abt-container { width: 100%; max-width: 1180px; margin-inline: auto; padding-inline: 24px; }
+.abt-section { padding: 46px 0; }
+
+/* Shared heading */
+.abt-h2 {
+	display: flex; align-items: center; justify-content: center; gap: 10px;
+	font-family: var(--ff-display, 'Noto Kufi Arabic', sans-serif);
+	font-size: clamp(24px, 3vw, 34px);
+	font-weight: 800;
+	color: var(--a-ink);
+	text-align: center;
+	margin: 0 0 36px;
+}
+.abt-h2__ico { color: var(--a-purple); display: inline-flex; }
+
+/* Buttons */
+.abt-btn {
+	display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+	font-family: var(--ff-body, 'Almarai', sans-serif);
+	font-weight: 700; font-size: 15px; line-height: 1;
+	border: 0; border-radius: 999px; padding: 15px 28px;
+	cursor: pointer; text-decoration: none;
+	transition: transform .2s ease, box-shadow .2s ease, background .2s ease, color .2s ease;
+	white-space: nowrap;
+}
+.abt-btn svg { flex: none; }
+.abt-btn--white { background: #fff; color: var(--a-purple); box-shadow: 0 10px 24px rgba(26, 10, 61, .16); }
+.abt-btn--white:hover { transform: translateY(-2px); }
+.abt-btn--ghost { background: rgba(255, 255, 255, .12); color: #fff; border: 1.5px solid rgba(255, 255, 255, .55); }
+.abt-btn--ghost:hover { background: rgba(255, 255, 255, .2); transform: translateY(-2px); }
+
+/* ============================================================= */
+/* 1. HERO                                                        */
+/* ============================================================= */
+.abt-hero {
+	position: relative;
+	padding: 128px 0 44px;
+	text-align: center;
+	overflow: hidden;
+	isolation: isolate;
+	background: linear-gradient(180deg, #faf8ff 0%, #fff 70%);
+}
+.abt-hero__bg { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.abt-hero__glow {
+	position: absolute; top: -120px; left: 50%; transform: translateX(-50%);
+	width: 620px; height: 360px; border-radius: 50%;
+	background: radial-gradient(circle, rgba(123,44,255,.16), transparent 70%);
+	filter: blur(20px);
+}
+.abt-hero__grid {
+	position: absolute; inset: 0;
+	background-image:
+		linear-gradient(rgba(91,20,230,.05) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(91,20,230,.05) 1px, transparent 1px);
+	background-size: 44px 44px;
+	mask-image: radial-gradient(60% 60% at 50% 20%, #000, transparent 75%);
+}
+.abt-eyebrow {
+	display: inline-block;
+	font-weight: 700; font-size: 14px; color: var(--a-violet);
+	margin-bottom: 6px;
+}
+.abt-hero__title {
+	position: relative;
+	display: inline-block;
+	font-family: var(--ff-display, 'Noto Kufi Arabic', sans-serif);
+	font-size: clamp(28px, 4.4vw, 46px);
+	font-weight: 800; line-height: 1.3;
+	margin: 0 0 14px;
+	background: linear-gradient(90deg, #5b14e6, #9a5bff 55%, #7b2cff);
+	-webkit-background-clip: text; background-clip: text; color: transparent;
+	padding-inline: 52px;
+}
+.abt-hero__flourish {
+	position: absolute; top: 50%; transform: translateY(-50%);
+	color: #c9a9ff;
+}
+.abt-hero__flourish--r { right: 6px; }
+.abt-hero__flourish--l { left: 6px; }
+.abt-hero__desc {
+	max-width: 640px; margin: 0 auto;
+	font-size: clamp(15px, 1.4vw, 17px); font-weight: 700;
+	color: var(--a-muted); line-height: 1.8;
+}
+
+/* ============================================================= */
+/* 2. FOUNDER                                                     */
+/* ============================================================= */
+.abt-founder {
+	position: relative;
+	display: grid;
+	grid-template-columns: 360px 1fr;
+	gap: 40px;
+	align-items: center;
+	background:
+		radial-gradient(70% 90% at 16% 50%, rgba(123,44,255,.22), rgba(123,44,255,0) 60%),
+		linear-gradient(135deg, #efe9ff 0%, #f3eeff 100%);
+	border-radius: 28px;
+	padding: 36px 44px;
+	overflow: hidden;
+}
+.abt-founder::before {
+	content: ""; position: absolute; top: 24px; right: 30%;
+	width: 120px; height: 90px;
+	background-image: radial-gradient(rgba(123,44,255,.28) 1.6px, transparent 1.6px);
+	background-size: 15px 15px;
+	opacity: .5; pointer-events: none;
+}
+.abt-founder__media { position: relative; display: flex; justify-content: center; }
+.abt-founder__halo {
+	position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+	width: 300px; height: 300px; border-radius: 50%;
+	background: radial-gradient(circle at 40% 35%, #8b45ff, #5b14e6 70%);
+	box-shadow: 0 20px 50px rgba(91, 20, 230, .35);
+}
+.abt-founder__photo {
+	position: relative; z-index: 1;
+	width: 300px; height: 340px; object-fit: cover; object-position: top center;
+	filter: drop-shadow(0 20px 30px rgba(26, 10, 61, .3));
+}
+.abt-founder__name {
+	position: absolute; z-index: 2; bottom: 6px; right: 0;
+	background: #fff; border-radius: 14px; padding: 10px 18px;
+	text-align: center; line-height: 1.25;
+	box-shadow: 0 12px 26px rgba(26, 10, 61, .18);
+}
+.abt-founder__name strong { display: block; font-size: 12px; color: var(--a-muted); font-weight: 700; }
+.abt-founder__name b { display: block; font-size: 17px; color: var(--a-ink); font-weight: 800; }
+.abt-founder__name em { display: block; font-size: 12px; color: var(--a-violet); font-style: normal; font-weight: 700; }
+.abt-founder__body { text-align: start; }
+.abt-founder__title {
+	display: flex; align-items: center; gap: 10px;
+	font-family: var(--ff-display); font-size: 26px; font-weight: 800; color: var(--a-purple);
+	margin: 0 0 16px;
+}
+.abt-founder__ico { color: var(--a-purple); display: inline-flex; }
+.abt-founder__body p { font-size: 14.5px; line-height: 1.9; color: #3f3568; margin: 0 0 12px; }
+.abt-founder__body p:last-child { margin-bottom: 0; }
+
+/* ============================================================= */
+/* 3. MISSION / VISION / PLAN                                     */
+/* ============================================================= */
+/* direction:ltr keeps the card order matching the design (رسالتنا left → خطتنا right) */
+.abt-mvp__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; direction: ltr; }
+.abt-mvp__card { direction: rtl; }
+.abt-mvp__card {
+	background: #fff; border: 1px solid var(--a-line); border-radius: 18px;
+	padding: 30px 26px; text-align: center;
+	box-shadow: 0 8px 24px rgba(91, 20, 230, .05);
+}
+.abt-mvp__ico {
+	display: inline-flex; color: var(--a-purple);
+	margin-bottom: 12px;
+}
+.abt-mvp__t { font-family: var(--ff-display); font-size: 20px; font-weight: 800; color: var(--a-ink); margin: 0 0 12px; }
+.abt-mvp__p { font-size: 13.5px; line-height: 1.85; color: var(--a-muted); margin: 0; }
+.abt-mvp__list { list-style: none; margin: 0; padding: 0; text-align: start; display: flex; flex-direction: column; gap: 12px; }
+.abt-mvp__list li { display: flex; align-items: flex-start; gap: 9px; font-size: 13px; line-height: 1.6; color: #3f3568; font-weight: 600; }
+.abt-mvp__list li svg { flex: none; color: var(--a-purple); margin-top: 1px; }
+
+/* ============================================================= */
+/* 4. COURSE CARDS                                                */
+/* ============================================================= */
+/* Reel grid — vertical shorts like the homepage video library.
+   auto-fill (not auto-fit) so the last partial row doesn't stretch to giant reels. */
+.abt-cards__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 22px; direction: ltr; }
+.abt-card { direction: rtl; }
+.abt-card {
+	background: #fff; border: 1px solid var(--a-line); border-radius: 18px;
+	overflow: hidden;
+	box-shadow: 0 10px 26px rgba(91, 20, 230, .07);
+	transition: transform .25s ease, box-shadow .25s ease;
+}
+.abt-card:hover { transform: translateY(-6px); box-shadow: var(--a-shadow); }
+
+/* Media — 9:16 vertical reel framing with a lightweight click-to-play facade */
+.abt-card__media { position: relative; aspect-ratio: 9 / 16; background: #000; overflow: hidden; }
+.abt-card__play {
+	position: absolute; inset: 0; width: 100%; height: 100%;
+	padding: 0; border: 0; margin: 0; cursor: pointer; display: block;
+	background: #1c0a44;
+}
+.abt-card__thumb { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s ease; }
+.abt-card__play::after {
+	content: ""; position: absolute; inset: 0;
+	background: linear-gradient(180deg, rgba(26,10,68,0) 42%, rgba(26,10,68,.34));
+	transition: background .25s ease;
+}
+.abt-card:hover .abt-card__thumb { transform: scale(1.06); }
+.abt-card:hover .abt-card__play::after { background: linear-gradient(180deg, rgba(26,10,68,.12) 20%, rgba(26,10,68,.34)); }
+.abt-card__playicon {
+	position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+	z-index: 2; display: flex; align-items: center; justify-content: center;
+	width: 58px; height: 58px; border-radius: 9999px;
+	background: rgba(0, 0, 0, .58);
+	filter: drop-shadow(0 6px 14px rgba(0, 0, 0, .3));
+	transition: transform .2s ease, background .2s ease;
+}
+.abt-card__play:hover .abt-card__playicon,
+.abt-card__play:focus-visible .abt-card__playicon { transform: translate(-50%, -50%) scale(1.1); background: rgba(91, 20, 230, .9); }
+.abt-card__video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
+.abt-card__badge {
+	position: absolute; top: 12px; inset-inline-end: 12px; z-index: 3;
+	width: 44px; height: 44px; border-radius: 50%;
+	display: grid; place-items: center;
+	background: var(--a-grad-btn); color: #fff;
+	box-shadow: 0 6px 16px rgba(91, 20, 230, .4);
+	border: 2px solid rgba(255, 255, 255, .55);
+	pointer-events: none;
+}
+.abt-card__badge-txt { font-family: var(--ff-display); font-weight: 800; font-size: 20px; }
+.abt-card__body { padding: 16px 16px 18px; text-align: center; }
+.abt-card__t { font-size: 16.5px; font-weight: 800; color: var(--a-ink); margin: 0 0 14px; }
+.abt-card__cta {
+	display: flex; align-items: center; justify-content: space-between; gap: 6px;
+	background: var(--a-grad-btn); color: #fff;
+	font-size: 13.5px; font-weight: 700; text-decoration: none;
+	padding: 10px 16px; border-radius: 999px;
+	transition: transform .2s ease, box-shadow .2s ease;
+}
+.abt-card__cta:hover { transform: translateY(-1px); box-shadow: 0 8px 18px rgba(91, 20, 230, .35); }
+.abt-card__cta svg {
+	flex: none; background: rgba(255, 255, 255, .22); border-radius: 6px;
+	padding: 2px; width: 20px; height: 20px;
+}
+
+/* ============================================================= */
+/* 5. LOCATION                                                    */
+/* ============================================================= */
+/* direction:ltr places the map on the left and the address/info on the right, per design */
+.abt-location__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: stretch; direction: ltr; }
+.abt-location__info { direction: rtl; }
+.abt-map {
+	border-radius: 18px; overflow: hidden; min-height: 300px;
+	border: 1px solid var(--a-line); box-shadow: var(--a-shadow);
+}
+.abt-map iframe { width: 100%; height: 100%; min-height: 300px; border: 0; display: block; }
+.abt-location__info { display: flex; flex-direction: column; justify-content: center; text-align: start; }
+.abt-location__addr {
+	font-family: var(--ff-display); font-size: clamp(18px, 2vw, 24px); font-weight: 800;
+	color: var(--a-ink); line-height: 1.6; margin: 0 0 26px;
+}
+.abt-location__cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; direction: ltr; }
+.abt-info { direction: rtl; }
+.abt-info {
+	background: #fff; border: 1px solid var(--a-line); border-radius: 16px;
+	padding: 22px 12px; text-align: center; text-decoration: none;
+	box-shadow: 0 8px 20px rgba(91, 20, 230, .05);
+	transition: transform .22s ease, box-shadow .22s ease;
+}
+.abt-info:hover { transform: translateY(-4px); box-shadow: var(--a-shadow); }
+.abt-info__ico {
+	display: grid; place-items: center; width: 52px; height: 52px; margin: 0 auto 12px;
+	border-radius: 14px;
+	background: linear-gradient(135deg, rgba(123,44,255,.12), rgba(91,20,230,.12));
+	color: var(--a-purple);
+}
+.abt-info--wa .abt-info__ico { background: linear-gradient(135deg, #25d366, #128c4a); color: #fff; }
+.abt-info__t { font-size: 15px; font-weight: 800; color: var(--a-ink); margin: 0 0 5px; }
+.abt-info__d { font-size: 12.5px; color: var(--a-muted); margin: 0; line-height: 1.5; }
+
+/* ============================================================= */
+/* 6. CTA BAND                                                    */
+/* ============================================================= */
+.abt-cta { padding: 8px 24px 64px; }
+.abt-cta__inner {
+	position: relative; display: flex; align-items: center; gap: 26px;
+	direction: ltr; /* gift left, copy centre, actions right */
+	background:
+		radial-gradient(90% 160% at 90% 0%, #8b45ff 0%, rgba(139,69,255,0) 55%),
+		linear-gradient(135deg, #5b14e6 0%, #7b2cff 100%);
+	border-radius: 28px; padding: 34px 44px; overflow: hidden;
+	box-shadow: 0 24px 50px rgba(91, 20, 230, .3);
+}
+.abt-cta__art { flex: none; width: 130px; height: 118px; }
+.abt-cta__art svg { width: 100%; height: 100%; filter: drop-shadow(0 10px 20px rgba(20,5,52,.3)); }
+.abt-cta__copy { flex: 1; direction: rtl; text-align: start; color: #fff; }
+.abt-cta__t { font-family: var(--ff-display); font-size: clamp(20px, 2.4vw, 28px); font-weight: 800; margin: 0 0 8px; }
+.abt-cta__s { font-size: 14.5px; margin: 0; color: rgba(255, 255, 255, .9); line-height: 1.7; }
+.abt-cta__actions { flex: none; direction: rtl; display: flex; flex-direction: column; gap: 12px; width: 280px; }
+.abt-cta__actions .abt-btn { width: 100%; }
+
+/* ============================================================= */
+/* REVEAL                                                         */
+/* ============================================================= */
+.abt [data-reveal] {
+	opacity: 0; transform: translateY(24px);
+	transition: opacity .6s ease, transform .6s ease;
+	transition-delay: calc(var(--i, 0) * 70ms);
+}
+.abt [data-reveal].is-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+	.abt [data-reveal] { opacity: 1; transform: none; transition: none; }
+}
+
+/* ============================================================= */
+/* RESPONSIVE                                                     */
+/* ============================================================= */
+@media (max-width: 1020px) {
+	.abt-founder { grid-template-columns: 300px 1fr; gap: 30px; padding: 30px 32px; }
+	.abt-founder__halo, .abt-founder__photo { width: 260px; }
+	.abt-founder__photo { height: 300px; }
+}
+
+@media (max-width: 860px) {
+	.abt-mvp__grid { grid-template-columns: 1fr; gap: 16px; }
+	.abt-location__grid { grid-template-columns: 1fr; }
+	.abt-map, .abt-map iframe { min-height: 260px; }
+	.abt-location__info { text-align: center; }
+	.abt-location__addr { text-align: center; }
+	.abt-founder { grid-template-columns: 1fr; gap: 26px; text-align: center; }
+	.abt-founder__body { text-align: center; }
+	.abt-founder__title { justify-content: center; }
+	.abt-founder__media { flex-direction: column; align-items: center; padding-bottom: 8px; }
+	.abt-founder__name { position: static; margin: -28px auto 0; width: fit-content; }
+	.abt-cta__inner { flex-direction: column; text-align: center; padding: 34px 26px; }
+	.abt-cta__copy { text-align: center; }
+	.abt-cta__actions { width: 100%; max-width: 340px; }
+}
+
+@media (max-width: 560px) {
+	/* Hero */
+	.abt-hero { padding-top: 100px; padding-bottom: 34px; }
+	.abt-eyebrow { font-size: 13px; }
+	.abt-hero__title { padding-inline: 12px; font-size: clamp(23px, 6.6vw, 32px); line-height: 1.32; }
+	.abt-hero__flourish { display: none; } /* decorative marks crowd the RTL title on phones */
+	.abt-hero__desc { font-size: 14.5px; }
+
+	/* Rhythm */
+	.abt-section { padding: 38px 0; }
+	.abt-container { padding-inline: 18px; }
+	.abt-h2 { font-size: clamp(21px, 6vw, 28px); margin-bottom: 26px; }
+
+	/* Founder */
+	.abt-founder { padding: 26px 18px; border-radius: 22px; }
+	.abt-founder__halo, .abt-founder__photo { width: 220px; }
+	.abt-founder__photo { height: 250px; }
+	.abt-founder__body p { font-size: 14px; }
+
+	/* Mission / Vision / Plan */
+	.abt-mvp__card { padding: 26px 20px; }
+
+	/* Course reels — auto-fill grid keeps them reel-sized (≈1 per row on phones) */
+	.abt-cards__grid { gap: 16px; }
+	.abt-card__badge { width: 44px; height: 44px; top: 12px; inset-inline-end: 12px; }
+	.abt-card__body { padding: 15px 16px 18px; }
+	.abt-card__t { font-size: 16px; margin-bottom: 13px; }
+	.abt-card__cta { font-size: 13.5px; padding: 11px 18px; }
+
+	/* Location — info cards become horizontal strips (icon beside stacked text) */
+	.abt-map, .abt-map iframe { min-height: 230px; }
+	.abt-location__addr { font-size: 20px; margin-bottom: 20px; }
+	.abt-location__cards { grid-template-columns: 1fr; gap: 12px; }
+	.abt-info {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		column-gap: 14px;
+		align-items: center;
+		text-align: start;
+		padding: 15px 18px;
+	}
+	.abt-info__ico { grid-row: 1 / span 2; margin: 0; }
+	.abt-info__t { grid-column: 2; margin: 0 0 2px; }
+	.abt-info__d { grid-column: 2; }
+	.abt-info__d br { display: none; }
+
+	/* CTA */
+	.abt-cta { padding: 8px 16px 48px; }
+	.abt-cta__inner { padding: 30px 22px; }
+	.abt-cta__art { width: 96px; height: 88px; }
+	.abt-cta__t { font-size: 20px; }
+	.abt-cta__s { font-size: 13.5px; }
+}
+
+/* === LTR activation (inert under RTL) — join CTA chevron ================== */
+[dir="ltr"] .abt-card__cta svg { transform: scaleX(-1); }

@@ -1,0 +1,105 @@
+﻿
+    
+    
+    .font-english {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Mouse Follow Glass Effect */
+    .glass-card::before {
+      content: "";
+      position: absolute;
+      top: var(--y, 50%);
+      left: var(--x, 50%);
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle closest-side, rgba(255,255,255,0.4), transparent);
+      transform: translate(-50%, -50%);
+      transition: top 0.1s ease, left 0.1s ease, opacity 0.3s ease;
+      opacity: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .glass-card:hover::before {
+      opacity: 1;
+    }
+    .glass-card > * {
+      position: relative;
+      z-index: 10;
+    }
+    
+    .text-gradient {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(90deg, #1E1B4B, #5B14E6);
+    }
+
+    .gold-gradient {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(180deg, #FDE047, #EAB308, #A16207);
+    }
+    
+    .stat-bar-shadow {
+      box-shadow: 0 -10px 30px rgba(91, 20, 230, 0.05);
+    }
+
+    /* Animation Classes */
+    .fade-up-enter {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .fade-up-enter-active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Counter animation generic class */
+    .counter {
+      /* Handled by JS */
+    }
+
+    /* Progress Arc Animation */
+    .arc-progress {
+      stroke-dasharray: 283;
+      stroke-dashoffset: 283;
+      transition: stroke-dashoffset 2s ease-out;
+    }
+    .arc-progress.active {
+      stroke-dashoffset: 60; /* Approx 80% */
+    }
+
+    /* Liquid Wave specific adjustments */
+    .liquid-wave-container {
+      width: 200%;
+      display: flex;
+    }
+
+    /* Parallax Base */
+    .parallax-bg {
+      transition: transform 0.1s ease-out;
+    }
+    
+    /* Footer Icon Glow */
+    .footer-icon {
+      transition: all 0.3s ease;
+    }
+    .footer-stat:hover .footer-icon {
+      transform: scale(1.1);
+      filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.6));
+    }
+  
+

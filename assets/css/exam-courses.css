@@ -1,0 +1,245 @@
+/**
+ * Exam Course Catalog — section styles (Sprint 4.3.6)
+ *
+ * The reusable "Courses" section rendered by
+ * template-parts/sections/premium-exam/courses.php on every exam spoke
+ * (EST / Digital SAT / ACT / future AP). Adds ONLY the course-card grid on top of
+ * est-page.css — the section container, header, eyebrow, reveal, and design
+ * tokens are reused from est-page.css. Scoped under `.est-page` (like
+ * premium-exam.css), so it consumes the --est-* tokens and never leaks.
+ *
+ * Enqueued after est-page.css on all spokes (EST loads it too — est-page.css is
+ * never edited). Responsive: 3-up desktop, 2-up tablet, 1-up mobile.
+ */
+
+.est-page .est-courses {
+	padding: clamp(64px, 8vw, 104px) 0;
+	background: var(--est-tint);
+}
+
+/* Card grid — reuses section rhythm; matched to the premium spacing scale. */
+.est-page .pex-courses {
+	list-style: none;
+	margin: clamp(32px, 5vw, 52px) 0 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: clamp(18px, 2.4vw, 28px);
+}
+
+.est-page .pex-course {
+	display: flex;
+}
+
+/* Card container (holds media, body, an expandable details view, and a CTA).
+   No longer a single link — the CTA and the details disclosure are the
+   interactive elements, each independently keyboard-accessible. */
+.est-page .pex-course__card {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background: var(--est-surface);
+	border: 1px solid var(--est-line);
+	border-radius: var(--est-radius);
+	overflow: hidden;
+	color: inherit;
+	box-shadow: var(--est-shadow-soft);
+	transition: transform .3s cubic-bezier(.16, 1, .3, 1), box-shadow .3s ease, border-color .3s ease;
+}
+.est-page .pex-course__card:hover {
+	transform: translateY(-6px);
+	box-shadow: var(--est-shadow-card);
+	border-color: rgba(91, 20, 230, 0.28);
+}
+
+/* Media */
+.est-page .pex-course__media {
+	position: relative;
+	display: block;
+	aspect-ratio: 16 / 10;
+	overflow: hidden;
+	background: var(--est-grad-soft);
+}
+.est-page .pex-course__media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform .5s cubic-bezier(.16, 1, .3, 1);
+}
+.est-page .pex-course__card:hover .pex-course__media img { transform: scale(1.05); }
+
+/* Level chip (e.g. "EST 1") — sits on the media, only shown where applicable. */
+.est-page .pex-course__level {
+	position: absolute;
+	top: 12px;
+	inset-inline-start: 12px;
+	font-family: var(--ff-display, sans-serif);
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: .3px;
+	color: #fff;
+	background: var(--est-grad);
+	border-radius: 999px;
+	padding: 4px 12px;
+	line-height: 1.6;
+	box-shadow: 0 4px 12px rgba(91, 20, 230, .28);
+}
+
+/* Body */
+.est-page .pex-course__body {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: clamp(18px, 2vw, 24px);
+	flex: 1 1 auto;
+}
+.est-page .pex-course__title {
+	font-family: var(--ff-display, sans-serif);
+	font-weight: 800;
+	font-size: clamp(17px, 1.4vw, 20px);
+	line-height: 1.35;
+	color: var(--est-ink);
+}
+.est-page .pex-course__desc {
+	font-size: 14.5px;
+	line-height: 1.8;
+	color: var(--est-muted);
+}
+
+/* Related exams (chips) */
+.est-page .pex-course__exams {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px;
+	margin-top: 2px;
+}
+.est-page .pex-course__exams-label {
+	font-size: 12px;
+	font-weight: 700;
+	color: var(--est-muted);
+}
+.est-page .pex-course__exam {
+	font-family: var(--ff-display, sans-serif);
+	font-size: 11.5px;
+	font-weight: 700;
+	color: var(--est-purple);
+	background: var(--est-grad-soft);
+	border: 1px solid var(--est-line);
+	border-radius: 999px;
+	padding: 3px 10px;
+	line-height: 1.6;
+}
+
+/* Expandable details — the full educational description. Native <details>;
+   reuses the FAQ accordion's plus/minus chevron pattern for one family look. */
+.est-page .pex-course__details {
+	border-top: 1px solid var(--est-line);
+	margin: 4px -4px 0;
+	padding: 0 4px;
+}
+.est-page .pex-course__summary {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	cursor: pointer;
+	list-style: none;
+	padding: 12px 2px;
+	font-family: var(--ff-display, sans-serif);
+	font-weight: 700;
+	font-size: 14px;
+	color: var(--est-purple);
+}
+.est-page .pex-course__summary::-webkit-details-marker { display: none; }
+.est-page .pex-course__summary:focus-visible {
+	outline: 3px solid var(--est-blue);
+	outline-offset: 2px;
+	border-radius: 8px;
+}
+.est-page .pex-course__summary-chev {
+	position: relative;
+	flex-shrink: 0;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: var(--est-grad-soft);
+}
+.est-page .pex-course__summary-chev::before,
+.est-page .pex-course__summary-chev::after {
+	content: '';
+	position: absolute;
+	background: var(--est-purple);
+	border-radius: 2px;
+}
+.est-page .pex-course__summary-chev::before { width: 10px; height: 2px; top: 10px; inset-inline-start: 6px; }
+.est-page .pex-course__summary-chev::after { width: 2px; height: 10px; top: 6px; inset-inline-start: 10px; transition: transform .3s ease; }
+.est-page .pex-course__details[open] .pex-course__summary-chev::after { transform: scaleY(0); }
+.est-page .pex-course__details-body { padding: 0 2px 6px; }
+.est-page .pex-course__details-body p { font-size: 14px; line-height: 1.85; color: var(--est-muted); }
+
+/* Standardized CTA — a ghost button link that fills on card hover / focus. */
+.est-page .pex-course__cta {
+	margin-top: auto;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	font-family: var(--ff-display, sans-serif);
+	font-weight: 700;
+	font-size: 15px;
+	color: var(--est-purple);
+	background: #fff;
+	border: 1px solid var(--est-line);
+	border-radius: var(--est-radius-sm);
+	padding: 12px 18px;
+	text-decoration: none;
+	transition: background .3s ease, color .3s ease, border-color .3s ease;
+}
+.est-page .pex-course__cta svg { width: 19px; height: 19px; flex-shrink: 0; }
+.est-page .pex-course__cta:focus-visible {
+	outline: 3px solid var(--est-blue);
+	outline-offset: 3px;
+}
+.est-page .pex-course__chev { transition: transform .3s ease; }
+/* WhatsApp CTA — green glyph that turns white when the CTA fills on hover. */
+.est-page .pex-course__cta--wa svg { color: #25D366; }
+.est-page .pex-course__card:hover .pex-course__cta,
+.est-page .pex-course__cta:hover,
+.est-page .pex-course__cta:focus-visible {
+	background: var(--est-grad);
+	color: #fff;
+	border-color: transparent;
+}
+.est-page .pex-course__card:hover .pex-course__cta--wa svg,
+.est-page .pex-course__cta:hover .pex-course__cta--wa svg,
+.est-page .pex-course__cta:focus-visible .pex-course__cta--wa svg { color: #fff; }
+/* Chevron points to the inline-start (left in RTL = "forward"); slide on hover. */
+.est-page .pex-course__card:hover .pex-course__chev { transform: translateX(-4px); }
+
+/* Tablet: 2-up */
+@media (max-width: 900px) {
+	.est-page .pex-courses { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Mobile: 1-up */
+@media (max-width: 560px) {
+	.est-page .pex-courses { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.est-page .pex-course__card,
+	.est-page .pex-course__media img,
+	.est-page .pex-course__cta,
+	.est-page .pex-course__chev,
+	.est-page .pex-course__summary-chev::after { transition: none; }
+	.est-page .pex-course__card:hover { transform: none; }
+	.est-page .pex-course__card:hover .pex-course__media img { transform: none; }
+}
+
+/* === LTR activation (inert under RTL) — course-row chevron =================
+   Takes effect once the exam-spoke wrapper dir is locale-driven
+   (page-act.php / page-digital-sat.php read novira_document_direction()). */
+[dir="ltr"] .est-page .pex-course__chev { transform: scaleX(-1); }
+[dir="ltr"] .est-page .pex-course__card:hover .pex-course__chev { transform: translateX(4px) scaleX(-1); }

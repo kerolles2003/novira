@@ -1,0 +1,134 @@
+/**
+ * Translation Workflow Styles
+ *
+ * Styles for translation request forms and workflow components.
+ *
+ * @package Novira_Academy
+ */
+
+/* Form Messages */
+.form-message {
+	padding: 2rem;
+	border-radius: var(--radius-lg);
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.form-success {
+	background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(76, 175, 80, 0.05) 100%);
+	border: 2px solid var(--success);
+}
+
+.form-error {
+	background: linear-gradient(135deg, rgba(244, 67, 54, 0.1) 0%, rgba(244, 67, 54, 0.05) 100%);
+	border: 2px solid var(--error);
+}
+
+.form-message .message-icon {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.form-success .message-icon {
+	color: var(--success);
+}
+
+.form-error .message-icon {
+	color: var(--error);
+}
+
+.form-message h3 {
+	font-family: var(--font-display);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.form-success h3 {
+	color: var(--success);
+}
+
+.form-error h3 {
+	color: var(--error);
+}
+
+.form-message p {
+	color: var(--gray-600);
+	margin: 0;
+}
+
+/* Field Errors */
+.field-error {
+	display: block;
+	color: var(--error);
+	font-size: 0.875rem;
+	margin-top: 0.5rem;
+}
+
+/* Field States */
+input.error,
+select.error,
+textarea.error {
+	border-color: var(--error) !important;
+}
+
+input.valid,
+select.valid,
+textarea.valid {
+	border-color: var(--success) !important;
+}
+
+/* Loading State */
+.loading-overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(255, 255, 255, 0.9);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+}
+
+.loading-spinner {
+	width: 48px;
+	height: 48px;
+	border: 4px solid var(--gray-200);
+	border-top-color: var(--primary);
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Form Submit Button States */
+.btn:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.btn .spinner {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	border-top-color: white;
+	animation: spin 1s ease-in-out infinite;
+	vertical-align: middle;
+	margin-inline-end: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.form-message {
+		padding: 1.5rem;
+	}
+
+	.form-message h3 {
+		font-size: 1.25rem;
+	}
+}

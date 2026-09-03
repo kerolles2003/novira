@@ -1,0 +1,372 @@
+/**
+ * Future-ready CSS Variables
+ *
+ * CSS custom properties for portal theming and future extensions.
+ *
+ * @package Novira_Academy
+ */
+
+:root {
+	/* Portal Colors */
+	--portal-bg: var(--color-white);
+	--portal-text: var(--color-gray-900);
+	--portal-border: var(--color-gray-200);
+	--portal-primary: var(--color-primary);
+	--portal-primary-hover: var(--color-primary-dark);
+	--portal-secondary: var(--color-secondary);
+	--portal-success: #10b981;
+	--portal-warning: #f59e0b;
+	--portal-danger: #ef4444;
+	
+	/* Portal Typography */
+	--portal-font-family: var(--font-body);
+	--portal-font-size-xs: 0.75rem;
+	--portal-font-size-sm: 0.875rem;
+	--portal-font-size-base: 1rem;
+	--portal-font-size-lg: 1.125rem;
+	--portal-font-size-xl: 1.25rem;
+	--portal-font-size-2xl: 1.5rem;
+	--portal-font-size-3xl: 1.875rem;
+	
+	/* Portal Spacing */
+	--portal-spacing-xs: 0.25rem;
+	--portal-spacing-sm: 0.5rem;
+	--portal-spacing-md: 1rem;
+	--portal-spacing-lg: 1.5rem;
+	--portal-spacing-xl: 2rem;
+	--portal-spacing-2xl: 3rem;
+	
+	/* Portal Border Radius */
+	--portal-radius-sm: var(--border-radius-sm);
+	--portal-radius-md: var(--border-radius-md);
+	--portal-radius-lg: var(--border-radius-lg);
+	--portal-radius-xl: var(--border-radius-xl);
+	--portal-radius-full: 9999px;
+	
+	/* Portal Shadows */
+	--portal-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	--portal-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	--portal-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	--portal-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	
+	/* Portal Transitions */
+	--portal-transition-fast: 150ms ease;
+	--portal-transition-base: 200ms ease;
+	--portal-transition-slow: 300ms ease;
+	
+	/* Portal Z-Index */
+	--portal-z-dropdown: 1000;
+	--portal-z-sticky: 1020;
+	--portal-z-fixed: 1030;
+	--portal-z-modal-backdrop: 1040;
+	--portal-z-modal: 1050;
+	--portal-z-popover: 1060;
+	--portal-z-tooltip: 1070;
+	
+	/* Exam Colors */
+	--exam-bg: var(--color-white);
+	--exam-text: var(--color-gray-900);
+	--exam-border: var(--color-gray-200);
+	--exam-header-bg: var(--color-primary);
+	--exam-header-text: var(--color-white);
+	--exam-question-bg: var(--color-gray-50);
+	--exam-answer-bg: var(--color-white);
+	--exam-answer-selected: var(--color-primary-light);
+	--exam-correct: var(--portal-success);
+	--exam-incorrect: var(--portal-danger);
+	
+	/* Certificate Colors */
+	--certificate-bg: #fef3c7;
+	--certificate-border: #d97706;
+	--certificate-text: #92400e;
+	--certificate-accent: var(--color-primary);
+	
+	/* Dashboard Colors */
+	--dashboard-stat-bg: var(--color-white);
+	--dashboard-stat-icon: var(--color-primary);
+	--dashboard-stat-text: var(--color-gray-900);
+	--dashboard-activity-bg: var(--color-white);
+	--dashboard-announcement-bg: var(--color-gray-50);
+}
+
+/* Dark Mode Support (Future) */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--portal-bg: var(--color-gray-900);
+		--portal-text: var(--color-white);
+		--portal-border: var(--color-gray-700);
+		
+		--exam-bg: var(--color-gray-800);
+		--exam-text: var(--color-white);
+		--exam-border: var(--color-gray-600);
+		--exam-question-bg: var(--color-gray-700);
+		--exam-answer-bg: var(--color-gray-800);
+		
+		--certificate-bg: var(--color-gray-800);
+		--certificate-border: var(--color-gray-600);
+		--certificate-text: var(--color-gray-200);
+		
+		--dashboard-stat-bg: var(--color-gray-800);
+		--dashboard-activity-bg: var(--color-gray-800);
+		--dashboard-announcement-bg: var(--color-gray-700);
+	}
+}
+
+/* Portal Component Styles */
+.novira-portal {
+	background: var(--portal-bg);
+	color: var(--portal-text);
+	font-family: var(--portal-font-family);
+	border-radius: var(--portal-radius-lg);
+	box-shadow: var(--portal-shadow-lg);
+	border: 1px solid var(--portal-border);
+}
+
+/* Portal Header */
+.portal-header {
+	background: var(--portal-primary);
+	color: var(--color-white);
+	padding: var(--portal-spacing-lg) var(--portal-spacing-xl);
+	border-radius: var(--portal-radius-lg) var(--portal-radius-lg) 0 0;
+}
+
+/* Portal Sidebar */
+.portal-sidebar {
+	background: var(--portal-bg);
+	border-right: 1px solid var(--portal-border);
+	padding: var(--portal-spacing-md);
+}
+
+/* Portal Content */
+.portal-content {
+	padding: var(--portal-spacing-xl);
+}
+
+/* Portal Cards */
+.portal-card {
+	background: var(--portal-bg);
+	border: 1px solid var(--portal-border);
+	border-radius: var(--portal-radius-md);
+	padding: var(--portal-spacing-lg);
+	box-shadow: var(--portal-shadow-sm);
+	transition: box-shadow var(--portal-transition-base);
+}
+
+.portal-card:hover {
+	box-shadow: var(--portal-shadow-md);
+}
+
+/* Portal Buttons */
+.portal-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--portal-spacing-sm);
+	padding: var(--portal-spacing-sm) var(--portal-spacing-lg);
+	font-size: var(--portal-font-size-base);
+	font-weight: 500;
+	border-radius: var(--portal-radius-md);
+	transition: all var(--portal-transition-fast);
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+}
+
+.portal-btn-primary {
+	background: var(--portal-primary);
+	color: var(--color-white);
+}
+
+.portal-btn-primary:hover {
+	background: var(--portal-primary-hover);
+}
+
+.portal-btn-secondary {
+	background: transparent;
+	color: var(--portal-primary);
+	border: 1px solid var(--portal-primary);
+}
+
+.portal-btn-secondary:hover {
+	background: var(--portal-primary);
+	color: var(--color-white);
+}
+
+/* Portal Forms */
+.portal-form-group {
+	margin-bottom: var(--portal-spacing-md);
+}
+
+.portal-form-label {
+	display: block;
+	font-size: var(--portal-font-size-sm);
+	font-weight: 500;
+	margin-bottom: var(--portal-spacing-xs);
+}
+
+.portal-form-input {
+	width: 100%;
+	padding: var(--portal-spacing-sm) var(--portal-spacing-md);
+	font-size: var(--portal-font-size-base);
+	border: 1px solid var(--portal-border);
+	border-radius: var(--portal-radius-md);
+	transition: border-color var(--portal-transition-fast);
+}
+
+.portal-form-input:focus {
+	outline: none;
+	border-color: var(--portal-primary);
+	box-shadow: 0 0 0 3px rgba(91, 20, 230, 0.1);
+}
+
+/* Portal Tables */
+.portal-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.portal-table th,
+.portal-table td {
+	padding: var(--portal-spacing-sm) var(--portal-spacing-md);
+	text-align: left;
+	border-bottom: 1px solid var(--portal-border);
+}
+
+.portal-table th {
+	font-weight: 600;
+	background: var(--color-gray-50);
+}
+
+.portal-table tbody tr:hover {
+	background: var(--color-gray-50);
+}
+
+/* Portal Stats */
+.portal-stat {
+	background: var(--dashboard-stat-bg);
+	border-radius: var(--portal-radius-md);
+	padding: var(--portal-spacing-lg);
+	text-align: center;
+}
+
+.portal-stat-icon {
+	color: var(--dashboard-stat-icon);
+	font-size: 2rem;
+	margin-bottom: var(--portal-spacing-sm);
+}
+
+.portal-stat-number {
+	font-size: var(--portal-font-size-3xl);
+	font-weight: 700;
+	color: var(--dashboard-stat-text);
+}
+
+.portal-stat-label {
+	font-size: var(--portal-font-size-sm);
+	color: var(--color-gray-600);
+}
+
+/* Portal Badges */
+.portal-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: var(--portal-spacing-xs) var(--portal-spacing-sm);
+	font-size: var(--portal-font-size-xs);
+	font-weight: 500;
+	border-radius: var(--portal-radius-full);
+}
+
+.portal-badge-success {
+	background: rgba(16, 185, 129, 0.1);
+	color: var(--portal-success);
+}
+
+.portal-badge-warning {
+	background: rgba(245, 158, 11, 0.1);
+	color: var(--portal-warning);
+}
+
+.portal-badge-danger {
+	background: rgba(239, 68, 68, 0.1);
+	color: var(--portal-danger);
+}
+
+/* Exam Styles */
+.novira-exam {
+	background: var(--exam-bg);
+	color: var(--exam-text);
+	border: 1px solid var(--exam-border);
+	border-radius: var(--portal-radius-lg);
+	overflow: hidden;
+}
+
+.exam-header {
+	background: var(--exam-header-bg);
+	color: var(--exam-header-text);
+	padding: var(--portal-spacing-lg);
+}
+
+.exam-question {
+	background: var(--exam-question-bg);
+	padding: var(--portal-spacing-lg);
+	margin: var(--portal-spacing-md);
+	border-radius: var(--portal-radius-md);
+}
+
+.exam-answer {
+	background: var(--exam-answer-bg);
+	padding: var(--portal-spacing-md);
+	margin: var(--portal-spacing-sm) 0;
+	border: 1px solid var(--portal-border);
+	border-radius: var(--portal-radius-md);
+	cursor: pointer;
+	transition: all var(--portal-transition-fast);
+}
+
+.exam-answer:hover {
+	border-color: var(--portal-primary);
+}
+
+.exam-answer.selected {
+	background: var(--exam-answer-selected);
+	border-color: var(--portal-primary);
+}
+
+/* Certificate Styles */
+.novira-certificate {
+	background: var(--certificate-bg);
+	border: 3px solid var(--certificate-border);
+	border-radius: var(--portal-radius-lg);
+	padding: var(--portal-spacing-2xl);
+	text-align: center;
+	color: var(--certificate-text);
+}
+
+.certificate-header {
+	font-size: var(--portal-font-size-2xl);
+	font-weight: 700;
+	margin-bottom: var(--portal-spacing-lg);
+}
+
+.certificate-name {
+	font-size: var(--portal-font-size-3xl);
+	font-weight: 700;
+	color: var(--certificate-accent);
+	margin: var(--portal-spacing-lg) 0;
+}
+
+.certificate-details {
+	font-size: var(--portal-font-size-base);
+	margin-bottom: var(--portal-spacing-lg);
+}
+
+/* RTL Support */
+[dir="rtl"] .portal-sidebar {
+	border-right: none;
+	border-left: 1px solid var(--portal-border);
+}
+
+[dir="rtl"] .portal-table th,
+[dir="rtl"] .portal-table td {
+	text-align: right;
+}

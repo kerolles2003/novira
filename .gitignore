@@ -1,0 +1,98 @@
+﻿# ==============================================================================
+# Novira Academy — Theme Source Repository .gitignore
+# ==============================================================================
+
+# Node / Package Manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+*.secret
+*.key
+*.pem
+*.cert
+*.crt
+
+# WordPress Core, Content & Backups
+wp-config.php
+wp-config-local.php
+wp-content/uploads/
+uploads/
+wp-content/ai1wm-backups/
+ai1wm-backups/
+*.wpress
+
+# Database Snapshots & Dumps
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+backups/
+
+# Logs & Debug Output
+*.log
+debug.log
+wp-content/debug.log
+
+# Build Caches, Staging & Compiled Archives
+.novira-build/
+dist/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary Files
+*.tmp
+*.bak
+*.old
+*.orig
+*~
+.cache/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Metadata
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# AI / Local Tooling User State
+.claude/
+.opencode/
+docker-compose.override.yml
+
+# Design Mockups & Non-Production Prototypes
+/*.png
+/template-parts/sections/*.png
+/*.html
+/stitch-contact*
+
+# Explicit Exception: Preserve All Production Theme Assets & Placeholders
+!/assets/**
+!/assets/images/**
+!/assets/images/**/*.png
+!/assets/placeholders/**

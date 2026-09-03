@@ -1,0 +1,280 @@
+/**
+ * Exams ("امتحانات نوفيرا") Placement-Test Hub — pixel-matched styles (exams.png).
+ *
+ * Everything is scoped under `.exl` so it never leaks into other pages.
+ * Palette derives from the theme tokens (main.css). Uses the site's global
+ * fixed white header (~72px); the hero clears it.
+ *
+ * @package Novira_Academy
+ */
+
+.exl {
+	--e-purple: #5b14e6;
+	--e-violet: #7b2cff;
+	--e-blue: #2196ff;
+	--e-ink: #1a0a3d;
+	--e-muted: #6f63a3;
+	--e-line: #ece7fb;
+	--e-lilac: #f7f5fc;
+	--e-wa: #25d366;
+	--e-grad: linear-gradient(135deg, #7b2cff, #5b14e6);
+	--e-grad-wa: linear-gradient(135deg, #29d366, #17a94f);
+	--e-shadow: 0 20px 48px rgba(91, 20, 230, .12);
+	--e-shadow-soft: 0 10px 26px rgba(26, 10, 61, .08);
+	font-family: var(--ff-body, 'Almarai', sans-serif);
+	color: var(--e-ink);
+	background: #fff;
+	overflow-x: clip;
+}
+.exl *, .exl *::before, .exl *::after { box-sizing: border-box; }
+
+.exl-container { width: 100%; max-width: 1200px; margin-inline: auto; padding-inline: 24px; }
+.exl-section { padding: 44px 0; }
+
+/* Shared centered heading */
+.exl-h2 {
+	display: flex; align-items: center; justify-content: center; gap: 14px;
+	font-family: var(--ff-display, 'Noto Kufi Arabic', sans-serif);
+	font-size: clamp(23px, 3vw, 34px); font-weight: 800;
+	color: var(--e-ink); text-align: center; margin: 0 0 10px;
+}
+.exl-h2__mark { color: var(--e-violet); display: inline-flex; }
+.exl-h2--plain { margin-bottom: 30px; }
+.exl-sub { text-align: center; color: var(--e-muted); font-size: 15px; margin: 0 0 34px; }
+
+/* ============================================================= */
+/* 1. HERO                                                        */
+/* ============================================================= */
+.exl-hero {
+	position: relative; overflow: hidden; isolation: isolate;
+	padding: 112px 0 46px;
+	background: linear-gradient(180deg, #f3eefe 0%, #faf8ff 55%, #fff 100%);
+}
+.exl-hero__bg { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.exl-hero__glow { position: absolute; border-radius: 50%; filter: blur(20px); }
+.exl-hero__glow--a { top: -10%; left: 2%; width: 46%; height: 54%; background: radial-gradient(circle, rgba(123, 44, 255, .20), transparent 70%); }
+.exl-hero__glow--b { bottom: -16%; right: 6%; width: 42%; height: 48%; background: radial-gradient(circle, rgba(33, 150, 255, .12), transparent 70%); }
+.exl-hero__grid {
+	position: absolute; inset: 0;
+	background-image: linear-gradient(rgba(91, 20, 230, .045) 1px, transparent 1px), linear-gradient(90deg, rgba(91, 20, 230, .045) 1px, transparent 1px);
+	background-size: 46px 46px;
+	mask-image: radial-gradient(70% 60% at 70% 30%, #000, transparent 78%);
+}
+.exl-hero__inner { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center; }
+
+.exl-hero__copy { text-align: start; }
+.exl-hero__title {
+	font-family: var(--ff-display, 'Noto Kufi Arabic', sans-serif);
+	font-size: clamp(30px, 4.4vw, 52px); font-weight: 800; line-height: 1.24;
+	color: var(--e-ink); margin: 0 0 18px;
+}
+.exl-hero__title-2 {
+	display: block;
+	background: linear-gradient(90deg, #2196ff, #5b14e6 60%, #7b2cff);
+	-webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.exl-hero__desc { max-width: 460px; margin-inline-start: auto; font-size: clamp(15px, 1.4vw, 17px); font-weight: 600; color: var(--e-muted); line-height: 1.85; }
+
+.exl-hero__features {
+	margin-top: 30px; background: #fff; border: 1px solid var(--e-line); border-radius: 20px;
+	box-shadow: var(--e-shadow-soft); display: grid; grid-template-columns: repeat(4, 1fr); overflow: hidden;
+}
+.exl-feat { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 9px; padding: 20px 8px; }
+.exl-feat:not(:first-child) { border-inline-start: 1px solid var(--e-line); }
+.exl-feat__ico { color: var(--e-purple); display: inline-flex; }
+.exl-feat__t { font-size: 12px; font-weight: 700; color: var(--e-ink); line-height: 1.45; }
+
+/* Student stage */
+.exl-hero__stage { position: relative; width: 100%; max-width: 460px; margin-inline: auto; aspect-ratio: 1 / 1; }
+.exl-hero__blob {
+	position: absolute; inset: 4%; border-radius: 50%;
+	background: radial-gradient(60% 55% at 44% 32%, #9a5bff 0%, rgba(154, 91, 255, 0) 58%), linear-gradient(150deg, #6a1fe6 0%, #3a1170 100%);
+	box-shadow: 0 30px 70px rgba(91, 20, 230, .34);
+}
+.exl-hero__ring { position: absolute; inset: -10px; border-radius: 50%; border: 1.5px dashed rgba(123, 44, 255, .32); }
+.exl-students { position: absolute; inset: 4%; width: 92%; height: 92%; z-index: 2; clip-path: circle(50% at 50% 50%); }
+.exl-chip {
+	position: absolute; z-index: 3; width: 40px; height: 40px; border-radius: 13px;
+	background: #fff; box-shadow: 0 12px 26px rgba(26, 10, 61, .18); display: grid; place-items: center;
+	color: var(--e-purple); animation: exl-bob 4.2s ease-in-out infinite; animation-delay: var(--d, 0s);
+}
+.exl-chip--1 { top: 12%; inset-inline-start: 2%; }
+.exl-chip--2 { top: 48%; inset-inline-start: -3%; color: var(--e-blue); }
+.exl-chip--3 { top: 16%; inset-inline-end: 4%; color: var(--e-violet); }
+@keyframes exl-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+
+/* ============================================================= */
+/* 2. TEST CARDS                                                 */
+/* ============================================================= */
+.exl-tests__grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.exl-test {
+	position: relative; flex: 0 0 calc(25% - 15px); min-width: 0;
+	display: flex; flex-direction: column; align-items: center; text-align: center;
+	background: color-mix(in srgb, var(--cc) 6%, #fff);
+	border: 1px solid color-mix(in srgb, var(--cc) 16%, #fff);
+	border-radius: 22px; padding: 26px 20px 22px; overflow: hidden;
+	transition: transform .25s ease, box-shadow .25s ease;
+}
+.exl-test:hover { transform: translateY(-6px); box-shadow: 0 24px 46px color-mix(in srgb, var(--cc) 22%, transparent); }
+.exl-test--purple { --cc: #5b14e6; --cc2: #7b2cff; }
+.exl-test--blue   { --cc: #2196ff; --cc2: #4db1ff; }
+.exl-test--teal   { --cc: #14b8a6; --cc2: #2dd4bf; }
+.exl-test--pink   { --cc: #ec4899; --cc2: #f472b6; }
+.exl-test--blue2  { --cc: #2563eb; --cc2: #4f83f4; }
+.exl-test--gold   { --cc: #f59e0b; --cc2: #fbbf24; }
+.exl-test--violet { --cc: #7b2cff; --cc2: #9a5bff; }
+
+.exl-test__num {
+	position: absolute; top: 15px; inset-inline-start: 15px; z-index: 2;
+	width: 34px; height: 34px; border-radius: 50%;
+	background: linear-gradient(135deg, var(--cc2), var(--cc)); color: #fff;
+	font-family: var(--ff-display, sans-serif); font-weight: 800; font-size: 13.5px;
+	display: grid; place-items: center; box-shadow: 0 6px 14px color-mix(in srgb, var(--cc) 40%, transparent);
+	border: 1.5px solid rgba(255, 255, 255, .7);
+}
+.exl-test__art { height: 100px; display: grid; place-items: center; margin: 10px 0 16px; }
+/* SVGs carry only a viewBox — an explicit height gives them intrinsic size
+   (width:auto alone collapses them to 0 in a grid cell). */
+.exl-test__art svg { height: 94px; width: auto; max-width: 100%; }
+.exl-wordmark { direction: ltr; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; line-height: 1; display: inline-flex; align-items: flex-start; }
+.exl-wordmark sup { font-size: .35em; font-weight: 700; margin-top: .2em; }
+.exl-wordmark--ielts { font-size: 46px; color: #d81f4a; letter-spacing: -1px; }
+.exl-wordmark--toefl { font-size: 34px; color: #1e50c8; letter-spacing: -.5px; align-items: baseline; }
+.exl-wordmark--toefl b { font-size: .5em; color: #e0344a; margin-inline-start: 3px; }
+
+.exl-test__title { font-family: var(--ff-display, sans-serif); font-weight: 800; font-size: 16.5px; color: var(--e-ink); line-height: 1.4; margin: 0 0 9px; min-height: 2.7em; display: flex; align-items: center; }
+.exl-test__desc { font-size: 12.5px; color: var(--e-muted); line-height: 1.6; margin: 0 0 18px; flex: 1 1 auto; }
+.exl-test__btn {
+	width: 100%; display: flex; align-items: center; gap: 8px;
+	background: linear-gradient(135deg, var(--cc2), var(--cc)); color: #fff;
+	border-radius: 12px; padding: 6px 6px 6px 14px; text-decoration: none;
+	transition: filter .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+.exl-test__btn:hover { filter: brightness(1.06); box-shadow: 0 10px 22px color-mix(in srgb, var(--cc) 40%, transparent); }
+.exl-test:hover .exl-test__btn-ico { transform: translateX(-3px); }
+.exl-test__btn-txt { flex: 1; text-align: center; font-weight: 700; font-size: 13.5px; }
+.exl-test__btn-ico { width: 32px; height: 32px; border-radius: 9px; background: #fff; color: var(--cc); display: grid; place-items: center; flex: none; transition: transform .2s ease; }
+
+/* ============================================================= */
+/* 3. WHY TEST WITH US                                           */
+/* ============================================================= */
+.exl-why {
+	display: grid; grid-template-columns: repeat(5, 1fr);
+	background: #fff; border: 1px solid var(--e-line); border-radius: 24px;
+	padding: 30px 16px; box-shadow: var(--e-shadow-soft);
+}
+.exl-why__item { text-align: center; padding: 8px 18px; }
+.exl-why__item:not(:first-child) { border-inline-start: 1px solid var(--e-line); }
+.exl-why__ico {
+	width: 60px; height: 60px; border-radius: 18px; margin: 0 auto 13px; display: grid; place-items: center;
+	color: var(--e-purple); background: linear-gradient(135deg, rgba(123, 44, 255, .12), rgba(91, 20, 230, .12));
+}
+.exl-why__item h4 { font-size: 15px; font-weight: 800; color: var(--e-ink); margin: 0 0 6px; }
+.exl-why__item p { font-size: 11.5px; color: var(--e-muted); line-height: 1.55; margin: 0; }
+
+/* ============================================================= */
+/* 4. TIPS BEFORE THE TEST                                       */
+/* ============================================================= */
+.exl-tips {
+	position: relative; overflow: hidden;
+	direction: ltr; /* mascot left · content right */
+	display: grid; grid-template-columns: auto 1fr; column-gap: 30px; row-gap: 16px; align-items: center;
+	background: radial-gradient(60% 120% at 12% 50%, rgba(123, 44, 255, .14), transparent 60%), linear-gradient(135deg, #efe9ff 0%, #f4efff 100%);
+	border: 1px solid var(--e-line); border-radius: 24px; padding: 30px 40px;
+}
+.exl-tips__mascot { grid-column: 1; grid-row: 1 / span 2; width: 150px; display: inline-flex; }
+.exl-tips__mascot svg { width: 100%; height: auto; }
+.exl-tips__title { grid-column: 2; grid-row: 1; direction: rtl; text-align: center; font-family: var(--ff-display, sans-serif); font-weight: 800; font-size: clamp(20px, 2.4vw, 28px); color: var(--e-purple); margin: 0; }
+.exl-tips__grid { grid-column: 2; grid-row: 2; direction: rtl; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.exl-tip { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 9px; padding: 6px 4px; }
+.exl-tip__ico { width: 50px; height: 50px; border-radius: 15px; display: grid; place-items: center; color: var(--e-purple); background: #fff; box-shadow: 0 8px 18px rgba(91, 20, 230, .1); flex: none; }
+.exl-tip__body h4 { font-size: 13.5px; font-weight: 800; color: var(--e-ink); margin: 0 0 3px; }
+.exl-tip__body p { font-size: 11px; color: var(--e-muted); line-height: 1.5; margin: 0; }
+
+/* ============================================================= */
+/* 5. CTA BAND                                                   */
+/* ============================================================= */
+.exl-cta { padding: 12px 0 62px; }
+.exl-cta__inner {
+	position: relative; overflow: hidden; direction: ltr; /* trophy · copy · actions */
+	display: flex; align-items: center; gap: 26px;
+	background: radial-gradient(90% 170% at 10% 10%, #8b45ff 0%, rgba(139, 69, 255, 0) 55%), linear-gradient(120deg, #4c0fc4 0%, #7b2cff 100%);
+	border-radius: 28px; padding: 26px 46px; box-shadow: 0 26px 54px rgba(91, 20, 230, .32);
+}
+.exl-cta__art { flex: none; width: 132px; }
+.exl-cta__art svg { width: 100%; height: auto; filter: drop-shadow(0 12px 22px rgba(20, 5, 52, .35)); }
+.exl-cta__copy { flex: 1; direction: rtl; text-align: center; color: #fff; }
+.exl-cta__t { font-family: var(--ff-display, sans-serif); font-weight: 800; font-size: clamp(22px, 2.6vw, 30px); margin: 0 0 8px; }
+.exl-cta__s { font-size: 14.5px; color: rgba(255, 255, 255, .9); margin: 0; line-height: 1.7; }
+.exl-cta__actions { flex: none; direction: rtl; display: flex; flex-direction: column; gap: 12px; width: 290px; }
+.exl-cta__btn { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 13px 20px; border-radius: 13px; font-weight: 800; font-size: 14.5px; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
+.exl-cta__btn:hover { transform: translateY(-2px); }
+.exl-cta__btn--white { background: #fff; color: var(--e-purple); box-shadow: 0 12px 26px rgba(20, 5, 52, .22); }
+.exl-cta__btn--ghost { background: rgba(255, 255, 255, .14); color: #fff; border: 1.5px solid rgba(255, 255, 255, .42); letter-spacing: .3px; }
+.exl-cta__btn-ico { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; flex: none; }
+.exl-cta__btn-ico--wa { background: var(--e-grad-wa); color: #fff; }
+.exl-cta__btn--ghost .exl-cta__btn-ico { background: rgba(255, 255, 255, .2); color: #fff; }
+
+/* ============================================================= */
+/* REVEAL                                                        */
+/* ============================================================= */
+.exl [data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; transition-delay: calc(var(--i, 0) * 75ms); }
+.exl [data-reveal].is-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+	.exl [data-reveal] { opacity: 1; transform: none; transition: none; }
+	.exl-chip { animation: none; }
+}
+
+/* ============================================================= */
+/* RESPONSIVE                                                    */
+/* ============================================================= */
+@media (max-width: 1080px) {
+	.exl-test { flex-basis: calc(33.333% - 14px); }
+	.exl-why { grid-template-columns: repeat(3, 1fr); gap: 6px 0; }
+	.exl-why__item:nth-child(3n+1) { border-inline-start: 0; }
+}
+
+@media (max-width: 900px) {
+	.exl-hero { padding-top: 100px; }
+	.exl-hero__inner { grid-template-columns: 1fr; gap: 26px; }
+	.exl-hero__copy { text-align: center; order: 0; }
+	.exl-hero__desc { margin-inline: auto; }
+	.exl-hero__stage { order: 1; max-width: 380px; }
+
+	.exl-tips { grid-template-columns: 1fr; justify-items: center; text-align: center; direction: rtl; row-gap: 12px; padding: 30px 26px; }
+	.exl-tips__mascot { grid-column: 1; grid-row: 1; width: 120px; }
+	.exl-tips__title { grid-column: 1; grid-row: 2; }
+	.exl-tips__grid { grid-column: 1; grid-row: 3; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+
+@media (max-width: 760px) {
+	.exl-section { padding: 34px 0; }
+	.exl-h2 { font-size: clamp(21px, 5.6vw, 28px); }
+	.exl-test { flex-basis: calc(50% - 10px); }
+	.exl-hero__features { grid-template-columns: repeat(2, 1fr); }
+	.exl-feat:nth-child(2) { border-inline-start: 0; }
+	.exl-feat:nth-child(3) { border-top: 1px solid var(--e-line); }
+	.exl-feat:nth-child(4) { border-top: 1px solid var(--e-line); }
+	.exl-why { grid-template-columns: repeat(2, 1fr); }
+	.exl-why__item:nth-child(2n+1) { border-inline-start: 0; }
+
+	.exl-cta__inner { flex-direction: column; text-align: center; padding: 30px 24px; gap: 18px; }
+	.exl-cta__actions { width: 100%; max-width: 340px; }
+}
+
+@media (max-width: 480px) {
+	.exl-hero { padding-top: 92px; }
+	.exl-hero__title { font-size: clamp(27px, 8.4vw, 36px); }
+	.exl-hero__stage { max-width: 300px; }
+	.exl-test { flex-basis: 100%; max-width: 340px; }
+	.exl-why { grid-template-columns: 1fr; }
+	.exl-why__item { border-inline-start: 0 !important; border-top: 1px solid var(--e-line); padding: 16px; }
+	.exl-why__item:first-child { border-top: 0; }
+	.exl-tips__grid { grid-template-columns: 1fr; }
+	.exl-tip { flex-direction: row; text-align: start; gap: 13px; background: #fff; border-radius: 14px; padding: 12px 14px; }
+	.exl-tip__body { flex: 1; }
+}
+
+/* === LTR activation (inert under RTL) — placement-test CTA arrow ========== */
+[dir="ltr"] .exl-test__btn-ico svg { transform: scaleX(-1); }
+[dir="ltr"] .exl-test:hover .exl-test__btn-ico { transform: translateX(3px); }

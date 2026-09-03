@@ -1,0 +1,6996 @@
+# Copyright (C) 2026 Novira Academy
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Novira Academy 1.0.0\n"
+"Report-Msgid-Bugs-To: https://noviraacademy.com\n"
+"POT-Creation-Date: 2026-07-06 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: novira-academy\n"
+
+#: archive.php:19
+msgid "المقالات"
+msgstr ""
+
+#: archive.php:21 inc/media-categories.php:121 template-parts/sections/upcoming-events.php:41
+msgid "الأحداث"
+msgstr ""
+
+#: archive.php:27
+msgid "مقالات %s"
+msgstr ""
+
+#: archive.php:29 archive.php:31 archive.php:33
+msgid "أرشيف %s"
+msgstr ""
+
+#: archive.php:35
+msgid "الأرشيف"
+msgstr ""
+
+#: archive.php:69
+msgid "لم يتم العثور على محتوى"
+msgstr ""
+
+#: archive.php:70
+msgid "عذراً، لا يوجد محتوى يطابق بحثك. جرب البحث بكلمات مختلفة."
+msgstr ""
+
+#: archive.php:72
+msgid "العودة للرئيسية"
+msgstr ""
+
+#: front-page.php:39 template-parts/sections/department-whatsapp.php:53 template-parts/sections/whatsapp-cta.php:29
+msgid "تواصل معنا عبر واتساب"
+msgstr ""
+
+#: functions.php:61
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:62
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:79
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:81
+msgid "Add widgets here to appear in the sidebar."
+msgstr ""
+
+#: functions.php:89
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:91
+msgid "First footer column widget area."
+msgstr ""
+
+#: functions.php:99
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:101
+msgid "Second footer column widget area."
+msgstr ""
+
+#: functions.php:354 inc/seo.php:543 template-parts/layout/header.php:62 template-parts/layout/header.php:151 template-parts/page-hero.php:10 template-parts/sections/department-hero.php:55
+#: template-parts/sections/hero.php:40
+msgid "الرئيسية"
+msgstr ""
+
+#: functions.php:355 page-services.php:7 template-parts/sections/department-translation.php:69
+msgid "خدماتنا"
+msgstr ""
+
+#: functions.php:356 page-about.php:44 template-parts/layout/footer.php:122 template-parts/layout/header.php:90 template-parts/layout/header.php:174
+msgid "من نحن"
+msgstr ""
+
+#: functions.php:357 page-contact.php:114 template-parts/layout/footer.php:127 template-parts/layout/footer.php:135 template-parts/layout/header.php:91 template-parts/layout/header.php:175
+#: template-parts/sections/department-hero.php:84 template-parts/sections/department-whatsapp.php:31 template-parts/sections/hero.php:78 template-parts/sections/map-contact.php:53 template-parts/sections/map-contact.php:66 template-parts/sections/whatsapp-cta.php:33
+msgid "تواصل معنا"
+msgstr ""
+
+#: functions.php:379
+msgid "سياسة الخصوصية"
+msgstr ""
+
+#: functions.php:380
+msgid "الشروط والأحكام"
+msgstr ""
+
+#: header.php:28
+msgid "المحتوى الرئيسي"
+msgstr ""
+
+#: inc/custom-fields.php:40 inc/custom-fields.php:140
+msgid "اسم البرنامج:"
+msgstr ""
+
+#: inc/custom-fields.php:41 inc/custom-fields.php:143 inc/custom-fields.php:183 inc/custom-fields.php:220 inc/custom-fields.php:301
+msgid "الوصف:"
+msgstr ""
+
+#: inc/custom-fields.php:42 inc/custom-fields.php:146
+msgid "المدة:"
+msgstr ""
+
+#: inc/custom-fields.php:43 inc/custom-fields.php:149
+msgid "المتطلبات (سطر لكل متطلب):"
+msgstr ""
+
+#: inc/custom-fields.php:44 inc/custom-fields.php:152 inc/custom-fields.php:189 inc/custom-fields.php:226 inc/custom-fields.php:263 inc/custom-fields.php:304
+msgid "إزالة"
+msgstr ""
+
+#: inc/custom-fields.php:45 inc/custom-fields.php:180
+msgid "اسم الكورس:"
+msgstr ""
+
+#: inc/custom-fields.php:46 inc/custom-fields.php:186
+msgid "الجدول:"
+msgstr ""
+
+#: inc/custom-fields.php:47 inc/custom-fields.php:217
+msgid "نوع الخدمة:"
+msgstr ""
+
+#: inc/custom-fields.php:48 inc/custom-fields.php:223
+msgid "وقت التسليم:"
+msgstr ""
+
+#: inc/custom-fields.php:49 inc/custom-fields.php:254
+msgid "الخدمة:"
+msgstr ""
+
+#: inc/custom-fields.php:50 inc/custom-fields.php:257
+msgid "السعر:"
+msgstr ""
+
+#: inc/custom-fields.php:51 inc/custom-fields.php:260
+msgid "الاشتمالات (سطر لكل اشتمالية):"
+msgstr ""
+
+#: inc/custom-fields.php:52 inc/custom-fields.php:292
+msgid "المادة:"
+msgstr ""
+
+#: inc/custom-fields.php:53 inc/custom-fields.php:295
+msgid "المستويات:"
+msgstr ""
+
+#: inc/custom-fields.php:54 inc/custom-fields.php:298
+msgid "الحصص:"
+msgstr ""
+
+#: inc/custom-fields.php:65 template-parts/sections/department-education.php:61
+msgid "برامج التعليم"
+msgstr ""
+
+#: inc/custom-fields.php:74 template-parts/sections/department-education.php:76
+msgid "الكورسات"
+msgstr ""
+
+#: inc/custom-fields.php:83 template-parts/sections/department-translation.php:66
+msgid "خدمات الترجمة"
+msgstr ""
+
+#: inc/custom-fields.php:92
+msgid "أسعار الترجمة"
+msgstr ""
+
+#: inc/custom-fields.php:101
+msgid "منهج الدبلوم الأمريكي"
+msgstr ""
+
+#: inc/custom-fields.php:110
+msgid "قبول الدبلوم الأمريكي"
+msgstr ""
+
+#: inc/custom-fields.php:156
+msgid "+ إضافة برنامج"
+msgstr ""
+
+#: inc/custom-fields.php:193
+msgid "+ إضافة كورس"
+msgstr ""
+
+#: inc/custom-fields.php:230
+msgid "+ إضافة خدمة"
+msgstr ""
+
+#: inc/custom-fields.php:267
+msgid "+ إضافة خطة سعر"
+msgstr ""
+
+#: inc/custom-fields.php:308
+msgid "+ إضافة مادة"
+msgstr ""
+
+#: inc/custom-fields.php:327
+msgid "المواعيد المهمة (سطر لكل موعد):"
+msgstr ""
+
+#: inc/custom-fields.php:331
+msgid "المستندات المطلوبة (سطر لكل مستند):"
+msgstr ""
+
+#: inc/custom-post-types.php:20
+msgctxt "Post type general name"
+msgid "المقالات"
+msgstr ""
+
+#: inc/custom-post-types.php:21
+msgctxt "Post type singular name"
+msgid "مقال"
+msgstr ""
+
+#: inc/custom-post-types.php:22
+msgctxt "Admin Menu text"
+msgid "المقالات"
+msgstr ""
+
+#: inc/custom-post-types.php:23
+msgid "إضافة مقال"
+msgstr ""
+
+#: inc/custom-post-types.php:24
+msgid "إضافة مقال جديد"
+msgstr ""
+
+#: inc/custom-post-types.php:25
+msgid "تعديل المقال"
+msgstr ""
+
+#: inc/custom-post-types.php:26
+msgid "مقال جديد"
+msgstr ""
+
+#: inc/custom-post-types.php:27
+msgid "عرض المقال"
+msgstr ""
+
+#: inc/custom-post-types.php:28
+msgid "بحث في المقالات"
+msgstr ""
+
+#: inc/custom-post-types.php:29
+msgid "لم يتم العثور على مقالات"
+msgstr ""
+
+#: inc/custom-post-types.php:30
+msgid "لم يتم العثور على مقالات في سلة المهملات"
+msgstr ""
+
+#: inc/custom-post-types.php:31
+msgid "جميع المقالات"
+msgstr ""
+
+#: inc/custom-post-types.php:56
+msgctxt "taxonomy general name"
+msgid "تصنيفات المقالات"
+msgstr ""
+
+#: inc/custom-post-types.php:57
+msgctxt "taxonomy singular name"
+msgid "تصنيف"
+msgstr ""
+
+#: inc/custom-post-types.php:58 inc/media-categories.php:22
+msgid "بحث في التصنيفات"
+msgstr ""
+
+#: inc/custom-post-types.php:59 inc/media-categories.php:23
+msgid "جميع التصنيفات"
+msgstr ""
+
+#: inc/custom-post-types.php:60 inc/media-categories.php:24
+msgid "تصنيف أب"
+msgstr ""
+
+#: inc/custom-post-types.php:61 inc/media-categories.php:25
+msgid "تصنيف أب:"
+msgstr ""
+
+#: inc/custom-post-types.php:62 inc/media-categories.php:26
+msgid "تعديل التصنيف"
+msgstr ""
+
+#: inc/custom-post-types.php:63 inc/media-categories.php:27
+msgid "تحديث التصنيف"
+msgstr ""
+
+#: inc/custom-post-types.php:64 inc/media-categories.php:28
+msgid "إضافة تصنيف جديد"
+msgstr ""
+
+#: inc/custom-post-types.php:65 inc/media-categories.php:29
+msgid "اسم التصنيف الجديد"
+msgstr ""
+
+#: inc/custom-post-types.php:66
+msgid "التصنيفات"
+msgstr ""
+
+#: inc/custom-post-types.php:83
+msgctxt "Post type general name"
+msgid "الأحداث"
+msgstr ""
+
+#: inc/custom-post-types.php:84
+msgctxt "Post type singular name"
+msgid "حدث"
+msgstr ""
+
+#: inc/custom-post-types.php:85
+msgctxt "Admin Menu text"
+msgid "الأحداث"
+msgstr ""
+
+#: inc/custom-post-types.php:86
+msgid "إضافة حدث"
+msgstr ""
+
+#: inc/custom-post-types.php:87
+msgid "إضافة حدث جديد"
+msgstr ""
+
+#: inc/custom-post-types.php:88
+msgid "تعديل الحدث"
+msgstr ""
+
+#: inc/custom-post-types.php:89
+msgid "حدث جديد"
+msgstr ""
+
+#: inc/custom-post-types.php:90
+msgid "عرض الحدث"
+msgstr ""
+
+#: inc/custom-post-types.php:91
+msgid "بحث في الأحداث"
+msgstr ""
+
+#: inc/custom-post-types.php:92
+msgid "لم يتم العثور على أحداث"
+msgstr ""
+
+#: inc/custom-post-types.php:93
+msgid "لم يتم العثور على أحداث في سلة المهملات"
+msgstr ""
+
+#: inc/custom-post-types.php:94
+msgid "جميع الأحداث"
+msgstr ""
+
+#: inc/custom-post-types.php:119
+msgctxt "taxonomy general name"
+msgid "أنواع الأحداث"
+msgstr ""
+
+#: inc/custom-post-types.php:120
+msgctxt "taxonomy singular name"
+msgid "نوع الحدث"
+msgstr ""
+
+#: inc/custom-post-types.php:121
+msgid "بحث في الأنواع"
+msgstr ""
+
+#: inc/custom-post-types.php:122
+msgid "جميع الأنواع"
+msgstr ""
+
+#: inc/custom-post-types.php:123
+msgid "نوع أب"
+msgstr ""
+
+#: inc/custom-post-types.php:124
+msgid "نوع أب:"
+msgstr ""
+
+#: inc/custom-post-types.php:125
+msgid "تعديل النوع"
+msgstr ""
+
+#: inc/custom-post-types.php:126
+msgid "تحديث النوع"
+msgstr ""
+
+#: inc/custom-post-types.php:127
+msgid "إضافة نوع جديد"
+msgstr ""
+
+#: inc/custom-post-types.php:128
+msgid "اسم النوع الجديد"
+msgstr ""
+
+#: inc/custom-post-types.php:129
+msgid "أنواع الأحداث"
+msgstr ""
+
+#: inc/custom-post-types.php:147
+msgid "تفاصيل الحدث"
+msgstr ""
+
+#: inc/custom-post-types.php:167
+msgid "التاريخ:"
+msgstr ""
+
+#: inc/custom-post-types.php:171
+msgid "الوقت:"
+msgstr ""
+
+#: inc/custom-post-types.php:175
+msgid "المكان:"
+msgstr ""
+
+#: inc/customizer.php:30 template-parts/sections/programs-stitch.php:51
+msgid "Novira Academy"
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "Theme-wide settings for Novira Academy."
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Contact Information"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "WhatsApp Number (with country code)"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer.php:84 template-parts/layout/footer.php:18
+msgid "المنيا، بني مزار، طريق الإبراهيمية، آخر شارع مستشفى أبو عوف"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Address"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "TikTok URL"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Theme Colors"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:197 template-parts/layout/footer.php:23
+msgid "جميع الحقوق محفوظة"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Google Reviews"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Enter real values from your Google Business Profile. Leave any field empty to hide it. No placeholder or default data is ever shown."
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Google Rating (e.g. 4.9)"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Use the exact current rating. Leave empty to hide."
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Google Reviews Count (e.g. 20+)"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Use the exact current count. Leave empty to hide."
+msgstr ""
+
+#: inc/customizer.php:255
+msgid "Google Reviews URL"
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Link to your Google Business Profile reviews page. Leave empty to hide the button."
+msgstr ""
+
+#: inc/diploma.php:44
+msgid "تقدم نوفيرا أكاديمي المتابعة الأكاديمية، والاستعداد للاختبارات الدولية، والدعم والإرشاد خلال رحلة الطالب التعليمية، بينما تخضع قرارات القبول الجامعي والمنح الدراسية لمتطلبات وسياسات الجامعات والجهات المختصة، ولا يمكن ضمان نتائج أو قرارات القبول."
+msgstr ""
+
+#: inc/diploma.php:78 template-parts/sections/premium-exam/journey.php:40
+msgid "التأسيس"
+msgstr ""
+
+#: inc/diploma.php:79
+msgid "بناء أساس أكاديمي ولغوي متين قبل الدخول في متطلبات الدبلومة الأمريكية."
+msgstr ""
+
+#: inc/diploma.php:80
+msgid "تحديد المستوى وبناء المهارات الأساسية في اللغة الإنجليزية والمواد الدراسية."
+msgstr ""
+
+#: inc/diploma.php:89
+msgid "المتابعة الأكاديمية"
+msgstr ""
+
+#: inc/diploma.php:90
+msgid "متابعة مستمرة عبر سنوات الدراسة بدلاً من التحضير لاختبار واحد."
+msgstr ""
+
+#: inc/diploma.php:91
+msgid "متابعة دورية للتقدّم الأكاديمي مع معلمين متخصصين."
+msgstr ""
+
+#: inc/diploma.php:100
+msgid "الكورسات المتخصصة"
+msgstr ""
+
+#: inc/diploma.php:101
+msgid "إتقان محتوى المواد ومهارات اللغة الإنجليزية المطلوبة للمنهج الأمريكي."
+msgstr ""
+
+#: inc/diploma.php:102
+msgid "تدريس المواد المتخصصة من خلال معلمين متخصصين."
+msgstr ""
+
+#: inc/diploma.php:111
+msgid "الإعداد للاختبار الدولي والاختبارات التجريبية"
+msgstr ""
+
+#: inc/diploma.php:112
+msgid "قياس الجاهزية للاختبار الدولي المناسب (EST أو Digital SAT أو ACT)."
+msgstr ""
+
+#: inc/diploma.php:113
+msgid "إعداد موجّه لكل اختبار، واختبارات تجريبية تكشف نقاط الضعف وتحسّنها قبل الموعد."
+msgstr ""
+
+#: inc/diploma.php:123 template-parts/sections/exam/s5-registration.php:30
+msgid "دعم التسجيل"
+msgstr ""
+
+#: inc/diploma.php:124
+msgid "تنظيم التسجيل والمواعيد ومتطلبات يوم الاختبار."
+msgstr ""
+
+#: inc/diploma.php:125
+msgid "ندعم إجراءات التسجيل والجدولة، والتنسيق اللوجستي عند الحاجة — لتخفيف العبء عن الأسرة."
+msgstr ""
+
+#: inc/diploma.php:135
+msgid "الامتحان الرسمي وأفضل درجة ممكنة"
+msgstr ""
+
+#: inc/diploma.php:136
+msgid "دخول الاختبار مستعداً فعلاً وتحقيق أفضل درجة ممكنة."
+msgstr ""
+
+#: inc/diploma.php:137
+msgid "يدخل طالبك الاختبار وقد تدرّب على بيئته في الاختبارات التجريبية، ونستمر معه لإعادته وتحسين درجته إن رغب."
+msgstr ""
+
+#: inc/diploma.php:147
+msgid "بعد الاختبار: إرشاد التقديم الجامعي (اختياري)"
+msgstr ""
+
+#: inc/diploma.php:148
+msgid "فهم خطوات التقديم للجامعات بعد الحصول على الدرجة."
+msgstr ""
+
+#: inc/diploma.php:149
+msgid "إرشاد اختياري خلال خطوات التقديم، مع خضوع قرارات ومتطلبات القبول لسياسات الجامعات والجهات المختصة."
+msgstr ""
+
+#: inc/diploma.php:263
+msgid "ما المرحلة الدراسية التي يرافق فيها البرنامج الطالب؟"
+msgstr ""
+
+#: inc/diploma.php:264
+msgid "يرافق برنامج الدبلومة الأمريكية الطالب من الصف العاشر حتى الصف الثاني عشر (Grade 10 – Grade 12)."
+msgstr ""
+
+#: inc/diploma.php:267
+msgid "ما الاختبارات الدولية التي تُعِدّون لها؟"
+msgstr ""
+
+#: inc/diploma.php:268
+msgid "نُعِدّ الطلاب لاختبارات EST و Digital SAT و ACT. (برنامج AP غير متاح حالياً.)"
+msgstr ""
+
+#: inc/diploma.php:271
+msgid "كيف تتم المتابعة الأكاديمية للطالب؟"
+msgstr ""
+
+#: inc/diploma.php:272
+msgid "يتابع فريق نوفيرا تقدّم الطالب أكاديمياً خلال مراحل الدبلومة الأمريكية من خلال معلمين متخصصين. تُحدَّد آلية المتابعة الدقيقة حسب البرنامج — تواصل معنا للتفاصيل."
+msgstr ""
+
+#: inc/diploma.php:276
+msgid "هل تساعدون في إجراءات التسجيل للاختبارات؟"
+msgstr ""
+
+#: inc/diploma.php:277
+msgid "نعم، نقدّم الدعم في إجراءات التسجيل والجدولة ومتطلبات يوم الاختبار لاختبارات EST و Digital SAT و ACT."
+msgstr ""
+
+#: inc/diploma.php:280
+msgid "هل تقدّمون إرشاداً للتقديم الجامعي؟"
+msgstr ""
+
+#: inc/diploma.php:281
+msgid "نعم، نقدّم إرشاداً خلال خطوات التقديم الجامعي. وتظل متطلبات وقرارات القبول خاضعة لسياسات الجامعات والجهات المختصة."
+msgstr ""
+
+#: inc/diploma.php:285
+msgid "هل تضمنون القبول الجامعي أو المنح الدراسية؟"
+msgstr ""
+
+#: inc/diploma.php:289
+msgid "كيف يمكن متابعة مستوى تقدّم الطالب؟"
+msgstr ""
+
+#: inc/diploma.php:290
+msgid "يوفّر فريق نوفيرا متابعة لمستوى الطالب أثناء البرنامج. لمعرفة طريقة وتكرار مشاركة تقارير التقدّم تواصل معنا."
+msgstr ""
+
+#: inc/diploma.php:294
+msgid "كيف تتواصلون مع أولياء الأمور؟"
+msgstr ""
+
+#: inc/diploma.php:295
+msgid "نوفّر تواصلاً مع أولياء الأمور حول مسار الطالب. تُحدَّد طريقة وتكرار التواصل حسب البرنامج — تواصل معنا للتفاصيل."
+msgstr ""
+
+#: inc/diploma.php:338
+msgid "برنامج الدبلومة الأمريكية"
+msgstr ""
+
+#: inc/diploma.php:346
+msgid "برنامج يرافق الطالب خلال مسار الدبلومة الأمريكية من الصف العاشر حتى الصف الثاني عشر، ويشمل المتابعة الأكاديمية والكورسات المتخصصة والاستعداد لاختبارات EST و Digital SAT و ACT والدعم اللوجستي للاختبارات وإرشاد التقديم الجامعي. "
+msgstr ""
+
+#: inc/exam-courses.php:81
+msgid "كورس الإنجليزية"
+msgstr ""
+
+#: inc/exam-courses.php:82 inc/translation-request-sanitization.php:183 template-parts/components/quote-request-form.php:61 template-parts/components/quote-request-form.php:73
+msgid "الإنجليزية"
+msgstr ""
+
+#: inc/exam-courses.php:83
+msgid "بناء تراكمي لمهارات القراءة والاستيعاب والقواعد التي يقيسها الاختبار — أسبوعياً مع معلم متخصص، حتى يدخل طالبك قسم الإنجليزية واثقاً."
+msgstr ""
+
+#: inc/exam-courses.php:84
+msgid "يبني هذا الكورس مهارات الإنجليزية التي يقيسها الاختبار خطوة بخطوة: القراءة والاستيعاب، والقواعد، واستخدام اللغة في سياقها. يدرس طالبك أسبوعياً مع معلم متخصص، فتُبنى المهارة تراكمياً على مدار البرنامج بدل مراجعة سريعة قبل الاختبار. تُتابَع الواجبات بعد كل حصة لتثبيت ما دُرِّس وكشف الثغرات مبكراً، ومع اقتراب الموعد تُضاف اختبارات تجريبية تُحاكي أسلوب الأسئلة وضغط الوقت."
+msgstr ""
+
+#: inc/exam-courses.php:92
+msgid "كورس الرياضيات — المستوى الأول"
+msgstr ""
+
+#: inc/exam-courses.php:93
+msgid "الرياضيات — المستوى الأول"
+msgstr ""
+
+#: inc/exam-courses.php:94
+msgid "تأسيس متين للمفاهيم الأساسية في الرياضيات؛ خطوة أولى يبني عليها طالبك بقية المستويات ويستعد بها لأسئلة القسم الكمّي."
+msgstr ""
+
+#: inc/exam-courses.php:95
+msgid "المستوى الأول يؤسّس المفاهيم الأساسية في الرياضيات التي يُبنى عليها كل ما بعدها. يدرس طالبك أسبوعياً مع معلم متخصص يشرح الفكرة ويطبّقها على نمط أسئلة الاختبار، فيترسّخ الفهم لا الحفظ. الواجبات المنتظمة تكشف نقاط الضعف مبكراً لتُعالَج قبل أن تتراكم، تمهيداً للمستوى الثاني وللقسم الكمّي في الاختبار."
+msgstr ""
+
+#: inc/exam-courses.php:98
+msgid "EST 1"
+msgstr ""
+
+#: inc/exam-courses.php:103
+msgid "كورس الرياضيات — المستوى الثاني"
+msgstr ""
+
+#: inc/exam-courses.php:104
+msgid "الرياضيات — المستوى الثاني"
+msgstr ""
+
+#: inc/exam-courses.php:105
+msgid "مستوى متقدّم يرسّخ المهارات الكمّية وحل المسائل تحت ضغط الوقت، استعداداً لأصعب أسئلة الرياضيات في الاختبار."
+msgstr ""
+
+#: inc/exam-courses.php:106
+msgid "المستوى الثاني يبني على تأسيس المستوى الأول ويرفع طالبك إلى المهارات الكمّية المتقدّمة وحل المسائل تحت ضغط الوقت. يتدرّب أسبوعياً مع معلم متخصص على أصعب أنماط أسئلة الرياضيات في الاختبار، وتُضاف اختبارات تجريبية تُحاكي ظروف يوم الامتحان لتحديد ما يحتاج تعزيزاً قبل الموعد."
+msgstr ""
+
+#: inc/exam-courses.php:109
+msgid "EST 2"
+msgstr ""
+
+#: inc/exam-courses.php:114
+msgid "كورس الأحياء"
+msgstr ""
+
+#: inc/exam-courses.php:115
+msgid "الأحياء"
+msgstr ""
+
+#: inc/exam-courses.php:116
+msgid "تغطية منهجية لمفاهيم الأحياء بلغة الاختبار، تربط الفهم العلمي بأسلوب الأسئلة حتى يجيب طالبك بثقة."
+msgstr ""
+
+#: inc/exam-courses.php:117
+msgid "يغطّي هذا الكورس مفاهيم الأحياء تغطيةً منهجية بلغة الاختبار نفسها، فيربط الفهم العلمي بأسلوب الأسئلة التي سيواجهها طالبك. الدراسة أسبوعية مع معلم متخصص، والمتابعة بعد كل حصة تُثبّت المفاهيم أولاً بأول حتى يجيب طالبك بثقة في يوم الاختبار."
+msgstr ""
+
+#: inc/exam-courses.php:125
+msgid "كورس المواد القومية"
+msgstr ""
+
+#: inc/exam-courses.php:126
+msgid "المواد القومية"
+msgstr ""
+
+#: inc/exam-courses.php:127
+msgid "المواد القومية المقرّرة ضمن مسار الدبلومة، بمتابعة منتظمة تُرسّخ الفهم وتغطي متطلبات المرحلة الدراسية."
+msgstr ""
+
+#: inc/exam-courses.php:128
+msgid "يغطّي الكورس المواد القومية المقرّرة ضمن مسار الدبلومة الأمريكية بمتابعة منتظمة تُرسّخ الفهم وتغطي متطلبات المرحلة الدراسية. يدرس طالبك مع معلمين متخصصين وفق خطة تسير بالتوازي مع بقية مكوّنات البرنامج، فلا تتعارض المواد القومية مع الإعداد للاختبار بل تكمّله."
+msgstr ""
+
+#: inc/exam-courses.php:239
+msgid "طالب يحتاج تقوية الإنجليزية — قراءة واستيعاب وقواعد — لقسم اللغة في الاختبار"
+msgstr ""
+
+#: inc/exam-courses.php:240
+msgid "طالب في مرحلة مبكرة من المسار أو يحتاج تثبيت أساسيات الرياضيات أولاً"
+msgstr ""
+
+#: inc/exam-courses.php:241
+msgid "طالب أتقن الأساسيات وجاهز للمهارات الكمّية المتقدّمة وحل المسائل تحت ضغط الوقت"
+msgstr ""
+
+#: inc/exam-courses.php:242 inc/exam-courses.php:249
+msgid "طالب مساره الدراسي يتضمّن الأحياء ويحتاج تغطيتها بلغة الاختبار"
+msgstr ""
+
+#: inc/exam-courses.php:243 inc/exam-courses.php:250 inc/exam-courses.php:257
+msgid "طالب يحتاج تغطية المواد القومية المقرّرة ضمن متطلبات الدبلومة"
+msgstr ""
+
+#: inc/exam-courses.php:246
+msgid "طالب يحتاج تقوية الإنجليزية — قراءة وكتابة وقواعد — لقسم القراءة والكتابة في الاختبار"
+msgstr ""
+
+#: inc/exam-courses.php:247 inc/exam-courses.php:254
+msgid "طالب يحتاج تثبيت أساسيات الرياضيات قبل الانتقال إلى المستوى المتقدّم"
+msgstr ""
+
+#: inc/exam-courses.php:248 inc/exam-courses.php:255
+msgid "طالب أتقن الأساسيات وجاهز للمهارات الكمّية المتقدّمة في قسم الرياضيات"
+msgstr ""
+
+#: inc/exam-courses.php:253
+msgid "طالب يحتاج تقوية الإنجليزية لقسمَي الإنجليزية والقراءة في الاختبار"
+msgstr ""
+
+#: inc/exam-courses.php:256
+msgid "طالب يستعد لقسم العلوم ويحتاج تقوية الأحياء بلغة الاختبار"
+msgstr ""
+
+#: inc/exam-integration.php:72
+msgctxt "post type general name"
+msgid "الامتحانات"
+msgstr ""
+
+#: inc/exam-integration.php:73
+msgctxt "post type singular name"
+msgid "امتحان"
+msgstr ""
+
+#: inc/exam-integration.php:74
+msgctxt "admin menu"
+msgid "الامتحانات"
+msgstr ""
+
+#: inc/exam-integration.php:75 inc/exam-integration.php:76
+msgid "إضافة امتحان جديد"
+msgstr ""
+
+#: inc/exam-integration.php:77
+msgid "تعديل الامتحان"
+msgstr ""
+
+#: inc/exam-integration.php:78
+msgid "امتحان جديد"
+msgstr ""
+
+#: inc/exam-integration.php:79
+msgid "عرض الامتحان"
+msgstr ""
+
+#: inc/exam-integration.php:80
+msgid "بحث في الامتحانات"
+msgstr ""
+
+#: inc/exam-integration.php:81
+msgid "لا توجد اमتحانات"
+msgstr ""
+
+#: inc/exam-integration.php:82
+msgid "لا توجد امتحانات في سلة المهملات"
+msgstr ""
+
+#: inc/exam-integration.php:83
+msgid "جميع الامتحانات"
+msgstr ""
+
+#: inc/exam-integration.php:108
+msgid "تفاصيل الامتحان"
+msgstr ""
+
+#: inc/exam-integration.php:117 inc/exam-integration.php:161
+msgid "مزود الامتحان"
+msgstr ""
+
+#: inc/exam-integration.php:138
+msgid "رابط الامتحان"
+msgstr ""
+
+#: inc/exam-integration.php:142
+msgid "مدة الامتحان (دقيقة)"
+msgstr ""
+
+#: inc/exam-integration.php:146
+msgid "درجة النجاح (%)"
+msgstr ""
+
+#: inc/exam-integration.php:163
+msgid "اختر مزود الامتحان"
+msgstr ""
+
+#: inc/exam-integration.php:164
+msgid "Microsoft Forms"
+msgstr ""
+
+#: inc/exam-integration.php:165
+msgid "Google Forms"
+msgstr ""
+
+#: inc/exam-integration.php:166
+msgid "مخصص"
+msgstr ""
+
+#: inc/exams-landing.php:74 template-parts/layout/header.php:89 template-parts/layout/header.php:173
+msgid "الامتحانات"
+msgstr ""
+
+#: inc/exams.php:59
+msgid "اختبار EST يقيس ما بناه طالبك معنا — لا ما راجعه في أسبوع"
+msgstr ""
+
+#: inc/exams.php:60
+msgid "في نوفيرا، الإعداد لاختبار EST لا يبدأ قبل الاختبار بأسابيع — هو جزء من كل حصة أسبوعية، وكل واجب، وكل متابعة طوال رحلة الدبلومة. يصل الطالب ليوم الاختبار وقد بنى مهاراته على أرضية صلبة."
+msgstr ""
+
+#: inc/exams.php:61
+msgid "اختبار EST (Egyptian Scholastic Test) اختبار موحّد يقيس المهارات الأكاديمية في اللغة الإنجليزية والرياضيات، تستخدمه الجامعات المصرية والعربية ضمن متطلبات القبول لطلاب الدبلومة الأمريكية."
+msgstr ""
+
+#: inc/exams.php:62
+msgid "درجة الطالب في EST تعكس ما تعلّمه فعلاً خلال سنوات الدراسة — لا ما حفظه في أسابيع. لهذا يختلف نهج نوفيرا عن مراكز الإعداد للامتحانات: الإعداد يبدأ من اليوم الأول في البرنامج. والطلاب الذين يُعيدون الاختبار لتحسين درجتهم يجدون المتابعة والدعم مستمرَّين."
+msgstr ""
+
+#: inc/exams.php:64
+msgid "الإنجليزية — القراءة والاستيعاب"
+msgstr ""
+
+#: inc/exams.php:65
+msgid "الإنجليزية — استخدام اللغة والقواعد"
+msgstr ""
+
+#: inc/exams.php:66 template-parts/sections/department-american-diploma.php:31
+msgid "الرياضيات"
+msgstr ""
+
+#: inc/exams.php:68
+msgid "اختبار EST أحد الاختبارات الدولية المعتمدة ضمن مسار الدبلومة الأمريكية، إلى جانب Digital SAT وACT."
+msgstr ""
+
+#: inc/exams.php:69
+msgid "طالبك لن يواجه الـ EST وحده. طوال رحلة الدبلومة، يحضر حصصاً أسبوعية مع معلم متخصص تبني مهارات الإنجليزية والرياضيات تراكمياً — المهارات نفسها التي يقيسها الاختبار. بين الحصص يُتابَع تقدمه وتُكتشَف الثغرات مبكراً. ومع اقتراب موعد الاختبار تُضاف اختبارات تجريبية كاملة — حتى يدخل طالبك قاعة الاختبار وقد جلس فيها من قبل."
+msgstr ""
+
+#: inc/exams.php:70
+msgid "يجلس الطالب في الاختبار التجريبي بنفس ضغط الوقت وأسلوب الأسئلة التي سيواجهها يوم الاختبار الرسمي — فلا مفاجآت في اليوم الحقيقي. إذا كشف الاختبار التجريبي ثغرات، يُعالَج ما يحتاج تعزيزاً في الوقت المتبقي. وإذا أراد الطالب إعادة الاختبار الرسمي لتحسين درجته، فريق نوفيرا مستمر معه في هذه المرحلة أيضاً."
+msgstr ""
+
+#: inc/exams.php:71
+msgid "ولي الأمر لا ينتظر يوم الاختبار ليعرف أين يقف طالبه. المتابعة الدورية بعد كل حصة وكل اختبار تجريبي تُحدّد ما تحسّن وما يحتاج مزيداً من التدريب — والخطة الدراسية تُعدَّل وفق أولويات الطالب الفعلية."
+msgstr ""
+
+#: inc/exams.php:72
+msgid "فريق نوفيرا يتولى إجراءات التسجيل للاختبار وتأكيد الموعد — والتحقق من استيفاء جميع المتطلبات قبل يوم الامتحان. طالبك يصل إلى قاعة الاختبار مركّزاً على الأداء، لا على الأوراق."
+msgstr ""
+
+#: inc/exams.php:73
+msgid "بطاقة هوية سارية الصلاحية. تواصل معنا للتحقق من المتطلبات الكاملة والحالية."
+msgstr ""
+
+#: inc/exams.php:74
+msgid "إذا كان مركز الاختبار خارج مدينتك، يساعد فريق نوفيرا في التنسيق اللوجستي — حتى لا تكون المسافة عائقاً في يوم الاختبار. تواصل معنا للتفاصيل."
+msgstr ""
+
+#: inc/exams.php:75
+msgid "ولي الأمر لا يُترك في الغموض. يتواصل فريق نوفيرا مع الأهل حول مستوى تقدّم الطالب خلال فترة الإعداد — تواصل معنا لمعرفة آلية التواصل ضمن البرنامج."
+msgstr ""
+
+#: inc/exams.php:76 inc/exams.php:133 inc/exams.php:168
+msgid "هل طالبك في مسار الدبلومة الأمريكية؟"
+msgstr ""
+
+#: inc/exams.php:77
+msgid "أرسل بيانات طالبك وسيتواصل معك فريقنا لمناقشة مرحلته الدراسية والخطة المناسبة للـ EST — دون أي التزام."
+msgstr ""
+
+#: inc/exams.php:80
+msgid "متى يتقدم طلاب الدبلومة الأمريكية لاختبار EST عادةً؟"
+msgstr ""
+
+#: inc/exams.php:81
+msgid "يتفاوت التوقيت حسب المرحلة الدراسية للطالب وخطة البرنامج. فريقنا يحدد مع ولي الأمر الموعد الأنسب بناءً على مستوى الطالب الفعلي — تواصل معنا للتفاصيل."
+msgstr ""
+
+#: inc/exams.php:85
+msgid "كيف يُعِدّ برنامج الدبلومة الطالبَ لاختبار EST؟"
+msgstr ""
+
+#: inc/exams.php:86
+msgid "الحصص الأسبوعية المستمرة في برنامج الدبلومة هي الإعداد الفعلي — لا يوجد إعداد منفصل للـ EST. الطالب يبني مهارات الإنجليزية والرياضيات تدريجياً عبر السنوات، وتُضاف اختبارات تجريبية مع اقتراب موعد الاختبار. هذا هو الفرق بين نوفيرا ومراكز المراجعة السريعة."
+msgstr ""
+
+#: inc/exams.php:90
+msgid "هل يمكن إعادة اختبار EST لتحسين الدرجة؟"
+msgstr ""
+
+#: inc/exams.php:91
+msgid "نعم. كثير من الطلاب يُعيدون الاختبار لتحسين درجتهم — وهذا شيء طبيعي في مسار الدبلومة الأمريكية. فريق نوفيرا يدعم الطالب في هذه المرحلة."
+msgstr ""
+
+#: inc/exams.php:95
+msgid "كيف تُستخدم نتيجة EST عند التقديم للجامعات؟"
+msgstr ""
+
+#: inc/exams.php:96
+msgid "يستخدم الطالب الدرجة المحققة ضمن ملف تقديمه للجامعات — وفق متطلبات وسياسات القبول الخاصة بكل جامعة."
+msgstr ""
+
+#: inc/exams.php:100
+msgid "هل الإعداد لاختبار EST منفصل عن الدراسة الأسبوعية في البرنامج؟"
+msgstr ""
+
+#: inc/exams.php:101
+msgid "لا. الإعداد مُدمَج في البرنامج الأسبوعي — الدراسة المستمرة والمتابعة الدورية هي الأساس. الاختبار التجريبي يأتي تكملةً، لا بديلاً عن الدراسة المنتظمة."
+msgstr ""
+
+#: inc/exams.php:105
+msgid "ماذا يحدث إذا لم تكن الدرجة الأولى كافية؟"
+msgstr ""
+
+#: inc/exams.php:106
+msgid "إعادة الاختبار مسار طبيعي تماماً — الطالب يواصل حصصه الأسبوعية ويتقدم للاختبار مرة أخرى. فريق نوفيرا مستمر معه في هذه المرحلة، والإعداد لا يتوقف عند الاختبار الأول."
+msgstr ""
+
+#: inc/exams.php:110
+msgid "ما المطلوب للتسجيل في الاختبار؟"
+msgstr ""
+
+#: inc/exams.php:111
+msgid "بطاقة هوية سارية الصلاحية. يساعدك فريق نوفيرا في إجراءات التسجيل والتأكد من استيفاء جميع المتطلبات."
+msgstr ""
+
+#: inc/exams.php:115
+msgid "كم تبلغ رسوم اختبار EST؟"
+msgstr ""
+
+#: inc/exams.php:116 inc/exams.php:360
+msgid "تواصل معنا لمعرفة الرسوم الحالية."
+msgstr ""
+
+#: inc/exams.php:124
+msgid "Digital SAT — نُعِدّ طالبك ليدخله قادراً على أعلى درجة"
+msgstr ""
+
+#: inc/exams.php:125 page-digital-sat.php:31
+msgid "النسخة الرقمية من اختبار SAT جزء من مسار الدبلومة الأمريكية. يستعد لها طالبك داخل حصصه الأسبوعية طوال البرنامج — لا في أسابيع قليلة قبل الموعد."
+msgstr ""
+
+#: inc/exams.php:126
+msgid "درجة Digital SAT تعكس ما بناه الطالب من مهارات في الإنجليزية والرياضيات عبر سنوات الدراسة، لا ما راجعه في أسابيع. لهذا يبدأ الإعداد من اليوم الأول في البرنامج، ويستمر الدعم لمن يعيد الاختبار لتحسين درجته."
+msgstr ""
+
+#: inc/exams.php:127
+msgid "يستعد طالبك للـ Digital SAT ضمن حصصه الأسبوعية مع معلم متخصص — بناء تراكمي لمهارات الإنجليزية والرياضيات التي يقيسها الاختبار. ومع اقتراب الموعد تُضاف اختبارات تجريبية على النسق الرقمي نفسه، فيألف بيئة الاختبار قبل يومه."
+msgstr ""
+
+#: inc/exams.php:128
+msgid "يجلس الطالب لاختبارات تجريبية رقمية بنفس ضغط الوقت وأسلوب الأسئلة — فتُكشف الثغرات وتُعالَج في الوقت المتبقي. وإذا رغب في إعادة الاختبار الرسمي لتحسين درجته، يستمر فريق نوفيرا معه."
+msgstr ""
+
+#: inc/exams.php:129
+msgid "متابعة دورية بعد كل حصة واختبار تجريبي تُحدّد ما تحسّن وما يحتاج تدريباً — وتُعدَّل الخطة وفق أولويات الطالب. ولي الأمر على اطلاع دائم."
+msgstr ""
+
+#: inc/exams.php:130
+msgid "يتولّى فريق نوفيرا إجراءات التسجيل للـ Digital SAT وتأكيد الموعد والتحقق من المتطلبات قبل يوم الاختبار — ليركّز طالبك على أدائه لا على الأوراق."
+msgstr ""
+
+#: inc/exams.php:131 inc/exams.php:166
+msgid "إذا كان مركز الاختبار خارج مدينتك، يساعد فريق نوفيرا في التنسيق اللوجستي. تواصل معنا للتفاصيل."
+msgstr ""
+
+#: inc/exams.php:132 inc/exams.php:167
+msgid "يتواصل فريق نوفيرا مع الأهل حول مستوى تقدّم الطالب خلال فترة الإعداد — تواصل معنا لمعرفة آلية التواصل ضمن البرنامج."
+msgstr ""
+
+#: inc/exams.php:134 page-digital-sat.php:32
+msgid "أرسل بيانات طالبك وسيتواصل معك فريقنا لمناقشة مرحلته الدراسية والخطة المناسبة للـ Digital SAT — دون أي التزام."
+msgstr ""
+
+#: inc/exams.php:135
+msgid "Digital SAT أحد الاختبارات الدولية المعتمدة ضمن مسار الدبلومة الأمريكية، إلى جانب EST وACT."
+msgstr ""
+
+#: inc/exams.php:139
+msgid "Digital SAT هو النسخة الرقمية من اختبار SAT — اختبار قبول جامعي دولي معتمد يُؤدّى على تطبيق Bluebook، وهو تكيّفي حسب أداء الطالب. تستخدمه الجامعات ضمن متطلبات القبول لطلاب الدبلومة الأمريكية."
+msgstr ""
+
+#: inc/exams.php:141
+msgid "القراءة والكتابة (Reading and Writing)"
+msgstr ""
+
+#: inc/exams.php:142
+msgid "الرياضيات (Math)"
+msgstr ""
+
+#: inc/exams.php:144
+msgid "نحو ساعتين وربع (2 ساعة و14 دقيقة تقريباً)."
+msgstr ""
+
+#: inc/exams.php:145
+msgid "الدرجة الكلية من 400 إلى 1600 (قسمان، كل قسم من 200 إلى 800)."
+msgstr ""
+
+#: inc/exams.php:147
+msgid "ما الفرق بين Digital SAT والنسخة الورقية؟"
+msgstr ""
+
+#: inc/exams.php:147
+msgid "يُؤدّى Digital SAT رقمياً على تطبيق Bluebook، وهو تكيّفي يتكيّف مع مستوى الطالب، وأقصر زمناً من النسخة الورقية."
+msgstr ""
+
+#: inc/exams.php:148
+msgid "ما أقسام اختبار Digital SAT وكيف يُحسب مجموعه؟"
+msgstr ""
+
+#: inc/exams.php:148
+msgid "قسمان: القراءة والكتابة، والرياضيات؛ والدرجة الكلية من 400 إلى 1600."
+msgstr ""
+
+#: inc/exams.php:149
+msgid "كم مدة اختبار Digital SAT؟"
+msgstr ""
+
+#: inc/exams.php:149
+msgid "نحو ساعتين وربع تقريباً. تُؤكَّد المواعيد والتفاصيل الرسمية مع فريق نوفيرا."
+msgstr ""
+
+#: inc/exams.php:150
+msgid "هل يُسمح باستخدام الآلة الحاسبة؟"
+msgstr ""
+
+#: inc/exams.php:150
+msgid "نعم، الآلة الحاسبة مسموحة في قسم الرياضيات بالكامل."
+msgstr ""
+
+#: inc/exams.php:151
+msgid "كيف يُعِدّ برنامج الدبلومة الطالب للـ Digital SAT؟"
+msgstr ""
+
+#: inc/exams.php:151
+msgid "الحصص الأسبوعية المستمرة هي الإعداد الفعلي — يبني الطالب مهاراته تدريجياً، وتُضاف اختبارات تجريبية على النسق الرقمي مع اقتراب الموعد."
+msgstr ""
+
+#: inc/exams.php:152
+msgid "هل يمكن إعادة Digital SAT لتحسين الدرجة؟"
+msgstr ""
+
+#: inc/exams.php:152 inc/exams.php:188
+msgid "نعم، كثير من الطلاب يعيدون الاختبار لتحسين درجتهم، وفريق نوفيرا يستمر معهم في هذه المرحلة."
+msgstr ""
+
+#: inc/exams.php:153
+msgid "ما المطلوب للتسجيل وكم الرسوم؟"
+msgstr ""
+
+#: inc/exams.php:153
+msgid "تواصل معنا لمعرفة متطلبات التسجيل والرسوم الحالية؛ ويتولّى فريق نوفيرا إجراءات التسجيل وتأكيد الموعد."
+msgstr ""
+
+#: inc/exams.php:154
+msgid "كيف تُستخدم نتيجة Digital SAT عند التقديم للجامعات؟"
+msgstr ""
+
+#: inc/exams.php:154
+msgid "يستخدم الطالب الدرجة ضمن ملف تقديمه وفق متطلبات وسياسات القبول الخاصة بكل جامعة."
+msgstr ""
+
+#: inc/exams.php:159
+msgid "ACT — نُعِدّ طالبك للإنجليزية والرياضيات والعلوم حتى أعلى درجة"
+msgstr ""
+
+#: inc/exams.php:160 page-act.php:31
+msgid "اختبار ACT أحد اختبارات الدبلومة الأمريكية، ويشمل مهارات في الإنجليزية والرياضيات والعلوم. يستعد له طالبك داخل حصصه الأسبوعية طوال البرنامج — لا في أسابيع قليلة قبل الموعد."
+msgstr ""
+
+#: inc/exams.php:161
+msgid "درجة ACT تعكس مهارات بناها الطالب عبر سنوات الدراسة، لا مراجعة سريعة. لهذا يبدأ الإعداد من اليوم الأول، ويستمر الدعم لمن يعيد الاختبار لتحسين درجته."
+msgstr ""
+
+#: inc/exams.php:162
+msgid "يستعد طالبك للـ ACT ضمن حصصه الأسبوعية مع معلمين متخصصين يبنون مهارات الإنجليزية والرياضيات والعلوم تراكمياً. ومع اقتراب الموعد تُضاف اختبارات تجريبية كاملة تحاكي يوم الاختبار."
+msgstr ""
+
+#: inc/exams.php:163
+msgid "يجلس الطالب لاختبارات تجريبية بنفس ضغط الوقت وأسلوب الأسئلة — فتُكشف الثغرات وتُعالَج قبل الموعد الرسمي. ودعم إعادة الاختبار متاح لمن يريد تحسين درجته."
+msgstr ""
+
+#: inc/exams.php:164
+msgid "متابعة دورية بعد كل حصة واختبار تجريبي تُحدّد ما تحسّن وما يحتاج تدريباً، وتُعدَّل الخطة وفق أولويات الطالب. ولي الأمر على اطلاع دائم."
+msgstr ""
+
+#: inc/exams.php:165
+msgid "يتولّى فريق نوفيرا إجراءات التسجيل للـ ACT وتأكيد الموعد والتحقق من المتطلبات قبل يوم الاختبار — ليركّز طالبك على أدائه."
+msgstr ""
+
+#: inc/exams.php:169 page-act.php:32
+msgid "أرسل بيانات طالبك وسيتواصل معك فريقنا لمناقشة مرحلته الدراسية والخطة المناسبة للـ ACT — دون أي التزام."
+msgstr ""
+
+#: inc/exams.php:170
+msgid "ACT أحد الاختبارات الدولية المعتمدة ضمن مسار الدبلومة الأمريكية، إلى جانب EST وDigital SAT، ويتميّز بإضافة قسم العلوم."
+msgstr ""
+
+#: inc/exams.php:174
+msgid "ACT اختبار قبول جامعي دولي معتمد يقيس المهارات الأكاديمية في الإنجليزية والرياضيات والقراءة والعلوم، مع قسم كتابة (Writing) اختياري. تستخدمه الجامعات ضمن متطلبات القبول لطلاب الدبلومة الأمريكية."
+msgstr ""
+
+#: inc/exams.php:176
+msgid "الإنجليزية (English)"
+msgstr ""
+
+#: inc/exams.php:177
+msgid "الرياضيات (Mathematics)"
+msgstr ""
+
+#: inc/exams.php:178
+msgid "القراءة (Reading)"
+msgstr ""
+
+#: inc/exams.php:179
+msgid "العلوم (Science)"
+msgstr ""
+
+#: inc/exams.php:180
+msgid "الكتابة (Writing) — اختياري"
+msgstr ""
+
+#: inc/exams.php:182 inc/exams.php:185
+msgid "يُصحَّح كل قسم من 1 إلى 36، والدرجة المركّبة (Composite) هي متوسط الأقسام من 1 إلى 36."
+msgstr ""
+
+#: inc/exams.php:184
+msgid "ما أقسام اختبار ACT؟"
+msgstr ""
+
+#: inc/exams.php:184
+msgid "يقيس ACT الإنجليزية والرياضيات والقراءة والعلوم، مع قسم كتابة (Writing) اختياري. تُؤكَّد الصيغة الحالية والتفاصيل الرسمية مع فريق نوفيرا."
+msgstr ""
+
+#: inc/exams.php:185
+msgid "كيف تُحسب درجة ACT؟"
+msgstr ""
+
+#: inc/exams.php:186
+msgid "ما الذي يميّز ACT عن EST و Digital SAT؟"
+msgstr ""
+
+#: inc/exams.php:186
+msgid "يتميّز ACT بإضافة قسم العلوم إلى جانب الإنجليزية والرياضيات والقراءة. والاختبارات الثلاثة معتمدة ضمن مسار الدبلومة الأمريكية."
+msgstr ""
+
+#: inc/exams.php:187
+msgid "كيف يُعِدّ برنامج الدبلومة الطالب للـ ACT؟"
+msgstr ""
+
+#: inc/exams.php:187
+msgid "الحصص الأسبوعية المستمرة هي الإعداد الفعلي — يبني الطالب مهاراته تدريجياً، وتُضاف اختبارات تجريبية كاملة تحاكي يوم الاختبار مع اقتراب الموعد."
+msgstr ""
+
+#: inc/exams.php:188
+msgid "هل يمكن إعادة ACT لتحسين الدرجة؟"
+msgstr ""
+
+#: inc/exams.php:189
+msgid "كم مدة اختبار ACT ورسومه؟"
+msgstr ""
+
+#: inc/exams.php:189
+msgid "تختلف مدة الاختبار ورسومه حسب الصيغة والموعد؛ تواصل معنا لمعرفة التفاصيل الحالية، ويتولّى فريق نوفيرا إجراءات التسجيل."
+msgstr ""
+
+#: inc/exams.php:190
+msgid "كيف تُستخدم نتيجة ACT عند التقديم للجامعات؟"
+msgstr ""
+
+#: inc/exams.php:190
+msgid "يستخدم الطالب الدرجة المركّبة ضمن ملف تقديمه وفق متطلبات وسياسات القبول الخاصة بكل جامعة."
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:241
+msgid "%s — أحد اختبارات الدبلومة الأمريكية"
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:243
+msgid "نرافق الطالب في الاستعداد لاختبار %s كجزء من رحلة الدبلومة الأمريكية."
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:250
+msgid "إعداد موجّه لاختبار %s مع معلمين متخصصين."
+msgstr ""
+
+#: inc/exams.php:252
+msgid "نوفّر متابعة لمستوى الطالب أثناء الإعداد."
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:254
+msgid "ندعم إجراءات التسجيل والمواعيد لاختبار %s."
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:260
+msgid "تحدّث مع فريقنا عن %s"
+msgstr ""
+
+#: inc/exams.php:261 template-parts/sections/exam/s8-consultation.php:22
+msgid "احجز استشارة لمناقشة استعداد طالبك. نجيب عن أسئلتك دون أي التزام."
+msgstr ""
+
+#: inc/exams.php:262
+msgid "أحد خيارات الاختبارات الدولية ضمن الدبلومة الأمريكية إلى جانب الاختبارات الأخرى."
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:276
+msgid "%s (غير متاح حالياً)"
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:340
+msgid "هل تُعِدّ نوفيرا لاختبار %s؟"
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:342
+msgid "نعم، إعداد %s جزء من برامج الدبلومة الأمريكية لدينا."
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:347
+msgid "ما الأقسام التي يشملها اختبار %s؟"
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:353
+msgid "كيف يمكنني التسجيل في اختبار %s؟"
+msgstr ""
+
+#: inc/exams.php:354
+msgid "ندعمك في إجراءات التسجيل والمواعيد. تواصل معنا للتفاصيل."
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:359
+msgid "كم تبلغ رسوم اختبار %s؟"
+msgstr ""
+
+#. translators: %s: exam name.
+#: inc/exams.php:365
+msgid "كيف تتابعون مستوى الطالب أثناء الإعداد لـ %s؟"
+msgstr ""
+
+#: inc/exams.php:366
+msgid "نوفّر متابعة لمستوى الطالب؛ تُحدَّد طريقة التقارير حسب البرنامج — تواصل معنا."
+msgstr ""
+
+#: inc/exams.php:467
+msgid "تواصل معنا للتفاصيل."
+msgstr ""
+
+#: inc/exams.php:470
+msgid "سيتم تحديثه من المصدر الرسمي."
+msgstr ""
+
+#: inc/form-handling.php:22 inc/registration-handling.php:22 inc/translation-request-handler.php:23
+msgid "خطأ في الأمان. يرجى المحاولة مرة أخرى."
+msgstr ""
+
+#: inc/form-handling.php:42 inc/translation-request-handler.php:91
+msgid "اسم الشركة مطلوب"
+msgstr ""
+
+#: inc/form-handling.php:46 inc/translation-request-handler.php:95
+msgid "اسم المسؤول مطلوب"
+msgstr ""
+
+#: inc/form-handling.php:50 inc/registration-handling.php:48 inc/translation-request-handler.php:99
+msgid "البريد الإلكتروني غير صحيح"
+msgstr ""
+
+#: inc/form-handling.php:54 inc/registration-handling.php:52 inc/registration-handling.php:254 inc/translation-request-handler.php:103
+msgid "رقم الهاتف مطلوب"
+msgstr ""
+
+#: inc/form-handling.php:58 inc/translation-request-handler.php:107
+msgid "نوع الخدمة مطلوب"
+msgstr ""
+
+#: inc/form-handling.php:62 inc/translation-request-handler.php:111
+msgid "اللغة المصدر مطلوبة"
+msgstr ""
+
+#: inc/form-handling.php:66 inc/translation-request-handler.php:115
+msgid "اللغة الهدف مطلوبة"
+msgstr ""
+
+#: inc/form-handling.php:109
+msgid "طلب عرض سعر جديد - أكاديمية نوفيرا"
+msgstr ""
+
+#: inc/form-handling.php:110
+msgid "طلب عرض سعر جديد"
+msgstr ""
+
+#. translators: %s: company name.
+#. translators: %s: company name
+#: inc/form-handling.php:112 inc/translation-request-handler.php:192
+msgid "الشركة: %s"
+msgstr ""
+
+#. translators: %s: contact person name.
+#. translators: %s: contact person name
+#: inc/form-handling.php:114 inc/translation-request-handler.php:194
+msgid "المسؤول: %s"
+msgstr ""
+
+#. translators: %s: email address.
+#. translators: %s: email address
+#: inc/form-handling.php:116 inc/registration-handling.php:113 inc/translation-request-handler.php:196
+msgid "البريد: %s"
+msgstr ""
+
+#. translators: %s: phone number.
+#. translators: %s: phone number
+#: inc/form-handling.php:118 inc/registration-handling.php:115 inc/registration-handling.php:298 inc/translation-request-handler.php:198
+msgid "الهاتف: %s"
+msgstr ""
+
+#. translators: %s: service type.
+#. translators: %s: service type
+#: inc/form-handling.php:120 inc/translation-request-handler.php:200
+msgid "الخدمة: %s"
+msgstr ""
+
+#. translators: 1: source language, 2: target language.
+#. translators: 1: source language, 2: target language
+#: inc/form-handling.php:122 inc/translation-request-handler.php:202
+msgid "اللغات: %1$s → %2$s"
+msgstr ""
+
+#. translators: %s: page count.
+#. translators: %s: page count
+#: inc/form-handling.php:124 inc/translation-request-handler.php:204
+msgid "الصفحات: %s"
+msgstr ""
+
+#. translators: %s: request details.
+#. translators: %s: request details
+#: inc/form-handling.php:126 inc/translation-request-handler.php:206
+msgid "التفاصيل: %s"
+msgstr ""
+
+#. translators: %s: deadline.
+#. translators: %s: requested deadline
+#: inc/form-handling.php:128 inc/translation-request-handler.php:208
+msgid "الموعد: %s"
+msgstr ""
+
+#. translators: %s: submission date/time.
+#. translators: %s: submission time
+#: inc/form-handling.php:130 inc/registration-handling.php:119 inc/registration-handling.php:300 inc/translation-request-handler.php:210
+msgid "الوقت: %s"
+msgstr ""
+
+#: inc/form-handling.php:135
+msgid "تأكيد استلام طلب عرض السعر - أكاديمية نوفيرا"
+msgstr ""
+
+#. translators: %s: contact person name.
+#. translators: %s: parent name.
+#. translators: %s: first name.
+#. translators: %s: contact person name
+#: inc/form-handling.php:137 inc/registration-handling.php:126 inc/registration-handling.php:307 inc/translation-request-handler.php:213
+msgid "مرحباً %s,"
+msgstr ""
+
+#: inc/form-handling.php:138
+msgid "تم استلام طلب عرض السعر الخاص بك بنجاح."
+msgstr ""
+
+#: inc/form-handling.php:139 inc/translation-request-handler.php:215
+msgid "التفاصيل:"
+msgstr ""
+
+#. translators: %s: company name.
+#. translators: %s: company name
+#: inc/form-handling.php:141 inc/translation-request-handler.php:217
+msgid "- الشركة: %s"
+msgstr ""
+
+#. translators: %s: service type.
+#. translators: %s: service type
+#: inc/form-handling.php:143 inc/translation-request-handler.php:219
+msgid "- الخدمة: %s"
+msgstr ""
+
+#. translators: 1: source language, 2: target language.
+#. translators: 1: source language, 2: target language
+#: inc/form-handling.php:145 inc/translation-request-handler.php:221
+msgid "- اللغات: %1$s → %2$s"
+msgstr ""
+
+#: inc/form-handling.php:146 inc/translation-request-handler.php:222
+msgid "سنتواصل معك خلال ساعة في أيام العمل."
+msgstr ""
+
+#: inc/form-handling.php:147 inc/registration-handling.php:132 inc/registration-handling.php:312
+msgid "مع تحياتنا،\nفريق أكاديمية نوفيرا"
+msgstr ""
+
+#: inc/form-handling.php:162 inc/translation-request-handler.php:77 template-parts/components/form-success-message.php:16
+msgid "تم إرسال طلبك بنجاح. سنتواصل معك قريباً."
+msgstr ""
+
+#: inc/form-handling.php:191
+msgctxt "Post type general name"
+msgid "عروض الأسعار"
+msgstr ""
+
+#: inc/form-handling.php:192
+msgctxt "Post type singular name"
+msgid "عرض سعر"
+msgstr ""
+
+#: inc/form-handling.php:193
+msgctxt "Admin Menu text"
+msgid "عروض الأسعار"
+msgstr ""
+
+#: inc/form-handling.php:194 inc/registration-handling.php:162
+msgid "إضافة جديد"
+msgstr ""
+
+#: inc/form-handling.php:195
+msgid "إضافة عرض سعر جديد"
+msgstr ""
+
+#: inc/form-handling.php:196
+msgid "تعديل عرض السعر"
+msgstr ""
+
+#: inc/form-handling.php:197
+msgid "عرض سعر جديد"
+msgstr ""
+
+#: inc/form-handling.php:198
+msgid "عرض عرض السعر"
+msgstr ""
+
+#: inc/form-handling.php:199
+msgid "بحث في عروض الأسعار"
+msgstr ""
+
+#: inc/form-handling.php:200
+msgid "لم يتم العثور على عروض أسعار"
+msgstr ""
+
+#: inc/form-handling.php:201
+msgid "لم يتم العثور على عروض أسعار في سلة المهملات"
+msgstr ""
+
+#: inc/form-handling.php:202
+msgid "جميع عروض الأسعار"
+msgstr ""
+
+#: inc/language-switcher.php:121 inc/locale.php:140 inc/translation-request-sanitization.php:182 template-parts/components/quote-request-form.php:60 template-parts/components/quote-request-form.php:72
+msgid "العربية"
+msgstr ""
+
+#: inc/language-switcher.php:188
+msgid "اختيار اللغة"
+msgstr ""
+
+#: inc/language-switcher.php:199
+msgid "اللغة الحالية"
+msgstr ""
+
+#: inc/language-switcher.php:213 inc/language-switcher.php:215
+msgid "غير متاحة حالياً"
+msgstr ""
+
+#: inc/media-categories.php:20
+msgctxt "taxonomy general name"
+msgid "تصنيفات الوسائط"
+msgstr ""
+
+#: inc/media-categories.php:21
+msgctxt "taxonomy singular name"
+msgid "تصنيف وسائط"
+msgstr ""
+
+#: inc/media-categories.php:30
+msgid "تصنيفات الوسائط"
+msgstr ""
+
+#: inc/media-categories.php:51
+msgid "التصنيف"
+msgstr ""
+
+#: inc/media-categories.php:118
+msgid "التعليم"
+msgstr ""
+
+#: inc/media-categories.php:119
+msgid "الترجمة"
+msgstr ""
+
+#: inc/media-categories.php:120 template-parts/sections/department-american-diploma.php:61 template-parts/sections/department-hero.php:30
+msgid "الدبلوم الأمريكي"
+msgstr ""
+
+#: inc/media-categories.php:122 template-parts/sections/latest-posts.php:38
+msgid "المدونة"
+msgstr ""
+
+#: inc/media-categories.php:123
+msgid "المعرض"
+msgstr ""
+
+#: inc/media-categories.php:124
+msgid "الفريق"
+msgstr ""
+
+#: inc/media-categories.php:125 template-parts/portal/dashboard.php:45
+msgid "الشهادات"
+msgstr ""
+
+#. translators: %s: parent menu item title
+#: inc/nav-walkers.php:104 inc/nav-walkers.php:154
+msgid "عرض القائمة الفرعية لـ %s"
+msgstr ""
+
+#: inc/registration-handling.php:40
+msgid "اسم ولي الأمر مطلوب"
+msgstr ""
+
+#: inc/registration-handling.php:44
+msgid "اسم الطالب مطلوب"
+msgstr ""
+
+#: inc/registration-handling.php:56
+msgid "يرجى إدخال عمر صحيح للطالب"
+msgstr ""
+
+#: inc/registration-handling.php:60
+msgid "يرجى اختيار البرنامج المطلوب"
+msgstr ""
+
+#: inc/registration-handling.php:100
+msgid "طلب تسجيل جديد - الدبلوم الأمريكي"
+msgstr ""
+
+#: inc/registration-handling.php:101
+msgid "طلب تسجيل جديد في الدبلوم الأمريكي"
+msgstr ""
+
+#. translators: %s: parent name.
+#: inc/registration-handling.php:103
+msgid "ولي الأمر: %s"
+msgstr ""
+
+#. translators: %s: student name.
+#: inc/registration-handling.php:105
+msgid "الطالب: %s"
+msgstr ""
+
+#. translators: %s: student age.
+#: inc/registration-handling.php:107
+msgid "العمر: %s"
+msgstr ""
+
+#. translators: %s: current grade.
+#: inc/registration-handling.php:109
+msgid "المستوى الحالي: %s"
+msgstr ""
+
+#. translators: %s: program name.
+#: inc/registration-handling.php:111 inc/registration-handling.php:296
+msgid "البرنامج: %s"
+msgstr ""
+
+#. translators: %s: additional notes.
+#: inc/registration-handling.php:117
+msgid "ملاحظات: %s"
+msgstr ""
+
+#: inc/registration-handling.php:124 inc/registration-handling.php:305
+msgid "تأكيد استلام طلب التسجيل - أكاديمية نوفيرا"
+msgstr ""
+
+#. translators: %s: student name.
+#: inc/registration-handling.php:128
+msgid "تم استلام طلب التسجيل لابنك/ابنتك %s في الدبلوم الأمريكي بنجاح."
+msgstr ""
+
+#. translators: %s: program name.
+#: inc/registration-handling.php:130 inc/registration-handling.php:310
+msgid "البرنامج المطلوب: %s"
+msgstr ""
+
+#: inc/registration-handling.php:131 template-parts/components/registration-interest-form.php:95
+msgid "سنتواصل معك خلال 24 ساعة لتحديد موعد مقابلة."
+msgstr ""
+
+#: inc/registration-handling.php:147
+msgid "تم استلام طلبك بنجاح. سنتواصل معك قريباً."
+msgstr ""
+
+#: inc/registration-handling.php:159
+msgctxt "Post type general name"
+msgid "طلبات التسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:160
+msgctxt "Post type singular name"
+msgid "طلب تسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:161
+msgctxt "Admin Menu text"
+msgid "طلبات التسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:163
+msgid "إضافة طلب تسجيل جديد"
+msgstr ""
+
+#: inc/registration-handling.php:164
+msgid "تعديل طلب التسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:165
+msgid "طلب تسجيل جديد"
+msgstr ""
+
+#: inc/registration-handling.php:166
+msgid "عرض طلب التسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:167
+msgid "بحث في طلبات التسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:168
+msgid "لم يتم العثور على طلبات تسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:169
+msgid "لم يتم العثور على طلبات تسجيل في سلة المهملات"
+msgstr ""
+
+#: inc/registration-handling.php:170
+msgid "جميع طلبات التسجيل"
+msgstr ""
+
+#: inc/registration-handling.php:242
+msgid "الاسم الأول مطلوب"
+msgstr ""
+
+#: inc/registration-handling.php:246
+msgid "الاسم الأخير مطلوب"
+msgstr ""
+
+#: inc/registration-handling.php:250
+msgid "يرجى اختيار البرنامج"
+msgstr ""
+
+#: inc/registration-handling.php:291 inc/registration-handling.php:292
+msgid "طلب تسجيل جديد من الصفحة الرئيسية"
+msgstr ""
+
+#. translators: 1: first name, 2: last name.
+#: inc/registration-handling.php:294
+msgid "الاسم: %1$s %2$s"
+msgstr ""
+
+#: inc/registration-handling.php:308
+msgid "تم استلام طلب التسجيل بنجاح."
+msgstr ""
+
+#: inc/registration-handling.php:311
+msgid "سنتواصل معك خلال 24 ساعة."
+msgstr ""
+
+#: inc/seo.php:39 inc/seo.php:365
+msgid "نوفيرا أكاديمي"
+msgstr ""
+
+#: inc/seo.php:41
+msgid "طريق الإبراهيمية، آخر شارع مستشفى أبو عوف"
+msgstr ""
+
+#: inc/seo.php:42 inc/seo.php:479
+msgid "بني مزار"
+msgstr ""
+
+#: inc/seo.php:44 inc/seo.php:478
+msgid "المنيا"
+msgstr ""
+
+#: inc/seo.php:105
+msgid "نوفيرا أكاديمي — مؤسسة تعليمية في بني مزار، المنيا، معتمدة دولياً من Cognia. الدبلومة الأمريكية (EST، SAT، ACT، AP)، الترجمة المعتمدة، وبرامج اللغات والمهارات."
+msgstr ""
+
+#: inc/seo.php:366
+msgid "تعليم أمريكي معتمد وترجمة معتمدة في بني مزار، المنيا"
+msgstr ""
+
+#: inc/seo.php:384
+msgid "كيف أبدأ التسجيل؟"
+msgstr ""
+
+#: inc/seo.php:385
+msgid "تواصل معنا عبر واتساب أو الهاتف أو بزيارة المقر، وسنوجّهك إلى خطوات التسجيل المناسبة لبرنامجك."
+msgstr ""
+
+#: inc/seo.php:388
+msgid "ما البرامج المتاحة؟"
+msgstr ""
+
+#: inc/seo.php:389
+msgid "الدبلومة الأمريكية (EST وSAT وACT)، والترجمة المعتمدة، وبرامج اللغات والمهارات (إنجليزي، ألماني، فرنسي، برمجة، ذكاء اصطناعي وغيرها)."
+msgstr ""
+
+#: inc/seo.php:392
+msgid "كيف يمكنني التواصل مع الأكاديمية؟"
+msgstr ""
+
+#: inc/seo.php:393
+msgid "واتساب 01090600927 (الأسرع للرد)، أو البريد noviraacademy@gmail.com، أو صفحة فيسبوك Novira Academy، أو بزيارة المقر: المنيا – بني مزار – طريق الإبراهيمية – آخر شارع مستشفى أبو عوف."
+msgstr ""
+
+#: inc/seo.php:396
+msgid "ما مواعيد العمل؟"
+msgstr ""
+
+#: inc/seo.php:397
+msgid "من السبت إلى الخميس: 10 صباحًا – 10 مساءً، والجمعة: 1 ظهرًا – 10 مساءً. وتُحدَّد مواعيد المجموعات الدراسية حسب البرنامج."
+msgstr ""
+
+#: inc/seo.php:400
+msgid "كم يستغرق الرد على استفساري؟"
+msgstr ""
+
+#: inc/seo.php:401
+msgid "عادةً خلال دقائق على واتساب أثناء مواعيد العمل."
+msgstr ""
+
+#: inc/seo.php:404
+msgid "هل الدبلومة الأمريكية معتمدة؟"
+msgstr ""
+
+#: inc/seo.php:405
+msgid "نعم، برنامج الدبلومة الأمريكية معتمد من Cognia ويشمل اختبارات EST وSAT وACT. وننصح دائمًا بالتأكد من متطلبات الجامعة المستهدفة."
+msgstr ""
+
+#: inc/seo.php:408
+msgid "هل تختلف الرسوم حسب البرنامج؟"
+msgstr ""
+
+#: inc/seo.php:409
+msgid "نعم، تختلف الرسوم حسب البرنامج ومدته. للحصول على تفاصيل الرسوم الحالية تواصل معنا عبر واتساب."
+msgstr ""
+
+#: inc/seo.php:413
+msgid "ما المستندات المطلوبة للتسجيل؟"
+msgstr ""
+
+#: inc/seo.php:414
+msgid "تختلف المستندات حسب البرنامج. تواصل معنا لمعرفة المستندات المطلوبة لبرنامجك."
+msgstr ""
+
+#: inc/seo.php:418
+msgid "هل توجد مقابلة لتحديد المستوى؟"
+msgstr ""
+
+#: inc/seo.php:419
+msgid "نساعد في تحديد المستوى المناسب قبل البدء في البرامج اللغوية. تواصل معنا لمعرفة التفاصيل الخاصة ببرنامجك."
+msgstr ""
+
+#: inc/seo.php:423
+msgid "هل المجموعات محدودة العدد؟"
+msgstr ""
+
+#: inc/seo.php:424
+msgid "نحرص على متابعة مستمرة لكل طالب. لمعرفة عدد الطلاب في مجموعة برنامج معيّن تواصل معنا."
+msgstr ""
+
+#: inc/seo.php:428
+msgid "كيف يتم التواصل مع أولياء الأمور؟"
+msgstr ""
+
+#: inc/seo.php:429
+msgid "نوفّر متابعة أكاديمية مستمرة للطلاب. لمعرفة طريقة وتكرار التواصل مع أولياء الأمور تواصل معنا."
+msgstr ""
+
+#: inc/seo.php:433
+msgid "ماذا لو رغبت في الانسحاب من البرنامج؟"
+msgstr ""
+
+#: inc/seo.php:434
+msgid "تختلف سياسة الانسحاب حسب البرنامج. تواصل معنا لمعرفة التفاصيل قبل التسجيل."
+msgstr ""
+
+#: inc/seo.php:462
+msgid "مؤسسة تعليمية في بني مزار، المنيا، معتمدة دولياً من Cognia. تقدّم الدبلومة الأمريكية (EST، SAT، ACT، AP)، والترجمة المعتمدة، وبرامج اللغات والمهارات."
+msgstr ""
+
+#: inc/translation-request-handler.php:31
+msgid "خطأ في التحقق من البيانات."
+msgstr ""
+
+#: inc/translation-request-handler.php:142
+msgid "حدث خطأ أثناء حفظ الطلب."
+msgstr ""
+
+#. translators: %s: company name
+#: inc/translation-request-handler.php:166
+msgid "طلب ترجمة جديد من %s"
+msgstr ""
+
+#: inc/translation-request-handler.php:174
+msgid "تأكيد استلام طلب الترجمة - أكاديمية نوفيرا"
+msgstr ""
+
+#: inc/translation-request-handler.php:190 inc/translation-request-handler.php:242
+msgid "طلب ترجمة جديد"
+msgstr ""
+
+#: inc/translation-request-handler.php:214
+msgid "تم استلام طلب الترجمة الخاص بك بنجاح."
+msgstr ""
+
+#: inc/translation-request-handler.php:223
+msgid "مع تحياتنا،"
+msgstr ""
+
+#: inc/translation-request-handler.php:223
+msgid "فريق أكاديمية نوفيرا"
+msgstr ""
+
+#: inc/translation-request-handler.php:236
+msgctxt "Post type general name"
+msgid "طلبات الترجمة"
+msgstr ""
+
+#: inc/translation-request-handler.php:237
+msgctxt "Post type singular name"
+msgid "طلب ترجمة"
+msgstr ""
+
+#: inc/translation-request-handler.php:238
+msgctxt "Admin Menu text"
+msgid "طلبات الترجمة"
+msgstr ""
+
+#: inc/translation-request-handler.php:239
+msgid "إضافة طلب"
+msgstr ""
+
+#: inc/translation-request-handler.php:240
+msgid "إضافة طلب ترجمة جديد"
+msgstr ""
+
+#: inc/translation-request-handler.php:241
+msgid "تعديل طلب الترجمة"
+msgstr ""
+
+#: inc/translation-request-handler.php:243
+msgid "عرض طلب الترجمة"
+msgstr ""
+
+#: inc/translation-request-handler.php:244
+msgid "بحث في طلبات الترجمة"
+msgstr ""
+
+#: inc/translation-request-handler.php:245
+msgid "لم يتم العثور على طلبات ترجمة"
+msgstr ""
+
+#: inc/translation-request-handler.php:246
+msgid "لم يتم العثور على طلبات ترجمة في سلة المهملات"
+msgstr ""
+
+#: inc/translation-request-handler.php:247
+msgid "جميع طلبات الترجمة"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:184 template-parts/components/quote-request-form.php:62 template-parts/components/quote-request-form.php:74
+msgid "الفرنسية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:185 template-parts/components/quote-request-form.php:63 template-parts/components/quote-request-form.php:75
+msgid "الألمانية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:186 template-parts/components/quote-request-form.php:64 template-parts/components/quote-request-form.php:76
+msgid "الإسبانية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:187
+msgid "الإيطالية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:188
+msgid "التركية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:189
+msgid "الصينية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:190
+msgid "اليابانية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:191
+msgid "الكورية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:202 template-parts/components/quote-request-form.php:47 template-parts/sections/department-translation.php:25 template-parts/sections/department-translation.php:45
+msgid "ترجمة عادية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:203 page-translation.php:27 page-translation.php:36 page-translation.php:48 page-translation.php:169 template-parts/components/quote-request-form.php:48
+#: template-parts/sections/department-nav.php:31 template-parts/sections/department-translation.php:30 template-parts/sections/department-translation.php:54 template-parts/sections/department-translation.php:57 template-parts/translation.php:4
+msgid "ترجمة معتمدة"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:204 template-parts/components/quote-request-form.php:49 template-parts/sections/department-translation.php:35
+msgid "ترجمة عاجلة"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:205 page-translation.php:171 template-parts/components/quote-request-form.php:50
+msgid "ترجمة قانونية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:206 template-parts/components/quote-request-form.php:51
+msgid "ترجمة تقنية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:207
+msgid "ترجمة طبية"
+msgstr ""
+
+#: inc/translation-request-sanitization.php:208
+msgid "ترجمة مالية"
+msgstr ""
+
+#: page-about.php:47
+msgid "نؤمن أن التعلم رحلة لا تتوقف"
+msgstr ""
+
+#: page-about.php:51
+msgid "في نوفيرا أكاديمي نساعد جميع الفئات على تعلم ما بحبون، وتنمية مهاراتهم، وتحقيق أهدافهم."
+msgstr ""
+
+#: page-about.php:62
+msgid "مستر يوسف زكي — مؤسس نوفيرا أكاديمي"
+msgstr ""
+
+#: page-about.php:64 template-parts/sections/founder.php:56
+msgid "مستر"
+msgstr ""
+
+#: page-about.php:65 page-american-diploma.php:241 page-american-diploma.php:260 template-parts/sections/founder.php:72
+msgid "يوسف زكي"
+msgstr ""
+
+#: page-about.php:66 page-about.php:70 template-parts/sections/founder.php:39 template-parts/sections/founder.php:54
+msgid "المؤسس"
+msgstr ""
+
+#: page-about.php:71
+msgid "مؤسس أكاديمية نوفيرا الأستاذ يوسف زكي يمتلك خبرة واسعة في مجال الدبلومة الأمريكية واللغة الإنجليزية والاختبارات الدولية لسنوات."
+msgstr ""
+
+#: page-about.php:72
+msgid "متخصص في اللغات والترجمة الفورية، واهتم خلال مسيرته بتطوير المهارات وبناء القدرات بأسلوب عملي ومبتكر."
+msgstr ""
+
+#: page-about.php:73
+msgid "انطلق في تأسيس الأكاديمية إيمانًا منه بأهمية التعليم والتدريب في تحقيق النجاح، وحرصًا على تقديم محتوى تدريبي عالي الجودة يواكب متطلبات سوق العمل، ويسهم في إعداد كوادر مؤهلة وقادرة على التطور المستمر."
+msgstr ""
+
+#: page-about.php:84
+msgid "رسالتنا"
+msgstr ""
+
+#: page-about.php:85
+msgid "نؤمن بأن التعلم رحلة مستمرة تبدأ من الصغر ولا تنتهي، ولذلك نعمل على توفير بيئة تعليمية مرنة، تفاعلية، وآمنة لجميع الفئات العمرية، من خلال مدربين محترفين، محتوى تدريبي قوي، ونظام متابعة متميز، لنساعد كل متدرب على تحقيق أهدافه بثقة وكفاءة."
+msgstr ""
+
+#: page-about.php:90
+msgid "رؤيتنا"
+msgstr ""
+
+#: page-about.php:91
+msgid "أن نكون من أوائل المؤسسات التعليمية في صعيد مصر التي تقدم تجربة تعليمية حديثة، متكاملة، وملهمة، تدمج بين الاختبارات الدولية للدبلومات الأمريكية والمهارات اللغوية والتقنية والحياتية، وتُعِد المتدربين ليكونوا أكثر جاهزية لسوق العمل المحلي والدولي."
+msgstr ""
+
+#: page-about.php:96
+msgid "خطتنا المستقبلية"
+msgstr ""
+
+#: page-about.php:98
+msgid "العمل على تطوير وتحسين طلاب الدبلومة الأمريكية وإعدادهم بشكل جيد للاختبارات الدولية"
+msgstr ""
+
+#: page-about.php:99
+msgid "جنبًا إلى جنب مع كورسات ومجالات جديدة"
+msgstr ""
+
+#: page-about.php:100
+msgid "متعاونين مع جهات تعليمية معتمدة داخل وخارج مصر"
+msgstr ""
+
+#: page-about.php:101
+msgid "تطوير أنظمة التعليم الإلكتروني داخل الأكاديمية وخارجها"
+msgstr ""
+
+#: page-about.php:115
+msgid "اللغة الألمانية للصغار"
+msgstr ""
+
+#: page-about.php:116
+msgid "اللغة الألمانية الكبار"
+msgstr ""
+
+#: page-about.php:117 page-services.php:39
+msgid "اللغة الفرنسية"
+msgstr ""
+
+#: page-about.php:118
+msgid "المهارات الحياتية"
+msgstr ""
+
+#: page-about.php:119
+msgid "الإسعافات الأولية"
+msgstr ""
+
+#: page-about.php:121
+msgid "البرمجة"
+msgstr ""
+
+#: page-about.php:122 template-parts/sections/testimonials-stitch.php:61
+msgid "طلابنا"
+msgstr ""
+
+#: page-about.php:123
+msgid "القرآن الكريم"
+msgstr ""
+
+#: page-about.php:125 template-parts/sections/department-american-diploma.php:25
+msgid "اللغة الإنجليزية"
+msgstr ""
+
+#. translators: %s: course card title.
+#: page-about.php:136
+msgid "تشغيل فيديو %s"
+msgstr ""
+
+#: page-about.php:153
+msgid "انضم الآن"
+msgstr ""
+
+#: page-about.php:165 page-contact.php:305
+msgid "موقعنا"
+msgstr ""
+
+#: page-about.php:170 page-contact.php:294
+msgid "موقع نوفيرا أكاديمي على الخريطة"
+msgstr ""
+
+#: page-about.php:176
+msgid "المنيا ، بني مزار ، بجري السنترال العام<br>بجوار مدخل مكتبة الناطر"
+msgstr ""
+
+#: page-about.php:180 page-contact.php:264
+msgid "أوقات العمل"
+msgstr ""
+
+#: page-about.php:181
+msgid "من 9:00 ص<br>إلى 10:00 م"
+msgstr ""
+
+#: page-about.php:185 template-parts/components/quote-request-form.php:38 template-parts/components/registration-interest-form.php:38
+msgid "رقم الهاتف"
+msgstr ""
+
+#: page-about.php:190 page-contact.php:189 template-parts/layout/footer.php:49 template-parts/sections/map-contact.php:126
+msgid "واتساب"
+msgstr ""
+
+#: page-about.php:191 page-american-diploma.php:584
+msgid "تواصل معنا الآن"
+msgstr ""
+
+#: page-about.php:214
+msgid "ابدأ رحلتك التعليمية الآن!"
+msgstr ""
+
+#: page-about.php:215
+msgid "احجز استشارتك المجانية وتعرف على أفضل البرامج المناسبة لك أو لأولادك."
+msgstr ""
+
+#: page-about.php:220 page-act.php:204 page-digital-sat.php:204 page-education.php:360 page-est.php:418 template-parts/sections/premium-exam/cta.php:17
+msgid "احجز استشارتك المجانية"
+msgstr ""
+
+#: page-about.php:224 page-contact.php:130 page-education.php:55 page-education.php:364 page-translation.php:68 page-translation.php:426
+#: template-parts/sections/hero-stitch.php:60 template-parts/sections/hero-stitch.php:113 template-parts/sections/hero-stitch.php:166 template-parts/sections/map-contact.php:143
+msgid "تواصل واتساب"
+msgstr ""
+
+#: page-act.php:45 page-american-diploma.php:36 page-american-diploma.php:40 page-american-diploma.php:487 page-digital-sat.php:45 page-est.php:126
+#: template-parts/diploma.php:18 template-parts/layout/footer.php:107 template-parts/layout/header.php:65 template-parts/layout/header.php:154 template-parts/sections/diploma/s1-hero.php:27 template-parts/sections/founder.php:35
+#: template-parts/sections/hero-stitch.php:27 template-parts/sections/programs-stitch.php:50 template-parts/sections/registration-cta.php:27 template-parts/sections/student-case.php:25 template-parts/sections/student-case.php:63
+msgid "الدبلومة الأمريكية"
+msgstr ""
+
+#: page-act.php:47 page-digital-sat.php:47 page-est.php:129
+msgid "نُعِدّ طالبك ليدخله قادراً على أعلى درجة"
+msgstr ""
+
+#: page-act.php:50 page-digital-sat.php:50 page-est.php:137 template-parts/layout/footer.php:172 template-parts/sections/premium-exam/hero.php:27
+msgid "ابدأ الآن"
+msgstr ""
+
+#: page-act.php:52 page-digital-sat.php:52 page-est.php:138 template-parts/sections/premium-exam/hero.php:29
+msgid "تعرّف على طريقة الإعداد"
+msgstr ""
+
+#: page-act.php:53 page-digital-sat.php:53 page-est.php:134 template-parts/sections/premium-exam/hero.php:30
+msgid "برنامج معتمد من Cognia"
+msgstr ""
+
+#: page-act.php:56 page-digital-sat.php:56
+msgid "طالب من نوفيرا أكاديمي أمام لوحة اعتماد Cognia"
+msgstr ""
+
+#: page-act.php:57
+msgid "تأهيل لـ ACT"
+msgstr ""
+
+#: page-act.php:58 page-digital-sat.php:58 page-est.php:153
+msgid "تأسيس متين واختبارات تجريبية مستمرة"
+msgstr ""
+
+#: page-act.php:63 page-digital-sat.php:63 page-est.php:165
+msgid "ما هو الاختبار"
+msgstr ""
+
+#: page-act.php:64
+msgid "ما هو اختبار ACT؟"
+msgstr ""
+
+#: page-act.php:67 page-digital-sat.php:67 page-est.php:169 template-parts/sections/premium-exam/definition.php:36
+msgid "يقيس الاختبار"
+msgstr ""
+
+#: page-act.php:73 page-digital-sat.php:73 page-est.php:178
+msgid "رحلة الإعداد"
+msgstr ""
+
+#: page-act.php:74 page-digital-sat.php:74 page-est.php:179
+msgid "من أين يبدأ طالبك؟"
+msgstr ""
+
+#: page-act.php:75 page-digital-sat.php:75 page-est.php:180
+msgid "نبني معه خطة خطوة بخطوة — من التقييم المبدئي حتى يوم الاختبار."
+msgstr ""
+
+#: page-act.php:77 page-digital-sat.php:77
+msgid "تقييم مبدئي"
+msgstr ""
+
+#: page-act.php:77
+msgid "نحدّد مستوى طالبك الفعلي في الإنجليزية والرياضيات والعلوم."
+msgstr ""
+
+#: page-act.php:78 page-digital-sat.php:78
+msgid "خطة دراسية"
+msgstr ""
+
+#: page-act.php:78 page-digital-sat.php:78
+msgid "خطة مخصصة مبنية على نتيجة التقييم وأهداف الطالب."
+msgstr ""
+
+#: page-act.php:79 page-act.php:177 page-american-diploma.php:90 page-digital-sat.php:79 page-digital-sat.php:177 page-est.php:367
+msgid "حصص أسبوعية"
+msgstr ""
+
+#: page-act.php:79 page-digital-sat.php:79
+msgid "دراسة منتظمة مع معلم متخصص طوال البرنامج."
+msgstr ""
+
+#: page-act.php:80 page-digital-sat.php:80
+msgid "واجبات ومتابعة"
+msgstr ""
+
+#: page-act.php:80 page-digital-sat.php:80
+msgid "تمارين تُثبّت ما يُدرَّس وتكشف الثغرات مبكراً."
+msgstr ""
+
+#: page-act.php:81
+msgid "اختبارات تجريبية"
+msgstr ""
+
+#: page-act.php:81
+msgid "محاكاة كاملة ليوم الاختبار لتحديد ما يحتاج تعزيزاً."
+msgstr ""
+
+#: page-act.php:82 page-digital-sat.php:82
+msgid "الامتحان الرسمي وأفضل درجة"
+msgstr ""
+
+#: page-act.php:82 page-digital-sat.php:82
+msgid "يتقدّم طالبك للاختبار الرسمي، ونستمر معه لإعادته وتحسين درجته إن رغب."
+msgstr ""
+
+#: page-act.php:88 page-digital-sat.php:88 page-est.php:200 template-parts/sections/premium-exam/courses.php:37
+msgid "الكورسات الدراسية"
+msgstr ""
+
+#: page-act.php:89
+msgid "كورسات الإعداد للـ ACT"
+msgstr ""
+
+#: page-act.php:90
+msgid "كل كورس يبني المهارات التي يقيسها ACT — الإنجليزية والرياضيات والعلوم — ضمن حصص أسبوعية منتظمة مع معلمين متخصصين، اختر ما يناسب مرحلة طالبك."
+msgstr ""
+
+#: page-act.php:91 page-digital-sat.php:91 page-est.php:203 template-parts/sections/premium-exam/courses.php:40
+msgid "اطلب الكورس"
+msgstr ""
+
+#: page-act.php:95
+msgid "عايز احجز تقييم مستوى لطالبي للاستعداد لاختبار ACT"
+msgstr ""
+
+#: page-act.php:97 page-digital-sat.php:97 page-est.php:211
+msgid "لست متأكداً من الكورس المناسب لطالبك؟"
+msgstr ""
+
+#: page-act.php:98 page-digital-sat.php:98 page-est.php:212
+msgid "يحدّد التقييم المبدئي مستوى طالبك والكورس والخطة الأنسب له."
+msgstr ""
+
+#: page-act.php:99 page-digital-sat.php:99 page-est.php:213
+msgid "احجز تقييم مستوى"
+msgstr ""
+
+#: page-act.php:105 page-digital-sat.php:105 page-est.php:221 template-parts/sections/premium-exam/course-guide.php:34
+msgid "اختيار الكورس"
+msgstr ""
+
+#: page-act.php:106 page-digital-sat.php:106 page-est.php:222 template-parts/sections/premium-exam/course-guide.php:35
+msgid "أي كورس يناسب طالبك؟"
+msgstr ""
+
+#: page-act.php:107 page-digital-sat.php:107 page-est.php:223
+msgid "لكل مرحلة ما يناسبها. إليك دليلاً سريعاً يربط وضع طالبك بالكورس الأنسب له."
+msgstr ""
+
+#: page-act.php:111 page-digital-sat.php:111 page-est.php:231
+msgid "الفرق مع نوفيرا"
+msgstr ""
+
+#: page-act.php:112
+msgid "لماذا تختار ACT مع نوفيرا؟"
+msgstr ""
+
+#: page-act.php:113
+msgid "لأن درجة ACT تعكس ما بناه الطالب على مدار السنوات — لا ما راجعه في أسبوع. هنا يكون الإعداد جزءاً من كل حصة."
+msgstr ""
+
+#: page-act.php:115 page-digital-sat.php:115
+msgid "حصص أسبوعية مع معلمين متخصصين طوال رحلة الدبلومة"
+msgstr ""
+
+#: page-act.php:116 page-digital-sat.php:116
+msgid "إعداد مُدمَج في البرنامج — لا مراجعة في اللحظة الأخيرة"
+msgstr ""
+
+#: page-act.php:117
+msgid "تغطية الإنجليزية والرياضيات والقراءة والعلوم التي يقيسها ACT"
+msgstr ""
+
+#: page-act.php:118 page-digital-sat.php:118
+msgid "متابعة دورية بعد كل حصة وكل اختبار تجريبي"
+msgstr ""
+
+#: page-act.php:119 page-digital-sat.php:119
+msgid "تواصل مستمر مع ولي الأمر حول مستوى التقدّم"
+msgstr ""
+
+#: page-act.php:120 page-digital-sat.php:120
+msgid "دعم في التسجيل وفي إعادة الاختبار حتى أفضل نتيجة"
+msgstr ""
+
+#: page-act.php:122 page-digital-sat.php:122 page-est.php:248
+msgid "معتمدون من Cognia"
+msgstr ""
+
+#: page-act.php:123
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية — والإعداد لاختبار ACT جزء من هذا البرنامج المعتمد."
+msgstr ""
+
+#: page-act.php:129 page-digital-sat.php:129 page-est.php:259
+msgid "ضمن اختبارات الدبلومة"
+msgstr ""
+
+#: page-act.php:130
+msgid "ACT بين اختبارات الدبلومة الأمريكية"
+msgstr ""
+
+#: page-act.php:131 page-digital-sat.php:131 page-est.php:261
+msgid "الاختبارات الثلاثة معتمدة ضمن مسار الدبلومة، ونُعِدّ طلابنا لها جميعاً. إليك مقارنة عامة سريعة."
+msgstr ""
+
+#: page-act.php:132 page-digital-sat.php:132 page-est.php:267
+msgid "نتيجة أعلى، فرص أوسع"
+msgstr ""
+
+#: page-act.php:133 page-digital-sat.php:133 page-est.php:268
+msgid "مهما كان الاختبار، الإعداد مستمر معك حتى أفضل نتيجة ممكنة — مع دعم إعادة الاختبار عند الحاجة."
+msgstr ""
+
+#: page-act.php:136 page-digital-sat.php:136
+msgid "المهارات المقاسة"
+msgstr ""
+
+#: page-act.php:136 page-digital-sat.php:136
+msgid "إنجليزي + رياضيات"
+msgstr ""
+
+#: page-act.php:136 page-digital-sat.php:136
+msgid "إنجليزي + رياضيات + علوم"
+msgstr ""
+
+#: page-act.php:137
+msgid "يشمل قسم العلوم"
+msgstr ""
+
+#: page-act.php:138 page-digital-sat.php:138
+msgid "معتمد ضمن الدبلومة الأمريكية"
+msgstr ""
+
+#: page-act.php:139 page-digital-sat.php:139
+msgid "إمكانية إعادة الاختبار لتحسين الدرجة"
+msgstr ""
+
+#: page-act.php:140 page-digital-sat.php:140
+msgid "الإعداد ضمن برنامج نوفيرا"
+msgstr ""
+
+#: page-act.php:142 page-digital-sat.php:142 page-est.php:290
+msgid "للمعلومة العامة؛ تُؤكَّد التفاصيل الرسمية لكل اختبار مع فريق نوفيرا."
+msgstr ""
+
+#: page-act.php:143 page-digital-sat.php:143 page-est.php:295
+msgid "تعرّف أيضاً على"
+msgstr ""
+
+#: page-act.php:145 page-digital-sat.php:145
+msgid "EST"
+msgstr ""
+
+#: page-act.php:146 page-est.php:298
+msgid "Digital SAT"
+msgstr ""
+
+#: page-act.php:147 page-digital-sat.php:147 page-est.php:300 template-parts/sections/department-hero.php:31 template-parts/sections/diploma/s1-hero.php:20 template-parts/sections/diploma/s1-hero.php:25
+msgid "البرنامج الأمريكي"
+msgstr ""
+
+#: page-act.php:152 page-digital-sat.php:152 page-est.php:312
+msgid "متابعة ولي الأمر"
+msgstr ""
+
+#: page-act.php:153 page-digital-sat.php:153 page-est.php:313
+msgid "متابعة طالبك في صميم أولوياتنا"
+msgstr ""
+
+#: page-act.php:154 page-digital-sat.php:154 page-est.php:314
+msgid "نظام متابعة مخصص لكل أب وأم — تعرف دائماً أين يقف طالبك وما الخطوة التالية."
+msgstr ""
+
+#: page-act.php:156 page-act.php:181 page-digital-sat.php:156 page-digital-sat.php:181
+msgid "متابعة دورية لمستوى الطالب"
+msgstr ""
+
+#: page-act.php:156 page-digital-sat.php:156
+msgid "يرصد المعلم ما تحسّن وما يحتاج تدريباً بعد كل حصة واختبار تجريبي."
+msgstr ""
+
+#: page-act.php:157 page-act.php:182 page-digital-sat.php:157 page-digital-sat.php:182
+msgid "تواصل مستمر مع ولي الأمر"
+msgstr ""
+
+#: page-act.php:157 page-digital-sat.php:157
+msgid "لا تنتظر يوم الامتحان لتعرف أين يقف طالبك — نُبقيك على اطلاع."
+msgstr ""
+
+#: page-act.php:158 page-digital-sat.php:158
+msgid "خطة تتكيّف مع الطالب"
+msgstr ""
+
+#: page-act.php:158 page-digital-sat.php:158
+msgid "تُعدَّل الخطة الدراسية وفق أولويات الطالب الفعلية أولاً بأول."
+msgstr ""
+
+#: page-act.php:161 page-digital-sat.php:161 page-est.php:329
+msgid "معلم نوفيرا يتابع الطلاب أثناء الدراسة"
+msgstr ""
+
+#: page-act.php:165 page-digital-sat.php:165 page-est.php:338
+msgid "البرنامج بالأرقام"
+msgstr ""
+
+#: page-act.php:166 page-digital-sat.php:166 page-est.php:339
+msgid "إعداد متواصل يصنع الفرق الأكاديمي"
+msgstr ""
+
+#: page-act.php:167 page-digital-sat.php:167 page-est.php:340
+msgid "ليست وعوداً بنتائج، بل طريقة عمل حقيقية يلتزم بها برنامج الدبلومة في نوفيرا."
+msgstr ""
+
+#: page-act.php:169 page-american-diploma.php:411 page-digital-sat.php:169 page-est.php:347
+msgid "سنوات"
+msgstr ""
+
+#: page-act.php:170 page-digital-sat.php:170 page-est.php:347
+msgid "إعداد متواصل"
+msgstr ""
+
+#: page-act.php:173 page-digital-sat.php:173 page-est.php:354
+msgid "ثلاث سنوات من البناء الأكاديمي المتواصل — من الصف العاشر حتى يوم الامتحان، لا مراجعة في أسابيع."
+msgstr ""
+
+#: page-act.php:175 page-digital-sat.php:175 page-est.php:360
+msgid "اختبارات دولية معتمدة"
+msgstr ""
+
+#: page-act.php:175 page-digital-sat.php:175 page-est.php:361
+msgid "EST و Digital SAT و ACT"
+msgstr ""
+
+#: page-act.php:176
+msgid "أعلى درجة لكل قسم"
+msgstr ""
+
+#: page-act.php:176
+msgid "والدرجة المركّبة من 1 إلى 36"
+msgstr ""
+
+#: page-act.php:177 page-digital-sat.php:177 page-est.php:368
+msgid "دراسة منتظمة مع معلمين متخصصين"
+msgstr ""
+
+#: page-act.php:179 page-digital-sat.php:179 page-est.php:381
+msgid "ما يشمله الإعداد"
+msgstr ""
+
+#: page-act.php:183 page-digital-sat.php:183
+msgid "اختبارات تجريبية قبل الامتحان"
+msgstr ""
+
+#: page-act.php:184 page-digital-sat.php:184
+msgid "دعم إجراءات التسجيل"
+msgstr ""
+
+#: page-act.php:185 page-digital-sat.php:185
+msgid "تنسيق لوجستي عند الحاجة"
+msgstr ""
+
+#: page-act.php:186 page-digital-sat.php:186
+msgid "دعم إعادة الاختبار لتحسين الدرجة"
+msgstr ""
+
+#: page-act.php:195 page-digital-sat.php:195 page-est.php:405
+msgid "أسئلة شائعة"
+msgstr ""
+
+#: page-act.php:196
+msgid "أسئلة يطرحها أولياء الأمور عن ACT"
+msgstr ""
+
+#: page-act.php:201 page-digital-sat.php:201 page-est.php:415
+msgid "ابدأ بتقييم مستوى طالبك"
+msgstr ""
+
+#: page-act.php:206 page-digital-sat.php:206 page-est.php:419 template-parts/sections/premium-exam/cta.php:19
+msgid "تواصل مع الفريق"
+msgstr ""
+
+#: page-american-diploma.php:41
+msgid "الاستعداد للامتحان الدولي يستغرق سنوات — ليس أسابيع"
+msgstr ""
+
+#: page-american-diploma.php:44
+msgid "برنامج الدبلومة الأمريكية يُرافق طالبك من Grade 10 حتى يوم الامتحان. حصص أسبوعية مع معلمين متخصصين، متابعة أكاديمية دورية، واختبارات تجريبية لقياس التقدم — حتى تكون دائماً على اطلاع بمستواه."
+msgstr ""
+
+#: page-american-diploma.php:50
+msgid "معلمون متخصصون"
+msgstr ""
+
+#: page-american-diploma.php:54 page-education.php:110
+msgid "متابعة شخصية"
+msgstr ""
+
+#: page-american-diploma.php:58 page-american-diploma.php:87 page-american-diploma.php:281
+msgid "اعتماد دولي"
+msgstr ""
+
+#: page-american-diploma.php:64 template-parts/sections/hero-stitch.php:57
+msgid "اكتشف البرنامج"
+msgstr ""
+
+#: page-american-diploma.php:66
+msgid "تعرّف على البرنامج"
+msgstr ""
+
+#: page-american-diploma.php:79 template-parts/layout/footer.php:68
+msgid "معتمدة دولياً"
+msgstr ""
+
+#: page-american-diploma.php:91
+msgid "مع معلمين متخصصين"
+msgstr ""
+
+#: page-american-diploma.php:95
+msgid "المرحلة الدراسية"
+msgstr ""
+
+#: page-american-diploma.php:103 page-american-diploma.php:116 template-parts/sections/diploma/s2-what-is.php:38 template-parts/sections/diploma/s2-what-is.php:42
+msgid "ما هي الدبلومة الأمريكية؟"
+msgstr ""
+
+#: page-american-diploma.php:106
+msgid "حرم جامعي"
+msgstr ""
+
+#: page-american-diploma.php:110 page-american-diploma.php:390
+msgid "اعتماد دولي للجودة"
+msgstr ""
+
+#: page-american-diploma.php:115 template-parts/sections/diploma/s2-what-is.php:41 template-parts/sections/exam/s2-what-is.php:25
+msgid "تعريف"
+msgstr ""
+
+#: page-american-diploma.php:117
+msgid "برنامج تعليمي أكاديمي مدته ثلاث سنوات (Grade 10 – Grade 12)، يُدرَّس كاملاً باللغة الإنجليزية. يشمل دراسة المواد الأكاديمية وفق المنهج الأمريكي، مع تحضير موجَّه لاختبارات EST و Digital SAT و ACT. الشهادة معتمدة من Cognia وموثّقة لدى الجامعات الأمريكية والدولية وفق متطلبات كل جامعة."
+msgstr ""
+
+#: page-american-diploma.php:121
+msgid "تعليم معتمد أمريكياً"
+msgstr ""
+
+#: page-american-diploma.php:122
+msgid "اعتماد دولي من Cognia"
+msgstr ""
+
+#: page-american-diploma.php:123
+msgid "مرونة في طريقة الدراسة"
+msgstr ""
+
+#: page-american-diploma.php:124
+msgid "تحضير لاختبارات EST و Digital SAT و ACT"
+msgstr ""
+
+#: page-american-diploma.php:125
+msgid "إرشاد في خطوات التقديم الجامعي"
+msgstr ""
+
+#: page-american-diploma.php:142 template-parts/sections/diploma/s3-why-path.php:36 template-parts/sections/diploma/s3-why-path.php:40
+msgid "لماذا تختار بعض الأسر هذا المسار؟"
+msgstr ""
+
+#: page-american-diploma.php:145 template-parts/sections/diploma/s3-why-path.php:39
+msgid "المسار"
+msgstr ""
+
+#: page-american-diploma.php:146
+msgid "لماذا تختار نوفيرا لإعداد طالبك؟"
+msgstr ""
+
+#: page-american-diploma.php:147
+msgid "لأن كل سؤال يسأله الأهل — لدينا إجابة حقيقية عليه."
+msgstr ""
+
+#: page-american-diploma.php:152
+msgid "إعداد أكاديمي يبني على نفسه"
+msgstr ""
+
+#: page-american-diploma.php:152
+msgid "منهج متدرج يُعزز المهارات من Grade 10 إلى Grade 12 — كل مرحلة تبني على التي سبقتها."
+msgstr ""
+
+#: page-american-diploma.php:154
+msgid "شهادة Cognia معترف بها دولياً"
+msgstr ""
+
+#: page-american-diploma.php:154
+msgid "الشهادة معتمدة من Cognia وموثّقة لدى الجامعات الأمريكية والدولية وفق متطلبات كل جامعة."
+msgstr ""
+
+#: page-american-diploma.php:156
+msgid "يدخل الامتحان وهو يعرف ما يتوقعه"
+msgstr ""
+
+#: page-american-diploma.php:156
+msgid "اختبارات تجريبية منتظمة تُقيّم الأداء وتُعرِّف الطالب على بيئة الامتحان — حتى لا يكون يوم الامتحان الرسمي هو المرة الأولى."
+msgstr ""
+
+#: page-american-diploma.php:158
+msgid "متابعة دورية وأنت دائماً على اطلاع"
+msgstr ""
+
+#: page-american-diploma.php:158
+msgid "معلمون متخصصون يتابعون مستوى الطالب أسبوعياً — قبل أن تتراكم الثغرات وتصبح مشكلة."
+msgstr ""
+
+#: page-american-diploma.php:160
+msgid "لا تحتاج لمعرفة الإجراءات — نحن نتولاها"
+msgstr ""
+
+#: page-american-diploma.php:160
+msgid "التسجيل للاختبار، ترتيب الموعد، والتنسيق اللوجستي — نُرافق الطالب حتى يجلس في قاعة الاختبار."
+msgstr ""
+
+#: page-american-diploma.php:178 page-american-diploma.php:182
+msgid "اختبارات الدبلومة الأمريكية"
+msgstr ""
+
+#: page-american-diploma.php:181
+msgid "مسارات الإعداد"
+msgstr ""
+
+#: page-american-diploma.php:183
+msgid "اختر الاختبار الذي يناسب مسار ابنك الأكاديمي"
+msgstr ""
+
+#: page-american-diploma.php:190
+msgid "اختبار أساسي ضمن مسار الدبلومة الأمريكية يقيس الاستعداد الأكاديمي في القراءة والكتابة والرياضيات."
+msgstr ""
+
+#: page-american-diploma.php:196
+msgid "النسخة الرقمية من اختبار SAT مع إعداد أكاديمي منظم ومتابعة شاملة حتى يوم الاختبار."
+msgstr ""
+
+#: page-american-diploma.php:202
+msgid "اختبار دولي معتمد يقيس المهارات الأكاديمية في الإنجليزية والرياضيات والعلوم والكتابة."
+msgstr ""
+
+#: page-american-diploma.php:219
+msgid "اعرف المزيد عن %s"
+msgstr ""
+
+#: page-american-diploma.php:220 template-parts/content/department-card.php:66
+msgid "اعرف المزيد"
+msgstr ""
+
+#: page-american-diploma.php:236
+msgid "بقيادة الخبير يوسف زكي"
+msgstr ""
+
+#: page-american-diploma.php:240
+msgid "بقيادة الخبير"
+msgstr ""
+
+#: page-american-diploma.php:242
+msgid "مؤسس نوفيرا أكاديمي وخبير الدبلومة الأمريكية"
+msgstr ""
+
+#: page-american-diploma.php:246
+msgid "خبرة طويلة في تدريس وإعداد طلاب الدبلومة الأمريكية"
+msgstr ""
+
+#: page-american-diploma.php:247
+msgid "متخصص في إعداد الطلاب للاختبارات الدولية"
+msgstr ""
+
+#: page-american-diploma.php:248
+msgid "منهجية متابعة شخصية لكل طالب حتى تحقيق هدفه"
+msgstr ""
+
+#: page-american-diploma.php:269 page-american-diploma.php:389
+msgid "معتمد من Cognia"
+msgstr ""
+
+#: page-american-diploma.php:282
+msgid "برنامج الدبلومة الأمريكية معتمد من "
+msgstr ""
+
+#: page-american-diploma.php:283
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية. الشهادة موثّقة لدى الجامعات الأمريكية والدولية وفق متطلبات كل جامعة — وليس بديلاً عن شروط القبول."
+msgstr ""
+
+#: page-american-diploma.php:290
+msgid "مقبولة في الجامعات الدولية"
+msgstr ""
+
+#: page-american-diploma.php:291
+msgid "منهج معتمد دولياً"
+msgstr ""
+
+#: page-american-diploma.php:292 page-contact.php:339 page-est.php:374
+msgid "متابعة مستمرة"
+msgstr ""
+
+#: page-american-diploma.php:293
+msgid "إعداد للاختبارات"
+msgstr ""
+
+#: page-american-diploma.php:294
+msgid "شهادة معترف بها"
+msgstr ""
+
+#: page-american-diploma.php:295
+msgid "جودة تعليمية عالية"
+msgstr ""
+
+#: page-american-diploma.php:311
+msgid "يرافق الطالب خلال رحلته"
+msgstr ""
+
+#: page-american-diploma.php:314 template-parts/sections/diploma/s5-journey.php:31 template-parts/sections/diploma/s5-journey.php:34
+msgid "الرحلة الأكاديمية"
+msgstr ""
+
+#: page-american-diploma.php:315
+msgid "كيف يسير البرنامج عملياً؟"
+msgstr ""
+
+#: page-american-diploma.php:316
+msgid "ست مراحل من اليوم الأول حتى يوم الامتحان الرسمي."
+msgstr ""
+
+#: page-american-diploma.php:323
+msgid "تقييم المستوى"
+msgstr ""
+
+#: page-american-diploma.php:324
+msgid "تحديد نقطة البداية وتصميم المسار المثالي"
+msgstr ""
+
+#: page-american-diploma.php:330
+msgid "خطة تعليمية مصممة"
+msgstr ""
+
+#: page-american-diploma.php:331
+msgid "منهج مخصص يناسب وتيرة الطالب وأهدافه"
+msgstr ""
+
+#: page-american-diploma.php:337
+msgid "دراسة تفاعلية ومتابعة دورية"
+msgstr ""
+
+#: page-american-diploma.php:338
+msgid "جلسات مباشرة مع مدرسين متخصصين"
+msgstr ""
+
+#: page-american-diploma.php:344
+msgid "واجبات ومتابعة بين الحصص"
+msgstr ""
+
+#: page-american-diploma.php:345
+msgid "تمارين تُثبّت ما يُدرَّس وتكشف الثغرات مبكراً — قبل أن تتراكم."
+msgstr ""
+
+#: page-american-diploma.php:351
+msgid "اختبارات تجريبية للتقييم المبكر"
+msgstr ""
+
+#: page-american-diploma.php:352
+msgid "محاكاة ظروف الامتحان الحقيقي بوقت كافٍ — لتحديد ما يحتاج تحضيراً إضافياً."
+msgstr ""
+
+#: page-american-diploma.php:358
+msgid "دعم التسجيل والإجراءات"
+msgstr ""
+
+#: page-american-diploma.php:359
+msgid "مساعدة في التسجيل للاختبار والتنسيق اللوجستي حتى يوم الامتحان."
+msgstr ""
+
+#: page-american-diploma.php:380 page-american-diploma.php:399
+msgid "نظرة عامة على البرنامج"
+msgstr ""
+
+#: page-american-diploma.php:385
+msgid "طلاب نوفيرا أكاديمي"
+msgstr ""
+
+#: page-american-diploma.php:398
+msgid "نظرة عامة"
+msgstr ""
+
+#: page-american-diploma.php:410
+msgid "4"
+msgstr ""
+
+#: page-american-diploma.php:415
+msgid "ثلاث سنوات من الإعداد المتواصل"
+msgstr ""
+
+#: page-american-diploma.php:416
+msgid "من Grade 10 حتى يوم الاختبار: بناء أكاديمي متواصل بحصص أسبوعية، لا مراجعة في أسابيع."
+msgstr ""
+
+#: page-american-diploma.php:425
+msgid "متابعة"
+msgstr ""
+
+#: page-american-diploma.php:426
+msgid "دورية · بعد كل حصة"
+msgstr ""
+
+#: page-american-diploma.php:432
+msgid "Grade · المستوى"
+msgstr ""
+
+#: page-american-diploma.php:438
+msgid "اختبارات دولية · EST و Digital SAT و ACT"
+msgstr ""
+
+#: page-american-diploma.php:460
+msgid "رحلة أحد طلابنا"
+msgstr ""
+
+#: page-american-diploma.php:463
+msgid "من داخل البرنامج"
+msgstr ""
+
+#: page-american-diploma.php:464
+msgid "رحلة أحد طلابنا في الدبلومة الأمريكية"
+msgstr ""
+
+#: page-american-diploma.php:468
+msgid "محمد أحمد"
+msgstr ""
+
+#: page-american-diploma.php:469
+msgid "طالب في الدبلومة الأمريكية"
+msgstr ""
+
+#: page-american-diploma.php:473
+msgid "حصل على شهادة الدبلومة الأمريكية المعتمدة"
+msgstr ""
+
+#: page-american-diploma.php:474
+msgid "تطوّرت مهاراته اللغوية والأكاديمية"
+msgstr ""
+
+#: page-american-diploma.php:475
+msgid "أتمّ خطوات التقديم الجامعي بإرشاد من فريق نوفيرا"
+msgstr ""
+
+#: page-american-diploma.php:486
+msgid "شهادة الدبلومة الأمريكية"
+msgstr ""
+
+#: page-american-diploma.php:487
+msgid "شهادة معتمدة"
+msgstr ""
+
+#: page-american-diploma.php:491 page-american-diploma.php:496
+msgid "شاهد قصة نجاح محمد"
+msgstr ""
+
+#: page-american-diploma.php:506 page-american-diploma.php:510
+msgid "ماذا يحدث إذا قررت التسجيل؟"
+msgstr ""
+
+#: page-american-diploma.php:509
+msgid "خطوات بسيطة"
+msgstr ""
+
+#: page-american-diploma.php:511
+msgid "أربع خطوات للبدء"
+msgstr ""
+
+#: page-american-diploma.php:516
+msgid "حجز الاستشارة"
+msgstr ""
+
+#: page-american-diploma.php:516
+msgid "تواصل معنا واحجز استشارتك المجانية."
+msgstr ""
+
+#: page-american-diploma.php:517
+msgid "التقييم المبدئي"
+msgstr ""
+
+#: page-american-diploma.php:517
+msgid "نحدّد مستوى الطالب الحالي ونقاط قوته."
+msgstr ""
+
+#: page-american-diploma.php:518
+msgid "خطة تعليمية"
+msgstr ""
+
+#: page-american-diploma.php:518
+msgid "نصمّم خطة دراسية مخصصة لاحتياجاته."
+msgstr ""
+
+#: page-american-diploma.php:519
+msgid "بدء الدراسة"
+msgstr ""
+
+#: page-american-diploma.php:519
+msgid "تبدأ الحصص الأسبوعية مع معلمك المتخصص ويُحدَّد جدولك الدراسي."
+msgstr ""
+
+#: page-american-diploma.php:539 page-american-diploma.php:542 page-translation.php:370
+msgid "الأسئلة الشائعة"
+msgstr ""
+
+#: page-american-diploma.php:543
+msgid "أسئلة يطرحها أولياء الأمور"
+msgstr ""
+
+#: page-american-diploma.php:548
+msgid "هل الشهادة معتمدة دولياً؟"
+msgstr ""
+
+#: page-american-diploma.php:548
+msgid "نعم، الدبلومة الأمريكية معتمدة من Cognia ومعترف بها لدى الجامعات الأمريكية والدولية."
+msgstr ""
+
+#: page-american-diploma.php:549
+msgid "كم مدة البرنامج؟"
+msgstr ""
+
+#: page-american-diploma.php:549
+msgid "يرافق البرنامج الطالب من Grade 10 حتى Grade 12؛ وتُحدَّد وتيرة الدراسة حسب مستواه — تواصل معنا للتفاصيل."
+msgstr ""
+
+#: page-american-diploma.php:550
+msgid "ماذا يحدث بعد الحصول على الشهادة؟"
+msgstr ""
+
+#: page-american-diploma.php:550
+msgid "نقدّم إرشاداً خلال خطوات التقديم، وتظل متطلبات وقرارات القبول خاضعة لسياسات الجامعات والجهات المختصة."
+msgstr ""
+
+#: page-american-diploma.php:551
+msgid "هل الدراسة أونلاين أم يمكن حضورها؟"
+msgstr ""
+
+#: page-american-diploma.php:551
+msgid "الدراسة متاحة أونلاين بمرونة تناسب جدول الطالب، مع متابعة دورية من فريق متخصص."
+msgstr ""
+
+#: page-american-diploma.php:552
+msgid "هل يوجد متابعة ودعم أكاديمي؟"
+msgstr ""
+
+#: page-american-diploma.php:552
+msgid "نعم، يتابع فريق نوفيرا تقدّم الطالب أكاديمياً خلال مراحل البرنامج من خلال معلمين متخصصين."
+msgstr ""
+
+#: page-american-diploma.php:553
+msgid "هل يمكن تقسيم الرسوم؟"
+msgstr ""
+
+#: page-american-diploma.php:553
+msgid "تتوفّر خيارات مرنة للرسوم. تواصل معنا لمعرفة التفاصيل المناسبة لحالتك."
+msgstr ""
+
+#: page-american-diploma.php:554
+msgid "ما هي الاختبارات الدولية المتاحة؟"
+msgstr ""
+
+#: page-american-diploma.php:554
+msgid "نُعِدّ الطلاب لاختبارات EST و Digital SAT و ACT وفق المسار المناسب لكل طالب."
+msgstr ""
+
+#: page-american-diploma.php:574 page-american-diploma.php:580 template-parts/sections/diploma/s9-consultation.php:24 template-parts/sections/exam/s1-hero.php:34 template-parts/sections/exam/s8-consultation.php:21
+msgid "تحدّث مع فريقنا"
+msgstr ""
+
+#: page-american-diploma.php:579 page-contact.php:338 template-parts/sections/registration-cta.php:60
+msgid "استشارة مجانية"
+msgstr ""
+
+#: page-american-diploma.php:581
+msgid "لديك أسئلة عن البرنامج أو المرحلة المناسبة لطالبك؟ فريقنا يُجيب."
+msgstr ""
+
+#: page-contact.php:45
+msgid "فريق دعم نوفيرا أكاديمي"
+msgstr ""
+
+#: page-contact.php:116
+msgid "نحن هنا لمساعدتك"
+msgstr ""
+
+#: page-contact.php:117
+msgid "في كل خطوة من رحلتك التعليمية"
+msgstr ""
+
+#: page-contact.php:120
+msgid "فريق نوفيرا أكاديمي جاهز للرد على استفساراتك وتقديم أفضل دعم لك ولأسرتك."
+msgstr ""
+
+#: page-contact.php:126
+msgid "اتصل بنا الآن"
+msgstr ""
+
+#: page-contact.php:141
+msgid "أكثر من <b>10,000</b> طالب وأولياء أمور يتواصلون معنا عبر واتساب !"
+msgstr ""
+
+#: page-contact.php:155
+msgid "رد سريع"
+msgstr ""
+
+#: page-contact.php:156
+msgid "فريق دعم متواجد دائماً"
+msgstr ""
+
+#: page-contact.php:162
+msgid "دعم حقيقي"
+msgstr ""
+
+#: page-contact.php:163 page-contact.php:339
+msgid "نحن معك حتى تحقق هدفك"
+msgstr ""
+
+#: page-contact.php:179
+msgid "اختر طريقة التواصل التي تناسبك"
+msgstr ""
+
+#: page-contact.php:190
+msgid "تواصل معنا على واتساب للحصول على رد سريع"
+msgstr ""
+
+#: page-contact.php:191 page-contact.php:373
+msgid "تواصل واتساب الآن"
+msgstr ""
+
+#: page-contact.php:194
+msgid "مفتوح طوال اليوم"
+msgstr ""
+
+#: page-contact.php:199
+msgid "اتصل بنا"
+msgstr ""
+
+#: page-contact.php:200
+msgid "تحدث مباشرة مع فريق الدعم في أوقات العمل"
+msgstr ""
+
+#: page-contact.php:204
+msgid "من 9:00 ص إلى 10:00 م"
+msgstr ""
+
+#: page-contact.php:209
+msgid "انستجرام"
+msgstr ""
+
+#: page-contact.php:210
+msgid "تابعنا على انستجرام وتواصل عبر الرسائل"
+msgstr ""
+
+#: page-contact.php:214 page-contact.php:224
+msgid "نرد خلال وقت قصير"
+msgstr ""
+
+#: page-contact.php:219 template-parts/layout/footer.php:29
+msgid "فيسبوك"
+msgstr ""
+
+#: page-contact.php:220
+msgid "راسلنا على صفحتنا الرسمية على فيسبوك"
+msgstr ""
+
+#: page-contact.php:229
+msgid "زيارتنا"
+msgstr ""
+
+#: page-contact.php:230
+msgid "زورنا في مقر الأكاديمية ونحن في خدمتك"
+msgstr ""
+
+#: page-contact.php:231
+msgid "اتجاهات جوجل ماب"
+msgstr ""
+
+#: page-contact.php:234
+msgid "في أوقات العمل"
+msgstr ""
+
+#: page-contact.php:265
+msgid "من السبت إلى الخميس"
+msgstr ""
+
+#: page-contact.php:266
+msgid "من 9:00 صباحاً إلى 10:00 مساءً"
+msgstr ""
+
+#: page-contact.php:275
+msgid "نحن معك دائماً"
+msgstr ""
+
+#: page-contact.php:276
+msgid "فريق دعم متخصص للرد على جميع استفساراتك ومساعدتك في اختيار الأنسب لك."
+msgstr ""
+
+#: page-contact.php:300
+msgid "Beni Mazar, Minya"
+msgstr ""
+
+#: page-contact.php:307
+msgid "المنيا - بني مزار - بحري السنترال العام"
+msgstr ""
+
+#: page-contact.php:308
+msgid "يجوار مدخل مكتبة الناظر"
+msgstr ""
+
+#: page-contact.php:314
+msgid "سهل الوصول"
+msgstr ""
+
+#: page-contact.php:314
+msgid "الموقع في قلب بني مزار"
+msgstr ""
+
+#: page-contact.php:315
+msgid "مواقف قريبة"
+msgstr ""
+
+#: page-contact.php:315
+msgid "تتوفر مواقف للسيارات"
+msgstr ""
+
+#: page-contact.php:316
+msgid "معلم مميز"
+msgstr ""
+
+#: page-contact.php:316
+msgid "بجوار مكتبة الناظر"
+msgstr ""
+
+#: page-contact.php:317
+msgid "بيئة آمنة"
+msgstr ""
+
+#: page-contact.php:317
+msgid "مكان هادي وآمن"
+msgstr ""
+
+#: page-contact.php:338
+msgid "نساعدك في اختيار الأنسب لك"
+msgstr ""
+
+#: page-contact.php:340
+msgid "مدربون محترفون"
+msgstr ""
+
+#: page-contact.php:340
+msgid "ذوي خبرة وكفاءة عالية"
+msgstr ""
+
+#: page-contact.php:341 page-education.php:109 template-parts/sections/animated-results.php:181 template-parts/sections/department-nav.php:39
+msgid "مناهج حديثة"
+msgstr ""
+
+#: page-contact.php:341
+msgid "مواكبة لأحدث المعايير الدولية"
+msgstr ""
+
+#: page-contact.php:342
+msgid "نتائج مضمونة"
+msgstr ""
+
+#: page-contact.php:342
+msgid "نركز على تحقيق أفضل النتائج"
+msgstr ""
+
+#: page-contact.php:367
+msgid "لا تتردد في التواصل معنا الان!"
+msgstr ""
+
+#: page-contact.php:368
+msgid "نحن هنا لنساعدك ونكون جزء من رحلتك نحو التميز و النجاح."
+msgstr ""
+
+#: page-digital-sat.php:57
+msgid "تأهيل لـ Digital SAT"
+msgstr ""
+
+#: page-digital-sat.php:64
+msgid "ما هو اختبار Digital SAT؟"
+msgstr ""
+
+#: page-digital-sat.php:77
+msgid "نحدّد مستوى طالبك الفعلي في الإنجليزية والرياضيات."
+msgstr ""
+
+#: page-digital-sat.php:81
+msgid "اختبارات تجريبية رقمية"
+msgstr ""
+
+#: page-digital-sat.php:81
+msgid "محاكاة على النسق الرقمي نفسه ليوم الاختبار لتحديد ما يحتاج تعزيزاً."
+msgstr ""
+
+#: page-digital-sat.php:89
+msgid "كورسات الإعداد للـ Digital SAT"
+msgstr ""
+
+#: page-digital-sat.php:90
+msgid "كل كورس يبني المهارات التي يقيسها Digital SAT ضمن حصص أسبوعية منتظمة مع معلمين متخصصين — اختر ما يناسب مرحلة طالبك."
+msgstr ""
+
+#: page-digital-sat.php:95
+msgid "عايز احجز تقييم مستوى لطالبي للاستعداد لاختبار Digital SAT"
+msgstr ""
+
+#: page-digital-sat.php:112
+msgid "لماذا تختار Digital SAT مع نوفيرا؟"
+msgstr ""
+
+#: page-digital-sat.php:113
+msgid "لأن درجة Digital SAT تعكس ما بناه الطالب على مدار السنوات — لا ما راجعه في أسبوع. هنا يكون الإعداد جزءاً من كل حصة."
+msgstr ""
+
+#: page-digital-sat.php:117
+msgid "اختبارات تجريبية على النسق الرقمي نفسه للـ Digital SAT"
+msgstr ""
+
+#: page-digital-sat.php:123
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية — والإعداد لاختبار Digital SAT جزء من هذا البرنامج المعتمد."
+msgstr ""
+
+#: page-digital-sat.php:130
+msgid "Digital SAT بين اختبارات الدبلومة الأمريكية"
+msgstr ""
+
+#: page-digital-sat.php:137
+msgid "يُؤدّى رقمياً"
+msgstr ""
+
+#: page-digital-sat.php:137
+msgid "حسب الاختبار"
+msgstr ""
+
+#: page-digital-sat.php:146 page-est.php:299 template-parts/sections/student-results.php:34
+msgid "ACT"
+msgstr ""
+
+#: page-digital-sat.php:176
+msgid "قسمان في الاختبار"
+msgstr ""
+
+#: page-digital-sat.php:176
+msgid "القراءة والكتابة، والرياضيات"
+msgstr ""
+
+#: page-digital-sat.php:196
+msgid "أسئلة يطرحها أولياء الأمور عن Digital SAT"
+msgstr ""
+
+#: page-education.php:31 template-parts/layout/footer.php:117 template-parts/layout/header.php:88 template-parts/layout/header.php:172 template-parts/sections/department-hero.php:22
+msgid "التعليم والتطوير المهني"
+msgstr ""
+
+#: page-education.php:41
+msgid "استثمر في نفسك.."
+msgstr ""
+
+#: page-education.php:42
+msgid "أو ارسم طريق النجاح لأولادك!"
+msgstr ""
+
+#: page-education.php:45
+msgid "كورسات عملية .. مدربين متخصصين .. نتائج حقيقية"
+msgstr ""
+
+#: page-education.php:46
+msgid "للصغار والكبار في مكان واحد"
+msgstr ""
+
+#: page-education.php:51
+msgid "استكشف الكورسات"
+msgstr ""
+
+#: page-education.php:66
+msgid "طالب في نوفيرا أكاديمي"
+msgstr ""
+
+#: page-education.php:79
+msgid "اختر المجال اللي يناسبك"
+msgstr ""
+
+#: page-education.php:83
+msgid "اللغات"
+msgstr ""
+
+#: page-education.php:83 page-education.php:248
+msgid "من الأساس للاحتراف"
+msgstr ""
+
+#: page-education.php:84
+msgid "البرمجة والتطوير"
+msgstr ""
+
+#: page-education.php:84 page-education.php:247
+msgid "من الصفر للاحتراف"
+msgstr ""
+
+#: page-education.php:85
+msgid "المهارات الرقمية"
+msgstr ""
+
+#: page-education.php:85
+msgid "مهارات العصر الحديث"
+msgstr ""
+
+#: page-education.php:86
+msgid "التصميم والجرافيك"
+msgstr ""
+
+#: page-education.php:86
+msgid "إبدع واحترف"
+msgstr ""
+
+#: page-education.php:87
+msgid "ريادة الأعمال"
+msgstr ""
+
+#: page-education.php:87
+msgid "فكر، خطط، نفذ مشروعك"
+msgstr ""
+
+#: page-education.php:88
+msgid "الاختبارات الدولية"
+msgstr ""
+
+#: page-education.php:104
+msgid "ليه تختار نوفيرا أكاديمي؟"
+msgstr ""
+
+#: page-education.php:108
+msgid "نتائج ملموسة"
+msgstr ""
+
+#: page-education.php:108
+msgid "تطبيق عملي وتجارب"
+msgstr ""
+
+#: page-education.php:109
+msgid "محدثة باستمرار"
+msgstr ""
+
+#: page-education.php:110
+msgid "دعم طوال رحلتك"
+msgstr ""
+
+#: page-education.php:111 template-parts/sections/department-nav.php:24
+msgid "شهادات معتمدة"
+msgstr ""
+
+#: page-education.php:111
+msgid "تعزز سيرتك الذاتية"
+msgstr ""
+
+#: page-education.php:112
+msgid "مرونة في التعلم"
+msgstr ""
+
+#: page-education.php:112
+msgid "أونلاين أو حضوري"
+msgstr ""
+
+#: page-education.php:113
+msgid "مدربين متخصصين"
+msgstr ""
+
+#: page-education.php:113
+msgid "خبرة عملية طويلة"
+msgstr ""
+
+#: page-education.php:129
+msgid "تعلم بالطريقة اللي تناسبك"
+msgstr ""
+
+#: page-education.php:134
+msgid "أونلاين مباشر"
+msgstr ""
+
+#: page-education.php:134
+msgid "فصول تفاعلية مباشرة مع مدرسك ومن أي مكان"
+msgstr ""
+
+#: page-education.php:135
+msgid "أونلاين مسجل"
+msgstr ""
+
+#: page-education.php:135
+msgid "تتعلم وقت ما يناسبك وتكرر الدروس"
+msgstr ""
+
+#: page-education.php:136
+msgid "حضوري"
+msgstr ""
+
+#: page-education.php:136
+msgid "تجربة تعليمية تفاعلية داخل قاعتنا"
+msgstr ""
+
+#: page-education.php:154
+msgid "قاعة نوفيرا أكاديمي التعليمية"
+msgstr ""
+
+#: page-education.php:168
+msgid "طالب ومتدرب"
+msgstr ""
+
+#: page-education.php:169
+msgid "كورسات متنوعة"
+msgstr ""
+
+#: page-education.php:170
+msgid "مدرب متخصص"
+msgstr ""
+
+#: page-education.php:171
+msgid "رضا الطلاب"
+msgstr ""
+
+#: page-education.php:172
+msgid "سنوات من النجاح"
+msgstr ""
+
+#: page-education.php:196
+msgid "برامج متخصصة للكبار"
+msgstr ""
+
+#: page-education.php:197
+msgid "طور مهاراتك وارتقي في حياتك العملية"
+msgstr ""
+
+#: page-education.php:201
+msgid "تطوير مهني وشهادات معتمدة"
+msgstr ""
+
+#: page-education.php:202
+msgid "كورسات لغات مكثفة"
+msgstr ""
+
+#: page-education.php:203
+msgid "مهارات سوق العمل التكنولوجية"
+msgstr ""
+
+#: page-education.php:204
+msgid "مشاريع عملية وبناء بورتفوليو"
+msgstr ""
+
+#: page-education.php:206
+msgid "استكشف برامج الكبار"
+msgstr ""
+
+#: page-education.php:217
+msgid "برامج مميزة للصغار"
+msgstr ""
+
+#: page-education.php:218
+msgid "تساعد أطفالك بكتشفوا قدراتهم وبيبنوا مستقبلهم"
+msgstr ""
+
+#: page-education.php:222
+msgid "تنمية المهارات والذكاء"
+msgstr ""
+
+#: page-education.php:223
+msgid "لغات مطبقة ممتعة"
+msgstr ""
+
+#: page-education.php:224
+msgid "برمجة وألعاب تعليمية"
+msgstr ""
+
+#: page-education.php:225
+msgid "مشاريع وأنشطة عملية"
+msgstr ""
+
+#: page-education.php:227
+msgid "استكشف برامج الأطفال"
+msgstr ""
+
+#: page-education.php:239
+msgid "أكثر الكورسات طلباً"
+msgstr ""
+
+#: page-education.php:242 template-parts/sections/testimonials-stitch.php:102
+msgid "السابق"
+msgstr ""
+
+#: page-education.php:247
+msgid "برمجة"
+msgstr ""
+
+#: page-education.php:248
+msgid "لغة"
+msgstr ""
+
+#: page-education.php:249
+msgid "تصميم واجهات المستخدم"
+msgstr ""
+
+#: page-education.php:249
+msgid "تصميم"
+msgstr ""
+
+#: page-education.php:250
+msgid "أساسيات التسويق الرقمي"
+msgstr ""
+
+#: page-education.php:250
+msgid "تسويق"
+msgstr ""
+
+#: page-education.php:251
+msgid "تحضير الاختبار النهائي"
+msgstr ""
+
+#: page-education.php:251
+msgid "اختبارات"
+msgstr ""
+
+#: page-education.php:291 template-parts/sections/testimonials-stitch.php:145
+msgid "التالي"
+msgstr ""
+
+#: page-education.php:297
+msgid "عرض جميع الكورسات"
+msgstr ""
+
+#: page-education.php:306
+msgid "ماذا يقول طلابنا"
+msgstr ""
+
+#: page-education.php:310
+msgid "كورسات البرمجة غيرت حياتي بالكامل. دلوقتي بقدر أشتغل في أحلامي من البيت."
+msgstr ""
+
+#: page-education.php:310
+msgid "أحمد محمد"
+msgstr ""
+
+#: page-education.php:310
+msgid "متدرب في Web Development"
+msgstr ""
+
+#: page-education.php:311
+msgid "ابني كان بيكره الإنجليزي. دلوقتي بيتكلم بثقة وبيستنى بكل حصة."
+msgstr ""
+
+#: page-education.php:311
+msgid "أ/ منى خالد"
+msgstr ""
+
+#: page-education.php:311
+msgid "ولي أمر"
+msgstr ""
+
+#: page-education.php:312
+msgid "الدعم من البداية للنهاية كان ممتاز، والمدرب في منتهى الاحترافية."
+msgstr ""
+
+#: page-education.php:312
+msgid "محمد سامي"
+msgstr ""
+
+#: page-education.php:312
+msgid "متدرب في Digital Marketing"
+msgstr ""
+
+#: page-education.php:333
+msgid "آراء الطلاب"
+msgstr ""
+
+#: page-education.php:354
+msgid "جاهز تبدأ رحلتك أو تبدأ رحلة نجاح أولادك؟"
+msgstr ""
+
+#: page-education.php:355
+msgid "إنضم لآلاف الطلاب اللي حققوا أهدافهم مع نوفيرا أكاديمي"
+msgstr ""
+
+#: page-est.php:133 page-est.php:246 template-parts/sections/premium-exam/hero.php:52 template-parts/sections/premium-exam/why.php:48
+msgid "اعتماد Cognia"
+msgstr ""
+
+#: page-est.php:145
+msgid "طالبة من نوفيرا أكاديمي أمام لوحة اعتماد Cognia"
+msgstr ""
+
+#: page-est.php:152
+msgid "تأهيل لـ EST I & II"
+msgstr ""
+
+#: page-est.php:166
+msgid "ما هو اختبار EST؟"
+msgstr ""
+
+#: page-est.php:201
+msgid "كورسات الإعداد لاختبار EST"
+msgstr ""
+
+#: page-est.php:202
+msgid "كل كورس يبني المهارات التي يقيسها EST ضمن حصص أسبوعية منتظمة مع معلمين متخصصين — اختر ما يناسب مرحلة طالبك."
+msgstr ""
+
+#: page-est.php:209
+msgid "عايز احجز تقييم مستوى لطالبي للاستعداد لاختبار EST"
+msgstr ""
+
+#: page-est.php:232
+msgid "لماذا تختار EST مع نوفيرا؟"
+msgstr ""
+
+#: page-est.php:233
+msgid "لأن درجة EST تعكس ما بناه الطالب على مدار السنوات — لا ما راجعه في أسبوع. هنا يكون الإعداد جزءاً من كل حصة."
+msgstr ""
+
+#: page-est.php:249
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية — والإعداد لاختبار EST جزء من هذا البرنامج المعتمد."
+msgstr ""
+
+#: page-est.php:260
+msgid "EST بين اختبارات الدبلومة الأمريكية"
+msgstr ""
+
+#: page-est.php:274 template-parts/sections/premium-exam/compare.php:63
+msgid "المعيار"
+msgstr ""
+
+#: page-est.php:375
+msgid "دعم وإعادة اختبار حتى أفضل نتيجة"
+msgstr ""
+
+#: page-est.php:406
+msgid "أسئلة يطرحها أولياء الأمور عن EST"
+msgstr ""
+
+#: page-exams.php:96
+msgid "طلاب نوفيرا يؤدون اختبار تحديد المستوى"
+msgstr ""
+
+#: page-exams.php:193
+msgid "امتحانات نوفيرا"
+msgstr ""
+
+#: page-exams.php:194
+msgid "اضغط لاختبارك المناسب"
+msgstr ""
+
+#: page-exams.php:197
+msgid "اختر الاختبار الذي تريد تحديد مستواك فيه بدقة واستعد بثقة لتحقيق أعلى النتائج."
+msgstr ""
+
+#: page-exams.php:203
+msgid "نتائج دقيقة وفورية"
+msgstr ""
+
+#: page-exams.php:204
+msgid "اختبارات معتمدة عالمياً"
+msgstr ""
+
+#: page-exams.php:205
+msgid "تجربة سهلة وسريعة"
+msgstr ""
+
+#: page-exams.php:206
+msgid "متابعة وتطوير مستواك"
+msgstr ""
+
+#: page-exams.php:234
+msgid "اختر الاختبار المناسب لك"
+msgstr ""
+
+#: page-exams.php:237
+msgid "اختر نوع الامتحان الذي ترغب في تحديد مستواك فيه الآن"
+msgstr ""
+
+#: page-exams.php:242
+msgid "تحديد انجلش الدبلومة الامريكية"
+msgstr ""
+
+#: page-exams.php:242
+msgid "اختبار تحديد مستوى اللغة الانجليزية لدبلومة الأمريكية"
+msgstr ""
+
+#: page-exams.php:243
+msgid "تحديد ماث الدبلومة الامريكية"
+msgstr ""
+
+#: page-exams.php:243
+msgid "اختبار تحديد مستوى مادة الرياضيات لدبلومة الأمريكية"
+msgstr ""
+
+#: page-exams.php:244
+msgid "تحديد انجلش جينرال - محادثات"
+msgstr ""
+
+#: page-exams.php:244
+msgid "اختبار تحديد مستوى اللغة الإنجليزية (محادثة عامة)"
+msgstr ""
+
+#: page-exams.php:245
+msgid "تحديد مستوي ايلتس"
+msgstr ""
+
+#: page-exams.php:245
+msgid "اختبار تحديد مستوى IELTS"
+msgstr ""
+
+#: page-exams.php:246
+msgid "تحديد مستوي تويفل"
+msgstr ""
+
+#: page-exams.php:246
+msgid "اختبار تحديد مستوى TOEFL"
+msgstr ""
+
+#: page-exams.php:247
+msgid "تحديد الماني عام - محادثات"
+msgstr ""
+
+#: page-exams.php:247
+msgid "اختبار تحديد مستوى اللغة الألمانية (محادثة عامة)"
+msgstr ""
+
+#: page-exams.php:248
+msgid "تحديد فرنش عام - محادثات"
+msgstr ""
+
+#: page-exams.php:248
+msgid "اختبار تحديد مستوى اللغة الفرنسية (محادثة عامة)"
+msgstr ""
+
+#: page-exams.php:257
+msgid "ابدأ الاختبار الآن"
+msgstr ""
+
+#: page-exams.php:269
+msgid "لماذا تحدد مستواك معنا؟"
+msgstr ""
+
+#: page-exams.php:273
+msgid "تحديد دقيق لمستواك"
+msgstr ""
+
+#: page-exams.php:273
+msgid "تقنيات اختبار متقدمة لنتائج دقيقة 100%"
+msgstr ""
+
+#: page-exams.php:274
+msgid "تحديد مسارك التعليمي"
+msgstr ""
+
+#: page-exams.php:274
+msgid "نضع لك خطة مناسبة لمستواك وأهدافك"
+msgstr ""
+
+#: page-exams.php:275
+msgid "متابعة تطورك"
+msgstr ""
+
+#: page-exams.php:275
+msgid "اختبارات دورية لقياس تحسن مستواك"
+msgstr ""
+
+#: page-exams.php:276
+msgid "معتمد ومعترف به"
+msgstr ""
+
+#: page-exams.php:276
+msgid "نتائج معتمدة تساعدك في اتخاذ قرارك بثقة"
+msgstr ""
+
+#: page-exams.php:277
+msgid "سريع وسهل"
+msgstr ""
+
+#: page-exams.php:277
+msgid "اختبار تفاعلي سريع ونتائج فورية"
+msgstr ""
+
+#: page-exams.php:295
+msgid "نصائح قبل الاختبار"
+msgstr ""
+
+#: page-exams.php:299
+msgid "اختر وقتاً هادئاً"
+msgstr ""
+
+#: page-exams.php:299
+msgid "لتركيز أفضل"
+msgstr ""
+
+#: page-exams.php:300
+msgid "تأكد من اتصال الإنترنت"
+msgstr ""
+
+#: page-exams.php:300
+msgid "قبل بدء الاختبار"
+msgstr ""
+
+#: page-exams.php:301
+msgid "أجب بصدق"
+msgstr ""
+
+#: page-exams.php:301
+msgid "للحصول على نتيجة دقيقة"
+msgstr ""
+
+#: page-exams.php:302
+msgid "لا تقلق"
+msgstr ""
+
+#: page-exams.php:302
+msgid "الاختبار لتحديد مستواك وليس للنجاح أو الرسوب"
+msgstr ""
+
+#: page-exams.php:323
+msgid "ابدأ رحلتك نحو التميز الآن!"
+msgstr ""
+
+#: page-exams.php:324
+msgid "حدد مستواك الآن واتخذ الخطوة الأولى نحو تحقيق أهدافك الأكاديمية والمهنية"
+msgstr ""
+
+#: page-exams.php:329
+msgid "تواصل معنا على واتساب"
+msgstr ""
+
+#: page-services.php:8
+msgid "كل اللي تحتاجه في مكان واحد"
+msgstr ""
+
+#: page-services.php:14 template-parts/sections/why-novira.php:33
+msgid "ليه نوفيرا؟"
+msgstr ""
+
+#: page-services.php:15
+msgid "ثلاث خدمات."
+msgstr ""
+
+#: page-services.php:15
+msgid "معيار واحد: التميز."
+msgstr ""
+
+#: page-services.php:16
+msgid "من الكورسات التكنولوجية للصغار والكبار، للدبلومة الأمريكية المعتمدة، للترجمة الرسمية — كل خدماتنا بمعايير دولية."
+msgstr ""
+
+#: page-services.php:24
+msgid "برامج الكمبيوتر والتكنولوجيا"
+msgstr ""
+
+#: page-services.php:25
+msgid "كورسات برمجة وتكنولوجيا مصممة للأطفال والكبار — من البداية للاحتراف."
+msgstr ""
+
+#: page-services.php:27
+msgid "Scratch & Python للأطفال"
+msgstr ""
+
+#: page-services.php:29
+msgid "Microsoft Office احترافي"
+msgstr ""
+
+#: page-services.php:30
+msgid "Graphic Design أساسيات"
+msgstr ""
+
+#: page-services.php:35
+msgid "كورسات اللغات"
+msgstr ""
+
+#: page-services.php:36
+msgid "تعلم لغة جديدة بأسلوب عملي وممتع مع مدرسين متخصصين."
+msgstr ""
+
+#: page-services.php:38
+msgid "اللغة الإنجليزية (جميع المستويات)"
+msgstr ""
+
+#: page-services.php:40
+msgid "تقوية القراءة والكتابة"
+msgstr ""
+
+#: page-services.php:41
+msgid "كورسات مكثفة للكبار"
+msgstr ""
+
+#: page-translation.php:37
+msgid "معترف بها لدى السفارات<br>والجامعات والجهات الرسمية"
+msgstr ""
+
+#: page-translation.php:40
+msgid "ترجمة احترافية تتم مراجعتها بدقة من مترجم معتمد قبل التسليم لضمان قبولها من جميع الجهات."
+msgstr ""
+
+#: page-translation.php:46
+msgid "مستند تمت ترجمته"
+msgstr ""
+
+#: page-translation.php:47
+msgid "مراجعة قبل التسليم"
+msgstr ""
+
+#: page-translation.php:48
+msgid "للسفارات والجهات الرسمية"
+msgstr ""
+
+#: page-translation.php:49 template-parts/translation.php:18
+msgid "تسليم سريع"
+msgstr ""
+
+#: page-translation.php:49
+msgid "في الوقت المحدد"
+msgstr ""
+
+#: page-translation.php:50
+msgid "سرية تامة"
+msgstr ""
+
+#: page-translation.php:50
+msgid "لجميع الملفات"
+msgstr ""
+
+#: page-translation.php:64
+msgid "احصل على تسعير مجاني"
+msgstr ""
+
+#: page-translation.php:97
+msgid "جودة ترجمة<br>تصنع فرقاً في<br>قبول أوراقك"
+msgstr ""
+
+#: page-translation.php:105
+msgid "تقبل ترجمتنا لدى:"
+msgstr ""
+
+#: page-translation.php:109
+msgid "وزارة الخارجية"
+msgstr ""
+
+#: page-translation.php:109
+msgid "FOREIGN AFFAIRS"
+msgstr ""
+
+#: page-translation.php:110
+msgid "مكاتب التأشيرات"
+msgstr ""
+
+#: page-translation.php:110
+msgid "VISA OFFICES"
+msgstr ""
+
+#: page-translation.php:111
+msgid "الهجرة"
+msgstr ""
+
+#: page-translation.php:111
+msgid "IMMIGRATION"
+msgstr ""
+
+#: page-translation.php:112 template-parts/sections/hero-stitch.php:103 template-parts/sections/programs-stitch.php:42
+msgid "السفارات"
+msgstr ""
+
+#: page-translation.php:112
+msgid "EMBASSIES"
+msgstr ""
+
+#: page-translation.php:132
+msgid "مستر يوسف زكي — مراجع الترجمة المعتمد"
+msgstr ""
+
+#: page-translation.php:135
+msgid "لهذا السبب"
+msgstr ""
+
+#: page-translation.php:136
+msgid "يراجع مستر يوسف زكي"
+msgstr ""
+
+#: page-translation.php:137
+msgid "كل ترجمة قبل تسليمها"
+msgstr ""
+
+#: page-translation.php:142
+msgid "هل تخاف يتم رفض أوراقك؟"
+msgstr ""
+
+#: page-translation.php:146
+msgid "ترجمة غير معتمدة"
+msgstr ""
+
+#: page-translation.php:147
+msgid "أخطاء في الأسماء والتواريخ"
+msgstr ""
+
+#: page-translation.php:148
+msgid "اختلاف صيغة الجواز والبيانات"
+msgstr ""
+
+#: page-translation.php:149
+msgid "أخطاء لغوية أو تنسيق غير صحيح"
+msgstr ""
+
+#: page-translation.php:150
+msgid "رفض السفارات والجهات الرسمية"
+msgstr ""
+
+#: page-translation.php:151
+msgid "تأخير سفرك أو قبولك الجامعي"
+msgstr ""
+
+#: page-translation.php:163
+msgid "ليه آلاف العملاء اختاروا <span>Novira Academy؟</span>"
+msgstr ""
+
+#: page-translation.php:167
+msgid "خبير دبلومة الترجمة"
+msgstr ""
+
+#: page-translation.php:167
+msgid "من الجامعة الأمريكية"
+msgstr ""
+
+#: page-translation.php:168
+msgid "مراجعة بشرية كاملة"
+msgstr ""
+
+#: page-translation.php:169
+msgid "للسفارات والجامعات"
+msgstr ""
+
+#: page-translation.php:170
+msgid "خبرة في آلاف"
+msgstr ""
+
+#: page-translation.php:170
+msgid "المستندات الرسمية"
+msgstr ""
+
+#: page-translation.php:171
+msgid "وحقوقية"
+msgstr ""
+
+#: page-translation.php:172
+msgid "سرعة في الإنجاز"
+msgstr ""
+
+#: page-translation.php:172
+msgid "دون التنازل عن الجودة"
+msgstr ""
+
+#: page-translation.php:173
+msgid "دقة مطابقة"
+msgstr ""
+
+#: page-translation.php:173
+msgid "للأصل"
+msgstr ""
+
+#: page-translation.php:174
+msgid "دعم عملاء"
+msgstr ""
+
+#: page-translation.php:174
+msgid "قبل وبعد التسليم"
+msgstr ""
+
+#: page-translation.php:175
+msgid "تسليم في الموعد"
+msgstr ""
+
+#: page-translation.php:175
+msgid "المتفق عليه"
+msgstr ""
+
+#: page-translation.php:191
+msgid "نترجم جميع أنواع المستندات"
+msgstr ""
+
+#: page-translation.php:196
+msgid "الدراسة"
+msgstr ""
+
+#: page-translation.php:197
+msgid "شهادة الثانوية العامة"
+msgstr ""
+
+#: page-translation.php:197
+msgid "شهادات التخرج"
+msgstr ""
+
+#: page-translation.php:197
+msgid "كشوف الدرجات"
+msgstr ""
+
+#: page-translation.php:197
+msgid "شهادة الخبرة"
+msgstr ""
+
+#: page-translation.php:197
+msgid "خطابات التوصية"
+msgstr ""
+
+#: page-translation.php:197
+msgid "SOP – أبحاث - مقالات"
+msgstr ""
+
+#: page-translation.php:200
+msgid "السفر والهجرة"
+msgstr ""
+
+#: page-translation.php:201
+msgid "جواز السفر"
+msgstr ""
+
+#: page-translation.php:201 template-parts/sections/department-american-diploma.php:52
+msgid "شهادة الميلاد"
+msgstr ""
+
+#: page-translation.php:201
+msgid "عقد الزواج"
+msgstr ""
+
+#: page-translation.php:201
+msgid "القيد العائلي"
+msgstr ""
+
+#: page-translation.php:201
+msgid "صحيفة الحالة الجنائية"
+msgstr ""
+
+#: page-translation.php:201
+msgid "رخصة القيادة"
+msgstr ""
+
+#: page-translation.php:201
+msgid "بطاقة الرقم القومي"
+msgstr ""
+
+#: page-translation.php:204
+msgid "الأعمال والشركات"
+msgstr ""
+
+#: page-translation.php:205
+msgid "السجل التجاري"
+msgstr ""
+
+#: page-translation.php:205
+msgid "البطاقة الضريبية"
+msgstr ""
+
+#: page-translation.php:205
+msgid "العقود والاتفاقيات"
+msgstr ""
+
+#: page-translation.php:205
+msgid "الفواتير والمراسلات"
+msgstr ""
+
+#: page-translation.php:205
+msgid "التوكيلات الرسمية"
+msgstr ""
+
+#: page-translation.php:205
+msgid "خطابات الخبرة"
+msgstr ""
+
+#: page-translation.php:208
+msgid "الطبية"
+msgstr ""
+
+#: page-translation.php:209
+msgid "التقارير الطبية"
+msgstr ""
+
+#: page-translation.php:209
+msgid "تحاليل وأشعة"
+msgstr ""
+
+#: page-translation.php:209
+msgid "التاريخ المرضي"
+msgstr ""
+
+#: page-translation.php:209
+msgid "الوصفات الطبية"
+msgstr ""
+
+#: page-translation.php:209
+msgid "شهادات اللياقة"
+msgstr ""
+
+#: page-translation.php:233
+msgid "اللغات التي نترجم بها"
+msgstr ""
+
+#: page-translation.php:237
+msgid "عربي ↔ إنجليزي"
+msgstr ""
+
+#: page-translation.php:238
+msgid "عربي ↔ ألماني"
+msgstr ""
+
+#: page-translation.php:239
+msgid "عربي ↔ فرنسي"
+msgstr ""
+
+#: page-translation.php:240
+msgid "عربي ↔ إيطالي"
+msgstr ""
+
+#: page-translation.php:241
+msgid "عربي ↔ إسباني"
+msgstr ""
+
+#: page-translation.php:242
+msgid "عربي ↔ تركي"
+msgstr ""
+
+#: page-translation.php:243
+msgid "عربي ↔ روسي"
+msgstr ""
+
+#: page-translation.php:244
+msgid "والمزيد"
+msgstr ""
+
+#: page-translation.php:261
+msgid "طريقة العمل معنا"
+msgstr ""
+
+#: page-translation.php:266
+msgid "ترسل مستنداتك"
+msgstr ""
+
+#: page-translation.php:266
+msgid "عبر الموقع أو واتساب في دقائق"
+msgstr ""
+
+#: page-translation.php:267
+msgid "مراجعة أولية مجانية"
+msgstr ""
+
+#: page-translation.php:267
+msgid "نراجع ملفاتك ونحدد المتطلبات"
+msgstr ""
+
+#: page-translation.php:268
+msgid "يصلك السعر والمدة"
+msgstr ""
+
+#: page-translation.php:268
+msgid "نرسل السعر المناسب والمدة المتوقعة"
+msgstr ""
+
+#: page-translation.php:269
+msgid "نبدأ الترجمة"
+msgstr ""
+
+#: page-translation.php:269
+msgid "فريقنا المتخصص يبدأ العمل فوراً"
+msgstr ""
+
+#: page-translation.php:270
+msgid "مراجعة دقيقة"
+msgstr ""
+
+#: page-translation.php:270
+msgid "مطابقة للأصل وضمان الجودة"
+msgstr ""
+
+#: page-translation.php:271
+msgid "التسليم النهائي"
+msgstr ""
+
+#: page-translation.php:271
+msgid "تسليم الملفات PDF وأصل مطبوع عند الحاجة"
+msgstr ""
+
+#: page-translation.php:294
+msgid "مع نوفيرا أنت مش بتشتري ترجمة فقط..."
+msgstr ""
+
+#: page-translation.php:295
+msgid "بل بتشتري راحة بال"
+msgstr ""
+
+#: page-translation.php:300
+msgid "مراجعة الأسماء مطابقة لجواز السفر"
+msgstr ""
+
+#: page-translation.php:301
+msgid "مراجعة التواريخ والأرقام والبيانات"
+msgstr ""
+
+#: page-translation.php:302
+msgid "مراجعة الأختام والتوقيعات"
+msgstr ""
+
+#: page-translation.php:303
+msgid "مطابقة الصياغة الرسمية"
+msgstr ""
+
+#: page-translation.php:304
+msgid "إمكانية التعديل بعد التسليم"
+msgstr ""
+
+#: page-translation.php:305
+msgid "سرية كاملة للمستندات"
+msgstr ""
+
+#: page-translation.php:306
+msgid "دعم مستمر قبل وبعد التسليم"
+msgstr ""
+
+#: page-translation.php:307
+msgid "تسليم في الموعد المتفق عليه"
+msgstr ""
+
+#: page-translation.php:319
+msgid "استشارة مجانية قبل الترجمة"
+msgstr ""
+
+#: page-translation.php:320
+msgid "لأن مستنداتك تستحق الأفضل"
+msgstr ""
+
+#: page-translation.php:321
+msgid "أرسل مستندك الآن ليتم تقييمه وتحصل على سعر مجاني خلال دقائق."
+msgstr ""
+
+#: page-translation.php:323
+msgid "أرسل مستندك الآن"
+msgstr ""
+
+#: page-translation.php:326
+msgid "أو تحدث مع مترجم عبر واتساب"
+msgstr ""
+
+#: page-translation.php:336
+msgid "ماذا يقول عملاؤنا؟"
+msgstr ""
+
+#: page-translation.php:340
+msgid "المكان الوحيد المعتمد في بني مزار في ترجمة الأوراق للسفر"
+msgstr ""
+
+#: page-translation.php:340
+msgid "Karem Alsarea"
+msgstr ""
+
+#: page-translation.php:340
+msgid "ترجمة للسفارة الأمريكية"
+msgstr ""
+
+#: page-translation.php:341
+msgid "افضل مكان يتولي المنح الدراسية وترجمة الورق وكل حاجة وتعامل فوق الممتاز ✅"
+msgstr ""
+
+#: page-translation.php:341
+msgid "Kerolles Sobhy"
+msgstr ""
+
+#: page-translation.php:341
+msgid "ترجمة دراسية لألمانيا"
+msgstr ""
+
+#: page-translation.php:342
+msgid "أفضل مكتب ترجمة تعاملت معه، مراجعة دقيقة ودعم ممتاز بعد التسليم."
+msgstr ""
+
+#: page-translation.php:342
+msgid "أ. أحمد خالد"
+msgstr ""
+
+#: page-translation.php:342
+msgid "ترجمة عقد عمل"
+msgstr ""
+
+#: page-translation.php:347
+msgid "5 من 5"
+msgstr ""
+
+#: page-translation.php:373
+msgid "هل الترجمة معتمدة من السفارات والجهات الرسمية؟"
+msgstr ""
+
+#: page-translation.php:373
+msgid "نعم، جميع ترجماتنا معتمدة رسمياً ومختومة، ومقبولة لدى السفارات والقنصليات والجامعات والجهات الحكومية."
+msgstr ""
+
+#: page-translation.php:374
+msgid "كم يستغرق إنجاز الترجمة؟"
+msgstr ""
+
+#: page-translation.php:374
+msgid "يعتمد على عدد الصفحات ونوع المستند، ونحدد لك المدة الدقيقة مع عرض السعر قبل البدء — ولدينا خدمة تسليم سريع عند الحاجة."
+msgstr ""
+
+#: page-translation.php:375
+msgid "هل أرسل صور فقط أم الأصل مطلوب؟"
+msgstr ""
+
+#: page-translation.php:375
+msgid "صورة واضحة للمستند تكفي لبدء الترجمة، وبعض الجهات قد تطلب الأصل عند الاستلام — ونوضح لك ذلك مسبقاً."
+msgstr ""
+
+#: page-translation.php:376
+msgid "هل يوجد خدمة توصيل للمستندات؟"
+msgstr ""
+
+#: page-translation.php:376
+msgid "نعم، نسلّم نسخة إلكترونية PDF، وتتوفر النسخة المطبوعة والتوصيل حسب موقعك."
+msgstr ""
+
+#: page-translation.php:377
+msgid "هل يمكن تعديل الترجمة بعد التسليم؟"
+msgstr ""
+
+#: page-translation.php:377
+msgid "بالتأكيد، نراجع أي ملاحظة على الأسماء أو البيانات ونعدّلها لضمان مطابقتها الكاملة لمستنداتك الرسمية."
+msgstr ""
+
+#: page-translation.php:388
+msgid "عرض كل الأسئلة"
+msgstr ""
+
+#: page-translation.php:392
+msgid "مقالات قد تهمك"
+msgstr ""
+
+#: page-translation.php:396
+msgid "الفرق بين الترجمة المعتمدة والترجمة العادية"
+msgstr ""
+
+#: page-translation.php:397
+msgid "هل السفارة تقبل أي ترجمة؟ إليك الحقيقة"
+msgstr ""
+
+#: page-translation.php:398
+msgid "أفضل 10 مستندات تحتاج ترجمة معتمدة"
+msgstr ""
+
+#: page-translation.php:399
+msgid "كم سعر الترجمة المعتمدة؟ دليل شامل"
+msgstr ""
+
+#: page-translation.php:406 template-parts/content/blog-post-card.php:21 template-parts/content/blog-post-card.php:64
+msgid "اقرأ المزيد"
+msgstr ""
+
+#: page-translation.php:421
+msgid "لا تخاطر بمستنداتك ومستقبلك..."
+msgstr ""
+
+#: page-translation.php:422
+msgid "ورقة واحدة فيها خطأ قد تؤخر سفرك أو قبولك الجامعي. ابدأ الآن واحصل على مراجعة مجانية لملفاتك قبل الترجمة."
+msgstr ""
+
+#: page-translation.php:425
+msgid "احصل على مراجعة مجانية الآن"
+msgstr ""
+
+#. translators: %s: search query
+#: search.php:20
+msgid "نتائج البحث عن: %s"
+msgstr ""
+
+#. translators: %d: number of results
+#: search.php:29
+msgid "تم العثور على نتيجة واحدة"
+msgid_plural "تم العثور على %d نتيجة"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:67
+msgid "لم يتم العثور على نتائج"
+msgstr ""
+
+#: search.php:68
+msgid "عذراً، لا توجد نتائج تطابق بحثك. جرب البحث بكلمات مختلفة."
+msgstr ""
+
+#: single.php:54
+msgid "%d دقائق للقراءة"
+msgstr ""
+
+#: single.php:96
+msgid "المقال السابق"
+msgstr ""
+
+#: single.php:99
+msgid "المقال التالي"
+msgstr ""
+
+#: template-parts/components/breadcrumb-trail.php:33 template-parts/sections/department-hero.php:53
+msgid "مسار التنقل"
+msgstr ""
+
+#: template-parts/components/form-error-message.php:15 template-parts/components/quote-request-form.php:128 template-parts/components/registration-interest-form.php:117
+msgid "حدث خطأ"
+msgstr ""
+
+#: template-parts/components/form-error-message.php:16 template-parts/components/quote-request-form.php:129
+msgid "يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة."
+msgstr ""
+
+#: template-parts/components/form-success-message.php:15
+msgid "تم بنجاح!"
+msgstr ""
+
+#: template-parts/components/pricing-table.php:26
+msgid "الأكثر طلباً"
+msgstr ""
+
+#: template-parts/components/pricing-table.php:50 template-parts/content/service-card.php:49 template-parts/sections/department-translation.php:89
+msgid "طلب عرض سعر"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:21
+msgid "اسم الشركة / الجهة"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:26
+msgid "اسم المسؤول"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:33 template-parts/components/registration-interest-form.php:33 template-parts/portal/login.php:28
+msgid "البريد الإلكتروني"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:44
+msgid "نوع الخدمة"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:46
+msgid "اختر نوع الخدمة"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:57
+msgid "اللغة المصدر"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:59
+msgid "اختر اللغة المصدر"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:69
+msgid "اللغة الهدف"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:71
+msgid "اختر اللغة الهدف"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:82
+msgid "عدد الصفحات (تقديري)"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:87
+msgid "تفاصيل إضافية"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:88
+msgid "اكتب أي تفاصيل إضافية حول طلبك..."
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:92
+msgid "الموعد المطلوب"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:98
+msgid "إرسال طلب عرض السعر"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:106
+msgid "سنرد عليك خلال ساعة في أيام العمل."
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:117
+msgid "تم إرسال طلبك بنجاح!"
+msgstr ""
+
+#: template-parts/components/quote-request-form.php:118
+msgid "سنتواصل معك قريباً. شكراً لاهتمامك بخدماتنا."
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:21
+msgid "اسم ولي الأمر"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:26
+msgid "اسم الطالب"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:45
+msgid "عمر الطالب"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:50
+msgid "المستوى الدراسي الحالي"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:52
+msgid "اختر المستوى"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:53
+msgid "روضة"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:54
+msgid "الصف الأول"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:55
+msgid "الصف الثاني"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:56
+msgid "الصف الثالث"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:57
+msgid "الصف الرابع"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:58
+msgid "الصف الخامس"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:59
+msgid "الصف السادس"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:60
+msgid "الصف السابع"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:61
+msgid "الصف الثامن"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:62
+msgid "الصف التاسع"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:63
+msgid "الصف العاشر"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:64
+msgid "الصف الحادي عشر"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:65
+msgid "الصف الثاني عشر"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:71 template-parts/sections/registration-cta.php:122
+msgid "البرنامج المطلوب"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:73
+msgid "اختر البرنامج"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:74
+msgid "الدبلوم الأمريكي بدوام كامل"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:75
+msgid "الدبلوم الأمريكي بدوام جزئي"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:76
+msgid "برنامج الصيف"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:81
+msgid "ملاحظات إضافية"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:82
+msgid "أي معلومات إضافية عن الطالب..."
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:87
+msgid "إرسال طلب الاهتمام"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:106
+msgid "تم استلام طلبك بنجاح!"
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:107
+msgid "سنتواصل معك قريباً لتحديد موعد مقابلة. شكراً لاهتمامك بالدبلوم الأمريكي."
+msgstr ""
+
+#: template-parts/components/registration-interest-form.php:118
+msgid "يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة على واتساب."
+msgstr ""
+
+#: template-parts/components/video-embed.php:41 template-parts/components/video-gallery.php:56 template-parts/sections/gallery-videos.php:105
+msgid "تشغيل الفيديو"
+msgstr ""
+
+#: template-parts/components/video-embed.php:43
+msgid "صورة مصغرة للفيديو"
+msgstr ""
+
+#: template-parts/components/video-embed.php:55
+msgid "فيديو يوتيوب"
+msgstr ""
+
+#: template-parts/components/video-embed.php:65
+msgid "فيديو فيميو"
+msgstr ""
+
+#: template-parts/components/video-embed.php:75
+msgid "متصفحك لا يدعم تشغيل الفيديو."
+msgstr ""
+
+#: template-parts/components/video-gallery.php:71
+msgid "مشغل الفيديو"
+msgstr ""
+
+#: template-parts/components/video-gallery.php:73
+msgid "إغلاق"
+msgstr ""
+
+#: template-parts/content/admission-process.php:23
+msgid "تقديم طلب الالتحاق"
+msgstr ""
+
+#: template-parts/content/admission-process.php:24
+msgid "املأ نموذج طلب الالتحاق عبر الإنترنت أو في الأكاديمية."
+msgstr ""
+
+#: template-parts/content/admission-process.php:27 template-parts/sections/admission-details.php:68
+msgid "اختبار القبول"
+msgstr ""
+
+#: template-parts/content/admission-process.php:28
+msgid "اختبار لتحديد المستوى الأكاديمي في اللغة الإنجليزية والرياضيات."
+msgstr ""
+
+#: template-parts/content/admission-process.php:31
+msgid "مقابلة شخصية"
+msgstr ""
+
+#: template-parts/content/admission-process.php:32
+msgid "مقابلة مع الطالب وولي الأمر لمناقشةEXPECTATIONS."
+msgstr ""
+
+#: template-parts/content/admission-process.php:35 template-parts/sections/admission-details.php:89 template-parts/sections/department-american-diploma.php:76
+msgid "القبول والتسجيل"
+msgstr ""
+
+#: template-parts/content/admission-process.php:36
+msgid "استلام خط القبول وإتمام إجراءات التسجيل."
+msgstr ""
+
+#: template-parts/content/admission-process.php:44
+msgid "خطوات القبول"
+msgstr ""
+
+#: template-parts/content/admission-process.php:61 template-parts/sections/admission-details.php:110
+msgid "مواعيد مهمة"
+msgstr ""
+
+#: template-parts/content/admission-process.php:80
+msgid "المستندات المطلوبة"
+msgstr ""
+
+#: template-parts/content/course-card.php:54
+msgid "المزيد من التفاصيل"
+msgstr ""
+
+#: template-parts/content/curriculum.php:49
+msgid "المستوى: %s"
+msgstr ""
+
+#: template-parts/content/curriculum.php:59
+msgid "الحصص: %s"
+msgstr ""
+
+#: template-parts/content/event-card.php:90
+msgid "التفاصيل"
+msgstr ""
+
+#: template-parts/content/program-card.php:53
+msgid "المتطلبات:"
+msgstr ""
+
+#: template-parts/content/program-card.php:65 template-parts/sections/department-american-diploma.php:85
+msgid "سجّل الآن"
+msgstr ""
+
+#: template-parts/content/testimonial.php:65
+msgid "تقييم 5 من 5"
+msgstr ""
+
+#: template-parts/cta.php:2
+msgid "عندك سؤال عن خطة طالبك؟"
+msgstr ""
+
+#: template-parts/cta.php:3
+msgid "كلّمنا على واتساب وفريقنا يرد عليك ويرشّح الخطوة المناسبة."
+msgstr ""
+
+#: template-parts/cta.php:5
+msgid "واتساب دلوقتي"
+msgstr ""
+
+#: template-parts/cta.php:6
+msgid "اتصل بينا"
+msgstr ""
+
+#: template-parts/diploma.php:10
+msgid "إعداد أكاديمي حقيقي للدبلومة الأمريكية"
+msgstr ""
+
+#: template-parts/diploma.php:13 template-parts/diploma.php:32
+msgid "معتمدة من Cognia"
+msgstr ""
+
+#: template-parts/diploma.php:13
+msgid "اعتراف دولي بجودة التعليم"
+msgstr ""
+
+#: template-parts/diploma.php:19
+msgid "إعداد الدبلومة الأمريكية"
+msgstr ""
+
+#: template-parts/diploma.php:19
+msgid "خطوة بخطوة"
+msgstr ""
+
+#: template-parts/diploma.php:20
+msgid "مع نوفيرا أكاديمي، برنامج أكاديمي يُرافق طالبك من Grade 10 حتى يوم الامتحان — بحصص منتظمة ومتابعة دورية."
+msgstr ""
+
+#: template-parts/diploma.php:26
+msgid "منهج أكاديمي متكامل"
+msgstr ""
+
+#: template-parts/diploma.php:26
+msgid "حصص أسبوعية تُعزّز المهارات الأكاديمية واللغوية على مدار 3 سنوات"
+msgstr ""
+
+#: template-parts/diploma.php:32
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية"
+msgstr ""
+
+#: template-parts/diploma.php:38
+msgid "إعداد موجَّه لاختبارات دولية معتمدة مع اختبارات تجريبية قبل يوم الامتحان"
+msgstr ""
+
+#: template-parts/diploma.php:44
+msgid "متابعة ودعم إجراءات التسجيل"
+msgstr ""
+
+#: template-parts/diploma.php:44
+msgid "فريق متخصص يتابع كل طالب دورياً ويدعم خطوات التسجيل للاختبار"
+msgstr ""
+
+#: template-parts/diploma.php:47
+msgid "احجز تقييم لطالبك"
+msgstr ""
+
+#: template-parts/layout/footer.php:34
+msgid "إنستجرام"
+msgstr ""
+
+#: template-parts/layout/footer.php:39
+msgid "تيك توك"
+msgstr ""
+
+#: template-parts/layout/footer.php:44
+msgid "يوتيوب"
+msgstr ""
+
+#: template-parts/layout/footer.php:71
+msgid "تعليم أمريكي معتمد في قلب الصعيد"
+msgstr ""
+
+#: template-parts/layout/footer.php:91
+msgid "أكاديمية متخصصة في التعليم الدولي والترجمة المعتمدة. نُعدّ الطلاب لفرص عالمية من بني مزار إلى أبعد من ذلك."
+msgstr ""
+
+#: template-parts/layout/footer.php:103
+msgid "روابط سريعة"
+msgstr ""
+
+#: template-parts/layout/footer.php:112 template-parts/layout/header.php:87 template-parts/layout/header.php:171 template-parts/sections/department-hero.php:26 template-parts/sections/hero-stitch.php:75 template-parts/sections/programs-stitch.php:34
+#: template-parts/sections/registration-cta.php:28
+msgid "الترجمة المعتمدة"
+msgstr ""
+
+#: template-parts/layout/footer.php:164
+msgid "صفحة التواصل الكاملة"
+msgstr ""
+
+#: template-parts/layout/footer.php:174
+msgid "احجز استشارتك المجانية عبر واتساب واعرف البرنامج الأنسب ليك."
+msgstr ""
+
+#: template-parts/layout/footer.php:182
+msgid "سجّل استشارتك"
+msgstr ""
+
+#: template-parts/layout/footer.php:206
+msgid "حسابات التواصل الاجتماعي"
+msgstr ""
+
+#: template-parts/layout/header.php:33
+msgid "القائمة الرئيسية"
+msgstr ""
+
+#: template-parts/layout/header.php:70 template-parts/layout/header.php:159
+msgid "عرض اختبارات الدبلومة"
+msgstr ""
+
+#: template-parts/layout/header.php:77 template-parts/sections/exam/s9-related-exams.php:40
+msgid "اختبارات الدبلومة"
+msgstr ""
+
+#: template-parts/layout/header.php:103 template-parts/layout/header.php:185 template-parts/sections/testimonials-stitch.php:191
+msgid "احجز تقييم"
+msgstr ""
+
+#: template-parts/layout/header.php:109
+msgid "فتح القائمة"
+msgstr ""
+
+#: template-parts/layout/header.php:119
+msgid "القائمة"
+msgstr ""
+
+#: template-parts/layout/header.php:130
+msgid "إغلاق القائمة"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:18
+msgid "مرحباً بك في بوابة الطالب"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:22
+msgid "مرحباً %s"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:35
+msgid "الدورات الحالية"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:55
+msgid "التقدم"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:63
+msgid "آخر النشاطات"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:65
+msgid "لا توجد نشاطات حديثة"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:70
+msgid "الإعلانات"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:72
+msgid "لا توجد إعلانات"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:79
+msgid "الحساب"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:81
+msgid "الملف الشخصي"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:82
+msgid "الإعدادات"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:83
+msgid "الإشعارات"
+msgstr ""
+
+#: template-parts/portal/dashboard.php:84
+msgid "تسجيل الخروج"
+msgstr ""
+
+#: template-parts/portal/login.php:19
+msgid "بوابة الطالب"
+msgstr ""
+
+#: template-parts/portal/login.php:20
+msgid "سجل الدخول للوصول إلى حسابك"
+msgstr ""
+
+#: template-parts/portal/login.php:33
+msgid "كلمة المرور"
+msgstr ""
+
+#: template-parts/portal/login.php:40
+msgid "تذكرني"
+msgstr ""
+
+#: template-parts/portal/login.php:45
+msgid "تسجيل الدخول"
+msgstr ""
+
+#: template-parts/portal/login.php:49
+msgid "نسيت كلمة المرور؟"
+msgstr ""
+
+#: template-parts/portal/login.php:55
+msgid "ليس لديك حساب؟"
+msgstr ""
+
+#: template-parts/portal/login.php:56
+msgid "سجل الآن"
+msgstr ""
+
+#: template-parts/sections/accreditations.php:16 template-parts/sections/accreditations.php:20
+msgid "الاعتماد الأكاديمي"
+msgstr ""
+
+#: template-parts/sections/accreditations.php:23
+msgid "برنامج الدبلومة الأمريكية معتمد من Cognia"
+msgstr ""
+
+#: template-parts/sections/accreditations.php:26
+msgid "Cognia هي الهيئة الدولية الأكبر لاعتماد المؤسسات التعليمية في العالم. اعتمادنا منها ضمانة حقيقية لجودة التعليم اللي بنقدمه."
+msgstr ""
+
+#: template-parts/sections/accreditations.php:30
+msgid "جهة الاعتماد"
+msgstr ""
+
+#: template-parts/sections/accreditations.php:37 template-parts/sections/accreditations.php:43
+msgid "Cognia"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:19
+msgid "متطلبات القبول"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:22 template-parts/sections/department-american-diploma.php:84
+msgid "التقديم"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:23
+msgid "املأ نموذج التسجيل عبر الإنترنت أو قم بزيارة الأكاديمية."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:26
+msgid "المقابلة"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:27
+msgid "مقابلة شخصية لتحديد مستوى الطالب وأهدافه."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:30 template-parts/sections/faq.php:31 template-parts/sections/faq.php:46 template-parts/sections/registration-cta.php:33
+msgid "التسجيل"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:31
+msgid "دفع الرسوم والتسجيل في البرنامج المناسب."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:35
+msgid "التسجيل مفتوح على مدار العام"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:36
+msgid "تبدأ الدورات الجديدة كل 3 أشهر"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:40
+msgid "كيف تطلب خدمة الترجمة"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:43
+msgid "إرسال المستندات"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:44
+msgid "أرسل المستندات المراد ترجمتها عبر البريد الإلكتروني أو واتساب."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:47
+msgid "تقديم العرض"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:48
+msgid "نرسل لك عرض سعر وجدول زمني للترجمة."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:51
+msgid "الاستلام"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:52
+msgid "استلام المستندات المترجمة معتمدة وختم رسمي."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:56
+msgid "ترجمة عادية: 3-5 أيام عمل"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:57
+msgid "ترجمة عاجلة: 24 ساعة"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:61
+msgid "شروط القبول في الدبلوم الأمريكي"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:64
+msgid "طلب الالتحاق"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:65
+msgid "تقديم طلب الالتحاق مع المستندات المطلوبة."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:69
+msgid "اختبار لتحديد المستوى الأكاديمي للطالب."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:72
+msgid "القبول"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:73
+msgid "استلام خط القبول وبدء إجراءات التسجيل."
+msgstr ""
+
+#: template-parts/sections/admission-details.php:77
+msgid "الfall semester: أغسطس"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:78
+msgid "الspring semester: يناير"
+msgstr ""
+
+#: template-parts/sections/admission-details.php:95
+msgid "خطوات التسجيل"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:25
+msgid "إنجازات طلابنا"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:36
+msgid "نتائج طلابنا في الاختبارات الدولية"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:40
+msgid "درجات حقيقية حققها طلابنا في الاختبارات الدولية، موثّقة مع إخفاء البيانات الشخصية."
+msgstr ""
+
+#: template-parts/sections/animated-results.php:63
+msgid "إنجاز أكاديمي متميز"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:68
+msgid "اختبار Digital SAT أحد الاختبارات الدولية التي نُعِدّ طلابنا لها."
+msgstr ""
+
+#: template-parts/sections/animated-results.php:102
+msgid "مستوى ممتاز"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:125
+msgid "الدرجة المركبة"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:126
+msgid "من إجمالي 36"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:135
+msgid "تحسّن الأداء قبل الاختبار"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:136
+msgid "نتائج الاختبارات التجريبية توجّه خطة التحسين حتى الموعد الرسمي"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:144
+msgid "تحسّن الأداء"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:156
+msgid "منهجية نوفيرا التعليمية"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:159
+msgid "منهجية نوفيرا"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:160
+msgid "خمس ركائز تصنع <b>هذه النتائج</b>"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:165
+msgid "خطة فردية"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:165
+msgid "لكل طالب حسب مستواه"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:169
+msgid "متابعة دورية"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:169
+msgid "مع معلم متخصص خلال مراحل البرنامج"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:173
+msgid "اختبار تجريبي"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:173
+msgid "لكل طالب قبل الامتحان الرسمي"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:177 template-parts/sections/hero-stitch.php:151 template-parts/sections/trust-bar.php:30
+msgid "فريق تدريسي متخصص"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:177
+msgid "في التعليم والاختبارات الدولية"
+msgstr ""
+
+#: template-parts/sections/animated-results.php:181
+msgid "تواكب المعايير الدولية وأحدث أساليب التعليم"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:26 template-parts/sections/department-american-diploma.php:32 template-parts/sections/department-american-diploma.php:38
+msgid "10-12"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:27
+msgid "5 حصص أسبوعياً"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:28
+msgid "تطوير مهارات القراءة والكتابة والاستماع والتحدث بالإنجليزية."
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:33
+msgid "4 حصص أسبوعياً"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:34
+msgid "الرياضيات الأساسية المتقدمة وفق المنهج الأمريكي."
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:37
+msgid "العلوم"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:39
+msgid "3 حصص أسبوعياً"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:40
+msgid "علوم عامة مع مختبر عملي."
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:48
+msgid "فصل الخريف: أغسطس"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:49
+msgid "فصل الربيع: يناير"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:53
+msgid "الشهادة السابقة"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:54
+msgid "صور شخصية"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:55
+msgid "ملء نموذج التسجيل"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:64
+msgid "المنهج الدراسي"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:65
+msgid "المنهج الأمريكي المعتمد"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:66
+msgid "نقدّم منهجاً أمريكياً معتمداً من Cognia بإعداد أكاديمي متدرّج من Grade 10 حتى Grade 12، بحصص أسبوعية ومتابعة مستمرة."
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:77
+msgid "شروط القبول"
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:78
+msgid "معلومات مهمة حول شروط القبول والمستندات المطلوبة."
+msgstr ""
+
+#: template-parts/sections/department-american-diploma.php:86
+msgid "املأ نموذج الاهتمام وسنتواصل معك لبدء إجراءات التسجيل."
+msgstr ""
+
+#: template-parts/sections/department-education.php:25
+msgid "كورس اللغة الإنجليزية"
+msgstr ""
+
+#: template-parts/sections/department-education.php:26
+msgid "تعلم اللغة الإنجليزية من الصفر إلى الاحتراف مع مدربيين معتمدين دولياً."
+msgstr ""
+
+#: template-parts/sections/department-education.php:27
+msgid "3 أشهر"
+msgstr ""
+
+#: template-parts/sections/department-education.php:29
+msgid "لا توجد متطلبات مسبقة"
+msgstr ""
+
+#: template-parts/sections/department-education.php:30
+msgid "الحضور المنتظم"
+msgstr ""
+
+#: template-parts/sections/department-education.php:34
+msgid "تطوير المهارات المهنية"
+msgstr ""
+
+#: template-parts/sections/department-education.php:35
+msgid "برامج تطوير مهارات متخصصة في التسويق، الإدار، والقيادة."
+msgstr ""
+
+#: template-parts/sections/department-education.php:36
+msgid "شهرين"
+msgstr ""
+
+#: template-parts/sections/department-education.php:38
+msgid "خبرة في مجال العمل"
+msgstr ""
+
+#: template-parts/sections/department-education.php:39
+msgid "إتقان أساسيات اللغة الإنجليزية"
+msgstr ""
+
+#: template-parts/sections/department-education.php:48
+msgid "English for Beginners"
+msgstr ""
+
+#: template-parts/sections/department-education.php:49
+msgid "دورة شاملة للمبتدئين تشمل القراءة والكتابة والاستماع والتحدث."
+msgstr ""
+
+#: template-parts/sections/department-education.php:50
+msgid "الأحد - الثلاثاء - الخميس | 6:00 - 8:00 مساءً"
+msgstr ""
+
+#: template-parts/sections/department-education.php:53
+msgid "Business English"
+msgstr ""
+
+#: template-parts/sections/department-education.php:54
+msgid "دورة متقدمة للإنجليزية التجارية تشمل المقابلات والعروض التقديمية."
+msgstr ""
+
+#: template-parts/sections/department-education.php:55
+msgid "الاثنين - الأربعاء | 7:00 - 9:00 مساءً"
+msgstr ""
+
+#: template-parts/sections/department-education.php:64
+msgid "البرامج التعليمية"
+msgstr ""
+
+#: template-parts/sections/department-education.php:65
+msgid "برامجنا التعليمية المتميزة"
+msgstr ""
+
+#: template-parts/sections/department-education.php:66
+msgid "نقدم مجموعة متنوعة من البرامج التعليمية المصممة لتلبية احتياجات الطلاب والمحترفين."
+msgstr ""
+
+#: template-parts/sections/department-education.php:77
+msgid "كورساتنا التدريبية"
+msgstr ""
+
+#: template-parts/sections/department-education.php:78
+msgid "كورسات قصيرة ومكثفة لتحقيق أهدافك التعليمية في أسرع وقت."
+msgstr ""
+
+#: template-parts/sections/department-hero.php:23
+msgid "أكاديمية نوفيرا للتعليم"
+msgstr ""
+
+#: template-parts/sections/department-hero.php:27 template-parts/sections/department-translation.php:70
+msgid "خدمات الترجمة المعتمدة"
+msgstr ""
+
+#: template-parts/sections/department-hero.php:76
+msgid "اكتشف البرامج"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:22
+msgid "كورسات لغات"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:23
+msgid "تطوير مهني"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:30
+msgid "ترجمة وثائق"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:32
+msgid "دقة عالية"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:38
+msgid "دبلوم أمريكي"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:40
+msgid "معلمون أكاديميون"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:57 template-parts/sections/department-nav.php:60
+msgid "أقسامنا"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:61
+msgid "ثلاثة أقسام متخصصة لخدمة تعليمية شاملة"
+msgstr ""
+
+#: template-parts/sections/department-nav.php:62
+msgid "نقدم مجموعة متكاملة من الخدمات التعليمية والمهنية لتلبية احتياجات طلابنا وشركائنا."
+msgstr ""
+
+#: template-parts/sections/department-translation.php:26
+msgid "ترجمة مستندات رسمية ومعاملات تجارية بدقة عالية."
+msgstr ""
+
+#: template-parts/sections/department-translation.php:27
+msgid "3-5 أيام عمل"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:31
+msgid "ترجمة معتمدة رسمياً للسفارات والجهات الحكومية."
+msgstr ""
+
+#: template-parts/sections/department-translation.php:32
+msgid "5-7 أيام عمل"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:36
+msgid "ترجمة مستندات عاجلة خلال 24 ساعة."
+msgstr ""
+
+#: template-parts/sections/department-translation.php:37
+msgid "24 ساعة"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:46
+msgid "من 100 جنيه لكل صفحة"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:48
+msgid "ترجمة دقيقة"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:49
+msgid "مراجعة لغوية"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:50
+msgid "نسخة إلكترونية"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:55
+msgid "من 150 جنيه لكل صفحة"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:58
+msgid "ختم رسمي"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:59
+msgid "نسخة إلكترونية وورقية"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:71
+msgid "نقدم خدمات ترجمة احترافية ومعتمدة لتلبية احتياجاتك الرسمية والتجارية."
+msgstr ""
+
+#: template-parts/sections/department-translation.php:81
+msgid "الأسعار"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:82
+msgid "جدول الأسعار"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:83
+msgid "أسعار تنافسية مع ضمان الجودة والدقة."
+msgstr ""
+
+#: template-parts/sections/department-translation.php:90
+msgid "احصل على عرض سعر مجاني"
+msgstr ""
+
+#: template-parts/sections/department-translation.php:91
+msgid "املأ النموذج أدناه وسنرد عليك خلال ساعة."
+msgstr ""
+
+#: template-parts/sections/department-whatsapp.php:22
+msgid "مرحباً، أريد الاستفسار عن البرامج التعليمية في أكاديمية نوفيرا."
+msgstr ""
+
+#: template-parts/sections/department-whatsapp.php:23
+msgid "مرحباً، أريد الاستفسار عن خدمات الترجمة المعتمدة في أكاديمية نوفيرا."
+msgstr ""
+
+#: template-parts/sections/department-whatsapp.php:24
+msgid "مرحباً، أريد الاستفسار عن الدبلوم الأمريكي في أكاديمية نوفيرا."
+msgstr ""
+
+#: template-parts/sections/department-whatsapp.php:25 template-parts/sections/whatsapp-cta.php:46
+msgid "مرحباً، أريد الاستفسار عن خدمات أكاديمية نوفيرا."
+msgstr ""
+
+#: template-parts/sections/department-whatsapp.php:40
+msgid "هل تريد التسجيل أو الاستفسار؟"
+msgstr ""
+
+#: template-parts/sections/department-whatsapp.php:42 template-parts/sections/whatsapp-cta.php:28
+msgid "تواصل معنا الآن عبر واتساب وسنرد عليك فوراً. فريقنا جاهز لمساعدتك."
+msgstr ""
+
+#: template-parts/sections/department-whatsapp.php:58 template-parts/sections/whatsapp-cta.php:60
+msgid "فريقنا متاح للرد على استفساراتك"
+msgstr ""
+
+#: template-parts/sections/diploma/s1-hero.php:28
+msgid "رفيق رحلة طالبك حتى الجامعة"
+msgstr ""
+
+#: template-parts/sections/diploma/s1-hero.php:31
+msgid "الدبلومة الأمريكية مسار تعليمي يرافق الطالب من الصف العاشر حتى الصف الثاني عشر (Grade 10 – Grade 12)، ويشمل الاستعداد للاختبارات الدولية EST و Digital SAT و ACT. لا نقدّم اختباراً واحداً فحسب، بل نرافق الطالب وأسرته خلال مراحل الرحلة الأكاديمية."
+msgstr ""
+
+#: template-parts/sections/diploma/s1-hero.php:36
+msgid "تعرّف على الرحلة الأكاديمية"
+msgstr ""
+
+#: template-parts/sections/diploma/s1-hero.php:37 template-parts/sections/diploma/s2-what-is.php:57 template-parts/sections/hero-stitch.php:163 template-parts/sections/programs-stitch.php:27
+msgid "استكشف البرامج"
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:21
+msgid "الساعات المعتمدة (Credits)"
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:22
+msgid "وحدات يحصل عليها الطالب عند إتمام كل مادة دراسية بنجاح."
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:25
+msgid "المعدل التراكمي (GPA)"
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:26
+msgid "متوسط تقديرات الطالب عبر المواد، ويُحسب بشكل تراكمي خلال سنوات الدراسة."
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:29
+msgid "متطلبات التخرج"
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:30
+msgid "مجموعة الساعات والمواد التي يحتاج الطالب لاستكمالها للحصول على الدبلومة."
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:33
+msgid "مسارات الجامعة"
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:34
+msgid "الطرق التي يتقدّم بها الطالب للجامعات بعد الدبلومة، وفق متطلبات كل جامعة وجهة مختصة."
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:43
+msgid "مفاهيم أساسية تساعد الأسرة على فهم المسار قبل اتخاذ القرار."
+msgstr ""
+
+#: template-parts/sections/diploma/s2-what-is.php:56
+msgid "أما تفاصيل الاختبارات الدولية (EST و Digital SAT و ACT) فتجدها في منظومة البرامج."
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:19
+msgid "مرونة المسار"
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:20
+msgid "نظام يتيح للطالب التقدّم وفق مستواه واهتماماته."
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:23
+msgid "إتقان اللغة الإنجليزية"
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:24
+msgid "الدراسة بالإنجليزية تنمّي مهارات لغوية يحتاجها الطالب أكاديمياً ومهنياً."
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:27
+msgid "انفتاح دولي"
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:28
+msgid "محتوى ومعايير ذات طابع دولي توسّع مدارك الطالب."
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:31
+msgid "تعدّد مسارات الجامعة"
+msgstr ""
+
+#: template-parts/sections/diploma/s3-why-path.php:32
+msgid "يفتح المسار خيارات تقديم متعددة، وفق متطلبات كل جامعة وجهة مختصة."
+msgstr ""
+
+#: template-parts/sections/diploma/s4-why-novira.php:19
+msgid "لماذا نوفيرا؟"
+msgstr ""
+
+#: template-parts/sections/diploma/s4-why-novira.php:22 template-parts/sections/why-novira.php:25
+msgid "لماذا نوفيرا"
+msgstr ""
+
+#: template-parts/sections/diploma/s4-why-novira.php:23
+msgid "نرافق الطالب خلال رحلته"
+msgstr ""
+
+#: template-parts/sections/diploma/s4-why-novira.php:24
+msgid "دورنا أن نكون رفيقاً أكاديمياً للطالب وأسرته خلال مراحل الدبلومة الأمريكية."
+msgstr ""
+
+#: template-parts/sections/diploma/s5-journey.php:35
+msgid "نرافق الطالب خطوة بخطوة"
+msgstr ""
+
+#: template-parts/sections/diploma/s5-journey.php:36
+msgid "من التقييم الأول حتى الامتحان الرسمي — نرافق طالبك في كل مرحلة حتى يدخله مستعداً وقادراً على أفضل درجة ممكنة."
+msgstr ""
+
+#: template-parts/sections/diploma/s5-journey.php:47
+msgid "احتياج الطالب:"
+msgstr ""
+
+#: template-parts/sections/diploma/s5-journey.php:54
+msgid "دور نوفيرا:"
+msgstr ""
+
+#: template-parts/sections/diploma/s5-journey.php:61
+msgid "استكشف برامج الاختبارات"
+msgstr ""
+
+#: template-parts/sections/diploma/s6-ecosystem.php:25 template-parts/sections/diploma/s6-ecosystem.php:29
+msgid "منظومة البرامج"
+msgstr ""
+
+#: template-parts/sections/diploma/s6-ecosystem.php:28
+msgid "البرامج"
+msgstr ""
+
+#: template-parts/sections/diploma/s6-ecosystem.php:30
+msgid "لكل اختبار صفحته الخاصة بتفاصيله. هنا نقطة الانطلاق."
+msgstr ""
+
+#. translators: %s: program name (e.g. EST).
+#. translators: %s: exam name.
+#: template-parts/sections/diploma/s6-ecosystem.php:48 template-parts/sections/exam/s9-related-exams.php:53
+msgid "تعرّف على %s"
+msgstr ""
+
+#: template-parts/sections/diploma/s9-consultation.php:20
+msgid "احجز استشارة"
+msgstr ""
+
+#: template-parts/sections/diploma/s9-consultation.php:23 template-parts/sections/exam/s8-consultation.php:24 template-parts/sections/exam/s8-consultation.php:27
+msgid "استشارة"
+msgstr ""
+
+#: template-parts/sections/diploma/s9-consultation.php:25
+msgid "احجز استشارة لمناقشة مسار طالبك في الدبلومة الأمريكية. نجيب عن أسئلتك دون أي التزام."
+msgstr ""
+
+#: template-parts/sections/diploma/s9-consultation.php:34 template-parts/sections/exam/s8-consultation.php:35
+msgid "احجز استشارة عبر واتساب"
+msgstr ""
+
+#: template-parts/sections/diploma/s9-consultation.php:38 template-parts/sections/exam/s8-consultation.php:38
+msgid "تواصل مع فريقنا"
+msgstr ""
+
+#: template-parts/sections/exam/s1-hero.php:33
+msgid "استكشف طريقة الإعداد"
+msgstr ""
+
+#: template-parts/sections/exam/s2-what-is.php:22 template-parts/sections/exam/s2-what-is.php:26
+msgid "ما هو %s؟"
+msgstr ""
+
+#: template-parts/sections/exam/s2-what-is.php:30
+msgid "التعريف"
+msgstr ""
+
+#: template-parts/sections/exam/s2-what-is.php:34
+msgid "الغرض والدور"
+msgstr ""
+
+#: template-parts/sections/exam/s2-what-is.php:43
+msgid "هذا الاختبار جزء من الدبلومة الأمريكية."
+msgstr ""
+
+#: template-parts/sections/exam/s2-what-is.php:44
+msgid "تعرّف على الدبلومة الأمريكية"
+msgstr ""
+
+#: template-parts/sections/exam/s3-structure.php:22 template-parts/sections/exam/s3-structure.php:25
+msgid "بنية الاختبار"
+msgstr ""
+
+#: template-parts/sections/exam/s3-structure.php:26
+msgid "مكوّنات الاختبار"
+msgstr ""
+
+#: template-parts/sections/exam/s3-structure.php:30
+msgid "الأقسام"
+msgstr ""
+
+#: template-parts/sections/exam/s3-structure.php:43 template-parts/sections/student-case.php:93
+msgid "المدة"
+msgstr ""
+
+#: template-parts/sections/exam/s3-structure.php:48
+msgid "نظام الدرجات"
+msgstr ""
+
+#: template-parts/sections/exam/s3-structure.php:52
+msgid "نعرض البنية للمعلومة فقط، ولا نقدّم وعوداً بأي نتيجة."
+msgstr ""
+
+#: template-parts/sections/exam/s4-preparation.php:21 template-parts/sections/exam/s4-preparation.php:25
+msgid "طريقة الإعداد"
+msgstr ""
+
+#: template-parts/sections/exam/s4-preparation.php:24
+msgid "الإعداد"
+msgstr ""
+
+#: template-parts/sections/exam/s4-preparation.php:29
+msgid "منهج الإعداد"
+msgstr ""
+
+#: template-parts/sections/exam/s4-preparation.php:33
+msgid "الاختبارات التجريبية"
+msgstr ""
+
+#: template-parts/sections/exam/s4-preparation.php:39
+msgid "فيديو توضيحي للإعداد"
+msgstr ""
+
+#: template-parts/sections/exam/s5-registration.php:22 template-parts/sections/exam/s5-registration.php:26
+msgid "التسجيل والدعم اللوجستي"
+msgstr ""
+
+#: template-parts/sections/exam/s5-registration.php:25
+msgid "التسجيل والدعم"
+msgstr ""
+
+#: template-parts/sections/exam/s5-registration.php:34
+msgid "المتطلبات"
+msgstr ""
+
+#: template-parts/sections/exam/s5-registration.php:38
+msgid "الدعم في التنقّل"
+msgstr ""
+
+#: template-parts/sections/exam/s5-registration.php:42
+msgid "الرسوم"
+msgstr ""
+
+#: template-parts/sections/exam/s6-progress.php:21
+msgid "متابعة التقدّم"
+msgstr ""
+
+#: template-parts/sections/exam/s6-progress.php:24
+msgid "المتابعة"
+msgstr ""
+
+#: template-parts/sections/exam/s6-progress.php:25
+msgid "متابعة تقدّم الطالب"
+msgstr ""
+
+#: template-parts/sections/exam/s6-progress.php:29
+msgid "متابعة الأداء"
+msgstr ""
+
+#: template-parts/sections/exam/s6-progress.php:33
+msgid "التقارير والتواصل مع أولياء الأمور"
+msgstr ""
+
+#: template-parts/sections/exam/s6-progress.php:38
+msgid "تعرّف على المتابعة الأكاديمية ضمن الرحلة الكاملة"
+msgstr ""
+
+#: template-parts/sections/exam/s9-related-exams.php:36
+msgid "اختبارات أخرى"
+msgstr ""
+
+#: template-parts/sections/exam/s9-related-exams.php:41
+msgid "استكشف اختبارات أخرى"
+msgstr ""
+
+#: template-parts/sections/exam/s9-related-exams.php:42
+msgid "الدبلومة الأمريكية تشمل أكثر من اختبار. تعرّف على الاختبارات الأخرى التي تُعدّ لها نوفيرا."
+msgstr ""
+
+#: template-parts/sections/exam/s9-related-exams.php:62
+msgid "← العودة إلى الدبلومة الأمريكية"
+msgstr ""
+
+#: template-parts/sections/faculty.php:52
+msgid "هيئة التدريس"
+msgstr ""
+
+#: template-parts/sections/faculty.php:53
+msgid "من <span class=\"hl\">يُدرّس</span> أبناءكم"
+msgstr ""
+
+#: template-parts/sections/faculty.php:54
+msgid "نعرّفكم بالمعلمين المسؤولين عن كل برنامج، بأسمائهم وتخصصاتهم."
+msgstr ""
+
+#: template-parts/sections/faculty.php:65
+msgid "التخصص:"
+msgstr ""
+
+#: template-parts/sections/faculty.php:68
+msgid "البرنامج:"
+msgstr ""
+
+#: template-parts/sections/faq.php:28
+msgid "التواصل"
+msgstr ""
+
+#: template-parts/sections/faq.php:28
+msgid "راسلنا على واتساب أو اتصل بنا أو زُر المقر في بني مزار."
+msgstr ""
+
+#: template-parts/sections/faq.php:29
+msgid "الاستشارة"
+msgstr ""
+
+#: template-parts/sections/faq.php:29
+msgid "نتعرّف على هدف الطالب ونرشّح البرنامج المناسب."
+msgstr ""
+
+#: template-parts/sections/faq.php:30
+msgid "تحديد المستوى"
+msgstr ""
+
+#: template-parts/sections/faq.php:30
+msgid "نساعد في تحديد المستوى أو البرنامج المناسب للطالب."
+msgstr ""
+
+#: template-parts/sections/faq.php:31
+msgid "استكمال بيانات التسجيل في البرنامج المختار."
+msgstr ""
+
+#: template-parts/sections/faq.php:32
+msgid "الدراسة والمتابعة"
+msgstr ""
+
+#: template-parts/sections/faq.php:32
+msgid "بدء الدراسة مع متابعة أكاديمية مستمرة."
+msgstr ""
+
+#: template-parts/sections/faq.php:43 template-parts/sections/faq.php:45
+msgid "خطوات التسجيل والأسئلة الشائعة"
+msgstr ""
+
+#: template-parts/sections/faq.php:46
+msgid "ماذا يحدث إذا قررت"
+msgstr ""
+
+#: template-parts/sections/faq.php:47
+msgid "خطوات واضحة وإجابات مباشرة لتقليل أي غموض قبل اتخاذ القرار."
+msgstr ""
+
+#: template-parts/sections/faq.php:71
+msgid "سيتم تحديث الإجابة من المصدر الرسمي."
+msgstr ""
+
+#: template-parts/sections/founder.php:34
+msgid "بكالوريوس اللغات والترجمة الفورية"
+msgstr ""
+
+#: template-parts/sections/founder.php:36
+msgid "اختبارات EST · SAT · ACT"
+msgstr ""
+
+#: template-parts/sections/founder.php:47
+msgid "مؤسس أكاديمية نوفيرا — مستر يوسف زكي"
+msgstr ""
+
+#: template-parts/sections/founder.php:57
+msgid "يوسف"
+msgstr ""
+
+#: template-parts/sections/founder.php:57
+msgid "زكي"
+msgstr ""
+
+#: template-parts/sections/founder.php:59
+msgid "مؤسس أكاديمية نوفيرا أكاديمي، يمتلك خبرة واسعة في مجال الدبلومة الأمريكية واللغة الإنجليزية والاختبارات الدولية لسنوات."
+msgstr ""
+
+#: template-parts/sections/founder.php:62
+msgid "حاصل على بكالوريوس اللغات والترجمة الفورية، واهتم خلال مسيرته المهنية بتطوير المهارات وبناء القدرات بأسلوب عملي ومبتكر."
+msgstr ""
+
+#: template-parts/sections/founder.php:63
+msgid "انطلق في تأسيس الأكاديمية إيمانًا منه بأهمية التعليم والتدريب في تحقيق النجاح، وحرصًا على تقديم محتوى تدريبي عالي الجودة يواكب متطلبات سوق العمل ويساهم في إعداد كوادر مؤهلة وقادرة على التطور المستمر."
+msgstr ""
+
+#: template-parts/sections/founder.php:66
+msgid "المؤهلات"
+msgstr ""
+
+#: template-parts/sections/founder.php:75
+msgid "تعرّف أكثر على نوفيرا أكاديمي"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:28
+msgid "صور الأكاديمية"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:29
+msgid "حياة الأكاديمية"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:48 template-parts/sections/gallery-videos.php:54 template-parts/sections/media-gallery.php:80
+msgid "معرض الصور"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:53
+msgid "لقطات من حياتنا"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:57
+msgid "عرض جميع الصور"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:67
+msgid "لقطة من أكاديمية نوفيرا رقم %d"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:79
+msgid "صورة أخرى"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:88 template-parts/sections/gallery-videos.php:94
+msgid "مكتبة الفيديوهات"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:93
+msgid "شاهد بنفسك"
+msgstr ""
+
+#: template-parts/sections/gallery-videos.php:97
+msgid "عرض جميع الفيديوهات"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:16
+msgid "Hero Carousel"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:31
+msgid "نُعِدّ طالبك ليدخل الاختبار قادراً على أعلى درجة"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:34
+msgid "من Grade 10 حتى يوم الاختبار، نبني مستوى طالبك أسبوعياً مع معلمين متخصصين — لا مراجعة في اللحظة الأخيرة، بل استعداد يتحسّن باستمرار حتى يدخل الامتحان مستعداً فعلاً."
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:38
+msgid "حصص أسبوعية مع معلمين متخصصين لبناء الفهم"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:42
+msgid "اختبارات تجريبية تقيس جاهزيته قبل الموعد"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:46
+msgid "متابعة دورية ترفع مستواه خطوة بخطوة"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:79 template-parts/sections/programs-stitch.php:35
+msgid "ورقك في أمان"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:82 template-parts/sections/programs-stitch.php:36
+msgid "نوفر خدمات ترجمة للمستندات الرسمية وفق المتطلبات المعمول بها."
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:86 template-parts/sections/programs-stitch.php:38
+msgid "ترجمة معتمدة لجميع الوثائق الرسمية"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:90 template-parts/sections/programs-stitch.php:39
+msgid "ترجمة معتمدة وفق المتطلبات الرسمية"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:94
+msgid "عدد كبير من اللغات"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:98
+msgid "سرعة ودقة وجودة"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:104 template-parts/sections/programs-stitch.php:42
+msgid "الجامعات"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:105 template-parts/sections/programs-stitch.php:42
+msgid "الحكومة"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:106 template-parts/sections/programs-stitch.php:42
+msgid "كل اللغات"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:110 template-parts/sections/programs-stitch.php:43
+msgid "استكشف الخدمة"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:128 template-parts/sections/programs-stitch.php:18 template-parts/sections/registration-cta.php:29
+msgid "تنمية المهارات واللغات"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:132
+msgid "لغات ومهارات بتدريب عملي"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:135 template-parts/sections/programs-stitch.php:20
+msgid "كورسات لغات ومهارات رقمية في مجموعات صغيرة مع فريق تدريسي متخصص."
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:139
+msgid "إنجليزي - ألماني - فرنسي"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:143
+msgid "برمجة - ذكاء اصطناعي - تسويق"
+msgstr ""
+
+#: template-parts/sections/hero-stitch.php:147
+msgid "مجموعات صغيرة"
+msgstr ""
+
+#: template-parts/sections/hero.php:20
+msgid "أكاديمية نوفيرا للتعليم الدولي والترجمة المعتمدة"
+msgstr ""
+
+#: template-parts/sections/hero.php:21
+msgid "نبني الثقة أولاً. نقدّم محتوى حقيقي يعكس هوية المؤسسة التعليمية."
+msgstr ""
+
+#: template-parts/sections/hero.php:36
+msgid "اكتشف أقسامنا"
+msgstr ""
+
+#: template-parts/sections/hero.php:44
+msgid "أكاديمية نوفيرا"
+msgstr ""
+
+#: template-parts/sections/hero.php:54
+msgid "مؤسسة تعليمية معتمدة"
+msgstr ""
+
+#: template-parts/sections/hero.php:85
+msgid "طالب مسجل"
+msgstr ""
+
+#: template-parts/sections/hero.php:89
+msgid "دورة تدريبية"
+msgstr ""
+
+#: template-parts/sections/hero.php:93
+msgid "سنوات خبرة"
+msgstr ""
+
+#: template-parts/sections/hero.php:99
+msgid "اكتشف المزيد"
+msgstr ""
+
+#: template-parts/sections/latest-posts.php:35 template-parts/sections/latest-posts.php:39
+msgid "آخر المقالات"
+msgstr ""
+
+#: template-parts/sections/latest-posts.php:40
+msgid "تابع آخر أخبارنا ومقالاتنا التعليمية."
+msgstr ""
+
+#: template-parts/sections/latest-posts.php:51
+msgid "عرض جميع المقالات"
+msgstr ""
+
+#: template-parts/sections/map-contact.php:14
+msgid "شارع الشهيد مصطفى الملاحظ، أخر شارع مستشفى أبو عوف، بجوار مكتبة الناظر، بني مزار - المنيا"
+msgstr ""
+
+#: template-parts/sections/map-contact.php:69
+msgid "زور <span class=\"text-brand-primary\">نوفيرا أكاديمي</span> وابدأ رحلتك التعليمية"
+msgstr ""
+
+#: template-parts/sections/map-contact.php:72
+msgid "نحن هنا لمساعدتك في اختيار المسار المناسب سواء الدبلومة الأمريكية أو الترجمة المعتمدة أو برامج اللغات والمهارات."
+msgstr ""
+
+#: template-parts/sections/map-contact.php:76
+msgid "يسعدنا استقبالكم في مقر الأكاديمية لمناقشة أفضل مسار تعليمي يناسب أهدافكم."
+msgstr ""
+
+#: template-parts/sections/map-contact.php:96
+msgid "مؤسسة تعليمية متخصصة في الدبلومة الأمريكية والترجمة المعتمدة وتنمية المهارات واللغات."
+msgstr ""
+
+#: template-parts/sections/map-contact.php:108
+msgid "العنوان"
+msgstr ""
+
+#: template-parts/sections/map-contact.php:117
+msgid "الهاتف"
+msgstr ""
+
+#: template-parts/sections/map-contact.php:135
+msgid "مواعيد العمل"
+msgstr ""
+
+#: template-parts/sections/map-contact.php:136
+msgid "السبت – الخميس: 10 ص – 10 م · الجمعة: 1 م – 10 م"
+msgstr ""
+
+#: template-parts/sections/media-gallery.php:83
+msgid "من حياة الأكاديمية"
+msgstr ""
+
+#: template-parts/sections/media-gallery.php:84
+msgid "لقطات من أكاديمية نوفيرا"
+msgstr ""
+
+#: template-parts/sections/media-gallery.php:85
+msgid "شاهد لحظات حقيقية من أنشطتنا التعليمية والمهنية."
+msgstr ""
+
+#: template-parts/sections/media-gallery.php:111
+msgid "شاهد الفيديو التعريفي"
+msgstr ""
+
+#: template-parts/sections/premium-exam/compare.php:34
+msgid "نعم"
+msgstr ""
+
+#: template-parts/sections/premium-exam/course-guide.php:37
+msgid "مدة كل كورس تُحدَّد حسب نتيجة التقييم المبدئي وخطة طالبك الدراسية — لا مقاس واحد يناسب الجميع."
+msgstr ""
+
+#: template-parts/sections/premium-exam/courses.php:38
+msgid "ما الذي سيدرسه طالبك؟"
+msgstr ""
+
+#: template-parts/sections/premium-exam/courses.php:44
+msgid "عايز اشترك في كورس (%s)"
+msgstr ""
+
+#: template-parts/sections/premium-exam/courses.php:103
+msgid "متاح أيضاً لـ"
+msgstr ""
+
+#: template-parts/sections/premium-exam/courses.php:113
+msgid "تفاصيل الكورس"
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:34
+msgid "رحلة التعلّم"
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:35
+msgid "رحلة طالبك من التقييم إلى الاختبار"
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:36
+msgid "مسار تعليمي متدرّج — كل مرحلة تبني على ما قبلها حتى يدخل طالبك الاختبار مستعداً فعلاً."
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:39
+msgid "التقييم"
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:39
+msgid "نحدّد مستوى طالبك الحالي ونقطة انطلاقه."
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:40
+msgid "نبني الأساس المتين في المهارات التي يقيسها الاختبار."
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:41
+msgid "البناء التراكمي"
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:41
+msgid "نمو أسبوعي متواصل مع معلمين متخصصين."
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:42
+msgid "الجاهزية والمحاكاة"
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:42
+msgid "اختبارات تجريبية تُحاكي ظروف يوم الامتحان."
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:43
+msgid "الاختبار الرسمي"
+msgstr ""
+
+#: template-parts/sections/premium-exam/journey.php:43
+msgid "يتقدّم طالبك مستعداً لأعلى درجة ممكنة."
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:19
+msgid "للصغار والكبار"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:22
+msgid "لغات عملية: إنجليزي، ألماني، فرنسي"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:23
+msgid "مهارات رقمية: برمجة، ذكاء اصطناعي، تسويق"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:24
+msgid "مجموعات صغيرة وفريق تدريسي متخصص"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:30
+msgid "طلاب يتعلمون المهارات الرقمية واللغات"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:40
+msgid "عدد كبير من اللغات بسرعة وسعر واضح"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:46
+msgid "ترجمة معتمدة للوثائق الرسمية"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:52
+msgid "برنامج ثلاث سنوات معتمد من Cognia يؤهّل طالبك لاختبار EST أو Digital SAT أو ACT حسب مساره الأكاديمي."
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:54
+msgid "برنامج معتمد دولياً من Cognia"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:55
+msgid "ثلاثة اختبارات دولية: EST و Digital SAT و ACT"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:56
+msgid "مسار يُختار حسب مستوى الطالب وهدفه"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:59
+msgid "اعرف كيف يسير البرنامج"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:62
+msgid "طلاب الدبلومة الأمريكية في نوفيرا أكاديمي"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:68 template-parts/sections/programs-stitch.php:78
+msgid "مجالات التخصص"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:81
+msgid "ما الذي يحتاجه طالبك؟"
+msgstr ""
+
+#: template-parts/sections/programs-stitch.php:84
+msgid "ثلاثة تخصصات أكاديمية متكاملة — لغات ومهارات، ترجمة معتمدة، وإعداد للدبلومة الأمريكية."
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:46
+msgid "التسجيل المبكر مفتوح الآن"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:48
+msgid "هل طالبك جاهز للبدء؟"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:50
+msgid "أرسل بياناتك وسيتواصل معك فريقنا لمناقشة المرحلة الدراسية والاختبار المناسب لطالبك."
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:56
+msgid "رد خلال ساعات"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:64
+msgid "+1500 طالب التحقوا بنا"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:72
+msgid "تفضّل التواصل واتساب؟"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:87
+msgid "سجّل بيانات طالبك"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:88
+msgid "ونتواصل معك خلال 24 ساعة لتحديد الأنسب."
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:95
+msgid "تم استلام طلبك! سيتواصل معك فريقنا قريباً."
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:100
+msgid "يرجى مراجعة البيانات والمحاولة مرة أخرى."
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:107
+msgid "الاسم الأول"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:111
+msgid "الاسم الأخير"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:117
+msgid "رقم واتساب"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:134
+msgid "جاري الإرسال…"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:134
+msgid "احجز مكان طالبك"
+msgstr ""
+
+#: template-parts/sections/registration-cta.php:142
+msgid "بياناتك آمنة — نستخدمها فقط للتواصل معك."
+msgstr ""
+
+#: template-parts/sections/student-case.php:24
+msgid "طالب من برنامج الدبلومة الأمريكية"
+msgstr ""
+
+#: template-parts/sections/student-case.php:26
+msgid "سنتان دراسيتان (عيّنة)"
+msgstr ""
+
+#: template-parts/sections/student-case.php:27
+msgid "نتيجة تجريبية للعرض — تُستبدل بالنتيجة الموثقة"
+msgstr ""
+
+#: template-parts/sections/student-case.php:28
+msgid "المستوى التأسيسي"
+msgstr ""
+
+#: template-parts/sections/student-case.php:29
+msgid "جاهز للتقديم الجامعي"
+msgstr ""
+
+#: template-parts/sections/student-case.php:33
+msgid "نص توضيحي مؤقت لرسالة الطالب يعرض التنسيق النهائي للقسم — يُستبدل بالشهادة الحقيقية بعد التوثيق."
+msgstr ""
+
+#: template-parts/sections/student-case.php:34
+msgid "التحق بالجامعة المستهدفة"
+msgstr ""
+
+#: template-parts/sections/student-case.php:55 template-parts/sections/student-case.php:61
+msgid "دراسة حالة موثقة"
+msgstr ""
+
+#: template-parts/sections/student-case.php:63
+msgid "رحلة أحد طلابنا في برنامج"
+msgstr ""
+
+#: template-parts/sections/student-case.php:64
+msgid "موثقة بالفيديو والنتائج الأكاديمية."
+msgstr ""
+
+#: template-parts/sections/student-case.php:72
+msgid "تشغيل الفيديو التوثيقي"
+msgstr ""
+
+#: template-parts/sections/student-case.php:81
+msgid "فيديو توثيقي"
+msgstr ""
+
+#: template-parts/sections/student-case.php:87
+msgid "ملف الحالة"
+msgstr ""
+
+#: template-parts/sections/student-case.php:90
+msgid "البرنامج"
+msgstr ""
+
+#: template-parts/sections/student-case.php:96
+msgid "النتيجة الموثقة"
+msgstr ""
+
+#: template-parts/sections/student-case.php:99
+msgid "قبل / بعد"
+msgstr ""
+
+#: template-parts/sections/student-case.php:108
+msgid "المآل"
+msgstr ""
+
+#: template-parts/sections/student-case.php:118
+msgid "إثبات نتيجة %s"
+msgstr ""
+
+#: template-parts/sections/student-case.php:119
+msgid "إثبات النتيجة (مع إخفاء البيانات الشخصية)."
+msgstr ""
+
+#: template-parts/sections/student-results.php:16
+msgid "SAT"
+msgstr ""
+
+#: template-parts/sections/student-results.php:17 template-parts/sections/student-results.php:35
+msgid "أعلى درجة لطلابنا"
+msgstr ""
+
+#: template-parts/sections/student-results.php:25
+msgid "IELTS"
+msgstr ""
+
+#: template-parts/sections/student-results.php:26
+msgid "متوسط الدرجات"
+msgstr ""
+
+#: template-parts/sections/student-results.php:41
+msgid "قبول"
+msgstr ""
+
+#: template-parts/sections/student-results.php:44
+msgid "جامعات عالمية"
+msgstr ""
+
+#: template-parts/sections/student-results.php:67
+msgid "نتائج طلابنا"
+msgstr ""
+
+#: template-parts/sections/student-results.php:75
+msgid "إنجازاتنا"
+msgstr ""
+
+#: template-parts/sections/student-results.php:78
+msgid "نتائج طلابنا تتحدث عنا"
+msgstr ""
+
+#: template-parts/sections/student-results.php:81
+msgid "نتائج فعلية من طلابنا في اختبارات EST و Digital SAT و ACT."
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:17
+msgid "م"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:18
+msgid "Mostafa Ahmed"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:19 template-parts/sections/testimonials-stitch.php:28 template-parts/sections/testimonials-stitch.php:38
+msgid "مراجعة على Google"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:21
+msgid "خدمة ممتازة وسريعة جداً. الترجمة كانت معتمدة وتم قبولها في السفارة بدون أي مشاكل."
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:26
+msgid "خ"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:27
+msgid "Khedr Nageh"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:30
+msgid "مكان ممتاز والله ف كل حاجة ف التعليم ف الترجمة ف الكورسات ف المعاملة كل حاجة ماشاء الله يجد وان شاء الله من نجاح لنجاح يارب"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:36
+msgid "أ"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:37
+msgid "Mariem Mohamed"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:40
+msgid "دورات الاختبارات الدولية كانت منظمة جداً واستفدت كتير، وحسيت بفرق كبير في نتيجتي."
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:57
+msgid "تقييمات من Google"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:61
+msgid "ماذا يقول"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:61
+msgid "عنا؟"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:71
+msgid "نفتخر بثقة طلابنا ورضاهم عن خدماتنا في الترجمة والاختبارات الدولية."
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:72
+msgid "هذه بعض من تجاربهم الحقيقية."
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:80
+msgid "تقييم %s من 5 على Google"
+msgstr ""
+
+#. translators: %s: number of Google reviews, e.g. "20+".
+#: template-parts/sections/testimonials-stitch.php:92
+msgid "%s تقييم على Google"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:101
+msgid "آراء العملاء"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:110
+msgid "تقييم %1$d من %2$d"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:132
+msgid "تقييم %d من 5"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:153
+msgid "شريحة التقييم"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:154
+msgid "شريحة 1"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:155
+msgid "شريحة 2"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:156
+msgid "شريحة 3"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:163
+msgid "المزيد من آراء أولياء الأمور والطلاب متاحة على Google Reviews."
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:167
+msgid "عرض جميع التقييمات"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:188
+msgid "عايز نفس المتابعة لطالبك؟"
+msgstr ""
+
+#: template-parts/sections/testimonials-stitch.php:189
+msgid "تواصل معنا، نبدأ بتقييم مستواه ونحدّد الاختبار والخطة المناسبة."
+msgstr ""
+
+#: template-parts/sections/trust-bar.php:16
+msgid "مؤشرات الثقة"
+msgstr ""
+
+#: template-parts/sections/trust-bar.php:24
+msgid "برامج تعليمية متخصصة"
+msgstr ""
+
+#: template-parts/sections/trust-bar.php:36
+msgid "من قلب المنيا"
+msgstr ""
+
+#: template-parts/sections/trust-bar.php:42
+msgid "تدريب عملي وتطبيقي"
+msgstr ""
+
+#: template-parts/sections/trust-bar.php:48
+msgid "دعم أكاديمي مستمر"
+msgstr ""
+
+#: template-parts/sections/trust-bar.php:54
+msgid "متابعة أكاديمية لكل طالب"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:64
+msgid "أكاديمية نوفيرا غيّرت مسار حياتي. تعلمت اللغة الإنجليزية بشكل احترافي وأصبحت قادرة على التواصل في بيئة العمل الدولي."
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:65
+msgid "سارة أحمد"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:66
+msgid "طالبة سابقة - كورس الإنجليزية"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:70
+msgid "خدمة التترجمة المعتمدة كانت ممتازة. تم ترجمة وثائقي رسمياً بدقة عالية وفي الوقت المحدد."
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:71
+msgid "محمد علي"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:72
+msgid "عميل - الترجمة المعتمدة"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:76
+msgid "ابني يدرس في البرنامج الأمريكي ويتحسن أداؤه أكاديمياً. المنهاج عصري والمعلمون متميزون."
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:77
+msgid "فاطمة خالد"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:78
+msgid "ولي أمر - الدبلوم الأمريكي"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:85
+msgid "شهادات طلابنا"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:88
+msgid "قصص نجاح"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:89
+msgid "ماذا يقول طلابنا وشركاؤنا"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:90
+msgid "نفخر بقصص نجاح طلابنا وثقة شركائنا في خدماتنا التعليمية والمهنية."
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:106
+msgid "مؤسسة معتمدة"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:117
+msgid "+500 طالب"
+msgstr ""
+
+#: template-parts/sections/trust-proof.php:126
+msgid "+10 سنوات خبرة"
+msgstr ""
+
+#: template-parts/sections/upcoming-events.php:38 template-parts/sections/upcoming-events.php:42
+msgid "الأحداث القادمة"
+msgstr ""
+
+#: template-parts/sections/upcoming-events.php:43
+msgid "تابع أحداثنا وأنشطةنا القادمة."
+msgstr ""
+
+#: template-parts/sections/upcoming-events.php:54
+msgid "عرض جميع الأحداث"
+msgstr ""
+
+#: template-parts/sections/whatsapp-cta.php:27
+msgid "هل لديك استفسار؟"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:34
+msgid "تعليم مش بس شهادة"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:36
+msgid "نوفيرا أكاديمي مش مجرد أكاديمية تعليمية — دي مؤسسة بتبني مسارك الدراسي والمهني من البداية لحد ما توصل. بنؤمن إن التعليم الحقيقي هو اللي يخلّي مستقبلك في أمان."
+msgstr ""
+
+#: template-parts/sections/why-novira.php:45
+msgid "مضمون"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:62
+msgid "اعتماد دولي معترف بيها"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:63
+msgid "شهاداتنا معتمدة من الجامعات والسفارات والجهات الحكومية — ورقك في أمان معانا."
+msgstr ""
+
+#: template-parts/sections/why-novira.php:75
+msgid "مدربون خبراء في مجالهم"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:76
+msgid "مش بس شيوخ تعليم — مدربين شغالين في سوق العمل وبيجيبوا الخبرة الحقيقية للفصل."
+msgstr ""
+
+#: template-parts/sections/why-novira.php:89
+msgid "تدريب عملي"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:90
+msgid "تطبّق مهاراتك على مشاريع حقيقية مش بس نظري."
+msgstr ""
+
+#: template-parts/sections/why-novira.php:97
+msgid "دعم مهني مستمر"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:98
+msgid "إرشاد مهني وفرص وظيفية حتى بعد ما تخلّص الكورس."
+msgstr ""
+
+#: template-parts/sections/why-novira.php:105
+msgid "دعم أكاديمي متابع"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:106
+msgid "متابعة مستمرة مع كل طالب من أول يوم لحد ما يحقق هدفه."
+msgstr ""
+
+#: template-parts/sections/why-novira.php:113
+msgid "بيئة تعليمية حديثة"
+msgstr ""
+
+#: template-parts/sections/why-novira.php:114
+msgid "قاعات ذكية وتجهيزات على أعلى مستوى للتعلم الفعال."
+msgstr ""
+
+#: template-parts/translation.php:5
+msgid "ورقك في أمان..."
+msgstr ""
+
+#: template-parts/translation.php:5
+msgid "ترجمة معتمدة لكل لغات العالم"
+msgstr ""
+
+#: template-parts/translation.php:6
+msgid "سفر، دراسة، أو بيزنس؟ نوفيرا أكاديمي بتقدم ترجمة معتمدة مقبولة في جميع السفارات والجهات الحكومية والجامعات."
+msgstr ""
+
+#: template-parts/translation.php:12
+msgid "مقبولة في كل السفارات"
+msgstr ""
+
+#: template-parts/translation.php:12
+msgid "ترجمة رسمية معتمدة تُقبل لدى جميع السفارات والقنصليات"
+msgstr ""
+
+#: template-parts/translation.php:18
+msgid "خدمة سريعة ودقيقة — أونلاين أو بالحضور الشخصي"
+msgstr ""
+
+#: template-parts/translation.php:24
+msgid "أكتر من 20 لغة"
+msgstr ""
+
+#: template-parts/translation.php:24
+msgid "إنجليزي، فرنسي، ألماني، إيطالي، إسباني، صيني وأكتر"
+msgstr ""
+
+#: template-parts/translation.php:30
+msgid "اللغات اللي بنترجمها"
+msgstr ""
+
+#: template-parts/translation.php:32
+msgid "إنجليزي"
+msgstr ""
+
+#: template-parts/translation.php:33
+msgid "فرنسي"
+msgstr ""
+
+#: template-parts/translation.php:34
+msgid "ألماني"
+msgstr ""
+
+#: template-parts/translation.php:35
+msgid "إيطالي"
+msgstr ""
+
+#: template-parts/translation.php:36
+msgid "إسباني"
+msgstr ""
+
+#: template-parts/translation.php:37
+msgid "صيني"
+msgstr ""
+
+#: template-parts/translation.php:38
+msgid "روسي"
+msgstr ""
+
+#: template-parts/translation.php:39
+msgid "تركي"
+msgstr ""
+
+#: template-parts/translation.php:40
+msgid "+ غيرهم"
+msgstr ""
+
+#: template-parts/translation.php:42
+msgid "جميع ترجماتنا مصدّقة ومعتمدة رسمياً ومقبولة في كل الجهات الحكومية والخاصة."
+msgstr ""
+
+#: template-parts/translation.php:43
+msgid "اطلب ترجمتك دلوقتي"
+msgstr ""
+

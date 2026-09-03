@@ -1,0 +1,307 @@
+/**
+ * Translation Department Styles
+ *
+ * @package Novira_Academy
+ */
+
+/* Services Section */
+.services-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 2rem;
+	margin-bottom: 4rem;
+}
+
+.service-card {
+	background: white;
+	border-radius: var(--radius-lg);
+	padding: 2rem;
+	box-shadow: var(--shadow-sm);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	border: 1px solid var(--gray-100);
+	text-align: center;
+}
+
+.service-card:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--shadow-lg);
+}
+
+.service-icon {
+	width: 70px;
+	height: 70px;
+	background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto 1.5rem;
+	color: white;
+}
+
+.service-title {
+	font-family: var(--font-display);
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: var(--gray-900);
+	margin-bottom: 1rem;
+}
+
+.service-description {
+	color: var(--gray-600);
+	line-height: 1.6;
+	margin-bottom: 1.5rem;
+}
+
+.service-turnaround {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	color: var(--primary);
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+}
+
+/* Pricing Table */
+.pricing-table {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 2rem;
+	margin-bottom: 4rem;
+}
+
+.pricing-plan {
+	background: white;
+	border-radius: var(--radius-lg);
+	padding: 2rem;
+	box-shadow: var(--shadow-sm);
+	border: 2px solid var(--gray-100);
+	text-align: center;
+	position: relative;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-plan:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--shadow-lg);
+}
+
+.pricing-featured {
+	border-color: var(--primary);
+}
+
+.pricing-badge {
+	position: absolute;
+	top: -12px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: var(--primary);
+	color: white;
+	padding: 0.25rem 1rem;
+	border-radius: 100px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.pricing-service {
+	font-family: var(--font-display);
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: var(--gray-900);
+	margin-bottom: 1rem;
+}
+
+.pricing-price {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--primary);
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: var(--gray-50);
+	border-radius: var(--radius-md);
+}
+
+.pricing-features {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 2rem;
+	text-align: start;
+}
+
+.pricing-features li {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 0.75rem 0;
+	border-bottom: 1px solid var(--gray-100);
+	color: var(--gray-700);
+}
+
+.pricing-features li:last-child {
+	border-bottom: none;
+}
+
+.pricing-features svg {
+	color: var(--success);
+	flex-shrink: 0;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+/* Quote Form */
+.quote-form {
+	background: white;
+	border-radius: var(--radius-lg);
+	padding: 2rem;
+	box-shadow: var(--shadow-sm);
+}
+
+.form-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.form-group label {
+	display: block;
+	font-weight: 600;
+	color: var(--gray-700);
+	margin-bottom: 0.5rem;
+}
+
+.form-group .required {
+	color: var(--error);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+	width: 100%;
+	padding: 0.75rem 1rem;
+	border: 2px solid var(--gray-200);
+	border-radius: var(--radius-md);
+	font-size: 1rem;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+	outline: none;
+	border-color: var(--primary);
+	box-shadow: 0 0 0 3px rgba(91, 20, 230, 0.1);
+}
+
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+	border-color: var(--error);
+}
+
+.field-error {
+	display: block;
+	color: var(--error);
+	font-size: 0.875rem;
+	margin-top: 0.5rem;
+}
+
+.form-submit {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.form-note {
+	color: var(--gray-500);
+	font-size: 0.875rem;
+	margin-top: 1rem;
+}
+
+/* Form Messages */
+.form-message {
+	text-align: center;
+	padding: 3rem 2rem;
+	border-radius: var(--radius-lg);
+	margin-top: 2rem;
+}
+
+.form-success {
+	background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(76, 175, 80, 0.05) 100%);
+	border: 2px solid var(--success);
+}
+
+.form-error {
+	background: linear-gradient(135deg, rgba(244, 67, 54, 0.1) 0%, rgba(244, 67, 54, 0.05) 100%);
+	border: 2px solid var(--error);
+}
+
+.form-message .message-icon {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.form-success .message-icon {
+	color: var(--success);
+}
+
+.form-error .message-icon {
+	color: var(--error);
+}
+
+.form-message h3 {
+	font-family: var(--font-display);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.form-success h3 {
+	color: var(--success);
+}
+
+.form-error h3 {
+	color: var(--error);
+}
+
+.form-message p {
+	color: var(--gray-600);
+}
+
+/* Spinner */
+.spinner {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	border-top-color: white;
+	animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.form-row {
+		grid-template-columns: 1fr;
+	}
+
+	.services-grid,
+	.pricing-table {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,0 +1,3946 @@
+# Novira Academy — English (en_US) — DEVELOPMENT PREVIEW
+msgid ""
+msgstr ""
+"Project-Id-Version: Novira Academy 1.0.0\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: novira-academy\n"
+
+#: archive.php:19
+msgid "المقالات"
+msgstr "Articles"
+
+#: archive.php:21 inc/media-categories.php:121 template-parts/sections/upcoming-events.php:41
+msgid "الأحداث"
+msgstr "Events"
+
+#: archive.php:27
+msgid "مقالات %s"
+msgstr "%s Articles"
+
+#: archive.php:29 archive.php:31 archive.php:33
+msgid "أرشيف %s"
+msgstr "%s Archive"
+
+#: archive.php:35
+msgid "الأرشيف"
+msgstr "Archive"
+
+#: archive.php:69
+msgid "لم يتم العثور على محتوى"
+msgstr "No content found"
+
+#: archive.php:70
+msgid "عذراً، لا يوجد محتوى يطابق بحثك. جرب البحث بكلمات مختلفة."
+msgstr "Sorry, no content matches your search. Try different keywords."
+
+#: archive.php:72
+msgid "العودة للرئيسية"
+msgstr "Back to Home"
+
+#: front-page.php:39 template-parts/sections/department-whatsapp.php:53 template-parts/sections/whatsapp-cta.php:29
+msgid "تواصل معنا عبر واتساب"
+msgstr "Contact us on WhatsApp"
+
+#: functions.php:61
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: functions.php:62
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "Social Links Menu"
+
+#: functions.php:79
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:81
+msgid "Add widgets here to appear in the sidebar."
+msgstr "Add widgets here to appear in the sidebar."
+
+#: functions.php:89
+msgid "Footer Column 1"
+msgstr "Footer Column 1"
+
+#: functions.php:91
+msgid "First footer column widget area."
+msgstr "First footer column widget area."
+
+#: functions.php:99
+msgid "Footer Column 2"
+msgstr "Footer Column 2"
+
+#: functions.php:101
+msgid "Second footer column widget area."
+msgstr "Second footer column widget area."
+
+#: functions.php:354 inc/seo.php:543 template-parts/layout/header.php:62 template-parts/layout/header.php:151 template-parts/page-hero.php:10 template-parts/sections/department-hero.php:55
+#: template-parts/sections/hero.php:40
+msgid "الرئيسية"
+msgstr "Home"
+
+#: functions.php:355 page-services.php:7 template-parts/sections/department-translation.php:69
+msgid "خدماتنا"
+msgstr "Our Services"
+
+#: functions.php:356 page-about.php:44 template-parts/layout/footer.php:122 template-parts/layout/header.php:90 template-parts/layout/header.php:174
+msgid "من نحن"
+msgstr "About Us"
+
+#: functions.php:357 page-contact.php:114 template-parts/layout/footer.php:127 template-parts/layout/footer.php:135 template-parts/layout/header.php:91 template-parts/layout/header.php:175
+#: template-parts/sections/department-hero.php:84 template-parts/sections/department-whatsapp.php:31 template-parts/sections/hero.php:78 template-parts/sections/map-contact.php:53 template-parts/sections/map-contact.php:66 template-parts/sections/whatsapp-cta.php:33
+msgid "تواصل معنا"
+msgstr "Contact Us"
+
+#: functions.php:379
+msgid "سياسة الخصوصية"
+msgstr "Privacy Policy"
+
+#: functions.php:380
+msgid "الشروط والأحكام"
+msgstr "Terms and Conditions"
+
+#: header.php:28
+msgid "المحتوى الرئيسي"
+msgstr "Main content"
+
+#: inc/customizer.php:30 template-parts/sections/programs-stitch.php:51
+msgid "Novira Academy"
+msgstr "Novira Academy"
+
+#: inc/customizer.php:31
+msgid "Theme-wide settings for Novira Academy."
+msgstr "Theme-wide settings for Novira Academy."
+
+#: inc/customizer.php:39
+msgid "Contact Information"
+msgstr "Contact Information"
+
+#: inc/customizer.php:51
+msgid "WhatsApp Number (with country code)"
+msgstr "WhatsApp Number (with country code)"
+
+#: inc/customizer.php:64
+msgid "Email Address"
+msgstr "Email Address"
+
+#: inc/customizer.php:77
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#: inc/customizer.php:84 template-parts/layout/footer.php:18
+msgid "المنيا، بني مزار، طريق الإبراهيمية، آخر شارع مستشفى أبو عوف"
+msgstr "Minya, Bani Mazar, Al-Ibrahimiya Road, end of Abu Ouf Hospital Street"
+
+#: inc/customizer.php:90
+msgid "Address"
+msgstr "Address"
+
+#: inc/customizer.php:99
+msgid "Social Media"
+msgstr "Social Media"
+
+#: inc/customizer.php:111
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: inc/customizer.php:124
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: inc/customizer.php:137
+msgid "TikTok URL"
+msgstr "TikTok URL"
+
+#: inc/customizer.php:150
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: inc/customizer.php:159
+msgid "Theme Colors"
+msgstr "Theme Colors"
+
+#: inc/customizer.php:171
+msgid "Primary Color"
+msgstr "Primary Color"
+
+#: inc/customizer.php:183
+msgid "Secondary Color"
+msgstr "Secondary Color"
+
+#: inc/customizer.php:191
+msgid "Footer Settings"
+msgstr "Footer Settings"
+
+#: inc/customizer.php:197 template-parts/layout/footer.php:23
+msgid "جميع الحقوق محفوظة"
+msgstr "All rights reserved"
+
+#: inc/customizer.php:203
+msgid "Copyright Text"
+msgstr "Copyright Text"
+
+#: inc/customizer.php:214
+msgid "Google Reviews"
+msgstr "Google Reviews"
+
+#: inc/customizer.php:215
+msgid "Enter real values from your Google Business Profile. Leave any field empty to hide it. No placeholder or default data is ever shown."
+msgstr "Enter real values from your Google Business Profile. Leave any field empty to hide it. No placeholder or default data is ever shown."
+
+#: inc/customizer.php:227
+msgid "Google Rating (e.g. 4.9)"
+msgstr "Google Rating (e.g. 4.9)"
+
+#: inc/customizer.php:228
+msgid "Use the exact current rating. Leave empty to hide."
+msgstr "Use the exact current rating. Leave empty to hide."
+
+#: inc/customizer.php:241
+msgid "Google Reviews Count (e.g. 20+)"
+msgstr "Google Reviews Count (e.g. 20+)"
+
+#: inc/customizer.php:242
+msgid "Use the exact current count. Leave empty to hide."
+msgstr "Use the exact current count. Leave empty to hide."
+
+#: inc/customizer.php:255
+msgid "Google Reviews URL"
+msgstr "Google Reviews URL"
+
+#: inc/customizer.php:256
+msgid "Link to your Google Business Profile reviews page. Leave empty to hide the button."
+msgstr "Link to your Google Business Profile reviews page. Leave empty to hide the button."
+
+#: inc/diploma.php:44
+msgid "تقدم نوفيرا أكاديمي المتابعة الأكاديمية، والاستعداد للاختبارات الدولية، والدعم والإرشاد خلال رحلة الطالب التعليمية، بينما تخضع قرارات القبول الجامعي والمنح الدراسية لمتطلبات وسياسات الجامعات والجهات المختصة، ولا يمكن ضمان نتائج أو قرارات القبول."
+msgstr "Novira Academy provides academic follow-up, preparation for international exams, and support and guidance throughout the student's educational journey, while university admission and scholarship decisions remain subject to the requirements and policies of universities and the relevant authorities, and admission outcomes or decisions cannot be guaranteed."
+
+#: inc/diploma.php:78 template-parts/sections/premium-exam/journey.php:40
+msgid "التأسيس"
+msgstr "Foundation"
+
+#: inc/diploma.php:79
+msgid "بناء أساس أكاديمي ولغوي متين قبل الدخول في متطلبات الدبلومة الأمريكية."
+msgstr "Building a solid academic and language foundation before entering the requirements of the American Diploma."
+
+#: inc/diploma.php:80
+msgid "تحديد المستوى وبناء المهارات الأساسية في اللغة الإنجليزية والمواد الدراسية."
+msgstr "Assessing level and building core skills in English and academic subjects."
+
+#: inc/diploma.php:89
+msgid "المتابعة الأكاديمية"
+msgstr "Academic Follow-up"
+
+#: inc/diploma.php:90
+msgid "متابعة مستمرة عبر سنوات الدراسة بدلاً من التحضير لاختبار واحد."
+msgstr "Continuous follow-up across the years of study rather than preparing for a single exam."
+
+#: inc/diploma.php:91
+msgid "متابعة دورية للتقدّم الأكاديمي مع معلمين متخصصين."
+msgstr "Regular follow-up of academic progress with specialized teachers."
+
+#: inc/diploma.php:100
+msgid "الكورسات المتخصصة"
+msgstr "Specialized Courses"
+
+#: inc/diploma.php:101
+msgid "إتقان محتوى المواد ومهارات اللغة الإنجليزية المطلوبة للمنهج الأمريكي."
+msgstr "Mastering subject content and the English language skills required for the American curriculum."
+
+#: inc/diploma.php:102
+msgid "تدريس المواد المتخصصة من خلال معلمين متخصصين."
+msgstr "Teaching specialized subjects through specialized teachers."
+
+#: inc/diploma.php:111
+msgid "الإعداد للاختبار الدولي والاختبارات التجريبية"
+msgstr "Preparation for the International Exam and Mock Exams"
+
+#: inc/diploma.php:112
+msgid "قياس الجاهزية للاختبار الدولي المناسب (EST أو Digital SAT أو ACT)."
+msgstr "Measuring readiness for the appropriate international exam (EST, Digital SAT, or ACT)."
+
+#: inc/diploma.php:113
+msgid "إعداد موجّه لكل اختبار، واختبارات تجريبية تكشف نقاط الضعف وتحسّنها قبل الموعد."
+msgstr "Guided preparation for each exam, with mock exams that reveal weaknesses and improve them before the date."
+
+#: inc/diploma.php:123 template-parts/sections/exam/s5-registration.php:30
+msgid "دعم التسجيل"
+msgstr "Registration Support"
+
+#: inc/diploma.php:124
+msgid "تنظيم التسجيل والمواعيد ومتطلبات يوم الاختبار."
+msgstr "Organizing registration, appointments, and exam-day requirements."
+
+#: inc/diploma.php:125
+msgid "ندعم إجراءات التسجيل والجدولة، والتنسيق اللوجستي عند الحاجة — لتخفيف العبء عن الأسرة."
+msgstr "We support registration and scheduling procedures, and logistical coordination when needed — to ease the burden on the family."
+
+#: inc/diploma.php:135
+msgid "الامتحان الرسمي وأفضل درجة ممكنة"
+msgstr "The Official Exam and the Best Possible Score"
+
+#: inc/diploma.php:136
+msgid "دخول الاختبار مستعداً فعلاً وتحقيق أفضل درجة ممكنة."
+msgstr "Entering the exam genuinely prepared and achieving the best possible score."
+
+#: inc/diploma.php:137
+msgid "يدخل طالبك الاختبار وقد تدرّب على بيئته في الاختبارات التجريبية، ونستمر معه لإعادته وتحسين درجته إن رغب."
+msgstr "Your student enters the exam having practiced its environment in the mock exams, and we continue with them to retake it and improve their score if they wish."
+
+#: inc/diploma.php:147
+msgid "بعد الاختبار: إرشاد التقديم الجامعي (اختياري)"
+msgstr "After the Exam: University Application Guidance (Optional)"
+
+#: inc/diploma.php:148
+msgid "فهم خطوات التقديم للجامعات بعد الحصول على الدرجة."
+msgstr "Understanding the steps of applying to universities after obtaining the score."
+
+#: inc/diploma.php:149
+msgid "إرشاد اختياري خلال خطوات التقديم، مع خضوع قرارات ومتطلبات القبول لسياسات الجامعات والجهات المختصة."
+msgstr "Optional guidance through the application steps, with admission decisions and requirements remaining subject to the policies of universities and the relevant authorities."
+
+#: inc/diploma.php:263
+msgid "ما المرحلة الدراسية التي يرافق فيها البرنامج الطالب؟"
+msgstr "At which stage of study does the program accompany the student?"
+
+#: inc/diploma.php:264
+msgid "يرافق برنامج الدبلومة الأمريكية الطالب من الصف العاشر حتى الصف الثاني عشر (Grade 10 – Grade 12)."
+msgstr "The American Diploma program accompanies the student from Grade 10 to Grade 12."
+
+#: inc/diploma.php:267
+msgid "ما الاختبارات الدولية التي تُعِدّون لها؟"
+msgstr "Which international exams do you prepare for?"
+
+#: inc/diploma.php:268
+msgid "نُعِدّ الطلاب لاختبارات EST و Digital SAT و ACT. (برنامج AP غير متاح حالياً.)"
+msgstr "We prepare students for the EST, Digital SAT, and ACT exams. (The AP program is not currently available.)"
+
+#: inc/diploma.php:271
+msgid "كيف تتم المتابعة الأكاديمية للطالب؟"
+msgstr "How is the student's academic follow-up carried out?"
+
+#: inc/diploma.php:272
+msgid "يتابع فريق نوفيرا تقدّم الطالب أكاديمياً خلال مراحل الدبلومة الأمريكية من خلال معلمين متخصصين. تُحدَّد آلية المتابعة الدقيقة حسب البرنامج — تواصل معنا للتفاصيل."
+msgstr "The Novira team follows the student's academic progress throughout the stages of the American Diploma through specialized teachers. The precise follow-up mechanism is determined by the program — contact us for details."
+
+#: inc/diploma.php:276
+msgid "هل تساعدون في إجراءات التسجيل للاختبارات؟"
+msgstr "Do you help with exam registration procedures?"
+
+#: inc/diploma.php:277
+msgid "نعم، نقدّم الدعم في إجراءات التسجيل والجدولة ومتطلبات يوم الاختبار لاختبارات EST و Digital SAT و ACT."
+msgstr "Yes, we provide support with registration and scheduling procedures and exam-day requirements for the EST, Digital SAT, and ACT exams."
+
+#: inc/diploma.php:280
+msgid "هل تقدّمون إرشاداً للتقديم الجامعي؟"
+msgstr "Do you provide university application guidance?"
+
+#: inc/diploma.php:281
+msgid "نعم، نقدّم إرشاداً خلال خطوات التقديم الجامعي. وتظل متطلبات وقرارات القبول خاضعة لسياسات الجامعات والجهات المختصة."
+msgstr "Yes, we provide guidance through the university application steps. Admission requirements and decisions remain subject to the policies of universities and the relevant authorities."
+
+#: inc/diploma.php:285
+msgid "هل تضمنون القبول الجامعي أو المنح الدراسية؟"
+msgstr "Do you guarantee university admission or scholarships?"
+
+#: inc/diploma.php:289
+msgid "كيف يمكن متابعة مستوى تقدّم الطالب؟"
+msgstr "How can the student's level of progress be followed?"
+
+#: inc/diploma.php:290
+msgid "يوفّر فريق نوفيرا متابعة لمستوى الطالب أثناء البرنامج. لمعرفة طريقة وتكرار مشاركة تقارير التقدّم تواصل معنا."
+msgstr "The Novira team provides follow-up on the student's level during the program. To learn how and how often progress reports are shared, contact us."
+
+#: inc/diploma.php:294
+msgid "كيف تتواصلون مع أولياء الأمور؟"
+msgstr "How do you communicate with parents?"
+
+#: inc/diploma.php:295
+msgid "نوفّر تواصلاً مع أولياء الأمور حول مسار الطالب. تُحدَّد طريقة وتكرار التواصل حسب البرنامج — تواصل معنا للتفاصيل."
+msgstr "We provide communication with parents about the student's path. The method and frequency of communication are determined by the program — contact us for details."
+
+#: inc/diploma.php:338
+msgid "برنامج الدبلومة الأمريكية"
+msgstr "American Diploma Program"
+
+#: inc/diploma.php:346
+msgid "برنامج يرافق الطالب خلال مسار الدبلومة الأمريكية من الصف العاشر حتى الصف الثاني عشر، ويشمل المتابعة الأكاديمية والكورسات المتخصصة والاستعداد لاختبارات EST و Digital SAT و ACT والدعم اللوجستي للاختبارات وإرشاد التقديم الجامعي. "
+msgstr "A program that accompanies the student throughout the American Diploma path from Grade 10 to Grade 12, including academic follow-up, specialized courses, preparation for the EST, Digital SAT, and ACT exams, exam logistics support, and university application guidance."
+
+#: inc/exam-courses.php:81
+msgid "كورس الإنجليزية"
+msgstr "English Course"
+
+#: inc/exam-courses.php:82 inc/translation-request-sanitization.php:183 template-parts/components/quote-request-form.php:61 template-parts/components/quote-request-form.php:73
+msgid "الإنجليزية"
+msgstr "English"
+
+#: inc/exam-courses.php:83
+msgid "بناء تراكمي لمهارات القراءة والاستيعاب والقواعد التي يقيسها الاختبار — أسبوعياً مع معلم متخصص، حتى يدخل طالبك قسم الإنجليزية واثقاً."
+msgstr "Cumulative building of the reading, comprehension, and grammar skills the exam measures — weekly with a specialized teacher, so your student enters the English section with confidence."
+
+#: inc/exam-courses.php:84
+msgid "يبني هذا الكورس مهارات الإنجليزية التي يقيسها الاختبار خطوة بخطوة: القراءة والاستيعاب، والقواعد، واستخدام اللغة في سياقها. يدرس طالبك أسبوعياً مع معلم متخصص، فتُبنى المهارة تراكمياً على مدار البرنامج بدل مراجعة سريعة قبل الاختبار. تُتابَع الواجبات بعد كل حصة لتثبيت ما دُرِّس وكشف الثغرات مبكراً، ومع اقتراب الموعد تُضاف اختبارات تجريبية تُحاكي أسلوب الأسئلة وضغط الوقت."
+msgstr "This course builds the English skills the exam measures step by step: reading and comprehension, grammar, and language use in context. Your student studies weekly with a specialized teacher, so skills are built cumulatively over the course of the program rather than through a quick review before the exam. Assignments are followed up after each class to reinforce what was taught and detect gaps early, and as the date approaches, mock exams are added that simulate the question style and time pressure."
+
+#: inc/exam-courses.php:92
+msgid "كورس الرياضيات — المستوى الأول"
+msgstr "Mathematics Course — Level One"
+
+#: inc/exam-courses.php:93
+msgid "الرياضيات — المستوى الأول"
+msgstr "Mathematics — Level One"
+
+#: inc/exam-courses.php:94
+msgid "تأسيس متين للمفاهيم الأساسية في الرياضيات؛ خطوة أولى يبني عليها طالبك بقية المستويات ويستعد بها لأسئلة القسم الكمّي."
+msgstr "A solid foundation in the core concepts of mathematics; a first step on which your student builds the remaining levels and prepares for the quantitative section's questions."
+
+#: inc/exam-courses.php:95
+msgid "المستوى الأول يؤسّس المفاهيم الأساسية في الرياضيات التي يُبنى عليها كل ما بعدها. يدرس طالبك أسبوعياً مع معلم متخصص يشرح الفكرة ويطبّقها على نمط أسئلة الاختبار، فيترسّخ الفهم لا الحفظ. الواجبات المنتظمة تكشف نقاط الضعف مبكراً لتُعالَج قبل أن تتراكم، تمهيداً للمستوى الثاني وللقسم الكمّي في الاختبار."
+msgstr "Level One establishes the core mathematics concepts on which everything after is built. Your student studies weekly with a specialized teacher who explains the concept and applies it to the exam's question style, so understanding — not memorization — takes hold. Regular assignments reveal weaknesses early so they can be addressed before they accumulate, in preparation for Level Two and the exam's quantitative section."
+
+#: inc/exam-courses.php:98
+msgid "EST 1"
+msgstr "EST 1"
+
+#: inc/exam-courses.php:103
+msgid "كورس الرياضيات — المستوى الثاني"
+msgstr "Mathematics Course — Level Two"
+
+#: inc/exam-courses.php:104
+msgid "الرياضيات — المستوى الثاني"
+msgstr "Mathematics — Level Two"
+
+#: inc/exam-courses.php:105
+msgid "مستوى متقدّم يرسّخ المهارات الكمّية وحل المسائل تحت ضغط الوقت، استعداداً لأصعب أسئلة الرياضيات في الاختبار."
+msgstr "An advanced level that reinforces quantitative skills and problem-solving under time pressure, in preparation for the hardest mathematics questions on the exam."
+
+#: inc/exam-courses.php:106
+msgid "المستوى الثاني يبني على تأسيس المستوى الأول ويرفع طالبك إلى المهارات الكمّية المتقدّمة وحل المسائل تحت ضغط الوقت. يتدرّب أسبوعياً مع معلم متخصص على أصعب أنماط أسئلة الرياضيات في الاختبار، وتُضاف اختبارات تجريبية تُحاكي ظروف يوم الامتحان لتحديد ما يحتاج تعزيزاً قبل الموعد."
+msgstr "Level Two builds on the Level One foundation and raises your student to advanced quantitative skills and problem-solving under time pressure. They practice weekly with a specialized teacher on the hardest mathematics question patterns on the exam, and mock exams that simulate exam-day conditions are added to identify what needs reinforcement before the date."
+
+#: inc/exam-courses.php:109
+msgid "EST 2"
+msgstr "EST 2"
+
+#: inc/exam-courses.php:114
+msgid "كورس الأحياء"
+msgstr "Biology Course"
+
+#: inc/exam-courses.php:115
+msgid "الأحياء"
+msgstr "Biology"
+
+#: inc/exam-courses.php:116
+msgid "تغطية منهجية لمفاهيم الأحياء بلغة الاختبار، تربط الفهم العلمي بأسلوب الأسئلة حتى يجيب طالبك بثقة."
+msgstr "Systematic coverage of biology concepts in the language of the exam, connecting scientific understanding to the question style so your student answers with confidence."
+
+#: inc/exam-courses.php:117
+msgid "يغطّي هذا الكورس مفاهيم الأحياء تغطيةً منهجية بلغة الاختبار نفسها، فيربط الفهم العلمي بأسلوب الأسئلة التي سيواجهها طالبك. الدراسة أسبوعية مع معلم متخصص، والمتابعة بعد كل حصة تُثبّت المفاهيم أولاً بأول حتى يجيب طالبك بثقة في يوم الاختبار."
+msgstr "This course covers biology concepts systematically in the same language as the exam, connecting scientific understanding to the style of questions your student will face. Study is weekly with a specialized teacher, and follow-up after each class reinforces the concepts progressively so your student answers with confidence on exam day."
+
+#: inc/exam-courses.php:125
+msgid "كورس المواد القومية"
+msgstr "National Subjects Course"
+
+#: inc/exam-courses.php:126
+msgid "المواد القومية"
+msgstr "National Subjects"
+
+#: inc/exam-courses.php:127
+msgid "المواد القومية المقرّرة ضمن مسار الدبلومة، بمتابعة منتظمة تُرسّخ الفهم وتغطي متطلبات المرحلة الدراسية."
+msgstr "The National Subjects prescribed within the diploma path, with regular follow-up that reinforces understanding and covers the requirements of the stage of study."
+
+#: inc/exam-courses.php:128
+msgid "يغطّي الكورس المواد القومية المقرّرة ضمن مسار الدبلومة الأمريكية بمتابعة منتظمة تُرسّخ الفهم وتغطي متطلبات المرحلة الدراسية. يدرس طالبك مع معلمين متخصصين وفق خطة تسير بالتوازي مع بقية مكوّنات البرنامج، فلا تتعارض المواد القومية مع الإعداد للاختبار بل تكمّله."
+msgstr "The course covers the National Subjects prescribed within the American Diploma path with regular follow-up that reinforces understanding and covers the requirements of the stage of study. Your student studies with specialized teachers according to a plan that runs in parallel with the rest of the program's components, so the National Subjects do not conflict with exam preparation but complement it."
+
+#: inc/exam-courses.php:239
+msgid "طالب يحتاج تقوية الإنجليزية — قراءة واستيعاب وقواعد — لقسم اللغة في الاختبار"
+msgstr "A student who needs to strengthen English — reading, comprehension, and grammar — for the language section of the exam"
+
+#: inc/exam-courses.php:240
+msgid "طالب في مرحلة مبكرة من المسار أو يحتاج تثبيت أساسيات الرياضيات أولاً"
+msgstr "A student in an early stage of the path or who needs to solidify the fundamentals of mathematics first"
+
+#: inc/exam-courses.php:241
+msgid "طالب أتقن الأساسيات وجاهز للمهارات الكمّية المتقدّمة وحل المسائل تحت ضغط الوقت"
+msgstr "A student who has mastered the fundamentals and is ready for advanced quantitative skills and problem-solving under time pressure"
+
+#: inc/exam-courses.php:242 inc/exam-courses.php:249
+msgid "طالب مساره الدراسي يتضمّن الأحياء ويحتاج تغطيتها بلغة الاختبار"
+msgstr "A student whose course of study includes biology and needs it covered in the language of the exam"
+
+#: inc/exam-courses.php:243 inc/exam-courses.php:250 inc/exam-courses.php:257
+msgid "طالب يحتاج تغطية المواد القومية المقرّرة ضمن متطلبات الدبلومة"
+msgstr "A student who needs to cover the National Subjects prescribed within the diploma requirements"
+
+#: inc/exam-courses.php:246
+msgid "طالب يحتاج تقوية الإنجليزية — قراءة وكتابة وقواعد — لقسم القراءة والكتابة في الاختبار"
+msgstr "A student who needs to strengthen English — reading, writing, and grammar — for the Reading and Writing section of the exam"
+
+#: inc/exam-courses.php:247 inc/exam-courses.php:254
+msgid "طالب يحتاج تثبيت أساسيات الرياضيات قبل الانتقال إلى المستوى المتقدّم"
+msgstr "A student who needs to solidify the fundamentals of mathematics before moving to the advanced level"
+
+#: inc/exam-courses.php:248 inc/exam-courses.php:255
+msgid "طالب أتقن الأساسيات وجاهز للمهارات الكمّية المتقدّمة في قسم الرياضيات"
+msgstr "A student who has mastered the fundamentals and is ready for advanced quantitative skills in the mathematics section"
+
+#: inc/exam-courses.php:253
+msgid "طالب يحتاج تقوية الإنجليزية لقسمَي الإنجليزية والقراءة في الاختبار"
+msgstr "A student who needs to strengthen English for the English and Reading sections of the exam"
+
+#: inc/exam-courses.php:256
+msgid "طالب يستعد لقسم العلوم ويحتاج تقوية الأحياء بلغة الاختبار"
+msgstr "A student preparing for the science section who needs to strengthen biology in the language of the exam"
+
+#: inc/exams-landing.php:74 template-parts/layout/header.php:89 template-parts/layout/header.php:173
+msgid "الامتحانات"
+msgstr "Exams"
+
+#: inc/exams.php:59
+msgid "اختبار EST يقيس ما بناه طالبك معنا — لا ما راجعه في أسبوع"
+msgstr "The EST exam measures what your student has built with us — not what they reviewed in a week"
+
+#: inc/exams.php:60
+msgid "في نوفيرا، الإعداد لاختبار EST لا يبدأ قبل الاختبار بأسابيع — هو جزء من كل حصة أسبوعية، وكل واجب، وكل متابعة طوال رحلة الدبلومة. يصل الطالب ليوم الاختبار وقد بنى مهاراته على أرضية صلبة."
+msgstr "At Novira, EST preparation does not begin weeks before the exam — it is part of every weekly class, every assignment, and every follow-up throughout the diploma journey. The student arrives at exam day having built their skills on solid ground."
+
+#: inc/exams.php:61
+msgid "اختبار EST (Egyptian Scholastic Test) اختبار موحّد يقيس المهارات الأكاديمية في اللغة الإنجليزية والرياضيات، تستخدمه الجامعات المصرية والعربية ضمن متطلبات القبول لطلاب الدبلومة الأمريكية."
+msgstr "The EST (Egyptian Scholastic Test) is a standardized exam that measures academic skills in English and mathematics, used by Egyptian and Arab universities as part of the admission requirements for American Diploma students."
+
+#: inc/exams.php:62
+msgid "درجة الطالب في EST تعكس ما تعلّمه فعلاً خلال سنوات الدراسة — لا ما حفظه في أسابيع. لهذا يختلف نهج نوفيرا عن مراكز الإعداد للامتحانات: الإعداد يبدأ من اليوم الأول في البرنامج. والطلاب الذين يُعيدون الاختبار لتحسين درجتهم يجدون المتابعة والدعم مستمرَّين."
+msgstr "A student's EST score reflects what they have actually learned over the years of study — not what they memorized in a few weeks. This is why Novira's approach differs from exam-prep centers: preparation begins from the first day in the program. Students who retake the exam to improve their score find continued follow-up and support."
+
+#: inc/exams.php:64
+msgid "الإنجليزية — القراءة والاستيعاب"
+msgstr "English — Reading and Comprehension"
+
+#: inc/exams.php:65
+msgid "الإنجليزية — استخدام اللغة والقواعد"
+msgstr "English — Language Use and Grammar"
+
+#: inc/exams.php:66 template-parts/sections/department-american-diploma.php:31
+msgid "الرياضيات"
+msgstr "Mathematics"
+
+#: inc/exams.php:68
+msgid "اختبار EST أحد الاختبارات الدولية المعتمدة ضمن مسار الدبلومة الأمريكية، إلى جانب Digital SAT وACT."
+msgstr "The EST is one of the accredited international exams within the American Diploma path, alongside the Digital SAT and ACT."
+
+#: inc/exams.php:69
+msgid "طالبك لن يواجه الـ EST وحده. طوال رحلة الدبلومة، يحضر حصصاً أسبوعية مع معلم متخصص تبني مهارات الإنجليزية والرياضيات تراكمياً — المهارات نفسها التي يقيسها الاختبار. بين الحصص يُتابَع تقدمه وتُكتشَف الثغرات مبكراً. ومع اقتراب موعد الاختبار تُضاف اختبارات تجريبية كاملة — حتى يدخل طالبك قاعة الاختبار وقد جلس فيها من قبل."
+msgstr "Your student will not face the EST alone. Throughout the diploma journey, they attend weekly classes with a specialized teacher that build English and mathematics skills cumulatively — the same skills the exam measures. Between classes, their progress is followed and gaps are detected early. As the exam date approaches, full mock exams are added — so your student enters the exam hall having sat in it before."
+
+#: inc/exams.php:70
+msgid "يجلس الطالب في الاختبار التجريبي بنفس ضغط الوقت وأسلوب الأسئلة التي سيواجهها يوم الاختبار الرسمي — فلا مفاجآت في اليوم الحقيقي. إذا كشف الاختبار التجريبي ثغرات، يُعالَج ما يحتاج تعزيزاً في الوقت المتبقي. وإذا أراد الطالب إعادة الاختبار الرسمي لتحسين درجته، فريق نوفيرا مستمر معه في هذه المرحلة أيضاً."
+msgstr "The student sits the mock exam under the same time pressure and question style they will face on the day of the official exam — so there are no surprises on the real day. If the mock exam reveals gaps, whatever needs reinforcement is addressed in the remaining time. And if the student wants to retake the official exam to improve their score, the Novira team continues with them at this stage too."
+
+#: inc/exams.php:71
+msgid "ولي الأمر لا ينتظر يوم الاختبار ليعرف أين يقف طالبه. المتابعة الدورية بعد كل حصة وكل اختبار تجريبي تُحدّد ما تحسّن وما يحتاج مزيداً من التدريب — والخطة الدراسية تُعدَّل وفق أولويات الطالب الفعلية."
+msgstr "A parent does not wait until exam day to know where their student stands. Regular follow-up after each class and each mock exam identifies what has improved and what needs more practice — and the study plan is adjusted according to the student's actual priorities."
+
+#: inc/exams.php:72
+msgid "فريق نوفيرا يتولى إجراءات التسجيل للاختبار وتأكيد الموعد — والتحقق من استيفاء جميع المتطلبات قبل يوم الامتحان. طالبك يصل إلى قاعة الاختبار مركّزاً على الأداء، لا على الأوراق."
+msgstr "The Novira team handles the exam registration procedures and confirming the date — and verifying that all requirements are met before exam day. Your student arrives at the exam hall focused on performance, not on paperwork."
+
+#: inc/exams.php:73
+msgid "بطاقة هوية سارية الصلاحية. تواصل معنا للتحقق من المتطلبات الكاملة والحالية."
+msgstr "A valid ID card. Contact us to verify the full and current requirements."
+
+#: inc/exams.php:74
+msgid "إذا كان مركز الاختبار خارج مدينتك، يساعد فريق نوفيرا في التنسيق اللوجستي — حتى لا تكون المسافة عائقاً في يوم الاختبار. تواصل معنا للتفاصيل."
+msgstr "If the exam center is outside your city, the Novira team helps with logistical coordination — so distance is not an obstacle on exam day. Contact us for details."
+
+#: inc/exams.php:75
+msgid "ولي الأمر لا يُترك في الغموض. يتواصل فريق نوفيرا مع الأهل حول مستوى تقدّم الطالب خلال فترة الإعداد — تواصل معنا لمعرفة آلية التواصل ضمن البرنامج."
+msgstr "A parent is not left in the dark. The Novira team communicates with the family about the student's level of progress during the preparation period — contact us to learn about the communication mechanism within the program."
+
+#: inc/exams.php:76 inc/exams.php:133 inc/exams.php:168
+msgid "هل طالبك في مسار الدبلومة الأمريكية؟"
+msgstr "Is your student on the American Diploma path?"
+
+#: inc/exams.php:77
+msgid "أرسل بيانات طالبك وسيتواصل معك فريقنا لمناقشة مرحلته الدراسية والخطة المناسبة للـ EST — دون أي التزام."
+msgstr "Send your student's details and our team will contact you to discuss their stage of study and the appropriate plan for the EST — with no obligation."
+
+#: inc/exams.php:80
+msgid "متى يتقدم طلاب الدبلومة الأمريكية لاختبار EST عادةً؟"
+msgstr "When do American Diploma students usually sit the EST exam?"
+
+#: inc/exams.php:81
+msgid "يتفاوت التوقيت حسب المرحلة الدراسية للطالب وخطة البرنامج. فريقنا يحدد مع ولي الأمر الموعد الأنسب بناءً على مستوى الطالب الفعلي — تواصل معنا للتفاصيل."
+msgstr "The timing varies according to the student's stage of study and the program plan. Our team determines the most suitable date with the parent based on the student's actual level — contact us for details."
+
+#: inc/exams.php:85
+msgid "كيف يُعِدّ برنامج الدبلومة الطالبَ لاختبار EST؟"
+msgstr "How does the diploma program prepare the student for the EST exam?"
+
+#: inc/exams.php:86
+msgid "الحصص الأسبوعية المستمرة في برنامج الدبلومة هي الإعداد الفعلي — لا يوجد إعداد منفصل للـ EST. الطالب يبني مهارات الإنجليزية والرياضيات تدريجياً عبر السنوات، وتُضاف اختبارات تجريبية مع اقتراب موعد الاختبار. هذا هو الفرق بين نوفيرا ومراكز المراجعة السريعة."
+msgstr "The continuous weekly classes in the diploma program are the actual preparation — there is no separate EST preparation. The student builds their English and mathematics skills gradually over the years, and mock exams are added as the exam date approaches. This is the difference between Novira and quick-review centers."
+
+#: inc/exams.php:90
+msgid "هل يمكن إعادة اختبار EST لتحسين الدرجة؟"
+msgstr "Can the EST exam be retaken to improve the score?"
+
+#: inc/exams.php:91
+msgid "نعم. كثير من الطلاب يُعيدون الاختبار لتحسين درجتهم — وهذا شيء طبيعي في مسار الدبلومة الأمريكية. فريق نوفيرا يدعم الطالب في هذه المرحلة."
+msgstr "Yes. Many students retake the exam to improve their score — and this is normal on the American Diploma path. The Novira team supports the student at this stage."
+
+#: inc/exams.php:95
+msgid "كيف تُستخدم نتيجة EST عند التقديم للجامعات؟"
+msgstr "How is the EST result used when applying to universities?"
+
+#: inc/exams.php:96
+msgid "يستخدم الطالب الدرجة المحققة ضمن ملف تقديمه للجامعات — وفق متطلبات وسياسات القبول الخاصة بكل جامعة."
+msgstr "The student uses the achieved score as part of their university application file — according to the admission requirements and policies of each university."
+
+#: inc/exams.php:100
+msgid "هل الإعداد لاختبار EST منفصل عن الدراسة الأسبوعية في البرنامج؟"
+msgstr "Is EST preparation separate from the weekly study in the program?"
+
+#: inc/exams.php:101
+msgid "لا. الإعداد مُدمَج في البرنامج الأسبوعي — الدراسة المستمرة والمتابعة الدورية هي الأساس. الاختبار التجريبي يأتي تكملةً، لا بديلاً عن الدراسة المنتظمة."
+msgstr "No. Preparation is integrated into the weekly program — continuous study and regular follow-up are the foundation. The mock exam comes as a complement, not a substitute for regular study."
+
+#: inc/exams.php:105
+msgid "ماذا يحدث إذا لم تكن الدرجة الأولى كافية؟"
+msgstr "What happens if the first score is not enough?"
+
+#: inc/exams.php:106
+msgid "إعادة الاختبار مسار طبيعي تماماً — الطالب يواصل حصصه الأسبوعية ويتقدم للاختبار مرة أخرى. فريق نوفيرا مستمر معه في هذه المرحلة، والإعداد لا يتوقف عند الاختبار الأول."
+msgstr "Retaking the exam is an entirely normal path — the student continues their weekly classes and sits the exam again. The Novira team continues with them at this stage, and preparation does not stop at the first exam."
+
+#: inc/exams.php:110
+msgid "ما المطلوب للتسجيل في الاختبار؟"
+msgstr "What is required to register for the exam?"
+
+#: inc/exams.php:111
+msgid "بطاقة هوية سارية الصلاحية. يساعدك فريق نوفيرا في إجراءات التسجيل والتأكد من استيفاء جميع المتطلبات."
+msgstr "A valid ID card. The Novira team helps you with the registration procedures and ensuring all requirements are met."
+
+#: inc/exams.php:115
+msgid "كم تبلغ رسوم اختبار EST؟"
+msgstr "How much is the EST exam fee?"
+
+#: inc/exams.php:116 inc/exams.php:360
+msgid "تواصل معنا لمعرفة الرسوم الحالية."
+msgstr "Contact us to learn the current fees."
+
+#: inc/exams.php:124
+msgid "Digital SAT — نُعِدّ طالبك ليدخله قادراً على أعلى درجة"
+msgstr "Digital SAT — We prepare your student to enter it capable of the highest score"
+
+#: inc/exams.php:125 page-digital-sat.php:31
+msgid "النسخة الرقمية من اختبار SAT جزء من مسار الدبلومة الأمريكية. يستعد لها طالبك داخل حصصه الأسبوعية طوال البرنامج — لا في أسابيع قليلة قبل الموعد."
+msgstr "The digital version of the SAT exam is part of the American Diploma path. Your student prepares for it within their weekly classes throughout the program — not in the few weeks before the date."
+
+#: inc/exams.php:126
+msgid "درجة Digital SAT تعكس ما بناه الطالب من مهارات في الإنجليزية والرياضيات عبر سنوات الدراسة، لا ما راجعه في أسابيع. لهذا يبدأ الإعداد من اليوم الأول في البرنامج، ويستمر الدعم لمن يعيد الاختبار لتحسين درجته."
+msgstr "The Digital SAT score reflects the English and mathematics skills the student has built over the years of study, not what they reviewed in a few weeks. This is why preparation begins from the first day in the program, and support continues for those who retake the exam to improve their score."
+
+#: inc/exams.php:127
+msgid "يستعد طالبك للـ Digital SAT ضمن حصصه الأسبوعية مع معلم متخصص — بناء تراكمي لمهارات الإنجليزية والرياضيات التي يقيسها الاختبار. ومع اقتراب الموعد تُضاف اختبارات تجريبية على النسق الرقمي نفسه، فيألف بيئة الاختبار قبل يومه."
+msgstr "Your student prepares for the Digital SAT within their weekly classes with a specialized teacher — cumulative building of the English and mathematics skills the exam measures. And as the date approaches, mock exams in the same digital format are added, so they become familiar with the exam environment before its day."
+
+#: inc/exams.php:128
+msgid "يجلس الطالب لاختبارات تجريبية رقمية بنفس ضغط الوقت وأسلوب الأسئلة — فتُكشف الثغرات وتُعالَج في الوقت المتبقي. وإذا رغب في إعادة الاختبار الرسمي لتحسين درجته، يستمر فريق نوفيرا معه."
+msgstr "The student sits digital mock exams under the same time pressure and question style — so gaps are revealed and addressed in the remaining time. And if they wish to retake the official exam to improve their score, the Novira team continues with them."
+
+#: inc/exams.php:129
+msgid "متابعة دورية بعد كل حصة واختبار تجريبي تُحدّد ما تحسّن وما يحتاج تدريباً — وتُعدَّل الخطة وفق أولويات الطالب. ولي الأمر على اطلاع دائم."
+msgstr "Regular follow-up after each class and mock exam identifies what has improved and what needs practice — and the plan is adjusted according to the student's priorities. The parent is always kept informed."
+
+#: inc/exams.php:130
+msgid "يتولّى فريق نوفيرا إجراءات التسجيل للـ Digital SAT وتأكيد الموعد والتحقق من المتطلبات قبل يوم الاختبار — ليركّز طالبك على أدائه لا على الأوراق."
+msgstr "The Novira team handles the registration procedures for the Digital SAT, confirming the date, and verifying the requirements before exam day — so your student focuses on their performance, not on paperwork."
+
+#: inc/exams.php:131 inc/exams.php:166
+msgid "إذا كان مركز الاختبار خارج مدينتك، يساعد فريق نوفيرا في التنسيق اللوجستي. تواصل معنا للتفاصيل."
+msgstr "If the exam center is outside your city, the Novira team helps with logistical coordination. Contact us for details."
+
+#: inc/exams.php:132 inc/exams.php:167
+msgid "يتواصل فريق نوفيرا مع الأهل حول مستوى تقدّم الطالب خلال فترة الإعداد — تواصل معنا لمعرفة آلية التواصل ضمن البرنامج."
+msgstr "The Novira team communicates with the family about the student's level of progress during the preparation period — contact us to learn about the communication mechanism within the program."
+
+#: inc/exams.php:134 page-digital-sat.php:32
+msgid "أرسل بيانات طالبك وسيتواصل معك فريقنا لمناقشة مرحلته الدراسية والخطة المناسبة للـ Digital SAT — دون أي التزام."
+msgstr "Send your student's details and our team will contact you to discuss their stage of study and the appropriate plan for the Digital SAT — with no obligation."
+
+#: inc/exams.php:135
+msgid "Digital SAT أحد الاختبارات الدولية المعتمدة ضمن مسار الدبلومة الأمريكية، إلى جانب EST وACT."
+msgstr "The Digital SAT is one of the accredited international exams within the American Diploma path, alongside the EST and ACT."
+
+#: inc/exams.php:139
+msgid "Digital SAT هو النسخة الرقمية من اختبار SAT — اختبار قبول جامعي دولي معتمد يُؤدّى على تطبيق Bluebook، وهو تكيّفي حسب أداء الطالب. تستخدمه الجامعات ضمن متطلبات القبول لطلاب الدبلومة الأمريكية."
+msgstr "The Digital SAT is the digital version of the SAT exam — an accredited international university admission exam taken on the Bluebook application, and it is adaptive according to the student's performance. Universities use it as part of the admission requirements for American Diploma students."
+
+#: inc/exams.php:141
+msgid "القراءة والكتابة (Reading and Writing)"
+msgstr "Reading and Writing"
+
+#: inc/exams.php:142
+msgid "الرياضيات (Math)"
+msgstr "Math"
+
+#: inc/exams.php:144
+msgid "نحو ساعتين وربع (2 ساعة و14 دقيقة تقريباً)."
+msgstr "About two and a quarter hours (approximately 2 hours and 14 minutes)."
+
+#: inc/exams.php:145
+msgid "الدرجة الكلية من 400 إلى 1600 (قسمان، كل قسم من 200 إلى 800)."
+msgstr "The total score is from 400 to 1600 (two sections, each section from 200 to 800)."
+
+#: inc/exams.php:147
+msgid "ما الفرق بين Digital SAT والنسخة الورقية؟"
+msgstr "What is the difference between the Digital SAT and the paper version?"
+
+#: inc/exams.php:147
+msgid "يُؤدّى Digital SAT رقمياً على تطبيق Bluebook، وهو تكيّفي يتكيّف مع مستوى الطالب، وأقصر زمناً من النسخة الورقية."
+msgstr "The Digital SAT is taken digitally on the Bluebook application, it is adaptive and adjusts to the student's level, and it is shorter in duration than the paper version."
+
+#: inc/exams.php:148
+msgid "ما أقسام اختبار Digital SAT وكيف يُحسب مجموعه؟"
+msgstr "What are the sections of the Digital SAT exam and how is its total calculated?"
+
+#: inc/exams.php:148
+msgid "قسمان: القراءة والكتابة، والرياضيات؛ والدرجة الكلية من 400 إلى 1600."
+msgstr "Two sections: Reading and Writing, and Math; the total score is from 400 to 1600."
+
+#: inc/exams.php:149
+msgid "كم مدة اختبار Digital SAT؟"
+msgstr "How long is the Digital SAT exam?"
+
+#: inc/exams.php:149
+msgid "نحو ساعتين وربع تقريباً. تُؤكَّد المواعيد والتفاصيل الرسمية مع فريق نوفيرا."
+msgstr "About two and a quarter hours approximately. Dates and official details are confirmed with the Novira team."
+
+#: inc/exams.php:150
+msgid "هل يُسمح باستخدام الآلة الحاسبة؟"
+msgstr "Is calculator use permitted?"
+
+#: inc/exams.php:150
+msgid "نعم، الآلة الحاسبة مسموحة في قسم الرياضيات بالكامل."
+msgstr "Yes, the calculator is permitted throughout the entire Math section."
+
+#: inc/exams.php:151
+msgid "كيف يُعِدّ برنامج الدبلومة الطالب للـ Digital SAT؟"
+msgstr "How does the diploma program prepare the student for the Digital SAT?"
+
+#: inc/exams.php:151
+msgid "الحصص الأسبوعية المستمرة هي الإعداد الفعلي — يبني الطالب مهاراته تدريجياً، وتُضاف اختبارات تجريبية على النسق الرقمي مع اقتراب الموعد."
+msgstr "The continuous weekly classes are the actual preparation — the student builds their skills gradually, and mock exams in the digital format are added as the date approaches."
+
+#: inc/exams.php:152
+msgid "هل يمكن إعادة Digital SAT لتحسين الدرجة؟"
+msgstr "Can the Digital SAT be retaken to improve the score?"
+
+#: inc/exams.php:152 inc/exams.php:188
+msgid "نعم، كثير من الطلاب يعيدون الاختبار لتحسين درجتهم، وفريق نوفيرا يستمر معهم في هذه المرحلة."
+msgstr "Yes, many students retake the exam to improve their score, and the Novira team continues with them at this stage."
+
+#: inc/exams.php:153
+msgid "ما المطلوب للتسجيل وكم الرسوم؟"
+msgstr "What is required to register and how much are the fees?"
+
+#: inc/exams.php:153
+msgid "تواصل معنا لمعرفة متطلبات التسجيل والرسوم الحالية؛ ويتولّى فريق نوفيرا إجراءات التسجيل وتأكيد الموعد."
+msgstr "Contact us to learn the registration requirements and current fees; the Novira team handles the registration procedures and confirming the date."
+
+#: inc/exams.php:154
+msgid "كيف تُستخدم نتيجة Digital SAT عند التقديم للجامعات؟"
+msgstr "How is the Digital SAT result used when applying to universities?"
+
+#: inc/exams.php:154
+msgid "يستخدم الطالب الدرجة ضمن ملف تقديمه وفق متطلبات وسياسات القبول الخاصة بكل جامعة."
+msgstr "The student uses the score as part of their application file according to the admission requirements and policies of each university."
+
+#: inc/exams.php:159
+msgid "ACT — نُعِدّ طالبك للإنجليزية والرياضيات والعلوم حتى أعلى درجة"
+msgstr "ACT — We prepare your student for English, mathematics, and science up to the highest score"
+
+#: inc/exams.php:160 page-act.php:31
+msgid "اختبار ACT أحد اختبارات الدبلومة الأمريكية، ويشمل مهارات في الإنجليزية والرياضيات والعلوم. يستعد له طالبك داخل حصصه الأسبوعية طوال البرنامج — لا في أسابيع قليلة قبل الموعد."
+msgstr "The ACT exam is one of the American Diploma exams, and it covers skills in English, mathematics, and science. Your student prepares for it within their weekly classes throughout the program — not in the few weeks before the date."
+
+#: inc/exams.php:161
+msgid "درجة ACT تعكس مهارات بناها الطالب عبر سنوات الدراسة، لا مراجعة سريعة. لهذا يبدأ الإعداد من اليوم الأول، ويستمر الدعم لمن يعيد الاختبار لتحسين درجته."
+msgstr "The ACT score reflects skills the student has built over the years of study, not a quick review. This is why preparation begins from the first day, and support continues for those who retake the exam to improve their score."
+
+#: inc/exams.php:162
+msgid "يستعد طالبك للـ ACT ضمن حصصه الأسبوعية مع معلمين متخصصين يبنون مهارات الإنجليزية والرياضيات والعلوم تراكمياً. ومع اقتراب الموعد تُضاف اختبارات تجريبية كاملة تحاكي يوم الاختبار."
+msgstr "Your student prepares for the ACT within their weekly classes with specialized teachers who build English, mathematics, and science skills cumulatively. And as the date approaches, full mock exams that simulate exam day are added."
+
+#: inc/exams.php:163
+msgid "يجلس الطالب لاختبارات تجريبية بنفس ضغط الوقت وأسلوب الأسئلة — فتُكشف الثغرات وتُعالَج قبل الموعد الرسمي. ودعم إعادة الاختبار متاح لمن يريد تحسين درجته."
+msgstr "The student sits mock exams under the same time pressure and question style — so gaps are revealed and addressed before the official date. And retake support is available for those who want to improve their score."
+
+#: inc/exams.php:164
+msgid "متابعة دورية بعد كل حصة واختبار تجريبي تُحدّد ما تحسّن وما يحتاج تدريباً، وتُعدَّل الخطة وفق أولويات الطالب. ولي الأمر على اطلاع دائم."
+msgstr "Regular follow-up after each class and mock exam identifies what has improved and what needs practice, and the plan is adjusted according to the student's priorities. The parent is always kept informed."
+
+#: inc/exams.php:165
+msgid "يتولّى فريق نوفيرا إجراءات التسجيل للـ ACT وتأكيد الموعد والتحقق من المتطلبات قبل يوم الاختبار — ليركّز طالبك على أدائه."
+msgstr "The Novira team handles the registration procedures for the ACT, confirming the date, and verifying the requirements before exam day — so your student focuses on their performance."
+
+#: inc/exams.php:169 page-act.php:32
+msgid "أرسل بيانات طالبك وسيتواصل معك فريقنا لمناقشة مرحلته الدراسية والخطة المناسبة للـ ACT — دون أي التزام."
+msgstr "Send your student's details and our team will contact you to discuss their stage of study and the appropriate plan for the ACT — with no obligation."
+
+#: inc/exams.php:170
+msgid "ACT أحد الاختبارات الدولية المعتمدة ضمن مسار الدبلومة الأمريكية، إلى جانب EST وDigital SAT، ويتميّز بإضافة قسم العلوم."
+msgstr "The ACT is one of the accredited international exams within the American Diploma path, alongside the EST and Digital SAT, and it is distinguished by the addition of a science section."
+
+#: inc/exams.php:174
+msgid "ACT اختبار قبول جامعي دولي معتمد يقيس المهارات الأكاديمية في الإنجليزية والرياضيات والقراءة والعلوم، مع قسم كتابة (Writing) اختياري. تستخدمه الجامعات ضمن متطلبات القبول لطلاب الدبلومة الأمريكية."
+msgstr "The ACT is an accredited international university admission exam that measures academic skills in English, mathematics, reading, and science, with an optional Writing section. Universities use it as part of the admission requirements for American Diploma students."
+
+#: inc/exams.php:176
+msgid "الإنجليزية (English)"
+msgstr "English"
+
+#: inc/exams.php:177
+msgid "الرياضيات (Mathematics)"
+msgstr "Mathematics"
+
+#: inc/exams.php:178
+msgid "القراءة (Reading)"
+msgstr "Reading"
+
+#: inc/exams.php:179
+msgid "العلوم (Science)"
+msgstr "Science"
+
+#: inc/exams.php:180
+msgid "الكتابة (Writing) — اختياري"
+msgstr "Writing — optional"
+
+#: inc/exams.php:182 inc/exams.php:185
+msgid "يُصحَّح كل قسم من 1 إلى 36، والدرجة المركّبة (Composite) هي متوسط الأقسام من 1 إلى 36."
+msgstr "Each section is scored from 1 to 36, and the Composite score is the average of the sections from 1 to 36."
+
+#: inc/exams.php:184
+msgid "ما أقسام اختبار ACT؟"
+msgstr "What are the sections of the ACT exam?"
+
+#: inc/exams.php:184
+msgid "يقيس ACT الإنجليزية والرياضيات والقراءة والعلوم، مع قسم كتابة (Writing) اختياري. تُؤكَّد الصيغة الحالية والتفاصيل الرسمية مع فريق نوفيرا."
+msgstr "The ACT measures English, mathematics, reading, and science, with an optional Writing section. The current format and official details are confirmed with the Novira team."
+
+#: inc/exams.php:185
+msgid "كيف تُحسب درجة ACT؟"
+msgstr "How is the ACT score calculated?"
+
+#: inc/exams.php:186
+msgid "ما الذي يميّز ACT عن EST و Digital SAT؟"
+msgstr "What distinguishes the ACT from the EST and Digital SAT?"
+
+#: inc/exams.php:186
+msgid "يتميّز ACT بإضافة قسم العلوم إلى جانب الإنجليزية والرياضيات والقراءة. والاختبارات الثلاثة معتمدة ضمن مسار الدبلومة الأمريكية."
+msgstr "The ACT is distinguished by the addition of a science section alongside English, mathematics, and reading. The three exams are all accredited within the American Diploma path."
+
+#: inc/exams.php:187
+msgid "كيف يُعِدّ برنامج الدبلومة الطالب للـ ACT؟"
+msgstr "How does the diploma program prepare the student for the ACT?"
+
+#: inc/exams.php:187
+msgid "الحصص الأسبوعية المستمرة هي الإعداد الفعلي — يبني الطالب مهاراته تدريجياً، وتُضاف اختبارات تجريبية كاملة تحاكي يوم الاختبار مع اقتراب الموعد."
+msgstr "The continuous weekly classes are the actual preparation — the student builds their skills gradually, and full mock exams that simulate exam day are added as the date approaches."
+
+#: inc/exams.php:188
+msgid "هل يمكن إعادة ACT لتحسين الدرجة؟"
+msgstr "Can the ACT be retaken to improve the score?"
+
+#: inc/exams.php:189
+msgid "كم مدة اختبار ACT ورسومه؟"
+msgstr "How long is the ACT exam and what are its fees?"
+
+#: inc/exams.php:189
+msgid "تختلف مدة الاختبار ورسومه حسب الصيغة والموعد؛ تواصل معنا لمعرفة التفاصيل الحالية، ويتولّى فريق نوفيرا إجراءات التسجيل."
+msgstr "The exam duration and fees vary according to the format and date; contact us to learn the current details, and the Novira team handles the registration procedures."
+
+#: inc/exams.php:190
+msgid "كيف تُستخدم نتيجة ACT عند التقديم للجامعات؟"
+msgstr "How is the ACT result used when applying to universities?"
+
+#: inc/exams.php:190
+msgid "يستخدم الطالب الدرجة المركّبة ضمن ملف تقديمه وفق متطلبات وسياسات القبول الخاصة بكل جامعة."
+msgstr "The student uses the Composite score as part of their application file according to the admission requirements and policies of each university."
+
+#. translators: %s: exam name.
+#: inc/exams.php:241
+msgid "%s — أحد اختبارات الدبلومة الأمريكية"
+msgstr "%s — one of the American Diploma exams"
+
+#. translators: %s: exam name.
+#: inc/exams.php:243
+msgid "نرافق الطالب في الاستعداد لاختبار %s كجزء من رحلة الدبلومة الأمريكية."
+msgstr "We accompany the student in preparing for the %s exam as part of the American Diploma journey."
+
+#. translators: %s: exam name.
+#: inc/exams.php:250
+msgid "إعداد موجّه لاختبار %s مع معلمين متخصصين."
+msgstr "Guided preparation for the %s exam with specialized teachers."
+
+#: inc/exams.php:252
+msgid "نوفّر متابعة لمستوى الطالب أثناء الإعداد."
+msgstr "We provide follow-up on the student's level during preparation."
+
+#. translators: %s: exam name.
+#: inc/exams.php:254
+msgid "ندعم إجراءات التسجيل والمواعيد لاختبار %s."
+msgstr "We support the registration procedures and appointments for the %s exam."
+
+#. translators: %s: exam name.
+#: inc/exams.php:260
+msgid "تحدّث مع فريقنا عن %s"
+msgstr "Talk to our team about %s"
+
+#: inc/exams.php:261 template-parts/sections/exam/s8-consultation.php:22
+msgid "احجز استشارة لمناقشة استعداد طالبك. نجيب عن أسئلتك دون أي التزام."
+msgstr "Book a consultation to discuss your student's readiness. We answer your questions with no obligation."
+
+#: inc/exams.php:262
+msgid "أحد خيارات الاختبارات الدولية ضمن الدبلومة الأمريكية إلى جانب الاختبارات الأخرى."
+msgstr "One of the international exam options within the American Diploma alongside the other exams."
+
+#. translators: %s: exam name.
+#: inc/exams.php:276
+msgid "%s (غير متاح حالياً)"
+msgstr "%s (not currently available)"
+
+#. translators: %s: exam name.
+#: inc/exams.php:340
+msgid "هل تُعِدّ نوفيرا لاختبار %s؟"
+msgstr "Does Novira prepare for the %s exam?"
+
+#. translators: %s: exam name.
+#: inc/exams.php:342
+msgid "نعم، إعداد %s جزء من برامج الدبلومة الأمريكية لدينا."
+msgstr "Yes, %s preparation is part of our American Diploma programs."
+
+#. translators: %s: exam name.
+#: inc/exams.php:347
+msgid "ما الأقسام التي يشملها اختبار %s؟"
+msgstr "What sections does the %s exam include?"
+
+#. translators: %s: exam name.
+#: inc/exams.php:353
+msgid "كيف يمكنني التسجيل في اختبار %s؟"
+msgstr "How can I register for the %s exam?"
+
+#: inc/exams.php:354
+msgid "ندعمك في إجراءات التسجيل والمواعيد. تواصل معنا للتفاصيل."
+msgstr "We support you with the registration procedures and appointments. Contact us for details."
+
+#. translators: %s: exam name.
+#: inc/exams.php:359
+msgid "كم تبلغ رسوم اختبار %s؟"
+msgstr "How much is the %s exam fee?"
+
+#. translators: %s: exam name.
+#: inc/exams.php:365
+msgid "كيف تتابعون مستوى الطالب أثناء الإعداد لـ %s؟"
+msgstr "How do you follow the student's level during preparation for the %s?"
+
+#: inc/exams.php:366
+msgid "نوفّر متابعة لمستوى الطالب؛ تُحدَّد طريقة التقارير حسب البرنامج — تواصل معنا."
+msgstr "We provide follow-up on the student's level; the reporting method is determined by the program — contact us."
+
+#: inc/exams.php:467
+msgid "تواصل معنا للتفاصيل."
+msgstr "Contact us for details."
+
+#: inc/exams.php:470
+msgid "سيتم تحديثه من المصدر الرسمي."
+msgstr "To be updated from the official source."
+
+#: inc/form-handling.php:162 inc/translation-request-handler.php:77 template-parts/components/form-success-message.php:16
+msgid "تم إرسال طلبك بنجاح. سنتواصل معك قريباً."
+msgstr "Your request has been sent successfully. We will contact you soon."
+
+#: inc/language-switcher.php:121 inc/locale.php:140 inc/translation-request-sanitization.php:182 template-parts/components/quote-request-form.php:60 template-parts/components/quote-request-form.php:72
+msgid "العربية"
+msgstr "Arabic"
+
+#: inc/language-switcher.php:188
+msgid "اختيار اللغة"
+msgstr "Language selector"
+
+#: inc/language-switcher.php:199
+msgid "اللغة الحالية"
+msgstr "Current language"
+
+#: inc/language-switcher.php:213 inc/language-switcher.php:215
+msgid "غير متاحة حالياً"
+msgstr "Currently unavailable"
+
+#: inc/media-categories.php:122 template-parts/sections/latest-posts.php:38
+msgid "المدونة"
+msgstr "Blog"
+
+#. translators: %s: parent menu item title
+#: inc/nav-walkers.php:104 inc/nav-walkers.php:154
+msgid "عرض القائمة الفرعية لـ %s"
+msgstr "Show submenu for %s"
+
+#: inc/registration-handling.php:131 template-parts/components/registration-interest-form.php:95
+msgid "سنتواصل معك خلال 24 ساعة لتحديد موعد مقابلة."
+msgstr "We will contact you within 24 hours to schedule an interview."
+
+#: inc/seo.php:39 inc/seo.php:365
+msgid "نوفيرا أكاديمي"
+msgstr "Novira Academy"
+
+#: inc/seo.php:41
+msgid "طريق الإبراهيمية، آخر شارع مستشفى أبو عوف"
+msgstr "Al-Ibrahimiya Road, end of Abu Ouf Hospital Street"
+
+#: inc/seo.php:42 inc/seo.php:479
+msgid "بني مزار"
+msgstr "Bani Mazar"
+
+#: inc/seo.php:44 inc/seo.php:478
+msgid "المنيا"
+msgstr "Minya"
+
+#: inc/seo.php:105
+msgid "نوفيرا أكاديمي — مؤسسة تعليمية في بني مزار، المنيا، معتمدة دولياً من Cognia. الدبلومة الأمريكية (EST، SAT، ACT، AP)، الترجمة المعتمدة، وبرامج اللغات والمهارات."
+msgstr "Novira Academy — an educational institution in Bani Mazar, Minya, internationally accredited by Cognia. American Diploma (EST, SAT, ACT, AP), Certified Translation, and language and skills programs."
+
+#: inc/seo.php:366
+msgid "تعليم أمريكي معتمد وترجمة معتمدة في بني مزار، المنيا"
+msgstr "Accredited American education and certified translation in Bani Mazar, Minya"
+
+#: inc/seo.php:384
+msgid "كيف أبدأ التسجيل؟"
+msgstr "How do I start registration?"
+
+#: inc/seo.php:385
+msgid "تواصل معنا عبر واتساب أو الهاتف أو بزيارة المقر، وسنوجّهك إلى خطوات التسجيل المناسبة لبرنامجك."
+msgstr "Contact us via WhatsApp, phone, or by visiting our location, and we will guide you through the registration steps for your program."
+
+#: inc/seo.php:388
+msgid "ما البرامج المتاحة؟"
+msgstr "What programs are available?"
+
+#: inc/seo.php:389
+msgid "الدبلومة الأمريكية (EST وSAT وACT)، والترجمة المعتمدة، وبرامج اللغات والمهارات (إنجليزي، ألماني، فرنسي، برمجة، ذكاء اصطناعي وغيرها)."
+msgstr "American Diploma (EST, SAT, and ACT), Certified Translation, and language and skills programs (English, German, French, programming, artificial intelligence, and more)."
+
+#: inc/seo.php:392
+msgid "كيف يمكنني التواصل مع الأكاديمية؟"
+msgstr "How can I contact the academy?"
+
+#: inc/seo.php:393
+msgid "واتساب 01090600927 (الأسرع للرد)، أو البريد noviraacademy@gmail.com، أو صفحة فيسبوك Novira Academy، أو بزيارة المقر: المنيا – بني مزار – طريق الإبراهيمية – آخر شارع مستشفى أبو عوف."
+msgstr "WhatsApp 01090600927 (fastest response), email noviraacademy@gmail.com, the Novira Academy Facebook page, or by visiting our location: Minya – Bani Mazar – Al-Ibrahimiya Road – end of Abu Ouf Hospital Street."
+
+#: inc/seo.php:396
+msgid "ما مواعيد العمل؟"
+msgstr "What are the working hours?"
+
+#: inc/seo.php:397
+msgid "من السبت إلى الخميس: 10 صباحًا – 10 مساءً، والجمعة: 1 ظهرًا – 10 مساءً. وتُحدَّد مواعيد المجموعات الدراسية حسب البرنامج."
+msgstr "Saturday to Thursday: 10 AM – 10 PM, and Friday: 1 PM – 10 PM. Study group schedules are set according to the program."
+
+#: inc/seo.php:400
+msgid "كم يستغرق الرد على استفساري؟"
+msgstr "How long does it take to get a reply to my inquiry?"
+
+#: inc/seo.php:401
+msgid "عادةً خلال دقائق على واتساب أثناء مواعيد العمل."
+msgstr "Usually within minutes on WhatsApp during working hours."
+
+#: inc/seo.php:404
+msgid "هل الدبلومة الأمريكية معتمدة؟"
+msgstr "Is the American Diploma accredited?"
+
+#: inc/seo.php:405
+msgid "نعم، برنامج الدبلومة الأمريكية معتمد من Cognia ويشمل اختبارات EST وSAT وACT. وننصح دائمًا بالتأكد من متطلبات الجامعة المستهدفة."
+msgstr "Yes, the American Diploma program is accredited by Cognia and includes the EST, SAT, and ACT exams. We always recommend confirming the requirements of your target university."
+
+#: inc/seo.php:408
+msgid "هل تختلف الرسوم حسب البرنامج؟"
+msgstr "Do fees vary by program?"
+
+#: inc/seo.php:409
+msgid "نعم، تختلف الرسوم حسب البرنامج ومدته. للحصول على تفاصيل الرسوم الحالية تواصل معنا عبر واتساب."
+msgstr "Yes, fees vary by program and its duration. For details on current fees, contact us via WhatsApp."
+
+#: inc/seo.php:413
+msgid "ما المستندات المطلوبة للتسجيل؟"
+msgstr "What documents are required for registration?"
+
+#: inc/seo.php:414
+msgid "تختلف المستندات حسب البرنامج. تواصل معنا لمعرفة المستندات المطلوبة لبرنامجك."
+msgstr "Documents vary by program. Contact us to find out which documents are required for your program."
+
+#: inc/seo.php:418
+msgid "هل توجد مقابلة لتحديد المستوى؟"
+msgstr "Is there a placement interview?"
+
+#: inc/seo.php:419
+msgid "نساعد في تحديد المستوى المناسب قبل البدء في البرامج اللغوية. تواصل معنا لمعرفة التفاصيل الخاصة ببرنامجك."
+msgstr "We help determine the right level before starting the language programs. Contact us for details specific to your program."
+
+#: inc/seo.php:423
+msgid "هل المجموعات محدودة العدد؟"
+msgstr "Are the groups limited in size?"
+
+#: inc/seo.php:424
+msgid "نحرص على متابعة مستمرة لكل طالب. لمعرفة عدد الطلاب في مجموعة برنامج معيّن تواصل معنا."
+msgstr "We ensure continuous follow-up for every student. To find out the number of students in a particular program's group, contact us."
+
+#: inc/seo.php:428
+msgid "كيف يتم التواصل مع أولياء الأمور؟"
+msgstr "How is communication with parents handled?"
+
+#: inc/seo.php:429
+msgid "نوفّر متابعة أكاديمية مستمرة للطلاب. لمعرفة طريقة وتكرار التواصل مع أولياء الأمور تواصل معنا."
+msgstr "We provide ongoing academic follow-up for students. To learn how and how often we communicate with parents, contact us."
+
+#: inc/seo.php:433
+msgid "ماذا لو رغبت في الانسحاب من البرنامج؟"
+msgstr "What if I want to withdraw from the program?"
+
+#: inc/seo.php:434
+msgid "تختلف سياسة الانسحاب حسب البرنامج. تواصل معنا لمعرفة التفاصيل قبل التسجيل."
+msgstr "The withdrawal policy varies by program. Contact us for details before registering."
+
+#: inc/seo.php:462
+msgid "مؤسسة تعليمية في بني مزار، المنيا، معتمدة دولياً من Cognia. تقدّم الدبلومة الأمريكية (EST، SAT، ACT، AP)، والترجمة المعتمدة، وبرامج اللغات والمهارات."
+msgstr "An educational institution in Bani Mazar, Minya, internationally accredited by Cognia. Offering the American Diploma (EST, SAT, ACT, AP), Certified Translation, and language and skills programs."
+
+#: inc/translation-request-sanitization.php:184 template-parts/components/quote-request-form.php:62 template-parts/components/quote-request-form.php:74
+msgid "الفرنسية"
+msgstr "French"
+
+#: inc/translation-request-sanitization.php:185 template-parts/components/quote-request-form.php:63 template-parts/components/quote-request-form.php:75
+msgid "الألمانية"
+msgstr "German"
+
+#: inc/translation-request-sanitization.php:186 template-parts/components/quote-request-form.php:64 template-parts/components/quote-request-form.php:76
+msgid "الإسبانية"
+msgstr "Spanish"
+
+#: inc/translation-request-sanitization.php:202 template-parts/components/quote-request-form.php:47 template-parts/sections/department-translation.php:25 template-parts/sections/department-translation.php:45
+msgid "ترجمة عادية"
+msgstr "Standard Translation"
+
+#: inc/translation-request-sanitization.php:203 page-translation.php:27 page-translation.php:36 page-translation.php:48 page-translation.php:169 template-parts/components/quote-request-form.php:48
+#: template-parts/sections/department-nav.php:31 template-parts/sections/department-translation.php:30 template-parts/sections/department-translation.php:54 template-parts/sections/department-translation.php:57 template-parts/translation.php:4
+msgid "ترجمة معتمدة"
+msgstr "Certified Translation"
+
+#: inc/translation-request-sanitization.php:204 template-parts/components/quote-request-form.php:49 template-parts/sections/department-translation.php:35
+msgid "ترجمة عاجلة"
+msgstr "Urgent Translation"
+
+#: inc/translation-request-sanitization.php:205 page-translation.php:171 template-parts/components/quote-request-form.php:50
+msgid "ترجمة قانونية"
+msgstr "Legal Translation"
+
+#: inc/translation-request-sanitization.php:206 template-parts/components/quote-request-form.php:51
+msgid "ترجمة تقنية"
+msgstr "Technical Translation"
+
+#: page-about.php:64 template-parts/sections/founder.php:56
+msgid "مستر"
+msgstr "Mr."
+
+#: page-about.php:65 page-american-diploma.php:241 page-american-diploma.php:260 template-parts/sections/founder.php:72
+msgid "يوسف زكي"
+msgstr "Youssef Zaki"
+
+#: page-about.php:66 page-about.php:70 template-parts/sections/founder.php:39 template-parts/sections/founder.php:54
+msgid "المؤسس"
+msgstr "Founder"
+
+#: page-about.php:122 template-parts/sections/testimonials-stitch.php:61
+msgid "طلابنا"
+msgstr "Our Students"
+
+#: page-about.php:185 template-parts/components/quote-request-form.php:38 template-parts/components/registration-interest-form.php:38
+msgid "رقم الهاتف"
+msgstr "Phone Number"
+
+#: page-about.php:190 page-contact.php:189 template-parts/layout/footer.php:49 template-parts/sections/map-contact.php:126
+msgid "واتساب"
+msgstr "WhatsApp"
+
+#: page-about.php:191 page-american-diploma.php:584
+msgid "تواصل معنا الآن"
+msgstr "Contact us now"
+
+#: page-about.php:220 page-act.php:204 page-digital-sat.php:204 page-education.php:360 page-est.php:418 template-parts/sections/premium-exam/cta.php:17
+msgid "احجز استشارتك المجانية"
+msgstr "Book your free consultation"
+
+#: page-about.php:224 page-contact.php:130 page-education.php:55 page-education.php:364 page-translation.php:68 page-translation.php:426
+#: template-parts/sections/hero-stitch.php:60 template-parts/sections/hero-stitch.php:113 template-parts/sections/hero-stitch.php:166 template-parts/sections/map-contact.php:143
+msgid "تواصل واتساب"
+msgstr "Contact on WhatsApp"
+
+#: page-act.php:45 page-american-diploma.php:36 page-american-diploma.php:40 page-american-diploma.php:487 page-digital-sat.php:45 page-est.php:126
+#: template-parts/diploma.php:18 template-parts/layout/footer.php:107 template-parts/layout/header.php:65 template-parts/layout/header.php:154 template-parts/sections/diploma/s1-hero.php:27 template-parts/sections/founder.php:35
+#: template-parts/sections/hero-stitch.php:27 template-parts/sections/programs-stitch.php:50 template-parts/sections/registration-cta.php:27 template-parts/sections/student-case.php:25 template-parts/sections/student-case.php:63
+msgid "الدبلومة الأمريكية"
+msgstr "American Diploma"
+
+#: page-act.php:47 page-digital-sat.php:47 page-est.php:129
+msgid "نُعِدّ طالبك ليدخله قادراً على أعلى درجة"
+msgstr "We prepare your student to enter it capable of the highest score"
+
+#: page-act.php:50 page-digital-sat.php:50 page-est.php:137 template-parts/layout/footer.php:172 template-parts/sections/premium-exam/hero.php:27
+msgid "ابدأ الآن"
+msgstr "Start now"
+
+#: page-act.php:52 page-digital-sat.php:52 page-est.php:138 template-parts/sections/premium-exam/hero.php:29
+msgid "تعرّف على طريقة الإعداد"
+msgstr "Learn about the preparation method"
+
+#: page-act.php:53 page-digital-sat.php:53 page-est.php:134 template-parts/sections/premium-exam/hero.php:30
+msgid "برنامج معتمد من Cognia"
+msgstr "Cognia-accredited program"
+
+#: page-act.php:56 page-digital-sat.php:56
+msgid "طالب من نوفيرا أكاديمي أمام لوحة اعتماد Cognia"
+msgstr "A Novira Academy student in front of a Cognia accreditation plaque"
+
+#: page-act.php:57
+msgid "تأهيل لـ ACT"
+msgstr "ACT Preparation"
+
+#: page-act.php:58 page-digital-sat.php:58 page-est.php:153
+msgid "تأسيس متين واختبارات تجريبية مستمرة"
+msgstr "A solid foundation and continuous mock exams"
+
+#: page-act.php:63 page-digital-sat.php:63 page-est.php:165
+msgid "ما هو الاختبار"
+msgstr "What the exam is"
+
+#: page-act.php:64
+msgid "ما هو اختبار ACT؟"
+msgstr "What is the ACT exam?"
+
+#: page-act.php:67 page-digital-sat.php:67 page-est.php:169 template-parts/sections/premium-exam/definition.php:36
+msgid "يقيس الاختبار"
+msgstr "What the exam measures"
+
+#: page-act.php:73 page-digital-sat.php:73 page-est.php:178
+msgid "رحلة الإعداد"
+msgstr "The Preparation Journey"
+
+#: page-act.php:74 page-digital-sat.php:74 page-est.php:179
+msgid "من أين يبدأ طالبك؟"
+msgstr "Where does your student begin?"
+
+#: page-act.php:75 page-digital-sat.php:75 page-est.php:180
+msgid "نبني معه خطة خطوة بخطوة — من التقييم المبدئي حتى يوم الاختبار."
+msgstr "We build a step-by-step plan with them — from the initial assessment to exam day."
+
+#: page-act.php:77 page-digital-sat.php:77
+msgid "تقييم مبدئي"
+msgstr "Initial Assessment"
+
+#: page-act.php:77
+msgid "نحدّد مستوى طالبك الفعلي في الإنجليزية والرياضيات والعلوم."
+msgstr "We determine your student's actual level in English, mathematics, and science."
+
+#: page-act.php:78 page-digital-sat.php:78
+msgid "خطة دراسية"
+msgstr "Study Plan"
+
+#: page-act.php:78 page-digital-sat.php:78
+msgid "خطة مخصصة مبنية على نتيجة التقييم وأهداف الطالب."
+msgstr "A customized plan built on the assessment result and the student's goals."
+
+#: page-act.php:79 page-act.php:177 page-american-diploma.php:90 page-digital-sat.php:79 page-digital-sat.php:177 page-est.php:367
+msgid "حصص أسبوعية"
+msgstr "Weekly Classes"
+
+#: page-act.php:79 page-digital-sat.php:79
+msgid "دراسة منتظمة مع معلم متخصص طوال البرنامج."
+msgstr "Regular study with a specialized teacher throughout the program."
+
+#: page-act.php:80 page-digital-sat.php:80
+msgid "واجبات ومتابعة"
+msgstr "Assignments and Follow-up"
+
+#: page-act.php:80 page-digital-sat.php:80
+msgid "تمارين تُثبّت ما يُدرَّس وتكشف الثغرات مبكراً."
+msgstr "Exercises that reinforce what is taught and reveal gaps early."
+
+#: page-act.php:81
+msgid "اختبارات تجريبية"
+msgstr "Mock Exams"
+
+#: page-act.php:81
+msgid "محاكاة كاملة ليوم الاختبار لتحديد ما يحتاج تعزيزاً."
+msgstr "A full simulation of exam day to identify what needs reinforcement."
+
+#: page-act.php:82 page-digital-sat.php:82
+msgid "الامتحان الرسمي وأفضل درجة"
+msgstr "The Official Exam and the Best Score"
+
+#: page-act.php:82 page-digital-sat.php:82
+msgid "يتقدّم طالبك للاختبار الرسمي، ونستمر معه لإعادته وتحسين درجته إن رغب."
+msgstr "Your student sits the official exam, and we continue with them to retake it and improve their score if they wish."
+
+#: page-act.php:88 page-digital-sat.php:88 page-est.php:200 template-parts/sections/premium-exam/courses.php:37
+msgid "الكورسات الدراسية"
+msgstr "Courses"
+
+#: page-act.php:89
+msgid "كورسات الإعداد للـ ACT"
+msgstr "ACT Preparation Courses"
+
+#: page-act.php:90
+msgid "كل كورس يبني المهارات التي يقيسها ACT — الإنجليزية والرياضيات والعلوم — ضمن حصص أسبوعية منتظمة مع معلمين متخصصين، اختر ما يناسب مرحلة طالبك."
+msgstr "Each course builds the skills the ACT measures — English, mathematics, and science — within regular weekly classes with specialized teachers; choose what suits your student's stage."
+
+#: page-act.php:91 page-digital-sat.php:91 page-est.php:203 template-parts/sections/premium-exam/courses.php:40
+msgid "اطلب الكورس"
+msgstr "Request the course"
+
+#: page-act.php:95
+msgid "عايز احجز تقييم مستوى لطالبي للاستعداد لاختبار ACT"
+msgstr "I want to book a level assessment for my student to prepare for the ACT exam"
+
+#: page-act.php:97 page-digital-sat.php:97 page-est.php:211
+msgid "لست متأكداً من الكورس المناسب لطالبك؟"
+msgstr "Not sure which course suits your student?"
+
+#: page-act.php:98 page-digital-sat.php:98 page-est.php:212
+msgid "يحدّد التقييم المبدئي مستوى طالبك والكورس والخطة الأنسب له."
+msgstr "The initial assessment determines your student's level and the most suitable course and plan for them."
+
+#: page-act.php:99 page-digital-sat.php:99 page-est.php:213
+msgid "احجز تقييم مستوى"
+msgstr "Book a level assessment"
+
+#: page-act.php:105 page-digital-sat.php:105 page-est.php:221 template-parts/sections/premium-exam/course-guide.php:34
+msgid "اختيار الكورس"
+msgstr "Choosing the Course"
+
+#: page-act.php:106 page-digital-sat.php:106 page-est.php:222 template-parts/sections/premium-exam/course-guide.php:35
+msgid "أي كورس يناسب طالبك؟"
+msgstr "Which course suits your student?"
+
+#: page-act.php:107 page-digital-sat.php:107 page-est.php:223
+msgid "لكل مرحلة ما يناسبها. إليك دليلاً سريعاً يربط وضع طالبك بالكورس الأنسب له."
+msgstr "Each stage has what suits it. Here is a quick guide connecting your student's situation to the most suitable course for them."
+
+#: page-act.php:111 page-digital-sat.php:111 page-est.php:231
+msgid "الفرق مع نوفيرا"
+msgstr "The Novira Difference"
+
+#: page-act.php:112
+msgid "لماذا تختار ACT مع نوفيرا؟"
+msgstr "Why choose the ACT with Novira?"
+
+#: page-act.php:113
+msgid "لأن درجة ACT تعكس ما بناه الطالب على مدار السنوات — لا ما راجعه في أسبوع. هنا يكون الإعداد جزءاً من كل حصة."
+msgstr "Because the ACT score reflects what the student has built over the years — not what they reviewed in a week. Here, preparation is part of every class."
+
+#: page-act.php:115 page-digital-sat.php:115
+msgid "حصص أسبوعية مع معلمين متخصصين طوال رحلة الدبلومة"
+msgstr "Weekly classes with specialized teachers throughout the diploma journey"
+
+#: page-act.php:116 page-digital-sat.php:116
+msgid "إعداد مُدمَج في البرنامج — لا مراجعة في اللحظة الأخيرة"
+msgstr "Preparation integrated into the program — no last-minute review"
+
+#: page-act.php:117
+msgid "تغطية الإنجليزية والرياضيات والقراءة والعلوم التي يقيسها ACT"
+msgstr "Coverage of the English, mathematics, reading, and science the ACT measures"
+
+#: page-act.php:118 page-digital-sat.php:118
+msgid "متابعة دورية بعد كل حصة وكل اختبار تجريبي"
+msgstr "Regular follow-up after each class and each mock exam"
+
+#: page-act.php:119 page-digital-sat.php:119
+msgid "تواصل مستمر مع ولي الأمر حول مستوى التقدّم"
+msgstr "Continuous communication with the parent about the level of progress"
+
+#: page-act.php:120 page-digital-sat.php:120
+msgid "دعم في التسجيل وفي إعادة الاختبار حتى أفضل نتيجة"
+msgstr "Support with registration and with retaking the exam up to the best result"
+
+#: page-act.php:122 page-digital-sat.php:122 page-est.php:248
+msgid "معتمدون من Cognia"
+msgstr "Cognia-Accredited"
+
+#: page-act.php:123
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية — والإعداد لاختبار ACT جزء من هذا البرنامج المعتمد."
+msgstr "An international accreditation that proves the program adheres to international educational quality standards — and ACT exam preparation is part of this accredited program."
+
+#: page-act.php:129 page-digital-sat.php:129 page-est.php:259
+msgid "ضمن اختبارات الدبلومة"
+msgstr "Among the Diploma Exams"
+
+#: page-act.php:130
+msgid "ACT بين اختبارات الدبلومة الأمريكية"
+msgstr "The ACT among the American Diploma exams"
+
+#: page-act.php:131 page-digital-sat.php:131 page-est.php:261
+msgid "الاختبارات الثلاثة معتمدة ضمن مسار الدبلومة، ونُعِدّ طلابنا لها جميعاً. إليك مقارنة عامة سريعة."
+msgstr "The three exams are all accredited within the diploma path, and we prepare our students for all of them. Here is a quick general comparison."
+
+#: page-act.php:132 page-digital-sat.php:132 page-est.php:267
+msgid "نتيجة أعلى، فرص أوسع"
+msgstr "A higher result, wider opportunities"
+
+#: page-act.php:133 page-digital-sat.php:133 page-est.php:268
+msgid "مهما كان الاختبار، الإعداد مستمر معك حتى أفضل نتيجة ممكنة — مع دعم إعادة الاختبار عند الحاجة."
+msgstr "Whatever the exam, preparation continues with you up to the best possible result — with retake support when needed."
+
+#: page-act.php:136 page-digital-sat.php:136
+msgid "المهارات المقاسة"
+msgstr "Skills Measured"
+
+#: page-act.php:136 page-digital-sat.php:136
+msgid "إنجليزي + رياضيات"
+msgstr "English + Mathematics"
+
+#: page-act.php:136 page-digital-sat.php:136
+msgid "إنجليزي + رياضيات + علوم"
+msgstr "English + Mathematics + Science"
+
+#: page-act.php:137
+msgid "يشمل قسم العلوم"
+msgstr "Includes a science section"
+
+#: page-act.php:138 page-digital-sat.php:138
+msgid "معتمد ضمن الدبلومة الأمريكية"
+msgstr "Accredited within the American Diploma"
+
+#: page-act.php:139 page-digital-sat.php:139
+msgid "إمكانية إعادة الاختبار لتحسين الدرجة"
+msgstr "Option to retake the exam to improve the score"
+
+#: page-act.php:140 page-digital-sat.php:140
+msgid "الإعداد ضمن برنامج نوفيرا"
+msgstr "Preparation within the Novira program"
+
+#: page-act.php:142 page-digital-sat.php:142 page-est.php:290
+msgid "للمعلومة العامة؛ تُؤكَّد التفاصيل الرسمية لكل اختبار مع فريق نوفيرا."
+msgstr "For general information; the official details of each exam are confirmed with the Novira team."
+
+#: page-act.php:143 page-digital-sat.php:143 page-est.php:295
+msgid "تعرّف أيضاً على"
+msgstr "Also learn about"
+
+#: page-act.php:145 page-digital-sat.php:145
+msgid "EST"
+msgstr "EST"
+
+#: page-act.php:146 page-est.php:298
+msgid "Digital SAT"
+msgstr "Digital SAT"
+
+#: page-act.php:147 page-digital-sat.php:147 page-est.php:300 template-parts/sections/department-hero.php:31 template-parts/sections/diploma/s1-hero.php:20 template-parts/sections/diploma/s1-hero.php:25
+msgid "البرنامج الأمريكي"
+msgstr "The American Program"
+
+#: page-act.php:152 page-digital-sat.php:152 page-est.php:312
+msgid "متابعة ولي الأمر"
+msgstr "Parent Follow-up"
+
+#: page-act.php:153 page-digital-sat.php:153 page-est.php:313
+msgid "متابعة طالبك في صميم أولوياتنا"
+msgstr "Following up on your student is at the core of our priorities"
+
+#: page-act.php:154 page-digital-sat.php:154 page-est.php:314
+msgid "نظام متابعة مخصص لكل أب وأم — تعرف دائماً أين يقف طالبك وما الخطوة التالية."
+msgstr "A follow-up system dedicated to every father and mother — you always know where your student stands and what the next step is."
+
+#: page-act.php:156 page-act.php:181 page-digital-sat.php:156 page-digital-sat.php:181
+msgid "متابعة دورية لمستوى الطالب"
+msgstr "Regular follow-up on the student's level"
+
+#: page-act.php:156 page-digital-sat.php:156
+msgid "يرصد المعلم ما تحسّن وما يحتاج تدريباً بعد كل حصة واختبار تجريبي."
+msgstr "The teacher tracks what has improved and what needs more practice after every class and mock exam."
+
+#: page-act.php:157 page-act.php:182 page-digital-sat.php:157 page-digital-sat.php:182
+msgid "تواصل مستمر مع ولي الأمر"
+msgstr "Ongoing communication with parents"
+
+#: page-act.php:157 page-digital-sat.php:157
+msgid "لا تنتظر يوم الامتحان لتعرف أين يقف طالبك — نُبقيك على اطلاع."
+msgstr "Don't wait for exam day to find out where your child stands — we keep you informed."
+
+#: page-act.php:158 page-digital-sat.php:158
+msgid "خطة تتكيّف مع الطالب"
+msgstr "A plan that adapts to the student"
+
+#: page-act.php:158 page-digital-sat.php:158
+msgid "تُعدَّل الخطة الدراسية وفق أولويات الطالب الفعلية أولاً بأول."
+msgstr "The study plan is adjusted to the student's actual priorities as they change."
+
+#: page-act.php:161 page-digital-sat.php:161 page-est.php:329
+msgid "معلم نوفيرا يتابع الطلاب أثناء الدراسة"
+msgstr "A Novira teacher following up with students during study"
+
+#: page-act.php:165 page-digital-sat.php:165 page-est.php:338
+msgid "البرنامج بالأرقام"
+msgstr "The program in numbers"
+
+#: page-act.php:166 page-digital-sat.php:166 page-est.php:339
+msgid "إعداد متواصل يصنع الفرق الأكاديمي"
+msgstr "Continuous preparation that makes the academic difference"
+
+#: page-act.php:167 page-digital-sat.php:167 page-est.php:340
+msgid "ليست وعوداً بنتائج، بل طريقة عمل حقيقية يلتزم بها برنامج الدبلومة في نوفيرا."
+msgstr "Not promises of results, but a genuine way of working that Novira's Diploma program is committed to."
+
+#: page-act.php:169 page-american-diploma.php:411 page-digital-sat.php:169 page-est.php:347
+msgid "سنوات"
+msgstr "Years"
+
+#: page-act.php:170 page-digital-sat.php:170 page-est.php:347
+msgid "إعداد متواصل"
+msgstr "Continuous preparation"
+
+#: page-act.php:173 page-digital-sat.php:173 page-est.php:354
+msgid "ثلاث سنوات من البناء الأكاديمي المتواصل — من الصف العاشر حتى يوم الامتحان، لا مراجعة في أسابيع."
+msgstr "Three years of continuous academic building — from Grade 10 to exam day, not review in a few weeks."
+
+#: page-act.php:175 page-digital-sat.php:175 page-est.php:360
+msgid "اختبارات دولية معتمدة"
+msgstr "Accredited international exams"
+
+#: page-act.php:175 page-digital-sat.php:175 page-est.php:361
+msgid "EST و Digital SAT و ACT"
+msgstr "EST, Digital SAT and ACT"
+
+#: page-act.php:176
+msgid "أعلى درجة لكل قسم"
+msgstr "Top score for each section"
+
+#: page-act.php:176
+msgid "والدرجة المركّبة من 1 إلى 36"
+msgstr "And a composite score from 1 to 36"
+
+#: page-act.php:177 page-digital-sat.php:177 page-est.php:368
+msgid "دراسة منتظمة مع معلمين متخصصين"
+msgstr "Regular study with specialized teachers"
+
+#: page-act.php:179 page-digital-sat.php:179 page-est.php:381
+msgid "ما يشمله الإعداد"
+msgstr "What preparation includes"
+
+#: page-act.php:183 page-digital-sat.php:183
+msgid "اختبارات تجريبية قبل الامتحان"
+msgstr "Mock exams before the exam"
+
+#: page-act.php:184 page-digital-sat.php:184
+msgid "دعم إجراءات التسجيل"
+msgstr "Support with registration procedures"
+
+#: page-act.php:185 page-digital-sat.php:185
+msgid "تنسيق لوجستي عند الحاجة"
+msgstr "Logistical coordination when needed"
+
+#: page-act.php:186 page-digital-sat.php:186
+msgid "دعم إعادة الاختبار لتحسين الدرجة"
+msgstr "Retake support to improve the score"
+
+#: page-act.php:195 page-digital-sat.php:195 page-est.php:405
+msgid "أسئلة شائعة"
+msgstr "Frequently asked questions"
+
+#: page-act.php:196
+msgid "أسئلة يطرحها أولياء الأمور عن ACT"
+msgstr "Questions parents ask about the ACT"
+
+#: page-act.php:201 page-digital-sat.php:201 page-est.php:415
+msgid "ابدأ بتقييم مستوى طالبك"
+msgstr "Start with an assessment of your child's level"
+
+#: page-act.php:206 page-digital-sat.php:206 page-est.php:419 template-parts/sections/premium-exam/cta.php:19
+msgid "تواصل مع الفريق"
+msgstr "Get in touch with the team"
+
+#: page-american-diploma.php:41
+msgid "الاستعداد للامتحان الدولي يستغرق سنوات — ليس أسابيع"
+msgstr "Preparing for the international exam takes years — not weeks"
+
+#: page-american-diploma.php:44
+msgid "برنامج الدبلومة الأمريكية يُرافق طالبك من Grade 10 حتى يوم الامتحان. حصص أسبوعية مع معلمين متخصصين، متابعة أكاديمية دورية، واختبارات تجريبية لقياس التقدم — حتى تكون دائماً على اطلاع بمستواه."
+msgstr "The American Diploma program accompanies your child from Grade 10 to exam day. Weekly classes with specialized teachers, regular academic follow-up, and mock exams to measure progress — so you are always informed of your child's level."
+
+#: page-american-diploma.php:50
+msgid "معلمون متخصصون"
+msgstr "Specialized teachers"
+
+#: page-american-diploma.php:54 page-education.php:110
+msgid "متابعة شخصية"
+msgstr "Personal follow-up"
+
+#: page-american-diploma.php:58 page-american-diploma.php:87 page-american-diploma.php:281
+msgid "اعتماد دولي"
+msgstr "International accreditation"
+
+#: page-american-diploma.php:64 template-parts/sections/hero-stitch.php:57
+msgid "اكتشف البرنامج"
+msgstr "Discover the program"
+
+#: page-american-diploma.php:66
+msgid "تعرّف على البرنامج"
+msgstr "Learn about the program"
+
+#: page-american-diploma.php:79 template-parts/layout/footer.php:68
+msgid "معتمدة دولياً"
+msgstr "Internationally accredited"
+
+#: page-american-diploma.php:91
+msgid "مع معلمين متخصصين"
+msgstr "With specialized teachers"
+
+#: page-american-diploma.php:95
+msgid "المرحلة الدراسية"
+msgstr "Grade level"
+
+#: page-american-diploma.php:103 page-american-diploma.php:116 template-parts/sections/diploma/s2-what-is.php:38 template-parts/sections/diploma/s2-what-is.php:42
+msgid "ما هي الدبلومة الأمريكية؟"
+msgstr "What is the American Diploma?"
+
+#: page-american-diploma.php:106
+msgid "حرم جامعي"
+msgstr "Campus"
+
+#: page-american-diploma.php:110 page-american-diploma.php:390
+msgid "اعتماد دولي للجودة"
+msgstr "International quality accreditation"
+
+#: page-american-diploma.php:115 template-parts/sections/diploma/s2-what-is.php:41 template-parts/sections/exam/s2-what-is.php:25
+msgid "تعريف"
+msgstr "Definition"
+
+#: page-american-diploma.php:117
+msgid "برنامج تعليمي أكاديمي مدته ثلاث سنوات (Grade 10 – Grade 12)، يُدرَّس كاملاً باللغة الإنجليزية. يشمل دراسة المواد الأكاديمية وفق المنهج الأمريكي، مع تحضير موجَّه لاختبارات EST و Digital SAT و ACT. الشهادة معتمدة من Cognia وموثّقة لدى الجامعات الأمريكية والدولية وفق متطلبات كل جامعة."
+msgstr "A three-year academic education program (Grade 10 – Grade 12), taught entirely in English. It covers the study of academic subjects according to the American curriculum, with guided preparation for the EST, Digital SAT and ACT exams. The certificate is accredited by Cognia and recognized at American and international universities according to each university's requirements."
+
+#: page-american-diploma.php:121
+msgid "تعليم معتمد أمريكياً"
+msgstr "American-accredited education"
+
+#: page-american-diploma.php:122
+msgid "اعتماد دولي من Cognia"
+msgstr "International accreditation from Cognia"
+
+#: page-american-diploma.php:123
+msgid "مرونة في طريقة الدراسة"
+msgstr "Flexibility in how you study"
+
+#: page-american-diploma.php:124
+msgid "تحضير لاختبارات EST و Digital SAT و ACT"
+msgstr "Preparation for the EST, Digital SAT and ACT exams"
+
+#: page-american-diploma.php:125
+msgid "إرشاد في خطوات التقديم الجامعي"
+msgstr "Guidance through the university application steps"
+
+#: page-american-diploma.php:142 template-parts/sections/diploma/s3-why-path.php:36 template-parts/sections/diploma/s3-why-path.php:40
+msgid "لماذا تختار بعض الأسر هذا المسار؟"
+msgstr "Why do some families choose this path?"
+
+#: page-american-diploma.php:145 template-parts/sections/diploma/s3-why-path.php:39
+msgid "المسار"
+msgstr "The path"
+
+#: page-american-diploma.php:146
+msgid "لماذا تختار نوفيرا لإعداد طالبك؟"
+msgstr "Why choose Novira to prepare your child?"
+
+#: page-american-diploma.php:147
+msgid "لأن كل سؤال يسأله الأهل — لدينا إجابة حقيقية عليه."
+msgstr "Because for every question parents ask — we have a genuine answer."
+
+#: page-american-diploma.php:152
+msgid "إعداد أكاديمي يبني على نفسه"
+msgstr "Academic preparation that builds on itself"
+
+#: page-american-diploma.php:152
+msgid "منهج متدرج يُعزز المهارات من Grade 10 إلى Grade 12 — كل مرحلة تبني على التي سبقتها."
+msgstr "A progressive curriculum that strengthens skills from Grade 10 to Grade 12 — each stage building on the one before it."
+
+#: page-american-diploma.php:154
+msgid "شهادة Cognia معترف بها دولياً"
+msgstr "An internationally recognized Cognia certificate"
+
+#: page-american-diploma.php:154
+msgid "الشهادة معتمدة من Cognia وموثّقة لدى الجامعات الأمريكية والدولية وفق متطلبات كل جامعة."
+msgstr "The certificate is accredited by Cognia and recognized at American and international universities according to each university's requirements."
+
+#: page-american-diploma.php:156
+msgid "يدخل الامتحان وهو يعرف ما يتوقعه"
+msgstr "They enter the exam knowing what to expect"
+
+#: page-american-diploma.php:156
+msgid "اختبارات تجريبية منتظمة تُقيّم الأداء وتُعرِّف الطالب على بيئة الامتحان — حتى لا يكون يوم الامتحان الرسمي هو المرة الأولى."
+msgstr "Regular mock exams that assess performance and familiarize the student with the exam environment — so the official exam day isn't the first time."
+
+#: page-american-diploma.php:158
+msgid "متابعة دورية وأنت دائماً على اطلاع"
+msgstr "Regular follow-up, and you are always informed"
+
+#: page-american-diploma.php:158
+msgid "معلمون متخصصون يتابعون مستوى الطالب أسبوعياً — قبل أن تتراكم الثغرات وتصبح مشكلة."
+msgstr "Specialized teachers follow the student's level weekly — before gaps accumulate and become a problem."
+
+#: page-american-diploma.php:160
+msgid "لا تحتاج لمعرفة الإجراءات — نحن نتولاها"
+msgstr "You don't need to know the procedures — we handle them"
+
+#: page-american-diploma.php:160
+msgid "التسجيل للاختبار، ترتيب الموعد، والتنسيق اللوجستي — نُرافق الطالب حتى يجلس في قاعة الاختبار."
+msgstr "Exam registration, scheduling the appointment, and logistical coordination — we accompany the student until they sit in the exam hall."
+
+#: page-american-diploma.php:178 page-american-diploma.php:182
+msgid "اختبارات الدبلومة الأمريكية"
+msgstr "American Diploma exams"
+
+#: page-american-diploma.php:181
+msgid "مسارات الإعداد"
+msgstr "Preparation paths"
+
+#: page-american-diploma.php:183
+msgid "اختر الاختبار الذي يناسب مسار ابنك الأكاديمي"
+msgstr "Choose the exam that suits your child's academic path"
+
+#: page-american-diploma.php:190
+msgid "اختبار أساسي ضمن مسار الدبلومة الأمريكية يقيس الاستعداد الأكاديمي في القراءة والكتابة والرياضيات."
+msgstr "A core exam within the American Diploma path that measures academic readiness in reading, writing and mathematics."
+
+#: page-american-diploma.php:196
+msgid "النسخة الرقمية من اختبار SAT مع إعداد أكاديمي منظم ومتابعة شاملة حتى يوم الاختبار."
+msgstr "The digital version of the SAT with structured academic preparation and comprehensive follow-up up to exam day."
+
+#: page-american-diploma.php:202
+msgid "اختبار دولي معتمد يقيس المهارات الأكاديمية في الإنجليزية والرياضيات والعلوم والكتابة."
+msgstr "An accredited international exam that measures academic skills in English, mathematics, science and writing."
+
+#: page-american-diploma.php:219
+msgid "اعرف المزيد عن %s"
+msgstr "Learn more about %s"
+
+#: page-american-diploma.php:220 template-parts/content/department-card.php:66
+msgid "اعرف المزيد"
+msgstr "Learn more"
+
+#: page-american-diploma.php:236
+msgid "بقيادة الخبير يوسف زكي"
+msgstr "Led by expert Youssef Zaki"
+
+#: page-american-diploma.php:240
+msgid "بقيادة الخبير"
+msgstr "Led by an expert"
+
+#: page-american-diploma.php:242
+msgid "مؤسس نوفيرا أكاديمي وخبير الدبلومة الأمريكية"
+msgstr "Founder of Novira Academy and American Diploma expert"
+
+#: page-american-diploma.php:246
+msgid "خبرة طويلة في تدريس وإعداد طلاب الدبلومة الأمريكية"
+msgstr "Extensive experience teaching and preparing American Diploma students"
+
+#: page-american-diploma.php:247
+msgid "متخصص في إعداد الطلاب للاختبارات الدولية"
+msgstr "Specialized in preparing students for international exams"
+
+#: page-american-diploma.php:248
+msgid "منهجية متابعة شخصية لكل طالب حتى تحقيق هدفه"
+msgstr "A personal follow-up approach for every student until they reach their goal"
+
+#: page-american-diploma.php:269 page-american-diploma.php:389
+msgid "معتمد من Cognia"
+msgstr "Accredited by Cognia"
+
+#: page-american-diploma.php:282
+msgid "برنامج الدبلومة الأمريكية معتمد من "
+msgstr "The American Diploma program is accredited by"
+
+#: page-american-diploma.php:283
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية. الشهادة موثّقة لدى الجامعات الأمريكية والدولية وفق متطلبات كل جامعة — وليس بديلاً عن شروط القبول."
+msgstr "International accreditation that proves the program adheres to international educational quality standards. The certificate is recognized at American and international universities according to each university's requirements — and is not a substitute for admission requirements."
+
+#: page-american-diploma.php:290
+msgid "مقبولة في الجامعات الدولية"
+msgstr "Accepted at international universities"
+
+#: page-american-diploma.php:291
+msgid "منهج معتمد دولياً"
+msgstr "An internationally accredited curriculum"
+
+#: page-american-diploma.php:292 page-contact.php:339 page-est.php:374
+msgid "متابعة مستمرة"
+msgstr "Continuous follow-up"
+
+#: page-american-diploma.php:293
+msgid "إعداد للاختبارات"
+msgstr "Exam preparation"
+
+#: page-american-diploma.php:294
+msgid "شهادة معترف بها"
+msgstr "A recognized certificate"
+
+#: page-american-diploma.php:295
+msgid "جودة تعليمية عالية"
+msgstr "High educational quality"
+
+#: page-american-diploma.php:311
+msgid "يرافق الطالب خلال رحلته"
+msgstr "Accompanies the student throughout their journey"
+
+#: page-american-diploma.php:314 template-parts/sections/diploma/s5-journey.php:31 template-parts/sections/diploma/s5-journey.php:34
+msgid "الرحلة الأكاديمية"
+msgstr "The academic journey"
+
+#: page-american-diploma.php:315
+msgid "كيف يسير البرنامج عملياً؟"
+msgstr "How does the program work in practice?"
+
+#: page-american-diploma.php:316
+msgid "ست مراحل من اليوم الأول حتى يوم الامتحان الرسمي."
+msgstr "Six stages from the first day to the official exam day."
+
+#: page-american-diploma.php:323
+msgid "تقييم المستوى"
+msgstr "Level assessment"
+
+#: page-american-diploma.php:324
+msgid "تحديد نقطة البداية وتصميم المسار المثالي"
+msgstr "Determining the starting point and designing the ideal path"
+
+#: page-american-diploma.php:330
+msgid "خطة تعليمية مصممة"
+msgstr "A tailored study plan"
+
+#: page-american-diploma.php:331
+msgid "منهج مخصص يناسب وتيرة الطالب وأهدافه"
+msgstr "A customized curriculum that suits the student's pace and goals"
+
+#: page-american-diploma.php:337
+msgid "دراسة تفاعلية ومتابعة دورية"
+msgstr "Interactive study and regular follow-up"
+
+#: page-american-diploma.php:338
+msgid "جلسات مباشرة مع مدرسين متخصصين"
+msgstr "Live sessions with specialized teachers"
+
+#: page-american-diploma.php:344
+msgid "واجبات ومتابعة بين الحصص"
+msgstr "Assignments and follow-up between classes"
+
+#: page-american-diploma.php:345
+msgid "تمارين تُثبّت ما يُدرَّس وتكشف الثغرات مبكراً — قبل أن تتراكم."
+msgstr "Exercises that reinforce what is taught and reveal gaps early — before they accumulate."
+
+#: page-american-diploma.php:351
+msgid "اختبارات تجريبية للتقييم المبكر"
+msgstr "Mock exams for early assessment"
+
+#: page-american-diploma.php:352
+msgid "محاكاة ظروف الامتحان الحقيقي بوقت كافٍ — لتحديد ما يحتاج تحضيراً إضافياً."
+msgstr "Simulating real exam conditions with enough time — to determine what needs extra preparation."
+
+#: page-american-diploma.php:358
+msgid "دعم التسجيل والإجراءات"
+msgstr "Registration and procedure support"
+
+#: page-american-diploma.php:359
+msgid "مساعدة في التسجيل للاختبار والتنسيق اللوجستي حتى يوم الامتحان."
+msgstr "Help with exam registration and logistical coordination up to exam day."
+
+#: page-american-diploma.php:380 page-american-diploma.php:399
+msgid "نظرة عامة على البرنامج"
+msgstr "Program overview"
+
+#: page-american-diploma.php:385
+msgid "طلاب نوفيرا أكاديمي"
+msgstr "Novira Academy students"
+
+#: page-american-diploma.php:398
+msgid "نظرة عامة"
+msgstr "Overview"
+
+#: page-american-diploma.php:410
+msgid "4"
+msgstr "4"
+
+#: page-american-diploma.php:415
+msgid "ثلاث سنوات من الإعداد المتواصل"
+msgstr "Three years of continuous preparation"
+
+#: page-american-diploma.php:416
+msgid "من Grade 10 حتى يوم الاختبار: بناء أكاديمي متواصل بحصص أسبوعية، لا مراجعة في أسابيع."
+msgstr "From Grade 10 to exam day: continuous academic building with weekly classes, not review in a few weeks."
+
+#: page-american-diploma.php:425
+msgid "متابعة"
+msgstr "Follow-up"
+
+#: page-american-diploma.php:426
+msgid "دورية · بعد كل حصة"
+msgstr "Regular · after every class"
+
+#: page-american-diploma.php:432
+msgid "Grade · المستوى"
+msgstr "Grade · level"
+
+#: page-american-diploma.php:438
+msgid "اختبارات دولية · EST و Digital SAT و ACT"
+msgstr "International exams · EST, Digital SAT and ACT"
+
+#: page-american-diploma.php:460
+msgid "رحلة أحد طلابنا"
+msgstr "One student's journey"
+
+#: page-american-diploma.php:463
+msgid "من داخل البرنامج"
+msgstr "From inside the program"
+
+#: page-american-diploma.php:464
+msgid "رحلة أحد طلابنا في الدبلومة الأمريكية"
+msgstr "One of our students' journey in the American Diploma"
+
+#: page-american-diploma.php:468
+msgid "محمد أحمد"
+msgstr "Mohamed Ahmed"
+
+#: page-american-diploma.php:469
+msgid "طالب في الدبلومة الأمريكية"
+msgstr "American Diploma student"
+
+#: page-american-diploma.php:473
+msgid "حصل على شهادة الدبلومة الأمريكية المعتمدة"
+msgstr "Earned the accredited American Diploma certificate"
+
+#: page-american-diploma.php:474
+msgid "تطوّرت مهاراته اللغوية والأكاديمية"
+msgstr "His language and academic skills developed"
+
+#: page-american-diploma.php:475
+msgid "أتمّ خطوات التقديم الجامعي بإرشاد من فريق نوفيرا"
+msgstr "Completed the university application steps with guidance from the Novira team"
+
+#: page-american-diploma.php:486
+msgid "شهادة الدبلومة الأمريكية"
+msgstr "American Diploma certificate"
+
+#: page-american-diploma.php:487
+msgid "شهادة معتمدة"
+msgstr "An accredited certificate"
+
+#: page-american-diploma.php:491 page-american-diploma.php:496
+msgid "شاهد قصة نجاح محمد"
+msgstr "Watch Mohamed's success story"
+
+#: page-american-diploma.php:506 page-american-diploma.php:510
+msgid "ماذا يحدث إذا قررت التسجيل؟"
+msgstr "What happens if you decide to enroll?"
+
+#: page-american-diploma.php:509
+msgid "خطوات بسيطة"
+msgstr "Simple steps"
+
+#: page-american-diploma.php:511
+msgid "أربع خطوات للبدء"
+msgstr "Four steps to get started"
+
+#: page-american-diploma.php:516
+msgid "حجز الاستشارة"
+msgstr "Book a consultation"
+
+#: page-american-diploma.php:516
+msgid "تواصل معنا واحجز استشارتك المجانية."
+msgstr "Contact us and book your free consultation."
+
+#: page-american-diploma.php:517
+msgid "التقييم المبدئي"
+msgstr "Initial assessment"
+
+#: page-american-diploma.php:517
+msgid "نحدّد مستوى الطالب الحالي ونقاط قوته."
+msgstr "We determine the student's current level and strengths."
+
+#: page-american-diploma.php:518
+msgid "خطة تعليمية"
+msgstr "A study plan"
+
+#: page-american-diploma.php:518
+msgid "نصمّم خطة دراسية مخصصة لاحتياجاته."
+msgstr "We design a study plan tailored to their needs."
+
+#: page-american-diploma.php:519
+msgid "بدء الدراسة"
+msgstr "Start studying"
+
+#: page-american-diploma.php:519
+msgid "تبدأ الحصص الأسبوعية مع معلمك المتخصص ويُحدَّد جدولك الدراسي."
+msgstr "Weekly classes begin with your specialized teacher, and your study schedule is set."
+
+#: page-american-diploma.php:539 page-american-diploma.php:542 page-translation.php:370
+msgid "الأسئلة الشائعة"
+msgstr "Frequently asked questions"
+
+#: page-american-diploma.php:543
+msgid "أسئلة يطرحها أولياء الأمور"
+msgstr "Questions parents ask"
+
+#: page-american-diploma.php:548
+msgid "هل الشهادة معتمدة دولياً؟"
+msgstr "Is the certificate internationally accredited?"
+
+#: page-american-diploma.php:548
+msgid "نعم، الدبلومة الأمريكية معتمدة من Cognia ومعترف بها لدى الجامعات الأمريكية والدولية."
+msgstr "Yes, the American Diploma is accredited by Cognia and recognized at American and international universities."
+
+#: page-american-diploma.php:549
+msgid "كم مدة البرنامج؟"
+msgstr "How long is the program?"
+
+#: page-american-diploma.php:549
+msgid "يرافق البرنامج الطالب من Grade 10 حتى Grade 12؛ وتُحدَّد وتيرة الدراسة حسب مستواه — تواصل معنا للتفاصيل."
+msgstr "The program accompanies the student from Grade 10 to Grade 12; the study pace is set according to their level — contact us for details."
+
+#: page-american-diploma.php:550
+msgid "ماذا يحدث بعد الحصول على الشهادة؟"
+msgstr "What happens after earning the certificate?"
+
+#: page-american-diploma.php:550
+msgid "نقدّم إرشاداً خلال خطوات التقديم، وتظل متطلبات وقرارات القبول خاضعة لسياسات الجامعات والجهات المختصة."
+msgstr "We provide guidance through the application steps, while admission requirements and decisions remain subject to the policies of universities and the relevant authorities."
+
+#: page-american-diploma.php:551
+msgid "هل الدراسة أونلاين أم يمكن حضورها؟"
+msgstr "Is study online or can it be attended in person?"
+
+#: page-american-diploma.php:551
+msgid "الدراسة متاحة أونلاين بمرونة تناسب جدول الطالب، مع متابعة دورية من فريق متخصص."
+msgstr "Study is available online with flexibility to suit the student's schedule, along with regular follow-up from a specialized team."
+
+#: page-american-diploma.php:552
+msgid "هل يوجد متابعة ودعم أكاديمي؟"
+msgstr "Is there academic follow-up and support?"
+
+#: page-american-diploma.php:552
+msgid "نعم، يتابع فريق نوفيرا تقدّم الطالب أكاديمياً خلال مراحل البرنامج من خلال معلمين متخصصين."
+msgstr "Yes, the Novira team follows the student's academic progress throughout the program's stages through specialized teachers."
+
+#: page-american-diploma.php:553
+msgid "هل يمكن تقسيم الرسوم؟"
+msgstr "Can the fees be paid in installments?"
+
+#: page-american-diploma.php:553
+msgid "تتوفّر خيارات مرنة للرسوم. تواصل معنا لمعرفة التفاصيل المناسبة لحالتك."
+msgstr "Flexible fee options are available. Contact us to learn the details that suit your situation."
+
+#: page-american-diploma.php:554
+msgid "ما هي الاختبارات الدولية المتاحة؟"
+msgstr "What international exams are available?"
+
+#: page-american-diploma.php:554
+msgid "نُعِدّ الطلاب لاختبارات EST و Digital SAT و ACT وفق المسار المناسب لكل طالب."
+msgstr "We prepare students for the EST, Digital SAT and ACT exams according to the path suited to each student."
+
+#: page-american-diploma.php:574 page-american-diploma.php:580 template-parts/sections/diploma/s9-consultation.php:24 template-parts/sections/exam/s1-hero.php:34 template-parts/sections/exam/s8-consultation.php:21
+msgid "تحدّث مع فريقنا"
+msgstr "Talk to our team"
+
+#: page-american-diploma.php:579 page-contact.php:338 template-parts/sections/registration-cta.php:60
+msgid "استشارة مجانية"
+msgstr "A free consultation"
+
+#: page-american-diploma.php:581
+msgid "لديك أسئلة عن البرنامج أو المرحلة المناسبة لطالبك؟ فريقنا يُجيب."
+msgstr "Have questions about the program or the right stage for your child? Our team has answers."
+
+#: page-contact.php:219 template-parts/layout/footer.php:29
+msgid "فيسبوك"
+msgstr "Facebook"
+
+#: page-contact.php:341 page-education.php:109 template-parts/sections/animated-results.php:181 template-parts/sections/department-nav.php:39
+msgid "مناهج حديثة"
+msgstr "Modern Curricula"
+
+#: page-digital-sat.php:57
+msgid "تأهيل لـ Digital SAT"
+msgstr "Preparation for the Digital SAT"
+
+#: page-digital-sat.php:64
+msgid "ما هو اختبار Digital SAT؟"
+msgstr "What is the Digital SAT?"
+
+#: page-digital-sat.php:77
+msgid "نحدّد مستوى طالبك الفعلي في الإنجليزية والرياضيات."
+msgstr "We determine your child's actual level in English and mathematics."
+
+#: page-digital-sat.php:81
+msgid "اختبارات تجريبية رقمية"
+msgstr "Digital mock exams"
+
+#: page-digital-sat.php:81
+msgid "محاكاة على النسق الرقمي نفسه ليوم الاختبار لتحديد ما يحتاج تعزيزاً."
+msgstr "A simulation in the same digital format as exam day to determine what needs strengthening."
+
+#: page-digital-sat.php:89
+msgid "كورسات الإعداد للـ Digital SAT"
+msgstr "Digital SAT preparation courses"
+
+#: page-digital-sat.php:90
+msgid "كل كورس يبني المهارات التي يقيسها Digital SAT ضمن حصص أسبوعية منتظمة مع معلمين متخصصين — اختر ما يناسب مرحلة طالبك."
+msgstr "Each course builds the skills the Digital SAT measures through regular weekly classes with specialized teachers — choose what suits your child's stage."
+
+#: page-digital-sat.php:95
+msgid "عايز احجز تقييم مستوى لطالبي للاستعداد لاختبار Digital SAT"
+msgstr "I want to book a level assessment for my child to prepare for the Digital SAT"
+
+#: page-digital-sat.php:112
+msgid "لماذا تختار Digital SAT مع نوفيرا؟"
+msgstr "Why choose the Digital SAT with Novira?"
+
+#: page-digital-sat.php:113
+msgid "لأن درجة Digital SAT تعكس ما بناه الطالب على مدار السنوات — لا ما راجعه في أسبوع. هنا يكون الإعداد جزءاً من كل حصة."
+msgstr "Because the Digital SAT score reflects what the student has built over the years — not what they reviewed in a week. Here preparation is part of every class."
+
+#: page-digital-sat.php:117
+msgid "اختبارات تجريبية على النسق الرقمي نفسه للـ Digital SAT"
+msgstr "Mock exams in the same digital format as the Digital SAT"
+
+#: page-digital-sat.php:123
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية — والإعداد لاختبار Digital SAT جزء من هذا البرنامج المعتمد."
+msgstr "International accreditation that proves the program adheres to international educational quality standards — and preparation for the Digital SAT is part of this accredited program."
+
+#: page-digital-sat.php:130
+msgid "Digital SAT بين اختبارات الدبلومة الأمريكية"
+msgstr "The Digital SAT among the American Diploma exams"
+
+#: page-digital-sat.php:137
+msgid "يُؤدّى رقمياً"
+msgstr "Taken digitally"
+
+#: page-digital-sat.php:137
+msgid "حسب الاختبار"
+msgstr "Depends on the exam"
+
+#: page-digital-sat.php:146 page-est.php:299 template-parts/sections/student-results.php:34
+msgid "ACT"
+msgstr "ACT"
+
+#: page-digital-sat.php:176
+msgid "قسمان في الاختبار"
+msgstr "Two sections in the exam"
+
+#: page-digital-sat.php:176
+msgid "القراءة والكتابة، والرياضيات"
+msgstr "Reading and Writing, and Mathematics"
+
+#: page-digital-sat.php:196
+msgid "أسئلة يطرحها أولياء الأمور عن Digital SAT"
+msgstr "Questions parents ask about the Digital SAT"
+
+#: page-education.php:31 template-parts/layout/footer.php:117 template-parts/layout/header.php:88 template-parts/layout/header.php:172 template-parts/sections/department-hero.php:22
+msgid "التعليم والتطوير المهني"
+msgstr "Education & Professional Development"
+
+#: page-education.php:242 template-parts/sections/testimonials-stitch.php:102
+msgid "السابق"
+msgstr "Previous"
+
+#: page-education.php:291 template-parts/sections/testimonials-stitch.php:145
+msgid "التالي"
+msgstr "Next"
+
+#: page-est.php:133 page-est.php:246 template-parts/sections/premium-exam/hero.php:52 template-parts/sections/premium-exam/why.php:48
+msgid "اعتماد Cognia"
+msgstr "Cognia accreditation"
+
+#: page-est.php:145
+msgid "طالبة من نوفيرا أكاديمي أمام لوحة اعتماد Cognia"
+msgstr "A Novira Academy student in front of a Cognia accreditation plaque"
+
+#: page-est.php:152
+msgid "تأهيل لـ EST I & II"
+msgstr "Preparation for EST I & II"
+
+#: page-est.php:166
+msgid "ما هو اختبار EST؟"
+msgstr "What is the EST exam?"
+
+#: page-est.php:201
+msgid "كورسات الإعداد لاختبار EST"
+msgstr "EST preparation courses"
+
+#: page-est.php:202
+msgid "كل كورس يبني المهارات التي يقيسها EST ضمن حصص أسبوعية منتظمة مع معلمين متخصصين — اختر ما يناسب مرحلة طالبك."
+msgstr "Each course builds the skills the EST measures through regular weekly classes with specialized teachers — choose what suits your child's stage."
+
+#: page-est.php:209
+msgid "عايز احجز تقييم مستوى لطالبي للاستعداد لاختبار EST"
+msgstr "I want to book a level assessment for my child to prepare for the EST"
+
+#: page-est.php:232
+msgid "لماذا تختار EST مع نوفيرا؟"
+msgstr "Why choose the EST with Novira?"
+
+#: page-est.php:233
+msgid "لأن درجة EST تعكس ما بناه الطالب على مدار السنوات — لا ما راجعه في أسبوع. هنا يكون الإعداد جزءاً من كل حصة."
+msgstr "Because the EST score reflects what the student has built over the years — not what they reviewed in a week. Here preparation is part of every class."
+
+#: page-est.php:249
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية الدولية — والإعداد لاختبار EST جزء من هذا البرنامج المعتمد."
+msgstr "International accreditation that proves the program adheres to international educational quality standards — and preparation for the EST is part of this accredited program."
+
+#: page-est.php:260
+msgid "EST بين اختبارات الدبلومة الأمريكية"
+msgstr "The EST among the American Diploma exams"
+
+#: page-est.php:274 template-parts/sections/premium-exam/compare.php:63
+msgid "المعيار"
+msgstr "The standard"
+
+#: page-est.php:375
+msgid "دعم وإعادة اختبار حتى أفضل نتيجة"
+msgstr "Support and retakes until the best result"
+
+#: page-est.php:406
+msgid "أسئلة يطرحها أولياء الأمور عن EST"
+msgstr "Questions parents ask about the EST"
+
+#: page-services.php:14 template-parts/sections/why-novira.php:33
+msgid "ليه نوفيرا؟"
+msgstr "Why Novira?"
+
+#: page-translation.php:112 template-parts/sections/hero-stitch.php:103 template-parts/sections/programs-stitch.php:42
+msgid "السفارات"
+msgstr "Embassies"
+
+#: page-translation.php:406 template-parts/content/blog-post-card.php:21 template-parts/content/blog-post-card.php:64
+msgid "اقرأ المزيد"
+msgstr "Read More"
+
+#. translators: %s: search query
+#: search.php:20
+msgid "نتائج البحث عن: %s"
+msgstr "Search results for: %s"
+
+#. translators: %d: number of results
+#: search.php:29
+msgid "تم العثور على نتيجة واحدة"
+msgid_plural "تم العثور على %d نتيجة"
+msgstr[0] "One result found"
+msgstr[1] "One result found"
+
+#: search.php:67
+msgid "لم يتم العثور على نتائج"
+msgstr "No results found"
+
+#: search.php:68
+msgid "عذراً، لا توجد نتائج تطابق بحثك. جرب البحث بكلمات مختلفة."
+msgstr "Sorry, no results match your search. Try different keywords."
+
+#: single.php:54
+msgid "%d دقائق للقراءة"
+msgstr "%d min read"
+
+#: single.php:96
+msgid "المقال السابق"
+msgstr "Previous Article"
+
+#: single.php:99
+msgid "المقال التالي"
+msgstr "Next Article"
+
+#: template-parts/components/breadcrumb-trail.php:33 template-parts/sections/department-hero.php:53
+msgid "مسار التنقل"
+msgstr "Breadcrumb"
+
+#: template-parts/components/form-error-message.php:15 template-parts/components/quote-request-form.php:128 template-parts/components/registration-interest-form.php:117
+msgid "حدث خطأ"
+msgstr "An error occurred"
+
+#: template-parts/components/form-error-message.php:16 template-parts/components/quote-request-form.php:129
+msgid "يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة."
+msgstr "Please try again or contact us directly."
+
+#: template-parts/components/form-success-message.php:15
+msgid "تم بنجاح!"
+msgstr "Success!"
+
+#: template-parts/components/pricing-table.php:26
+msgid "الأكثر طلباً"
+msgstr "Most Popular"
+
+#: template-parts/components/pricing-table.php:50 template-parts/content/service-card.php:49 template-parts/sections/department-translation.php:89
+msgid "طلب عرض سعر"
+msgstr "Request a Quote"
+
+#: template-parts/components/quote-request-form.php:21
+msgid "اسم الشركة / الجهة"
+msgstr "Company / Organization Name"
+
+#: template-parts/components/quote-request-form.php:26
+msgid "اسم المسؤول"
+msgstr "Contact Person Name"
+
+#: template-parts/components/quote-request-form.php:33 template-parts/components/registration-interest-form.php:33 template-parts/portal/login.php:28
+msgid "البريد الإلكتروني"
+msgstr "Email"
+
+#: template-parts/components/quote-request-form.php:44
+msgid "نوع الخدمة"
+msgstr "Service Type"
+
+#: template-parts/components/quote-request-form.php:46
+msgid "اختر نوع الخدمة"
+msgstr "Select service type"
+
+#: template-parts/components/quote-request-form.php:57
+msgid "اللغة المصدر"
+msgstr "Source Language"
+
+#: template-parts/components/quote-request-form.php:59
+msgid "اختر اللغة المصدر"
+msgstr "Select source language"
+
+#: template-parts/components/quote-request-form.php:69
+msgid "اللغة الهدف"
+msgstr "Target Language"
+
+#: template-parts/components/quote-request-form.php:71
+msgid "اختر اللغة الهدف"
+msgstr "Select target language"
+
+#: template-parts/components/quote-request-form.php:82
+msgid "عدد الصفحات (تقديري)"
+msgstr "Number of Pages (estimated)"
+
+#: template-parts/components/quote-request-form.php:87
+msgid "تفاصيل إضافية"
+msgstr "Additional Details"
+
+#: template-parts/components/quote-request-form.php:88
+msgid "اكتب أي تفاصيل إضافية حول طلبك..."
+msgstr "Write any additional details about your request..."
+
+#: template-parts/components/quote-request-form.php:92
+msgid "الموعد المطلوب"
+msgstr "Requested Deadline"
+
+#: template-parts/components/quote-request-form.php:98
+msgid "إرسال طلب عرض السعر"
+msgstr "Send Quote Request"
+
+#: template-parts/components/quote-request-form.php:106
+msgid "سنرد عليك خلال ساعة في أيام العمل."
+msgstr "We will reply within an hour on business days."
+
+#: template-parts/components/quote-request-form.php:117
+msgid "تم إرسال طلبك بنجاح!"
+msgstr "Your request has been sent successfully!"
+
+#: template-parts/components/quote-request-form.php:118
+msgid "سنتواصل معك قريباً. شكراً لاهتمامك بخدماتنا."
+msgstr "We will contact you soon. Thank you for your interest in our services."
+
+#: template-parts/components/registration-interest-form.php:21
+msgid "اسم ولي الأمر"
+msgstr "Parent's Name"
+
+#: template-parts/components/registration-interest-form.php:26
+msgid "اسم الطالب"
+msgstr "Student's Name"
+
+#: template-parts/components/registration-interest-form.php:45
+msgid "عمر الطالب"
+msgstr "Student's Age"
+
+#: template-parts/components/registration-interest-form.php:50
+msgid "المستوى الدراسي الحالي"
+msgstr "Current Grade Level"
+
+#: template-parts/components/registration-interest-form.php:52
+msgid "اختر المستوى"
+msgstr "Select level"
+
+#: template-parts/components/registration-interest-form.php:53
+msgid "روضة"
+msgstr "Kindergarten"
+
+#: template-parts/components/registration-interest-form.php:54
+msgid "الصف الأول"
+msgstr "Grade 1"
+
+#: template-parts/components/registration-interest-form.php:55
+msgid "الصف الثاني"
+msgstr "Grade 2"
+
+#: template-parts/components/registration-interest-form.php:56
+msgid "الصف الثالث"
+msgstr "Grade 3"
+
+#: template-parts/components/registration-interest-form.php:57
+msgid "الصف الرابع"
+msgstr "Grade 4"
+
+#: template-parts/components/registration-interest-form.php:58
+msgid "الصف الخامس"
+msgstr "Grade 5"
+
+#: template-parts/components/registration-interest-form.php:59
+msgid "الصف السادس"
+msgstr "Grade 6"
+
+#: template-parts/components/registration-interest-form.php:60
+msgid "الصف السابع"
+msgstr "Grade 7"
+
+#: template-parts/components/registration-interest-form.php:61
+msgid "الصف الثامن"
+msgstr "Grade 8"
+
+#: template-parts/components/registration-interest-form.php:62
+msgid "الصف التاسع"
+msgstr "Grade 9"
+
+#: template-parts/components/registration-interest-form.php:63
+msgid "الصف العاشر"
+msgstr "Grade 10"
+
+#: template-parts/components/registration-interest-form.php:64
+msgid "الصف الحادي عشر"
+msgstr "Grade 11"
+
+#: template-parts/components/registration-interest-form.php:65
+msgid "الصف الثاني عشر"
+msgstr "Grade 12"
+
+#: template-parts/components/registration-interest-form.php:71 template-parts/sections/registration-cta.php:122
+msgid "البرنامج المطلوب"
+msgstr "Program of Interest"
+
+#: template-parts/components/registration-interest-form.php:73
+msgid "اختر البرنامج"
+msgstr "Select program"
+
+#: template-parts/components/registration-interest-form.php:74
+msgid "الدبلوم الأمريكي بدوام كامل"
+msgstr "Full-Time American Diploma"
+
+#: template-parts/components/registration-interest-form.php:75
+msgid "الدبلوم الأمريكي بدوام جزئي"
+msgstr "Part-Time American Diploma"
+
+#: template-parts/components/registration-interest-form.php:76
+msgid "برنامج الصيف"
+msgstr "Summer Program"
+
+#: template-parts/components/registration-interest-form.php:81
+msgid "ملاحظات إضافية"
+msgstr "Additional Notes"
+
+#: template-parts/components/registration-interest-form.php:82
+msgid "أي معلومات إضافية عن الطالب..."
+msgstr "Any additional information about the student..."
+
+#: template-parts/components/registration-interest-form.php:87
+msgid "إرسال طلب الاهتمام"
+msgstr "Send Interest Request"
+
+#: template-parts/components/registration-interest-form.php:106
+msgid "تم استلام طلبك بنجاح!"
+msgstr "Your request has been received successfully!"
+
+#: template-parts/components/registration-interest-form.php:107
+msgid "سنتواصل معك قريباً لتحديد موعد مقابلة. شكراً لاهتمامك بالدبلوم الأمريكي."
+msgstr "We will contact you soon to schedule an interview. Thank you for your interest in the American Diploma."
+
+#: template-parts/components/registration-interest-form.php:118
+msgid "يرجى المحاولة مرة أخرى أو التواصل معنا مباشرة على واتساب."
+msgstr "Please try again or contact us directly on WhatsApp."
+
+#: template-parts/components/video-embed.php:41 template-parts/components/video-gallery.php:56 template-parts/sections/gallery-videos.php:105
+msgid "تشغيل الفيديو"
+msgstr "Play Video"
+
+#: template-parts/components/video-embed.php:43
+msgid "صورة مصغرة للفيديو"
+msgstr "Video thumbnail"
+
+#: template-parts/components/video-embed.php:55
+msgid "فيديو يوتيوب"
+msgstr "YouTube video"
+
+#: template-parts/components/video-embed.php:65
+msgid "فيديو فيميو"
+msgstr "Vimeo video"
+
+#: template-parts/components/video-embed.php:75
+msgid "متصفحك لا يدعم تشغيل الفيديو."
+msgstr "Your browser does not support video playback."
+
+#: template-parts/components/video-gallery.php:71
+msgid "مشغل الفيديو"
+msgstr "Video player"
+
+#: template-parts/components/video-gallery.php:73
+msgid "إغلاق"
+msgstr "Close"
+
+#: template-parts/content/admission-process.php:23
+msgid "تقديم طلب الالتحاق"
+msgstr "Submit an Admission Application"
+
+#: template-parts/content/admission-process.php:24
+msgid "املأ نموذج طلب الالتحاق عبر الإنترنت أو في الأكاديمية."
+msgstr "Fill out the admission application form online or at the academy."
+
+#: template-parts/content/admission-process.php:27 template-parts/sections/admission-details.php:68
+msgid "اختبار القبول"
+msgstr "Admission Test"
+
+#: template-parts/content/admission-process.php:28
+msgid "اختبار لتحديد المستوى الأكاديمي في اللغة الإنجليزية والرياضيات."
+msgstr "A test to assess academic level in English and Mathematics."
+
+#: template-parts/content/admission-process.php:31
+msgid "مقابلة شخصية"
+msgstr "Personal Interview"
+
+#: template-parts/content/admission-process.php:32
+msgid "مقابلة مع الطالب وولي الأمر لمناقشةEXPECTATIONS."
+msgstr "An interview with the student and parent to discuss expectations."
+
+#: template-parts/content/admission-process.php:35 template-parts/sections/admission-details.php:89 template-parts/sections/department-american-diploma.php:76
+msgid "القبول والتسجيل"
+msgstr "Admission and Registration"
+
+#: template-parts/content/admission-process.php:36
+msgid "استلام خط القبول وإتمام إجراءات التسجيل."
+msgstr "Receive the acceptance letter and complete the registration process."
+
+#: template-parts/content/admission-process.php:44
+msgid "خطوات القبول"
+msgstr "Admission Steps"
+
+#: template-parts/content/admission-process.php:61 template-parts/sections/admission-details.php:110
+msgid "مواعيد مهمة"
+msgstr "Important Dates"
+
+#: template-parts/content/admission-process.php:80
+msgid "المستندات المطلوبة"
+msgstr "Required Documents"
+
+#: template-parts/content/course-card.php:54
+msgid "المزيد من التفاصيل"
+msgstr "More Details"
+
+#: template-parts/content/curriculum.php:49
+msgid "المستوى: %s"
+msgstr "Level: %s"
+
+#: template-parts/content/curriculum.php:59
+msgid "الحصص: %s"
+msgstr "Sessions: %s"
+
+#: template-parts/content/event-card.php:90
+msgid "التفاصيل"
+msgstr "Details"
+
+#: template-parts/content/program-card.php:53
+msgid "المتطلبات:"
+msgstr "Requirements:"
+
+#: template-parts/content/program-card.php:65 template-parts/sections/department-american-diploma.php:85
+msgid "سجّل الآن"
+msgstr "Register Now"
+
+#: template-parts/content/testimonial.php:65
+msgid "تقييم 5 من 5"
+msgstr "Rated 5 out of 5"
+
+#: template-parts/cta.php:2
+msgid "عندك سؤال عن خطة طالبك؟"
+msgstr "Have a question about your student's plan?"
+
+#: template-parts/cta.php:3
+msgid "كلّمنا على واتساب وفريقنا يرد عليك ويرشّح الخطوة المناسبة."
+msgstr "Message us on WhatsApp and our team will reply and recommend the right next step."
+
+#: template-parts/cta.php:5
+msgid "واتساب دلوقتي"
+msgstr "WhatsApp Now"
+
+#: template-parts/cta.php:6
+msgid "اتصل بينا"
+msgstr "Call Us"
+
+#: template-parts/diploma.php:10
+msgid "إعداد أكاديمي حقيقي للدبلومة الأمريكية"
+msgstr "Genuine academic preparation for the American Diploma"
+
+#: template-parts/diploma.php:13 template-parts/diploma.php:32
+msgid "معتمدة من Cognia"
+msgstr "Accredited by Cognia"
+
+#: template-parts/diploma.php:13
+msgid "اعتراف دولي بجودة التعليم"
+msgstr "International recognition of educational quality"
+
+#: template-parts/diploma.php:19
+msgid "إعداد الدبلومة الأمريكية"
+msgstr "American Diploma preparation"
+
+#: template-parts/diploma.php:19
+msgid "خطوة بخطوة"
+msgstr "Step by step"
+
+#: template-parts/diploma.php:20
+msgid "مع نوفيرا أكاديمي، برنامج أكاديمي يُرافق طالبك من Grade 10 حتى يوم الامتحان — بحصص منتظمة ومتابعة دورية."
+msgstr "With Novira Academy, an academic program that accompanies your child from Grade 10 to exam day — with regular classes and regular follow-up."
+
+#: template-parts/diploma.php:26
+msgid "منهج أكاديمي متكامل"
+msgstr "An integrated academic curriculum"
+
+#: template-parts/diploma.php:26
+msgid "حصص أسبوعية تُعزّز المهارات الأكاديمية واللغوية على مدار 3 سنوات"
+msgstr "Weekly classes that strengthen academic and language skills over 3 years"
+
+#: template-parts/diploma.php:32
+msgid "اعتماد دولي يُثبت أن البرنامج يلتزم بمعايير الجودة التعليمية"
+msgstr "International accreditation that proves the program adheres to educational quality standards"
+
+#: template-parts/diploma.php:38
+msgid "إعداد موجَّه لاختبارات دولية معتمدة مع اختبارات تجريبية قبل يوم الامتحان"
+msgstr "Guided preparation for accredited international exams with mock exams before exam day"
+
+#: template-parts/diploma.php:44
+msgid "متابعة ودعم إجراءات التسجيل"
+msgstr "Follow-up and registration procedure support"
+
+#: template-parts/diploma.php:44
+msgid "فريق متخصص يتابع كل طالب دورياً ويدعم خطوات التسجيل للاختبار"
+msgstr "A specialized team follows each student regularly and supports the exam registration steps"
+
+#: template-parts/diploma.php:47
+msgid "احجز تقييم لطالبك"
+msgstr "Book an assessment for your child"
+
+#: template-parts/layout/footer.php:34
+msgid "إنستجرام"
+msgstr "Instagram"
+
+#: template-parts/layout/footer.php:39
+msgid "تيك توك"
+msgstr "TikTok"
+
+#: template-parts/layout/footer.php:44
+msgid "يوتيوب"
+msgstr "YouTube"
+
+#: template-parts/layout/footer.php:71
+msgid "تعليم أمريكي معتمد في قلب الصعيد"
+msgstr "Accredited American education in the heart of Upper Egypt"
+
+#: template-parts/layout/footer.php:91
+msgid "أكاديمية متخصصة في التعليم الدولي والترجمة المعتمدة. نُعدّ الطلاب لفرص عالمية من بني مزار إلى أبعد من ذلك."
+msgstr "An academy specializing in international education and certified translation. We prepare students for global opportunities, from Bani Mazar and beyond."
+
+#: template-parts/layout/footer.php:103
+msgid "روابط سريعة"
+msgstr "Quick Links"
+
+#: template-parts/layout/footer.php:112 template-parts/layout/header.php:87 template-parts/layout/header.php:171 template-parts/sections/department-hero.php:26 template-parts/sections/hero-stitch.php:75 template-parts/sections/programs-stitch.php:34
+#: template-parts/sections/registration-cta.php:28
+msgid "الترجمة المعتمدة"
+msgstr "Certified Translation"
+
+#: template-parts/layout/footer.php:164
+msgid "صفحة التواصل الكاملة"
+msgstr "Full Contact Page"
+
+#: template-parts/layout/footer.php:174
+msgid "احجز استشارتك المجانية عبر واتساب واعرف البرنامج الأنسب ليك."
+msgstr "Book your free consultation via WhatsApp and find out which program suits you best."
+
+#: template-parts/layout/footer.php:182
+msgid "سجّل استشارتك"
+msgstr "Book Your Consultation"
+
+#: template-parts/layout/footer.php:206
+msgid "حسابات التواصل الاجتماعي"
+msgstr "Social Media Accounts"
+
+#: template-parts/layout/header.php:33
+msgid "القائمة الرئيسية"
+msgstr "Main Menu"
+
+#: template-parts/layout/header.php:70 template-parts/layout/header.php:159
+msgid "عرض اختبارات الدبلومة"
+msgstr "Show Diploma Exams"
+
+#: template-parts/layout/header.php:77 template-parts/sections/exam/s9-related-exams.php:40
+msgid "اختبارات الدبلومة"
+msgstr "Diploma Exams"
+
+#: template-parts/layout/header.php:103 template-parts/layout/header.php:185 template-parts/sections/testimonials-stitch.php:191
+msgid "احجز تقييم"
+msgstr "Book an Assessment"
+
+#: template-parts/layout/header.php:109
+msgid "فتح القائمة"
+msgstr "Open menu"
+
+#: template-parts/layout/header.php:119
+msgid "القائمة"
+msgstr "Menu"
+
+#: template-parts/layout/header.php:130
+msgid "إغلاق القائمة"
+msgstr "Close menu"
+
+#: template-parts/sections/accreditations.php:16 template-parts/sections/accreditations.php:20
+msgid "الاعتماد الأكاديمي"
+msgstr "Academic Accreditation"
+
+#: template-parts/sections/accreditations.php:23
+msgid "برنامج الدبلومة الأمريكية معتمد من Cognia"
+msgstr "The American Diploma program is accredited by Cognia"
+
+#: template-parts/sections/accreditations.php:26
+msgid "Cognia هي الهيئة الدولية الأكبر لاعتماد المؤسسات التعليمية في العالم. اعتمادنا منها ضمانة حقيقية لجودة التعليم اللي بنقدمه."
+msgstr "Cognia is the world's largest international body for accrediting educational institutions. Our accreditation from Cognia is a genuine guarantee of the quality of education we provide."
+
+#: template-parts/sections/accreditations.php:30
+msgid "جهة الاعتماد"
+msgstr "Accrediting Body"
+
+#: template-parts/sections/accreditations.php:37 template-parts/sections/accreditations.php:43
+msgid "Cognia"
+msgstr "Cognia"
+
+#: template-parts/sections/admission-details.php:30 template-parts/sections/faq.php:31 template-parts/sections/faq.php:46 template-parts/sections/registration-cta.php:33
+msgid "التسجيل"
+msgstr "Registration"
+
+#: template-parts/sections/animated-results.php:25
+msgid "إنجازات طلابنا"
+msgstr "Our Students' Achievements"
+
+#: template-parts/sections/animated-results.php:36
+msgid "نتائج طلابنا في الاختبارات الدولية"
+msgstr "Our Students' Results in International Exams"
+
+#: template-parts/sections/animated-results.php:40
+msgid "درجات حقيقية حققها طلابنا في الاختبارات الدولية، موثّقة مع إخفاء البيانات الشخصية."
+msgstr "Real scores achieved by our students in international exams, documented with personal data hidden."
+
+#: template-parts/sections/animated-results.php:63
+msgid "إنجاز أكاديمي متميز"
+msgstr "Outstanding Academic Achievement"
+
+#: template-parts/sections/animated-results.php:68
+msgid "اختبار Digital SAT أحد الاختبارات الدولية التي نُعِدّ طلابنا لها."
+msgstr "The Digital SAT is one of the international exams we prepare our students for."
+
+#: template-parts/sections/animated-results.php:102
+msgid "مستوى ممتاز"
+msgstr "Excellent Level"
+
+#: template-parts/sections/animated-results.php:125
+msgid "الدرجة المركبة"
+msgstr "Composite Score"
+
+#: template-parts/sections/animated-results.php:126
+msgid "من إجمالي 36"
+msgstr "out of 36"
+
+#: template-parts/sections/animated-results.php:135
+msgid "تحسّن الأداء قبل الاختبار"
+msgstr "Performance Improvement Before the Exam"
+
+#: template-parts/sections/animated-results.php:136
+msgid "نتائج الاختبارات التجريبية توجّه خطة التحسين حتى الموعد الرسمي"
+msgstr "Practice test results guide the improvement plan up to the official date."
+
+#: template-parts/sections/animated-results.php:144
+msgid "تحسّن الأداء"
+msgstr "Performance Improvement"
+
+#: template-parts/sections/animated-results.php:156
+msgid "منهجية نوفيرا التعليمية"
+msgstr "Novira's Educational Methodology"
+
+#: template-parts/sections/animated-results.php:159
+msgid "منهجية نوفيرا"
+msgstr "Novira's Methodology"
+
+#: template-parts/sections/animated-results.php:160
+msgid "خمس ركائز تصنع <b>هذه النتائج</b>"
+msgstr "Five Pillars That Produce <b>These Results</b>"
+
+#: template-parts/sections/animated-results.php:165
+msgid "خطة فردية"
+msgstr "Individual Plan"
+
+#: template-parts/sections/animated-results.php:165
+msgid "لكل طالب حسب مستواه"
+msgstr "For each student, based on their level"
+
+#: template-parts/sections/animated-results.php:169
+msgid "متابعة دورية"
+msgstr "Regular Follow-Up"
+
+#: template-parts/sections/animated-results.php:169
+msgid "مع معلم متخصص خلال مراحل البرنامج"
+msgstr "With a specialized teacher throughout the program stages"
+
+#: template-parts/sections/animated-results.php:173
+msgid "اختبار تجريبي"
+msgstr "Practice Test"
+
+#: template-parts/sections/animated-results.php:173
+msgid "لكل طالب قبل الامتحان الرسمي"
+msgstr "For each student before the official exam"
+
+#: template-parts/sections/animated-results.php:177 template-parts/sections/hero-stitch.php:151 template-parts/sections/trust-bar.php:30
+msgid "فريق تدريسي متخصص"
+msgstr "Specialized Teaching Team"
+
+#: template-parts/sections/animated-results.php:177
+msgid "في التعليم والاختبارات الدولية"
+msgstr "In international education and exams"
+
+#: template-parts/sections/animated-results.php:181
+msgid "تواكب المعايير الدولية وأحدث أساليب التعليم"
+msgstr "Keeping pace with international standards and the latest teaching methods"
+
+#: template-parts/sections/department-whatsapp.php:25 template-parts/sections/whatsapp-cta.php:46
+msgid "مرحباً، أريد الاستفسار عن خدمات أكاديمية نوفيرا."
+msgstr "Hello, I'd like to ask about Novira Academy's services."
+
+#: template-parts/sections/department-whatsapp.php:42 template-parts/sections/whatsapp-cta.php:28
+msgid "تواصل معنا الآن عبر واتساب وسنرد عليك فوراً. فريقنا جاهز لمساعدتك."
+msgstr "Contact us now on WhatsApp and we'll reply right away. Our team is ready to help you."
+
+#: template-parts/sections/department-whatsapp.php:58 template-parts/sections/whatsapp-cta.php:60
+msgid "فريقنا متاح للرد على استفساراتك"
+msgstr "Our team is available to answer your questions"
+
+#: template-parts/sections/diploma/s1-hero.php:28
+msgid "رفيق رحلة طالبك حتى الجامعة"
+msgstr "A companion for your child's journey to university"
+
+#: template-parts/sections/diploma/s1-hero.php:31
+msgid "الدبلومة الأمريكية مسار تعليمي يرافق الطالب من الصف العاشر حتى الصف الثاني عشر (Grade 10 – Grade 12)، ويشمل الاستعداد للاختبارات الدولية EST و Digital SAT و ACT. لا نقدّم اختباراً واحداً فحسب، بل نرافق الطالب وأسرته خلال مراحل الرحلة الأكاديمية."
+msgstr "The American Diploma is an educational path that accompanies the student from Grade 10 to Grade 12, and includes preparation for the international EST, Digital SAT and ACT exams. We don't offer just one exam; we accompany the student and their family through the stages of the academic journey."
+
+#: template-parts/sections/diploma/s1-hero.php:36
+msgid "تعرّف على الرحلة الأكاديمية"
+msgstr "Learn about the academic journey"
+
+#: template-parts/sections/diploma/s1-hero.php:37 template-parts/sections/diploma/s2-what-is.php:57 template-parts/sections/hero-stitch.php:163 template-parts/sections/programs-stitch.php:27
+msgid "استكشف البرامج"
+msgstr "Explore the programs"
+
+#: template-parts/sections/diploma/s2-what-is.php:21
+msgid "الساعات المعتمدة (Credits)"
+msgstr "Credits"
+
+#: template-parts/sections/diploma/s2-what-is.php:22
+msgid "وحدات يحصل عليها الطالب عند إتمام كل مادة دراسية بنجاح."
+msgstr "Units the student earns upon successfully completing each subject."
+
+#: template-parts/sections/diploma/s2-what-is.php:25
+msgid "المعدل التراكمي (GPA)"
+msgstr "GPA"
+
+#: template-parts/sections/diploma/s2-what-is.php:26
+msgid "متوسط تقديرات الطالب عبر المواد، ويُحسب بشكل تراكمي خلال سنوات الدراسة."
+msgstr "The average of the student's grades across subjects, calculated cumulatively over the years of study."
+
+#: template-parts/sections/diploma/s2-what-is.php:29
+msgid "متطلبات التخرج"
+msgstr "Graduation requirements"
+
+#: template-parts/sections/diploma/s2-what-is.php:30
+msgid "مجموعة الساعات والمواد التي يحتاج الطالب لاستكمالها للحصول على الدبلومة."
+msgstr "The set of credits and subjects a student needs to complete to earn the Diploma."
+
+#: template-parts/sections/diploma/s2-what-is.php:33
+msgid "مسارات الجامعة"
+msgstr "University pathways"
+
+#: template-parts/sections/diploma/s2-what-is.php:34
+msgid "الطرق التي يتقدّم بها الطالب للجامعات بعد الدبلومة، وفق متطلبات كل جامعة وجهة مختصة."
+msgstr "The routes by which the student applies to universities after the Diploma, according to the requirements of each university and relevant authority."
+
+#: template-parts/sections/diploma/s2-what-is.php:43
+msgid "مفاهيم أساسية تساعد الأسرة على فهم المسار قبل اتخاذ القرار."
+msgstr "Core concepts that help families understand the path before making a decision."
+
+#: template-parts/sections/diploma/s2-what-is.php:56
+msgid "أما تفاصيل الاختبارات الدولية (EST و Digital SAT و ACT) فتجدها في منظومة البرامج."
+msgstr "As for the details of the international exams (EST, Digital SAT and ACT), you'll find them in the programs system."
+
+#: template-parts/sections/diploma/s3-why-path.php:19
+msgid "مرونة المسار"
+msgstr "Path flexibility"
+
+#: template-parts/sections/diploma/s3-why-path.php:20
+msgid "نظام يتيح للطالب التقدّم وفق مستواه واهتماماته."
+msgstr "A system that lets the student progress according to their level and interests."
+
+#: template-parts/sections/diploma/s3-why-path.php:23
+msgid "إتقان اللغة الإنجليزية"
+msgstr "English proficiency"
+
+#: template-parts/sections/diploma/s3-why-path.php:24
+msgid "الدراسة بالإنجليزية تنمّي مهارات لغوية يحتاجها الطالب أكاديمياً ومهنياً."
+msgstr "Studying in English develops language skills the student needs academically and professionally."
+
+#: template-parts/sections/diploma/s3-why-path.php:27
+msgid "انفتاح دولي"
+msgstr "International openness"
+
+#: template-parts/sections/diploma/s3-why-path.php:28
+msgid "محتوى ومعايير ذات طابع دولي توسّع مدارك الطالب."
+msgstr "Content and standards with an international character that broaden the student's horizons."
+
+#: template-parts/sections/diploma/s3-why-path.php:31
+msgid "تعدّد مسارات الجامعة"
+msgstr "Multiple university pathways"
+
+#: template-parts/sections/diploma/s3-why-path.php:32
+msgid "يفتح المسار خيارات تقديم متعددة، وفق متطلبات كل جامعة وجهة مختصة."
+msgstr "The path opens up multiple application options, according to the requirements of each university and relevant authority."
+
+#: template-parts/sections/diploma/s4-why-novira.php:19
+msgid "لماذا نوفيرا؟"
+msgstr "Why Novira?"
+
+#: template-parts/sections/diploma/s4-why-novira.php:22 template-parts/sections/why-novira.php:25
+msgid "لماذا نوفيرا"
+msgstr "Why Novira"
+
+#: template-parts/sections/diploma/s4-why-novira.php:23
+msgid "نرافق الطالب خلال رحلته"
+msgstr "We accompany the student throughout their journey"
+
+#: template-parts/sections/diploma/s4-why-novira.php:24
+msgid "دورنا أن نكون رفيقاً أكاديمياً للطالب وأسرته خلال مراحل الدبلومة الأمريكية."
+msgstr "Our role is to be an academic companion for the student and their family throughout the stages of the American Diploma."
+
+#: template-parts/sections/diploma/s5-journey.php:35
+msgid "نرافق الطالب خطوة بخطوة"
+msgstr "We accompany the student step by step"
+
+#: template-parts/sections/diploma/s5-journey.php:36
+msgid "من التقييم الأول حتى الامتحان الرسمي — نرافق طالبك في كل مرحلة حتى يدخله مستعداً وقادراً على أفضل درجة ممكنة."
+msgstr "From the first assessment to the official exam — we accompany your child at every stage so they enter it prepared and capable of the best possible score."
+
+#: template-parts/sections/diploma/s5-journey.php:47
+msgid "احتياج الطالب:"
+msgstr "The student's need:"
+
+#: template-parts/sections/diploma/s5-journey.php:54
+msgid "دور نوفيرا:"
+msgstr "Novira's role:"
+
+#: template-parts/sections/diploma/s5-journey.php:61
+msgid "استكشف برامج الاختبارات"
+msgstr "Explore the exam programs"
+
+#: template-parts/sections/diploma/s6-ecosystem.php:25 template-parts/sections/diploma/s6-ecosystem.php:29
+msgid "منظومة البرامج"
+msgstr "The programs system"
+
+#: template-parts/sections/diploma/s6-ecosystem.php:28
+msgid "البرامج"
+msgstr "The programs"
+
+#: template-parts/sections/diploma/s6-ecosystem.php:30
+msgid "لكل اختبار صفحته الخاصة بتفاصيله. هنا نقطة الانطلاق."
+msgstr "Each exam has its own page with its details. Here is the starting point."
+
+#. translators: %s: program name (e.g. EST).
+#. translators: %s: exam name.
+#: template-parts/sections/diploma/s6-ecosystem.php:48 template-parts/sections/exam/s9-related-exams.php:53
+msgid "تعرّف على %s"
+msgstr "Learn about %s"
+
+#: template-parts/sections/diploma/s9-consultation.php:20
+msgid "احجز استشارة"
+msgstr "Book a consultation"
+
+#: template-parts/sections/diploma/s9-consultation.php:23 template-parts/sections/exam/s8-consultation.php:24 template-parts/sections/exam/s8-consultation.php:27
+msgid "استشارة"
+msgstr "Consultation"
+
+#: template-parts/sections/diploma/s9-consultation.php:25
+msgid "احجز استشارة لمناقشة مسار طالبك في الدبلومة الأمريكية. نجيب عن أسئلتك دون أي التزام."
+msgstr "Book a consultation to discuss your child's path in the American Diploma. We answer your questions with no obligation."
+
+#: template-parts/sections/diploma/s9-consultation.php:34 template-parts/sections/exam/s8-consultation.php:35
+msgid "احجز استشارة عبر واتساب"
+msgstr "Book a consultation via WhatsApp"
+
+#: template-parts/sections/diploma/s9-consultation.php:38 template-parts/sections/exam/s8-consultation.php:38
+msgid "تواصل مع فريقنا"
+msgstr "Get in touch with our team"
+
+#: template-parts/sections/exam/s3-structure.php:43 template-parts/sections/student-case.php:93
+msgid "المدة"
+msgstr "Duration"
+
+#: template-parts/sections/faculty.php:52
+msgid "هيئة التدريس"
+msgstr "Teaching Staff"
+
+#: template-parts/sections/faculty.php:53
+msgid "من <span class=\"hl\">يُدرّس</span> أبناءكم"
+msgstr "Who <span class=\"hl\">Teaches</span> Your Children"
+
+#: template-parts/sections/faculty.php:54
+msgid "نعرّفكم بالمعلمين المسؤولين عن كل برنامج، بأسمائهم وتخصصاتهم."
+msgstr "We introduce you to the teachers responsible for each program, with their names and specializations."
+
+#: template-parts/sections/faculty.php:65
+msgid "التخصص:"
+msgstr "Specialization:"
+
+#: template-parts/sections/faculty.php:68
+msgid "البرنامج:"
+msgstr "Program:"
+
+#: template-parts/sections/faq.php:28
+msgid "التواصل"
+msgstr "Contact"
+
+#: template-parts/sections/faq.php:28
+msgid "راسلنا على واتساب أو اتصل بنا أو زُر المقر في بني مزار."
+msgstr "Message us on WhatsApp, call us, or visit our premises in Beni Mazar."
+
+#: template-parts/sections/faq.php:29
+msgid "الاستشارة"
+msgstr "Consultation"
+
+#: template-parts/sections/faq.php:29
+msgid "نتعرّف على هدف الطالب ونرشّح البرنامج المناسب."
+msgstr "We learn about the student's goal and recommend the right program."
+
+#: template-parts/sections/faq.php:30
+msgid "تحديد المستوى"
+msgstr "Level Assessment"
+
+#: template-parts/sections/faq.php:30
+msgid "نساعد في تحديد المستوى أو البرنامج المناسب للطالب."
+msgstr "We help determine the student's level or the right program."
+
+#: template-parts/sections/faq.php:31
+msgid "استكمال بيانات التسجيل في البرنامج المختار."
+msgstr "Complete the registration details for the selected program."
+
+#: template-parts/sections/faq.php:32
+msgid "الدراسة والمتابعة"
+msgstr "Study & Follow-Up"
+
+#: template-parts/sections/faq.php:32
+msgid "بدء الدراسة مع متابعة أكاديمية مستمرة."
+msgstr "Begin studying with continuous academic follow-up."
+
+#: template-parts/sections/faq.php:43 template-parts/sections/faq.php:45
+msgid "خطوات التسجيل والأسئلة الشائعة"
+msgstr "Registration Steps & FAQs"
+
+#: template-parts/sections/faq.php:46
+msgid "ماذا يحدث إذا قررت"
+msgstr "What happens if you decide"
+
+#: template-parts/sections/faq.php:47
+msgid "خطوات واضحة وإجابات مباشرة لتقليل أي غموض قبل اتخاذ القرار."
+msgstr "Clear steps and direct answers to remove any uncertainty before you decide."
+
+#: template-parts/sections/faq.php:71
+msgid "سيتم تحديث الإجابة من المصدر الرسمي."
+msgstr "The answer will be updated from the official source."
+
+#: template-parts/sections/founder.php:34
+msgid "بكالوريوس اللغات والترجمة الفورية"
+msgstr "Bachelor's in Languages and Simultaneous Interpretation"
+
+#: template-parts/sections/founder.php:36
+msgid "اختبارات EST · SAT · ACT"
+msgstr "EST · SAT · ACT Exams"
+
+#: template-parts/sections/founder.php:47
+msgid "مؤسس أكاديمية نوفيرا — مستر يوسف زكي"
+msgstr "Founder of Novira Academy — Mr. Youssef Zaki"
+
+#: template-parts/sections/founder.php:57
+msgid "يوسف"
+msgstr "Youssef"
+
+#: template-parts/sections/founder.php:57
+msgid "زكي"
+msgstr "Zaki"
+
+#: template-parts/sections/founder.php:59
+msgid "مؤسس أكاديمية نوفيرا أكاديمي، يمتلك خبرة واسعة في مجال الدبلومة الأمريكية واللغة الإنجليزية والاختبارات الدولية لسنوات."
+msgstr "Founder of Novira Academy, with extensive experience in the American Diploma, English, and international exams over many years."
+
+#: template-parts/sections/founder.php:62
+msgid "حاصل على بكالوريوس اللغات والترجمة الفورية، واهتم خلال مسيرته المهنية بتطوير المهارات وبناء القدرات بأسلوب عملي ومبتكر."
+msgstr "He holds a Bachelor's in Languages and Simultaneous Interpretation, and throughout his career he has focused on developing skills and building capabilities in a practical, innovative way."
+
+#: template-parts/sections/founder.php:63
+msgid "انطلق في تأسيس الأكاديمية إيمانًا منه بأهمية التعليم والتدريب في تحقيق النجاح، وحرصًا على تقديم محتوى تدريبي عالي الجودة يواكب متطلبات سوق العمل ويساهم في إعداد كوادر مؤهلة وقادرة على التطور المستمر."
+msgstr "He set out to found the academy out of his belief in the importance of education and training in achieving success, and his commitment to delivering high-quality training content that keeps pace with the demands of the job market and helps prepare qualified people capable of continuous growth."
+
+#: template-parts/sections/founder.php:66
+msgid "المؤهلات"
+msgstr "Qualifications"
+
+#: template-parts/sections/founder.php:75
+msgid "تعرّف أكثر على نوفيرا أكاديمي"
+msgstr "Learn more about Novira Academy"
+
+#: template-parts/sections/gallery-videos.php:28
+msgid "صور الأكاديمية"
+msgstr "Academy Photos"
+
+#: template-parts/sections/gallery-videos.php:29
+msgid "حياة الأكاديمية"
+msgstr "Academy Life"
+
+#: template-parts/sections/gallery-videos.php:48 template-parts/sections/gallery-videos.php:54 template-parts/sections/media-gallery.php:80
+msgid "معرض الصور"
+msgstr "Photo Gallery"
+
+#: template-parts/sections/gallery-videos.php:53
+msgid "لقطات من حياتنا"
+msgstr "Moments from Our Life"
+
+#: template-parts/sections/gallery-videos.php:57
+msgid "عرض جميع الصور"
+msgstr "View All Photos"
+
+#: template-parts/sections/gallery-videos.php:67
+msgid "لقطة من أكاديمية نوفيرا رقم %d"
+msgstr "Snapshot from Novira Academy no. %d"
+
+#: template-parts/sections/gallery-videos.php:79
+msgid "صورة أخرى"
+msgstr "Another Photo"
+
+#: template-parts/sections/gallery-videos.php:88 template-parts/sections/gallery-videos.php:94
+msgid "مكتبة الفيديوهات"
+msgstr "Video Library"
+
+#: template-parts/sections/gallery-videos.php:93
+msgid "شاهد بنفسك"
+msgstr "See for Yourself"
+
+#: template-parts/sections/gallery-videos.php:97
+msgid "عرض جميع الفيديوهات"
+msgstr "View All Videos"
+
+#: template-parts/sections/hero-stitch.php:16
+msgid "Hero Carousel"
+msgstr "Hero Carousel"
+
+#: template-parts/sections/hero-stitch.php:31
+msgid "نُعِدّ طالبك ليدخل الاختبار قادراً على أعلى درجة"
+msgstr "We prepare your student to walk into the exam capable of the highest score"
+
+#: template-parts/sections/hero-stitch.php:34
+msgid "من Grade 10 حتى يوم الاختبار، نبني مستوى طالبك أسبوعياً مع معلمين متخصصين — لا مراجعة في اللحظة الأخيرة، بل استعداد يتحسّن باستمرار حتى يدخل الامتحان مستعداً فعلاً."
+msgstr "From Grade 10 to exam day, we build your student's level week by week with specialized teachers — no last-minute cramming, but steadily improving readiness so they walk into the exam genuinely prepared."
+
+#: template-parts/sections/hero-stitch.php:38
+msgid "حصص أسبوعية مع معلمين متخصصين لبناء الفهم"
+msgstr "Weekly classes with specialized teachers to build understanding"
+
+#: template-parts/sections/hero-stitch.php:42
+msgid "اختبارات تجريبية تقيس جاهزيته قبل الموعد"
+msgstr "Practice tests that measure readiness before the date"
+
+#: template-parts/sections/hero-stitch.php:46
+msgid "متابعة دورية ترفع مستواه خطوة بخطوة"
+msgstr "Regular follow-up that raises their level step by step"
+
+#: template-parts/sections/hero-stitch.php:79 template-parts/sections/programs-stitch.php:35
+msgid "ورقك في أمان"
+msgstr "Your Papers Are Safe"
+
+#: template-parts/sections/hero-stitch.php:82 template-parts/sections/programs-stitch.php:36
+msgid "نوفر خدمات ترجمة للمستندات الرسمية وفق المتطلبات المعمول بها."
+msgstr "We provide translation services for official documents in line with applicable requirements."
+
+#: template-parts/sections/hero-stitch.php:86 template-parts/sections/programs-stitch.php:38
+msgid "ترجمة معتمدة لجميع الوثائق الرسمية"
+msgstr "Certified translation for all official documents"
+
+#: template-parts/sections/hero-stitch.php:90 template-parts/sections/programs-stitch.php:39
+msgid "ترجمة معتمدة وفق المتطلبات الرسمية"
+msgstr "Certified translation in line with official requirements"
+
+#: template-parts/sections/hero-stitch.php:94
+msgid "عدد كبير من اللغات"
+msgstr "A wide range of languages"
+
+#: template-parts/sections/hero-stitch.php:98
+msgid "سرعة ودقة وجودة"
+msgstr "Speed, accuracy, and quality"
+
+#: template-parts/sections/hero-stitch.php:104 template-parts/sections/programs-stitch.php:42
+msgid "الجامعات"
+msgstr "Universities"
+
+#: template-parts/sections/hero-stitch.php:105 template-parts/sections/programs-stitch.php:42
+msgid "الحكومة"
+msgstr "Government"
+
+#: template-parts/sections/hero-stitch.php:106 template-parts/sections/programs-stitch.php:42
+msgid "كل اللغات"
+msgstr "All Languages"
+
+#: template-parts/sections/hero-stitch.php:110 template-parts/sections/programs-stitch.php:43
+msgid "استكشف الخدمة"
+msgstr "Explore the Service"
+
+#: template-parts/sections/hero-stitch.php:128 template-parts/sections/programs-stitch.php:18 template-parts/sections/registration-cta.php:29
+msgid "تنمية المهارات واللغات"
+msgstr "Skills & Language Development"
+
+#: template-parts/sections/hero-stitch.php:132
+msgid "لغات ومهارات بتدريب عملي"
+msgstr "Languages and skills with hands-on training"
+
+#: template-parts/sections/hero-stitch.php:135 template-parts/sections/programs-stitch.php:20
+msgid "كورسات لغات ومهارات رقمية في مجموعات صغيرة مع فريق تدريسي متخصص."
+msgstr "Language and digital skills courses in small groups with a specialized teaching team."
+
+#: template-parts/sections/hero-stitch.php:139
+msgid "إنجليزي - ألماني - فرنسي"
+msgstr "English - German - French"
+
+#: template-parts/sections/hero-stitch.php:143
+msgid "برمجة - ذكاء اصطناعي - تسويق"
+msgstr "Programming - AI - Marketing"
+
+#: template-parts/sections/hero-stitch.php:147
+msgid "مجموعات صغيرة"
+msgstr "Small Groups"
+
+#: template-parts/sections/hero.php:20
+msgid "أكاديمية نوفيرا للتعليم الدولي والترجمة المعتمدة"
+msgstr "Novira Academy for International Education & Certified Translation"
+
+#: template-parts/sections/hero.php:21
+msgid "نبني الثقة أولاً. نقدّم محتوى حقيقي يعكس هوية المؤسسة التعليمية."
+msgstr "We build trust first. We deliver real content that reflects the institution's identity."
+
+#: template-parts/sections/hero.php:36
+msgid "اكتشف أقسامنا"
+msgstr "Discover Our Departments"
+
+#: template-parts/sections/hero.php:44
+msgid "أكاديمية نوفيرا"
+msgstr "Novira Academy"
+
+#: template-parts/sections/hero.php:54
+msgid "مؤسسة تعليمية معتمدة"
+msgstr "An accredited educational institution"
+
+#: template-parts/sections/hero.php:85
+msgid "طالب مسجل"
+msgstr "Enrolled Students"
+
+#: template-parts/sections/hero.php:89
+msgid "دورة تدريبية"
+msgstr "Training Course"
+
+#: template-parts/sections/hero.php:93
+msgid "سنوات خبرة"
+msgstr "Years of Experience"
+
+#: template-parts/sections/hero.php:99
+msgid "اكتشف المزيد"
+msgstr "Discover More"
+
+#: template-parts/sections/latest-posts.php:35 template-parts/sections/latest-posts.php:39
+msgid "آخر المقالات"
+msgstr "Latest Articles"
+
+#: template-parts/sections/latest-posts.php:40
+msgid "تابع آخر أخبارنا ومقالاتنا التعليمية."
+msgstr "Follow our latest news and educational articles."
+
+#: template-parts/sections/latest-posts.php:51
+msgid "عرض جميع المقالات"
+msgstr "View All Articles"
+
+#: template-parts/sections/map-contact.php:14
+msgid "شارع الشهيد مصطفى الملاحظ، أخر شارع مستشفى أبو عوف، بجوار مكتبة الناظر، بني مزار - المنيا"
+msgstr "Martyr Mostafa El-Mallah Street, at the end of Abu Auf Hospital Street, next to Al-Nazer Bookstore, Beni Mazar - Minya"
+
+#: template-parts/sections/map-contact.php:69
+msgid "زور <span class=\"text-brand-primary\">نوفيرا أكاديمي</span> وابدأ رحلتك التعليمية"
+msgstr "Visit <span class=\"text-brand-primary\">Novira Academy</span> and begin your educational journey"
+
+#: template-parts/sections/map-contact.php:72
+msgid "نحن هنا لمساعدتك في اختيار المسار المناسب سواء الدبلومة الأمريكية أو الترجمة المعتمدة أو برامج اللغات والمهارات."
+msgstr "We're here to help you choose the right path, whether the American Diploma, Certified Translation, or the languages and skills programs."
+
+#: template-parts/sections/map-contact.php:76
+msgid "يسعدنا استقبالكم في مقر الأكاديمية لمناقشة أفضل مسار تعليمي يناسب أهدافكم."
+msgstr "We'd be glad to welcome you at the academy's premises to discuss the best educational path for your goals."
+
+#: template-parts/sections/map-contact.php:96
+msgid "مؤسسة تعليمية متخصصة في الدبلومة الأمريكية والترجمة المعتمدة وتنمية المهارات واللغات."
+msgstr "An educational institution specialized in the American Diploma, Certified Translation, and skills and language development."
+
+#: template-parts/sections/map-contact.php:108
+msgid "العنوان"
+msgstr "Address"
+
+#: template-parts/sections/map-contact.php:117
+msgid "الهاتف"
+msgstr "Phone"
+
+#: template-parts/sections/map-contact.php:135
+msgid "مواعيد العمل"
+msgstr "Working Hours"
+
+#: template-parts/sections/map-contact.php:136
+msgid "السبت – الخميس: 10 ص – 10 م · الجمعة: 1 م – 10 م"
+msgstr "Saturday–Thursday: 10 AM – 10 PM · Friday: 1 PM – 10 PM"
+
+#: template-parts/sections/media-gallery.php:83
+msgid "من حياة الأكاديمية"
+msgstr "From Academy Life"
+
+#: template-parts/sections/media-gallery.php:84
+msgid "لقطات من أكاديمية نوفيرا"
+msgstr "Snapshots from Novira Academy"
+
+#: template-parts/sections/media-gallery.php:85
+msgid "شاهد لحظات حقيقية من أنشطتنا التعليمية والمهنية."
+msgstr "See real moments from our educational and professional activities."
+
+#: template-parts/sections/media-gallery.php:111
+msgid "شاهد الفيديو التعريفي"
+msgstr "Watch the Intro Video"
+
+#: template-parts/sections/premium-exam/compare.php:34
+msgid "نعم"
+msgstr "Yes"
+
+#: template-parts/sections/premium-exam/course-guide.php:37
+msgid "مدة كل كورس تُحدَّد حسب نتيجة التقييم المبدئي وخطة طالبك الدراسية — لا مقاس واحد يناسب الجميع."
+msgstr "The duration of each course is determined by the result of the initial assessment and your child's study plan — one size does not fit all."
+
+#: template-parts/sections/premium-exam/courses.php:38
+msgid "ما الذي سيدرسه طالبك؟"
+msgstr "What will your child study?"
+
+#: template-parts/sections/premium-exam/courses.php:44
+msgid "عايز اشترك في كورس (%s)"
+msgstr "I want to enroll in the (%s) course"
+
+#: template-parts/sections/premium-exam/courses.php:103
+msgid "متاح أيضاً لـ"
+msgstr "Also available for"
+
+#: template-parts/sections/premium-exam/courses.php:113
+msgid "تفاصيل الكورس"
+msgstr "Course details"
+
+#: template-parts/sections/premium-exam/journey.php:34
+msgid "رحلة التعلّم"
+msgstr "The learning journey"
+
+#: template-parts/sections/premium-exam/journey.php:35
+msgid "رحلة طالبك من التقييم إلى الاختبار"
+msgstr "Your child's journey from assessment to exam"
+
+#: template-parts/sections/premium-exam/journey.php:36
+msgid "مسار تعليمي متدرّج — كل مرحلة تبني على ما قبلها حتى يدخل طالبك الاختبار مستعداً فعلاً."
+msgstr "A progressive educational path — each stage building on the one before it, until your child enters the exam genuinely prepared."
+
+#: template-parts/sections/premium-exam/journey.php:39
+msgid "التقييم"
+msgstr "Assessment"
+
+#: template-parts/sections/premium-exam/journey.php:39
+msgid "نحدّد مستوى طالبك الحالي ونقطة انطلاقه."
+msgstr "We determine your child's current level and starting point."
+
+#: template-parts/sections/premium-exam/journey.php:40
+msgid "نبني الأساس المتين في المهارات التي يقيسها الاختبار."
+msgstr "We build a solid foundation in the skills the exam measures."
+
+#: template-parts/sections/premium-exam/journey.php:41
+msgid "البناء التراكمي"
+msgstr "Cumulative building"
+
+#: template-parts/sections/premium-exam/journey.php:41
+msgid "نمو أسبوعي متواصل مع معلمين متخصصين."
+msgstr "Continuous weekly growth with specialized teachers."
+
+#: template-parts/sections/premium-exam/journey.php:42
+msgid "الجاهزية والمحاكاة"
+msgstr "Readiness and simulation"
+
+#: template-parts/sections/premium-exam/journey.php:42
+msgid "اختبارات تجريبية تُحاكي ظروف يوم الامتحان."
+msgstr "Mock exams that simulate exam day conditions."
+
+#: template-parts/sections/premium-exam/journey.php:43
+msgid "الاختبار الرسمي"
+msgstr "The official exam"
+
+#: template-parts/sections/premium-exam/journey.php:43
+msgid "يتقدّم طالبك مستعداً لأعلى درجة ممكنة."
+msgstr "Your child sits the exam prepared for the best possible score."
+
+#: template-parts/sections/programs-stitch.php:19
+msgid "للصغار والكبار"
+msgstr "For Children and Adults"
+
+#: template-parts/sections/programs-stitch.php:22
+msgid "لغات عملية: إنجليزي، ألماني، فرنسي"
+msgstr "Practical languages: English, German, French"
+
+#: template-parts/sections/programs-stitch.php:23
+msgid "مهارات رقمية: برمجة، ذكاء اصطناعي، تسويق"
+msgstr "Digital skills: programming, AI, marketing"
+
+#: template-parts/sections/programs-stitch.php:24
+msgid "مجموعات صغيرة وفريق تدريسي متخصص"
+msgstr "Small groups and a specialized teaching team"
+
+#: template-parts/sections/programs-stitch.php:30
+msgid "طلاب يتعلمون المهارات الرقمية واللغات"
+msgstr "Students learning digital skills and languages"
+
+#: template-parts/sections/programs-stitch.php:40
+msgid "عدد كبير من اللغات بسرعة وسعر واضح"
+msgstr "A wide range of languages, fast and at a clear price"
+
+#: template-parts/sections/programs-stitch.php:46
+msgid "ترجمة معتمدة للوثائق الرسمية"
+msgstr "Certified translation for official documents"
+
+#: template-parts/sections/programs-stitch.php:52
+msgid "برنامج ثلاث سنوات معتمد من Cognia يؤهّل طالبك لاختبار EST أو Digital SAT أو ACT حسب مساره الأكاديمي."
+msgstr "A three-year program accredited by Cognia that prepares your student for the EST, Digital SAT, or ACT exam according to their academic path."
+
+#: template-parts/sections/programs-stitch.php:54
+msgid "برنامج معتمد دولياً من Cognia"
+msgstr "A program internationally accredited by Cognia"
+
+#: template-parts/sections/programs-stitch.php:55
+msgid "ثلاثة اختبارات دولية: EST و Digital SAT و ACT"
+msgstr "Three international exams: EST, Digital SAT, and ACT"
+
+#: template-parts/sections/programs-stitch.php:56
+msgid "مسار يُختار حسب مستوى الطالب وهدفه"
+msgstr "A path chosen based on the student's level and goal"
+
+#: template-parts/sections/programs-stitch.php:59
+msgid "اعرف كيف يسير البرنامج"
+msgstr "See How the Program Works"
+
+#: template-parts/sections/programs-stitch.php:62
+msgid "طلاب الدبلومة الأمريكية في نوفيرا أكاديمي"
+msgstr "American Diploma students at Novira Academy"
+
+#: template-parts/sections/programs-stitch.php:68 template-parts/sections/programs-stitch.php:78
+msgid "مجالات التخصص"
+msgstr "Areas of Specialization"
+
+#: template-parts/sections/programs-stitch.php:81
+msgid "ما الذي يحتاجه طالبك؟"
+msgstr "What Does Your Student Need?"
+
+#: template-parts/sections/programs-stitch.php:84
+msgid "ثلاثة تخصصات أكاديمية متكاملة — لغات ومهارات، ترجمة معتمدة، وإعداد للدبلومة الأمريكية."
+msgstr "Three integrated academic specializations — languages and skills, certified translation, and preparation for the American Diploma."
+
+#: template-parts/sections/registration-cta.php:46
+msgid "التسجيل المبكر مفتوح الآن"
+msgstr "Early Registration Is Now Open"
+
+#: template-parts/sections/registration-cta.php:48
+msgid "هل طالبك جاهز للبدء؟"
+msgstr "Is Your Student Ready to Start?"
+
+#: template-parts/sections/registration-cta.php:50
+msgid "أرسل بياناتك وسيتواصل معك فريقنا لمناقشة المرحلة الدراسية والاختبار المناسب لطالبك."
+msgstr "Send your details and our team will contact you to discuss the right grade level and exam for your student."
+
+#: template-parts/sections/registration-cta.php:56
+msgid "رد خلال ساعات"
+msgstr "Reply Within Hours"
+
+#: template-parts/sections/registration-cta.php:64
+msgid "+1500 طالب التحقوا بنا"
+msgstr "+1500 students have joined us"
+
+#: template-parts/sections/registration-cta.php:72
+msgid "تفضّل التواصل واتساب؟"
+msgstr "Prefer to contact us on WhatsApp?"
+
+#: template-parts/sections/registration-cta.php:87
+msgid "سجّل بيانات طالبك"
+msgstr "Register Your Student's Details"
+
+#: template-parts/sections/registration-cta.php:88
+msgid "ونتواصل معك خلال 24 ساعة لتحديد الأنسب."
+msgstr "And we'll contact you within 24 hours to determine what's best."
+
+#: template-parts/sections/registration-cta.php:95
+msgid "تم استلام طلبك! سيتواصل معك فريقنا قريباً."
+msgstr "Your request has been received! Our team will contact you soon."
+
+#: template-parts/sections/registration-cta.php:100
+msgid "يرجى مراجعة البيانات والمحاولة مرة أخرى."
+msgstr "Please review the details and try again."
+
+#: template-parts/sections/registration-cta.php:107
+msgid "الاسم الأول"
+msgstr "First Name"
+
+#: template-parts/sections/registration-cta.php:111
+msgid "الاسم الأخير"
+msgstr "Last Name"
+
+#: template-parts/sections/registration-cta.php:117
+msgid "رقم واتساب"
+msgstr "WhatsApp Number"
+
+#: template-parts/sections/registration-cta.php:134
+msgid "جاري الإرسال…"
+msgstr "Sending…"
+
+#: template-parts/sections/registration-cta.php:134
+msgid "احجز مكان طالبك"
+msgstr "Reserve Your Student's Place"
+
+#: template-parts/sections/registration-cta.php:142
+msgid "بياناتك آمنة — نستخدمها فقط للتواصل معك."
+msgstr "Your data is safe — we use it only to contact you."
+
+#: template-parts/sections/student-case.php:24
+msgid "طالب من برنامج الدبلومة الأمريكية"
+msgstr "A student from the American Diploma program"
+
+#: template-parts/sections/student-case.php:26
+msgid "سنتان دراسيتان (عيّنة)"
+msgstr "Two academic years (sample)"
+
+#: template-parts/sections/student-case.php:27
+msgid "نتيجة تجريبية للعرض — تُستبدل بالنتيجة الموثقة"
+msgstr "Sample result for display — to be replaced with the documented result"
+
+#: template-parts/sections/student-case.php:28
+msgid "المستوى التأسيسي"
+msgstr "Foundation Level"
+
+#: template-parts/sections/student-case.php:29
+msgid "جاهز للتقديم الجامعي"
+msgstr "Ready for University Application"
+
+#: template-parts/sections/student-case.php:33
+msgid "نص توضيحي مؤقت لرسالة الطالب يعرض التنسيق النهائي للقسم — يُستبدل بالشهادة الحقيقية بعد التوثيق."
+msgstr "Placeholder text for the student's message showing the section's final layout — to be replaced with the real testimonial after documentation."
+
+#: template-parts/sections/student-case.php:34
+msgid "التحق بالجامعة المستهدفة"
+msgstr "Enrolled at the target university (sample)"
+
+#: template-parts/sections/student-case.php:55 template-parts/sections/student-case.php:61
+msgid "دراسة حالة موثقة"
+msgstr "A Documented Case Study"
+
+#: template-parts/sections/student-case.php:63
+msgid "رحلة أحد طلابنا في برنامج"
+msgstr "One of our students' journeys in the program"
+
+#: template-parts/sections/student-case.php:64
+msgid "موثقة بالفيديو والنتائج الأكاديمية."
+msgstr "Documented with video and academic results."
+
+#: template-parts/sections/student-case.php:72
+msgid "تشغيل الفيديو التوثيقي"
+msgstr "Play the Documentary Video"
+
+#: template-parts/sections/student-case.php:81
+msgid "فيديو توثيقي"
+msgstr "Documentary Video"
+
+#: template-parts/sections/student-case.php:87
+msgid "ملف الحالة"
+msgstr "Case File"
+
+#: template-parts/sections/student-case.php:90
+msgid "البرنامج"
+msgstr "Program"
+
+#: template-parts/sections/student-case.php:96
+msgid "النتيجة الموثقة"
+msgstr "Documented Result"
+
+#: template-parts/sections/student-case.php:99
+msgid "قبل / بعد"
+msgstr "Before / After"
+
+#: template-parts/sections/student-case.php:108
+msgid "المآل"
+msgstr "Outcome"
+
+#: template-parts/sections/student-case.php:118
+msgid "إثبات نتيجة %s"
+msgstr "Proof of %s Result"
+
+#: template-parts/sections/student-case.php:119
+msgid "إثبات النتيجة (مع إخفاء البيانات الشخصية)."
+msgstr "Result proof (with personal data hidden)."
+
+#: template-parts/sections/student-results.php:16
+msgid "SAT"
+msgstr "SAT"
+
+#: template-parts/sections/student-results.php:17 template-parts/sections/student-results.php:35
+msgid "أعلى درجة لطلابنا"
+msgstr "Our Students' Highest Score"
+
+#: template-parts/sections/student-results.php:25
+msgid "IELTS"
+msgstr "IELTS"
+
+#: template-parts/sections/student-results.php:26
+msgid "متوسط الدرجات"
+msgstr "Average Score"
+
+#: template-parts/sections/student-results.php:41
+msgid "قبول"
+msgstr "Admissions"
+
+#: template-parts/sections/student-results.php:44
+msgid "جامعات عالمية"
+msgstr "World Universities"
+
+#: template-parts/sections/student-results.php:67
+msgid "نتائج طلابنا"
+msgstr "Our Students' Results"
+
+#: template-parts/sections/student-results.php:75
+msgid "إنجازاتنا"
+msgstr "Our Achievements"
+
+#: template-parts/sections/student-results.php:78
+msgid "نتائج طلابنا تتحدث عنا"
+msgstr "Our Students' Results Speak for Us"
+
+#: template-parts/sections/student-results.php:81
+msgid "نتائج فعلية من طلابنا في اختبارات EST و Digital SAT و ACT."
+msgstr "Actual results from our students in the EST, Digital SAT, and ACT exams."
+
+#: template-parts/sections/testimonials-stitch.php:17
+msgid "م"
+msgstr "M"
+
+#: template-parts/sections/testimonials-stitch.php:18
+msgid "Mostafa Ahmed"
+msgstr "Mostafa Ahmed"
+
+#: template-parts/sections/testimonials-stitch.php:19 template-parts/sections/testimonials-stitch.php:28 template-parts/sections/testimonials-stitch.php:38
+msgid "مراجعة على Google"
+msgstr "Review on Google"
+
+#: template-parts/sections/testimonials-stitch.php:21
+msgid "خدمة ممتازة وسريعة جداً. الترجمة كانت معتمدة وتم قبولها في السفارة بدون أي مشاكل."
+msgstr "Excellent and very fast service. The translation was certified and was accepted at the embassy without any problems."
+
+#: template-parts/sections/testimonials-stitch.php:26
+msgid "خ"
+msgstr "K"
+
+#: template-parts/sections/testimonials-stitch.php:27
+msgid "Khedr Nageh"
+msgstr "Khedr Nageh"
+
+#: template-parts/sections/testimonials-stitch.php:30
+msgid "مكان ممتاز والله ف كل حاجة ف التعليم ف الترجمة ف الكورسات ف المعاملة كل حاجة ماشاء الله يجد وان شاء الله من نجاح لنجاح يارب"
+msgstr "An excellent place, honestly, in everything — in education, in translation, in the courses, in the way they treat you, everything, mashAllah. Serious work, and God willing, from success to success."
+
+#: template-parts/sections/testimonials-stitch.php:36
+msgid "أ"
+msgstr "A"
+
+#: template-parts/sections/testimonials-stitch.php:37
+msgid "Mariem Mohamed"
+msgstr "Mariem Mohamed"
+
+#: template-parts/sections/testimonials-stitch.php:40
+msgid "دورات الاختبارات الدولية كانت منظمة جداً واستفدت كتير، وحسيت بفرق كبير في نتيجتي."
+msgstr "The international exam courses were very well organized and I benefited a lot, and I felt a big difference in my result."
+
+#: template-parts/sections/testimonials-stitch.php:57
+msgid "تقييمات من Google"
+msgstr "Reviews from Google"
+
+#: template-parts/sections/testimonials-stitch.php:61
+msgid "ماذا يقول"
+msgstr "What They Say"
+
+#: template-parts/sections/testimonials-stitch.php:61
+msgid "عنا؟"
+msgstr "About Us?"
+
+#: template-parts/sections/testimonials-stitch.php:71
+msgid "نفتخر بثقة طلابنا ورضاهم عن خدماتنا في الترجمة والاختبارات الدولية."
+msgstr "We take pride in our students' trust and their satisfaction with our translation and international exam services."
+
+#: template-parts/sections/testimonials-stitch.php:72
+msgid "هذه بعض من تجاربهم الحقيقية."
+msgstr "These are some of their real experiences."
+
+#: template-parts/sections/testimonials-stitch.php:80
+msgid "تقييم %s من 5 على Google"
+msgstr "%s out of 5 rating on Google"
+
+#. translators: %s: number of Google reviews, e.g. "20+".
+#: template-parts/sections/testimonials-stitch.php:92
+msgid "%s تقييم على Google"
+msgstr "%s reviews on Google"
+
+#: template-parts/sections/testimonials-stitch.php:101
+msgid "آراء العملاء"
+msgstr "Client Reviews"
+
+#: template-parts/sections/testimonials-stitch.php:110
+msgid "تقييم %1$d من %2$d"
+msgstr "Rating %1$d of %2$d"
+
+#: template-parts/sections/testimonials-stitch.php:132
+msgid "تقييم %d من 5"
+msgstr "Rating %d of 5"
+
+#: template-parts/sections/testimonials-stitch.php:153
+msgid "شريحة التقييم"
+msgstr "Review Slide"
+
+#: template-parts/sections/testimonials-stitch.php:154
+msgid "شريحة 1"
+msgstr "Slide 1"
+
+#: template-parts/sections/testimonials-stitch.php:155
+msgid "شريحة 2"
+msgstr "Slide 2"
+
+#: template-parts/sections/testimonials-stitch.php:156
+msgid "شريحة 3"
+msgstr "Slide 3"
+
+#: template-parts/sections/testimonials-stitch.php:163
+msgid "المزيد من آراء أولياء الأمور والطلاب متاحة على Google Reviews."
+msgstr "More reviews from parents and students are available on Google Reviews."
+
+#: template-parts/sections/testimonials-stitch.php:167
+msgid "عرض جميع التقييمات"
+msgstr "View All Reviews"
+
+#: template-parts/sections/testimonials-stitch.php:188
+msgid "عايز نفس المتابعة لطالبك؟"
+msgstr "Want the same follow-up for your student?"
+
+#: template-parts/sections/testimonials-stitch.php:189
+msgid "تواصل معنا، نبدأ بتقييم مستواه ونحدّد الاختبار والخطة المناسبة."
+msgstr "Contact us — we'll start by assessing their level and determine the right exam and plan."
+
+#: template-parts/sections/trust-bar.php:16
+msgid "مؤشرات الثقة"
+msgstr "Trust Indicators"
+
+#: template-parts/sections/trust-bar.php:24
+msgid "برامج تعليمية متخصصة"
+msgstr "Specialized Educational Programs"
+
+#: template-parts/sections/trust-bar.php:36
+msgid "من قلب المنيا"
+msgstr "From the Heart of Minya"
+
+#: template-parts/sections/trust-bar.php:42
+msgid "تدريب عملي وتطبيقي"
+msgstr "Hands-On, Practical Training"
+
+#: template-parts/sections/trust-bar.php:48
+msgid "دعم أكاديمي مستمر"
+msgstr "Continuous Academic Support"
+
+#: template-parts/sections/trust-bar.php:54
+msgid "متابعة أكاديمية لكل طالب"
+msgstr "Academic follow-up for every student"
+
+#: template-parts/sections/trust-proof.php:64
+msgid "أكاديمية نوفيرا غيّرت مسار حياتي. تعلمت اللغة الإنجليزية بشكل احترافي وأصبحت قادرة على التواصل في بيئة العمل الدولي."
+msgstr "Novira Academy changed the course of my life. I learned English professionally and became able to communicate in an international work environment."
+
+#: template-parts/sections/trust-proof.php:65
+msgid "سارة أحمد"
+msgstr "Sara Ahmed"
+
+#: template-parts/sections/trust-proof.php:66
+msgid "طالبة سابقة - كورس الإنجليزية"
+msgstr "Former Student - English Course"
+
+#: template-parts/sections/trust-proof.php:70
+msgid "خدمة التترجمة المعتمدة كانت ممتازة. تم ترجمة وثائقي رسمياً بدقة عالية وفي الوقت المحدد."
+msgstr "The certified translation service was excellent. My documents were translated officially with high accuracy and on time."
+
+#: template-parts/sections/trust-proof.php:71
+msgid "محمد علي"
+msgstr "Mohamed Ali"
+
+#: template-parts/sections/trust-proof.php:72
+msgid "عميل - الترجمة المعتمدة"
+msgstr "Client - Certified Translation"
+
+#: template-parts/sections/trust-proof.php:76
+msgid "ابني يدرس في البرنامج الأمريكي ويتحسن أداؤه أكاديمياً. المنهاج عصري والمعلمون متميزون."
+msgstr "My son studies in the American program and his academic performance is improving. The curriculum is modern and the teachers are outstanding."
+
+#: template-parts/sections/trust-proof.php:77
+msgid "فاطمة خالد"
+msgstr "Fatma Khaled"
+
+#: template-parts/sections/trust-proof.php:78
+msgid "ولي أمر - الدبلوم الأمريكي"
+msgstr "Parent - American Diploma"
+
+#: template-parts/sections/trust-proof.php:85
+msgid "شهادات طلابنا"
+msgstr "Our Students' Testimonials"
+
+#: template-parts/sections/trust-proof.php:88
+msgid "قصص نجاح"
+msgstr "Success Stories"
+
+#: template-parts/sections/trust-proof.php:89
+msgid "ماذا يقول طلابنا وشركاؤنا"
+msgstr "What Our Students and Partners Say"
+
+#: template-parts/sections/trust-proof.php:90
+msgid "نفخر بقصص نجاح طلابنا وثقة شركائنا في خدماتنا التعليمية والمهنية."
+msgstr "We take pride in our students' success stories and our partners' trust in our educational and professional services."
+
+#: template-parts/sections/trust-proof.php:106
+msgid "مؤسسة معتمدة"
+msgstr "An Accredited Institution"
+
+#: template-parts/sections/trust-proof.php:117
+msgid "+500 طالب"
+msgstr "+500 students"
+
+#: template-parts/sections/trust-proof.php:126
+msgid "+10 سنوات خبرة"
+msgstr "+10 years of experience"
+
+#: template-parts/sections/upcoming-events.php:38 template-parts/sections/upcoming-events.php:42
+msgid "الأحداث القادمة"
+msgstr "Upcoming Events"
+
+#: template-parts/sections/upcoming-events.php:43
+msgid "تابع أحداثنا وأنشطةنا القادمة."
+msgstr "Follow our upcoming events and activities."
+
+#: template-parts/sections/upcoming-events.php:54
+msgid "عرض جميع الأحداث"
+msgstr "View All Events"
+
+#: template-parts/sections/whatsapp-cta.php:27
+msgid "هل لديك استفسار؟"
+msgstr "Have a question?"
+
+#: template-parts/sections/why-novira.php:34
+msgid "تعليم مش بس شهادة"
+msgstr "Education, Not Just a Certificate"
+
+#: template-parts/sections/why-novira.php:36
+msgid "نوفيرا أكاديمي مش مجرد أكاديمية تعليمية — دي مؤسسة بتبني مسارك الدراسي والمهني من البداية لحد ما توصل. بنؤمن إن التعليم الحقيقي هو اللي يخلّي مستقبلك في أمان."
+msgstr "Novira Academy isn't just an educational academy — it's an institution that builds your academic and professional path from the very beginning until you arrive. We believe real education is what keeps your future safe."
+
+#: template-parts/sections/why-novira.php:45
+msgid "مضمون"
+msgstr "Guaranteed"
+
+#: template-parts/sections/why-novira.php:62
+msgid "اعتماد دولي معترف بيها"
+msgstr "Recognized International Accreditation"
+
+#: template-parts/sections/why-novira.php:63
+msgid "شهاداتنا معتمدة من الجامعات والسفارات والجهات الحكومية — ورقك في أمان معانا."
+msgstr "Our certificates are accredited by universities, embassies, and government bodies — your papers are safe with us."
+
+#: template-parts/sections/why-novira.php:75
+msgid "مدربون خبراء في مجالهم"
+msgstr "Expert Trainers in Their Field"
+
+#: template-parts/sections/why-novira.php:76
+msgid "مش بس شيوخ تعليم — مدربين شغالين في سوق العمل وبيجيبوا الخبرة الحقيقية للفصل."
+msgstr "Not just classroom instructors — trainers working in the job market who bring real experience to the classroom."
+
+#: template-parts/sections/why-novira.php:89
+msgid "تدريب عملي"
+msgstr "Hands-On Training"
+
+#: template-parts/sections/why-novira.php:90
+msgid "تطبّق مهاراتك على مشاريع حقيقية مش بس نظري."
+msgstr "You apply your skills on real projects, not just theory."
+
+#: template-parts/sections/why-novira.php:97
+msgid "دعم مهني مستمر"
+msgstr "Continuous Professional Support"
+
+#: template-parts/sections/why-novira.php:98
+msgid "إرشاد مهني وفرص وظيفية حتى بعد ما تخلّص الكورس."
+msgstr "Career guidance and job opportunities even after you finish the course."
+
+#: template-parts/sections/why-novira.php:105
+msgid "دعم أكاديمي متابع"
+msgstr "Ongoing Academic Support"
+
+#: template-parts/sections/why-novira.php:106
+msgid "متابعة مستمرة مع كل طالب من أول يوم لحد ما يحقق هدفه."
+msgstr "Continuous follow-up with every student from day one until they reach their goal."
+
+#: template-parts/sections/why-novira.php:113
+msgid "بيئة تعليمية حديثة"
+msgstr "A Modern Learning Environment"
+
+#: template-parts/sections/why-novira.php:114
+msgid "قاعات ذكية وتجهيزات على أعلى مستوى للتعلم الفعال."
+msgstr "Smart classrooms and top-level facilities for effective learning."
+
