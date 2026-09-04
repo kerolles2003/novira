@@ -988,6 +988,298 @@
 .adp .adp-overview .adp-stat.adp-in { animation: adp-fade-up .5s ease var(--delay, .45s) both; }
 
 /* =========================================================
+   8. STUDY MATERIALS — Google Drive Folders
+   ========================================================= */
+.adp .adp-materials {
+	background: var(--warm);
+	border-top: 1px solid var(--line);
+	border-bottom: 1px solid var(--line);
+}
+
+.adp .adp-materials__grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+
+.adp .adp-material-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	border: 1px solid var(--line);
+	border-radius: 20px;
+	padding: 32px 28px 26px;
+	text-align: start;
+	overflow: hidden;
+	transition: transform .35s cubic-bezier(.4, 0, .2, 1), border-color .25s ease, box-shadow .35s ease;
+}
+
+/* Subtle top accent bar reflecting subject color */
+.adp .adp-material-card::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	inset-inline: 0;
+	height: 4px;
+	background: var(--card-accent, var(--gold));
+	opacity: .85;
+}
+
+.adp .adp-material-card:hover {
+	transform: translateY(-6px);
+	border-color: rgba(var(--card-accent-rgb, 196, 149, 42), .45);
+	box-shadow: 0 20px 44px rgba(16, 11, 48, .09);
+}
+
+/* Subject 1: Biology (Emerald / Science) */
+.adp .adp-material-card--biology {
+	--card-accent: #059669;
+	--card-accent-rgb: 5, 150, 105;
+}
+.adp .adp-material-card--biology .adp-material-card__icon {
+	background: rgba(5, 150, 105, .10);
+	border-color: rgba(5, 150, 105, .25);
+	color: #059669;
+}
+.adp .adp-material-card--biology:hover .adp-material-card__icon {
+	background: rgba(5, 150, 105, .18);
+	border-color: rgba(5, 150, 105, .45);
+}
+.adp .adp-material-card--biology .adp-material-card__rule {
+	background: #059669;
+}
+.adp .adp-material-card--biology .adp-material-card__badge {
+	background: rgba(5, 150, 105, .09);
+	color: #047857;
+}
+
+/* Subject 2: English (Sapphire / Humanities) */
+.adp .adp-material-card--english {
+	--card-accent: #2563EB;
+	--card-accent-rgb: 37, 99, 235;
+}
+.adp .adp-material-card--english .adp-material-card__icon {
+	background: rgba(37, 99, 235, .10);
+	border-color: rgba(37, 99, 235, .25);
+	color: #2563EB;
+}
+.adp .adp-material-card--english:hover .adp-material-card__icon {
+	background: rgba(37, 99, 235, .18);
+	border-color: rgba(37, 99, 235, .45);
+}
+.adp .adp-material-card--english .adp-material-card__rule {
+	background: #2563EB;
+}
+.adp .adp-material-card--english .adp-material-card__badge {
+	background: rgba(37, 99, 235, .09);
+	color: #1D4ED8;
+}
+
+/* Subject 3: Mathematics (Novira Gold) */
+.adp .adp-material-card--math {
+	--card-accent: var(--gold);
+	--card-accent-rgb: 196, 149, 42;
+}
+.adp .adp-material-card--math .adp-material-card__icon {
+	background: var(--gold-pale);
+	border-color: rgba(196, 149, 42, .22);
+	color: var(--gold);
+}
+.adp .adp-material-card--math:hover .adp-material-card__icon {
+	background: rgba(196, 149, 42, .18);
+	border-color: rgba(196, 149, 42, .45);
+}
+.adp .adp-material-card--math .adp-material-card__rule {
+	background: var(--gold);
+}
+.adp .adp-material-card--math .adp-material-card__badge {
+	background: var(--gold-pale);
+	color: #8A6414;
+}
+
+.adp .adp-material-card__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 20px;
+}
+
+.adp .adp-material-card__icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 14px;
+	border: 1px solid transparent;
+	display: grid;
+	place-items: center;
+	flex-shrink: 0;
+	transition: background .25s ease, border-color .25s ease, transform .25s ease;
+}
+
+.adp .adp-material-card__icon svg {
+	width: 24px;
+	height: 24px;
+}
+
+.adp .adp-material-card:hover .adp-material-card__icon {
+	transform: scale(1.05);
+}
+
+.adp .adp-material-card__tags {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.adp .adp-material-card__badge {
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: var(--radius-pill);
+	padding: 4px 11px;
+	white-space: nowrap;
+}
+
+.adp .adp-material-card__drive-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 11px;
+	font-weight: 600;
+	color: var(--muted);
+	background: rgba(16, 11, 48, .05);
+	border: 1px solid rgba(16, 11, 48, .07);
+	border-radius: var(--radius-pill);
+	padding: 3px 8px;
+	letter-spacing: .02em;
+}
+
+.adp .adp-material-card__drive-tag svg {
+	width: 12px;
+	height: 12px;
+	opacity: .75;
+}
+
+.adp .adp-material-card__title {
+	font-family: var(--ff-display);
+	font-size: clamp(22px, 2.2vw, 26px);
+	font-weight: 900;
+	letter-spacing: -.02em;
+	line-height: 1.1;
+	color: var(--ink);
+	margin: 0;
+	text-align: start;
+}
+
+.adp .adp-material-card__rule {
+	display: block;
+	height: 2px;
+	width: 34px;
+	border-radius: 2px;
+	margin: 14px 0 16px;
+	transition: width .45s cubic-bezier(.4, 0, .2, 1);
+}
+
+.adp .adp-material-card:hover .adp-material-card__rule {
+	width: 100%;
+}
+
+.adp .adp-material-card__desc {
+	font-size: 14px;
+	line-height: 1.8;
+	color: var(--muted);
+	margin: 0 0 24px;
+	flex: 1;
+}
+
+/* Action Buttons */
+.adp .adp-material-card__actions {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin-top: auto;
+	padding-top: 6px;
+}
+
+.adp .adp-mat-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 7px;
+	min-height: 44px;
+	padding: 10px 14px;
+	border-radius: 12px;
+	font-family: var(--ff-body);
+	font-size: 13.5px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: background .2s ease, color .2s ease, border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+	cursor: pointer;
+}
+
+.adp .adp-mat-btn__folder {
+	width: 15px;
+	height: 15px;
+	flex-shrink: 0;
+	opacity: .9;
+}
+
+.adp .adp-mat-btn__arrow {
+	width: 13px;
+	height: 13px;
+	flex-shrink: 0;
+	opacity: .75;
+	transition: transform .2s ease, opacity .2s ease;
+}
+
+/* Part 1: Primary Brand Button */
+.adp .adp-mat-btn--part1 {
+	background: var(--brand);
+	color: #fff;
+	border: 1.5px solid var(--brand);
+	box-shadow: 0 3px 10px rgba(91, 20, 230, .18);
+}
+
+.adp .adp-mat-btn--part1:hover {
+	background: #4A0EC7;
+	border-color: #4A0EC7;
+	color: #fff;
+	transform: translateY(-2px);
+	box-shadow: 0 8px 22px rgba(91, 20, 230, .32);
+}
+
+/* Part 2: Refined Secondary Card Button */
+.adp .adp-mat-btn--part2 {
+	background: #fff;
+	color: var(--brand);
+	border: 1.5px solid rgba(91, 20, 230, .32);
+	box-shadow: 0 2px 6px rgba(16, 11, 48, .04);
+}
+
+.adp .adp-mat-btn--part2:hover {
+	background: var(--mist);
+	border-color: var(--brand);
+	color: var(--brand);
+	transform: translateY(-2px);
+	box-shadow: 0 6px 16px rgba(91, 20, 230, .14);
+}
+
+.adp .adp-mat-btn:hover .adp-mat-btn__arrow {
+	transform: scale(1.15) translate(-1px, -1px);
+	opacity: 1;
+}
+
+.adp .adp-mat-btn:active {
+	transform: translateY(0) scale(.98);
+}
+
+.adp .adp-mat-btn:focus-visible {
+	outline: 3px solid var(--brand);
+	outline-offset: 2px;
+}
+
+/* =========================================================
    9. STEPS
    ========================================================= */
 .adp .adp-steps { background: #fff; }
@@ -1169,6 +1461,9 @@
 	/* Exam gateway: 2-col tablet with last card (ACT) centered below */
 	.adp .adp-exams__row { grid-template-columns: 1fr 1fr; }
 	.adp .adp-exam-card:last-child { grid-column: 1 / -1; max-width: calc(50% - 12px); width: 100%; margin-inline: auto; }
+	/* Study materials: 2-col tablet with last card centered below */
+	.adp .adp-materials__grid { grid-template-columns: 1fr 1fr; }
+	.adp .adp-material-card:last-child { grid-column: 1 / -1; max-width: calc(50% - 12px); width: 100%; margin-inline: auto; }
 }
 
 @media (max-width: 560px) {
@@ -1192,10 +1487,19 @@
 	/* Exam gateway: single column on mobile */
 	.adp .adp-exams__row { grid-template-columns: 1fr; }
 	.adp .adp-exam-card:last-child { grid-column: auto; max-width: none; margin-inline: 0; }
+	/* Study materials: single column on mobile */
+	.adp .adp-materials__grid { grid-template-columns: 1fr; }
+	.adp .adp-material-card:last-child { grid-column: auto; max-width: none; margin-inline: 0; }
+	.adp .adp-material-card__actions { grid-template-columns: 1fr 1fr; gap: 8px; }
+	.adp .adp-mat-btn { min-height: 44px; padding: 10px 10px; font-size: 13px; }
 	.adp .adp-founder__inner,
 	.adp .adp-cta__inner { padding: 36px 24px; }
 	.adp section { padding: 64px 0; }
 	.adp .adp-hero__strip { display: none; }
+}
+
+@media (max-width: 380px) {
+	.adp .adp-material-card__actions { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1220,4 +1524,10 @@
 	.adp .adp-exam-card__icon,
 	.adp .adp-exam-card__rule,
 	.adp .adp-exam-card__cta svg { transition: none !important; }
+	/* Study materials: skip motion */
+	.adp .adp-material-card,
+	.adp .adp-material-card__icon,
+	.adp .adp-material-card__rule,
+	.adp .adp-mat-btn,
+	.adp .adp-mat-btn svg { transition: none !important; }
 }

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Template: American Diploma Hub (flagship) — Pixel-Perfect Landing
  *
@@ -453,6 +453,93 @@ $adp_flag = '<svg viewBox="0 0 76 50" width="100%" height="100%" preserveAspectR
 				</div>
 			</div>
 
+		</div>
+	</section>
+
+	<!-- =====================================================
+	     8. STUDY MATERIALS (Google Drive Folders)
+	     ===================================================== -->
+	<section id="adp-materials" class="adp-materials" aria-label="<?php esc_attr_e( 'مذكرات ومحاضرات الدبلومة الأمريكية', 'novira-academy' ); ?>">
+		<div class="adp-container">
+			<div class="adp-head reveal">
+				<span class="adp-eyebrow"><?php esc_html_e( 'مصادر التعلم', 'novira-academy' ); ?></span>
+				<h2 class="adp-title"><?php esc_html_e( 'مذكرات ومحاضرات الدبلومة الأمريكية', 'novira-academy' ); ?></h2>
+				<p class="adp-sub"><?php esc_html_e( 'يا أبطالنا، جمعنالكُم مواد الدراسة في مكان واحد. اختار المادة وابدأ من الجزء الأول أو الثاني.', 'novira-academy' ); ?></p>
+			</div>
+			<div class="adp-materials__grid reveal">
+				<?php
+				$adp_study_materials = array(
+					array(
+						'key'       => 'biology',
+						'title'     => 'Biology',
+						'badge'     => __( 'الأحياء', 'novira-academy' ),
+						'desc'      => __( 'شامل مذكرات وتلخيصات المنهج وأسئلة التدريب لمادة الأحياء، منظمة في مجلدين للمراجعة والدراسة.', 'novira-academy' ),
+						'icon'      => '<path d="M10 2v7.31L4.12 20.25A2 2 0 0 0 5.82 23h12.36a2 2 0 0 0 1.7-2.75L14 9.31V2"/><path d="M8.5 2h7"/><path d="M14 9.3 6.8 19.5"/>',
+						'part1_url' => 'https://drive.google.com/drive/folders/1f28sOx7Hs7vw9gh40bQNQs-wVyn-DL3y?usp=drive_link',
+						'part2_url' => 'https://drive.google.com/drive/folders/1McmJ_5e52SrpQtgS6rjRno-SdFHUvUyy?usp=drive_link',
+					),
+					array(
+						'key'       => 'english',
+						'title'     => 'English',
+						'badge'     => __( 'اللغة الإنجليزية', 'novira-academy' ),
+						'desc'      => __( 'مذكرات القراءة والقواعد وبنك أسئلة التدريب لمادة اللغة الإنجليزية، مقسمة لتسهيل المذاكرة والمتابعة.', 'novira-academy' ),
+						'icon'      => '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/>',
+						'part1_url' => 'https://drive.google.com/drive/folders/1pGyQyPIxwybv3gTmHPWR8-ZD_fYIuHxV?usp=drive_link',
+						'part2_url' => 'https://drive.google.com/drive/folders/19wLwdbdPe5tlO0uU483njTpP6gzXeWME?usp=drive_link',
+					),
+					array(
+						'key'       => 'math',
+						'title'     => 'Mathematics',
+						'badge'     => __( 'الرياضيات', 'novira-academy' ),
+						'desc'      => __( 'شروحات ومذكرات التأسيس وحل التمارين لمادة الرياضيات، جاهزة للتحميل والدراسة خطوة بخطوة.', 'novira-academy' ),
+						'icon'      => '<rect x="3" y="3" width="18" height="18" rx="2"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="16" x2="8" y2="16.01"/><line x1="16" y1="16" x2="16" y2="16.01"/>',
+						'part1_url' => 'https://drive.google.com/drive/folders/11cwOAsVn_NbDLb7gQpB1hH9cjwb8XSGR?usp=drive_link',
+						'part2_url' => 'https://drive.google.com/drive/folders/1QbAgn5cpLZU-XuXzZZ8sYZEYrQj1gufi?usp=drive_link',
+					),
+				);
+				foreach ( $adp_study_materials as $adp_mat ) :
+					?>
+					<article class="adp-material-card adp-material-card--<?php echo esc_attr( $adp_mat['key'] ); ?>">
+						<div class="adp-material-card__header">
+							<span class="adp-material-card__icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<?php echo $adp_mat['icon']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+								</svg>
+							</span>
+							<div class="adp-material-card__tags">
+								<span class="adp-material-card__badge"><?php echo esc_html( $adp_mat['badge'] ); ?></span>
+								<span class="adp-material-card__drive-tag">
+									<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+									Drive
+								</span>
+							</div>
+						</div>
+						<h3 class="adp-material-card__title" dir="ltr"><?php echo esc_html( $adp_mat['title'] ); ?></h3>
+						<span class="adp-material-card__rule" aria-hidden="true"></span>
+						<p class="adp-material-card__desc"><?php echo esc_html( $adp_mat['desc'] ); ?></p>
+						<div class="adp-material-card__actions">
+							<a href="<?php echo esc_url( $adp_mat['part1_url'] ); ?>"
+								class="adp-mat-btn adp-mat-btn--part1"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="<?php echo esc_attr( sprintf( __( '%s — الجزء الأول (Google Drive)', 'novira-academy' ), $adp_mat['title'] ) ); ?>">
+								<svg class="adp-mat-btn__folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+								<span class="adp-mat-btn__text"><?php esc_html_e( 'الجزء الأول', 'novira-academy' ); ?></span>
+								<svg class="adp-mat-btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+							</a>
+							<a href="<?php echo esc_url( $adp_mat['part2_url'] ); ?>"
+								class="adp-mat-btn adp-mat-btn--part2"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="<?php echo esc_attr( sprintf( __( '%s — الجزء الثاني (Google Drive)', 'novira-academy' ), $adp_mat['title'] ) ); ?>">
+								<svg class="adp-mat-btn__folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+								<span class="adp-mat-btn__text"><?php esc_html_e( 'الجزء الثاني', 'novira-academy' ); ?></span>
+								<svg class="adp-mat-btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+							</a>
+						</div>
+					</article>
+				<?php endforeach; ?>
+			</div>
 		</div>
 	</section>
 
