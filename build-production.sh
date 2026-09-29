@@ -28,6 +28,8 @@ rsync -a \
   --exclude '.specify/' \
   --exclude 'specs/' \
   --exclude 'docs/' \
+  --exclude 'scripts/' \
+  --exclude 'docker/' \
   --exclude 'node_modules/' \
   --exclude 'plugins/' \
   --exclude '.novira-build/' \
@@ -48,6 +50,7 @@ rsync -a \
   --exclude 'DESIGN.md' \
   --exclude 'PRODUCT.md' \
   --exclude 't.md' \
+  --exclude 'README.md' \
   --exclude '*.txt' \
   --exclude 'build-production.sh' \
   --exclude 'build-production.ps1' \

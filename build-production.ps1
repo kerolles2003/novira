@@ -24,14 +24,14 @@ if (Test-Path (Split-Path $Stage -Parent)) { Remove-Item (Split-Path $Stage -Par
 New-Item -ItemType Directory -Path $Stage -Force | Out-Null
 
 # Directories that must never ship.
-$excludeDirs = @('.git','.agents','.claude','.opencode','.specify','specs','docs','node_modules','plugins','.novira-build')
+$excludeDirs = @('.git','.agents','.claude','.opencode','.specify','specs','docs','scripts','docker','node_modules','plugins','.novira-build')
 # Files that must never ship (wildcards allowed).
 $excludeFiles = @(
   '.gitignore',
   '*.png','*.html','stitch-contact*','extract-images.js','fix-animated-js.js',
   'make-placeholders.js','rewrite-*.js','tailwind.config.js','tailwind-source.css',
   'package.json','package-lock.json','docker-compose.yml','skills-lock.json',
-  'AGENTS.md','DESIGN.md','PRODUCT.md','t.md','*.txt','build-production.sh',
+  'AGENTS.md','DESIGN.md','PRODUCT.md','t.md','README.md','*.txt','build-production.sh',
   'build-production.ps1','*.bak','*.old','*.orig','.DS_Store','Thumbs.db'
 )
 # Verified-dead assets removed by EXACT path after staging (a bare filename in

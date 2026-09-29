@@ -9,6 +9,7 @@ services:
       MYSQL_PASSWORD: wppass
     volumes:
       - db_data:/var/lib/mysql
+      - ./docker/local-dev-seed.sql:/docker-entrypoint-initdb.d/01-seed.sql:ro
     ports:
       - "3308:3306"
 
